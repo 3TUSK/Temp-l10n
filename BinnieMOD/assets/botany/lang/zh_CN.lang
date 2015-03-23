@@ -98,3 +98,56 @@ botany.colour.wheat=Pale Orange
 botany.colour.white=White
 botany.colour.yellow=Yellow
 botany.colour.yellowgreen=Yellow-Green
+
+for.binnie.circuit.garden.dry.manual.fert=Fert. Garden (Dry)
+for.binnie.circuit.garden.dry.acid.manual.fert=Fert. Garden (Dry, Acidic)
+for.binnie.circuit.garden.dry.neutral.manual.fert=Fert. Garden (Dry, Neutral)
+for.binnie.circuit.garden.dry.alkaline.manual.fert=Fert. Garden (Dry, Alkaline)
+for.binnie.circuit.garden.normal.manual.fert=Fert. Garden
+for.binnie.circuit.garden.normal.acid.manual.fert=Fert. Garden (Acidic)
+for.binnie.circuit.garden.normal.neutral.manual.fert=Fert. Garden (Neutral)
+for.binnie.circuit.garden.normal.alkaline.manual.fert=Fert. Garden (Alkaline)
+for.binnie.circuit.garden.damp.manual.fert=Fert. Garden (Damp)
+for.binnie.circuit.garden.damp.acid.manual.fert=Fert. Garden (Damp, Acidic)
+for.binnie.circuit.garden.damp.neutral.manual.fert=Fert. Garden (Damp, Neutral)
+for.binnie.circuit.garden.damp.alkaline.manual.fert=Fert. Garden (Damp, Alkaline)
+for.binnie.circuit.garden.dry.manual=Garden (Dry)
+for.binnie.circuit.garden.dry.acid.manual=Garden (Dry, Acidic)
+for.binnie.circuit.garden.dry.neutral.manual=Garden (Dry, Neutral)
+for.binnie.circuit.garden.dry.alkaline.manual=Garden (Dry, Alkaline)
+for.binnie.circuit.garden.normal.manual=Garden
+for.binnie.circuit.garden.normal.acid.manual=Garden (Acidic)
+for.binnie.circuit.garden.normal.neutral.manual=Garden (Neutral)
+for.binnie.circuit.garden.normal.alkaline.manual=Garden (Alkaline)
+for.binnie.circuit.garden.damp.manual=Garden (Damp)
+for.binnie.circuit.garden.damp.acid.manual=Garden (Damp, Acidic)
+for.binnie.circuit.garden.damp.neutral.manual=Garden (Damp, Neutral)
+for.binnie.circuit.garden.damp.alkaline.manual=Garden (Damp, Alkaline)
+for.binnie.circuit.garden.dry.fert=Fert. Garden (Dry)
+for.binnie.circuit.garden.dry.acid.fert=Fert. Garden (Dry, Acidic)
+for.binnie.circuit.garden.dry.neutral.fert=Fert. Garden (Dry, Neutral)
+for.binnie.circuit.garden.dry.alkaline.fert=Fert. Garden (Dry, Alkaline)
+for.binnie.circuit.garden.normal.fert=Fert. Garden
+for.binnie.circuit.garden.normal.acid.fert=Fert. Garden (Acidic)
+for.binnie.circuit.garden.normal.neutral.fert=Fert. Garden (Neutral)
+for.binnie.circuit.garden.normal.alkaline.fert=Fert. Garden (Alkaline)
+for.binnie.circuit.garden.damp.fert=Fert. Garden (Damp)
+for.binnie.circuit.garden.damp.acid.fert=Fert. Garden (Damp, Acidic)
+for.binnie.circuit.garden.damp.neutral.fert=Fert. Garden (Damp, Neutral)
+for.binnie.circuit.garden.damp.alkaline.fert=Fert. Garden (Damp, Alkaline)
+for.binnie.circuit.garden.dry=Garden (Dry)
+for.binnie.circuit.garden.dry.acid=Garden (Dry, Acidic)
+for.binnie.circuit.garden.dry.neutral=Garden (Dry, Neutral)
+for.binnie.circuit.garden.dry.alkaline=Garden (Dry, Alkaline)
+for.binnie.circuit.garden.normal=Garden
+for.binnie.circuit.garden.normal.acid=Garden (Acidic)
+for.binnie.circuit.garden.normal.neutral=Garden (Neutral)
+for.binnie.circuit.garden.normal.alkaline=Garden (Alkaline)
+for.binnie.circuit.garden.damp=Garden (Damp)
+for.binnie.circuit.garden.damp.acid=Garden (Damp, Acidic)
+for.binnie.circuit.garden.damp.neutral=Garden (Damp, Neutral)
+for.binnie.circuit.garden.damp.alkaline=Garden (Damp, Alkaline)
+
+
+
+
