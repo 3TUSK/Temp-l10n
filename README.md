@@ -21,7 +21,7 @@ At the same time, here provides support of discussing and editing localization f
     
     2.Readable, or in another word, "understandable"
     
-    3.Beautiful, if possilbe
+    3.Beautiful, if possible
 
 # About permission
 I keep the permission to remove file to responce original author's request.
