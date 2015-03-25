@@ -42,62 +42,62 @@ binniecore.rootFlowers.epitome.4=绿色Green Thumb
 binniecore.rootFlowers.epitome.5=大师级园丁Master Garderner
 binniecore.rootFlowers.epitome.6=Peerless Botanist
 
-binniecore.rootBees.chromosome.species=品种
-binniecore.rootBees.chromosome.speed=效率
-binniecore.rootBees.chromosome.lifespan=寿命
-binniecore.rootBees.chromosome.fertility=生育力
-binniecore.rootBees.chromosome.temperature_tolerance=温度耐受性
-binniecore.rootBees.chromosome.nocturnal=昼夜型
+binniecore.rootBees.chromosome.species=种群
+binniecore.rootBees.chromosome.speed=产物
+binniecore.rootBees.chromosome.lifespan=生命周期
+binniecore.rootBees.chromosome.fertility=繁育能力
+binniecore.rootBees.chromosome.temperature_tolerance=温度适应性
+binniecore.rootBees.chromosome.nocturnal=夜行
 binniecore.rootBees.chromosome.humidity=湿度
-binniecore.rootBees.chromosome.humidity_tolerance=湿度耐受性
-binniecore.rootBees.chromosome.tolerant_flyer=耐雨飞行性
-binniecore.rootBees.chromosome.cave_dwelling=穴居性
+binniecore.rootBees.chromosome.humidity_tolerance=湿度适应性
+binniecore.rootBees.chromosome.tolerant_flyer=雨行
+binniecore.rootBees.chromosome.cave_dwelling=穴居
 binniecore.rootBees.chromosome.flower_provider=采蜜对象
-binniecore.rootBees.chromosome.flowering=授粉
-binniecore.rootBees.chromosome.territory=活动范围
-binniecore.rootBees.chromosome.effect=特殊效果
+binniecore.rootBees.chromosome.flowering=授粉速度
+binniecore.rootBees.chromosome.territory=工作范围
+binniecore.rootBees.chromosome.effect=特效
 
-binniecore.rootTrees.chromosome.species=品种
-binniecore.rootTrees.chromosome.growth=生长状况
-binniecore.rootTrees.chromosome.height=高度
-binniecore.rootTrees.chromosome.fertility=生育力
-binniecore.rootTrees.chromosome.fruits=果实
-binniecore.rootTrees.chromosome.yield=产量
-binniecore.rootTrees.chromosome.plant=树木类型
-binniecore.rootTrees.chromosome.sappiness=树苗
-binniecore.rootTrees.chromosome.territory=影响范围
-binniecore.rootTrees.chromosome.effect=特殊效果
-binniecore.rootTrees.chromosome.maturation=突变
-binniecore.rootTrees.chromosome.girth=干围
+binniecore.rootTrees.chromosome.species=Species
+binniecore.rootTrees.chromosome.growth=Growth
+binniecore.rootTrees.chromosome.height=Height
+binniecore.rootTrees.chromosome.fertility=Fertility
+binniecore.rootTrees.chromosome.fruits=Fruit
+binniecore.rootTrees.chromosome.yield=Yield
+binniecore.rootTrees.chromosome.plant=Plant Type
+binniecore.rootTrees.chromosome.sappiness=Sappiness
+binniecore.rootTrees.chromosome.territory=Territory
+binniecore.rootTrees.chromosome.effect=Effect
+binniecore.rootTrees.chromosome.maturation=Maturation
+binniecore.rootTrees.chromosome.girth=Girth
 binniecore.rootTrees.chromosome.fireproof=Fireproof
 
-binniecore.rootButterflies.chromosome.species=品种
-binniecore.rootButterflies.chromosome.size=大小
-binniecore.rootButterflies.chromosome.speed=速度
-binniecore.rootButterflies.chromosome.lifespan=寿命
-binniecore.rootButterflies.chromosome.metabolism=代谢
-binniecore.rootButterflies.chromosome.fertility=生育力
-binniecore.rootButterflies.chromosome.temperature_tolerance=温度耐受性
-binniecore.rootButterflies.chromosome.humidity_tolerance=湿度耐受性
-binniecore.rootButterflies.chromosome.nocturnal=昼夜型
-binniecore.rootButterflies.chromosome.tolerant_flyer=雨天飞行性
-binniecore.rootButterflies.chromosome.fire_resist=抗火性
-binniecore.rootButterflies.chromosome.flower_provider=采蜜对象
-binniecore.rootButterflies.chromosome.effect=特殊效果
-binniecore.rootButterflies.chromosome.territory=活动范围
+binniecore.rootButterflies.chromosome.species=Species
+binniecore.rootButterflies.chromosome.size=Size
+binniecore.rootButterflies.chromosome.speed=Speed
+binniecore.rootButterflies.chromosome.lifespan=Lifespan
+binniecore.rootButterflies.chromosome.metabolism=Metabolism
+binniecore.rootButterflies.chromosome.fertility=Fertility
+binniecore.rootButterflies.chromosome.temperature_tolerance=Temperature Tolerance
+binniecore.rootButterflies.chromosome.humidity_tolerance=Humidity Tolerance
+binniecore.rootButterflies.chromosome.nocturnal=Nocturnal
+binniecore.rootButterflies.chromosome.tolerant_flyer=Rain Tolerance
+binniecore.rootButterflies.chromosome.fire_resist=Fire Resistance
+binniecore.rootButterflies.chromosome.flower_provider=Flowers
+binniecore.rootButterflies.chromosome.effect=Effect
+binniecore.rootButterflies.chromosome.territory=Territory
 
-binniecore.rootFlowers.chromosome.species=品种
-binniecore.rootFlowers.chromosome.primary=主要颜色
-binniecore.rootFlowers.chromosome.secondary=次要颜色
-binniecore.rootFlowers.chromosome.fertility=生育力
-binniecore.rootFlowers.chromosome.territory=影响范围
-binniecore.rootFlowers.chromosome.effect=特殊效果
-binniecore.rootFlowers.chromosome.lifespan=寿命
-binniecore.rootFlowers.chromosome.temperature_tolerance=温度耐受性
-binniecore.rootFlowers.chromosome.humidity_tolerance=湿度耐受性
-binniecore.rootFlowers.chromosome.ph_tolerance=酸碱耐受性
-binniecore.rootFlowers.chromosome.sappiness=花蜜
-binniecore.rootFlowers.chromosome.stem=茎色
+binniecore.rootFlowers.chromosome.species=Species
+binniecore.rootFlowers.chromosome.primary=Primary Colour
+binniecore.rootFlowers.chromosome.secondary=Secondary Colour
+binniecore.rootFlowers.chromosome.fertility=Fertility
+binniecore.rootFlowers.chromosome.territory=Territory
+binniecore.rootFlowers.chromosome.effect=Effect
+binniecore.rootFlowers.chromosome.lifespan=Lifespan
+binniecore.rootFlowers.chromosome.temperature_tolerance=Temperature Tolerance
+binniecore.rootFlowers.chromosome.humidity_tolerance=Humidity Tolerance
+binniecore.rootFlowers.chromosome.ph_tolerance=pH Tolerance
+binniecore.rootFlowers.chromosome.sappiness=Nectar
+binniecore.rootFlowers.chromosome.stem=Stem Colour
 
 
 
@@ -133,23 +133,26 @@ binniecore.beemodifier.geneticdecay=Genetic Decay
 
 
 
-binniecore.gui.breedingmessage.species=已发现品种
-binniecore.gui.breedingmessage.branch=已发现分支
-binniecore.gui.breedingmessage.epithet=已发现称号
+binniecore.gui.breedingmessage.species=Species Discovered
+binniecore.gui.breedingmessage.branch=Branch Discovered
+binniecore.gui.breedingmessage.epithet=Epithet Gained
 
-binniecore.item.container.capsule=胶囊
-binniecore.item.container.refractory=耐火胶囊
-binniecore.item.container.can=罐
-binniecore.item.container.bucket=桶
-binniecore.item.container.glass=瓶
-binniecore.item.container.cylinder=筒
 
-binniecore.machine.storage.compartment=组合箱
-binniecore.machine.storage.compartmentIron=铁质组合箱
-binniecore.machine.storage.compartmentDiamond=钻石组合箱
-binniecore.machine.storage.compartmentCopper=铜质组合箱
-binniecore.machine.storage.compartmentBronze=青铜组合箱
-binniecore.machine.storage.compartmentGold=金质组合箱
+
+binniecore.item.container.capsule=Capsule
+binniecore.item.container.refractory=Capsule
+binniecore.item.container.can=Can
+binniecore.item.container.bucket=Bucket
+binniecore.item.container.glass=Bottle
+binniecore.item.container.cylinder=Cylinder
+
+
+binniecore.machine.storage.compartment=Compartment
+binniecore.machine.storage.compartmentIron=Iron Compartment
+binniecore.machine.storage.compartmentDiamond=Diamond Compartment
+binniecore.machine.storage.compartmentCopper=Copper Compartment
+binniecore.machine.storage.compartmentBronze=Bronze Compartment
+binniecore.machine.storage.compartmentGold=Gold Compartment
 
 
 
