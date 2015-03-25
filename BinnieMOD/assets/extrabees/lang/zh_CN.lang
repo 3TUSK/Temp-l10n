@@ -185,6 +185,16 @@ extrabees.circuit.layout.stimulator=Electrical Stimulator
 extrabees.circuit.layout.stimulator.usage=In Electrical Stimulators
 extrabees.tab.genetics=基因
 
+for.binnie.circuit.stimulator.lowvoltage=LV Stimulus
+for.binnie.circuit.stimulator.highvoltage=HV Stimulus
+for.binnie.circuit.stimulator.plant=Biotic Stimulus
+for.binnie.circuit.stimulator.death=Charged Stimulus
+for.binnie.circuit.stimulator.life=Gentle Stimulus
+for.binnie.circuit.stimulator.nether=Molten Stimulus
+for.binnie.circuit.stimulator.mutation=Mutagenic Stimulus
+for.binnie.circuit.stimulator.inhibitor=Inhibiting Stimulus
+for.binnie.circuit.stimulator.territory=Agitating Stimulus
+
 extrabees.genetics.quality.awful=极差
 extrabees.genetics.quality.poor=差
 extrabees.genetics.quality.average=中
