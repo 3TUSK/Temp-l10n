@@ -72,6 +72,9 @@ extrabees.item.comb.compost=腐烂蜂巢
 extrabees.item.comb.sawdust=木屑蜂巢
 extrabees.item.comb.certus=定型石英蜂巢
 extrabees.item.comb.enderpearl=微光蜂巢
+extrabees.item.comb.yellorium=Yellorium Comb
+extrabees.item.comb.cyanite=Cyanite Comb
+extrabees.item.comb.blutonium=Blutonium Comb
 
 extrabees.item.honeydrop.energy=能量液滴
 extrabees.item.honeydrop.acid=酸液液滴
@@ -168,32 +171,16 @@ extrabees.machine.alveay.rainShield=挡雨方块
 extrabees.machine.alveay.rainShield.desc=挡雨方块可以使得蜜蜂免受下雨的影响。
 extrabees.machine.alveay.stimulator=电子增产器
 extrabees.machine.alveay.stimulator.desc=使用电路板和BC能量，通过一种和框架相似的途径来为蜜蜂增产。
+extrabees.machine.alveay.hatchery=Hatchery
+extrabees.machine.alveay.hatchery.info=Collect larvae laid by queen bees inside the alveary.
+extrabees.machine.alveay.transmission=Alveary Transmission
 
-
-extrabees.machine.apiaristmachine=养蜂人机器
-extrabees.machine.acclimatiser=气候改造器
-extrabees.machine.acclimatiser.desc=气候改造器，可以让你用一些特定物品，来改变蜜蜂的温度和湿度适应能力！
-extrabees.machine.databank=养蜂数据库
-extrabees.machine.indexer=蜜蜂索引库
-
-extrabees.machine.geneticmachine=基因机器
-extrabees.machine.genepool=液态基因池
-extrabees.machine.sequencer=模版序列生成器
-extrabees.machine.splicer=Splicer
-
-extrabees.machine.advancedgeneticmachine=高级基因机器
-extrabees.machine.isolator=基因提取器
-extrabees.machine.replicator=血清瓶复制器
-extrabees.machine.purifier=基因纯化器
-extrabees.machine.inoculator=基因注射器
-extrabees.machine.synthesizer=基因同化器
 
 
 
 ##################################################
 ## Misc
 
-extrabees.circuitlayout.stimulator=刺激物
 extrabees.tab.genetics=基因
 
 extrabees.genetics.quality.awful=极差
@@ -313,6 +300,7 @@ extrabees.flowers.wood.name=木头
 extrabees.flowers.leaves.name=树叶
 extrabees.flowers.sapling.name=树苗
 extrabees.flowers.fruit.name=水果
+extrabees.flowers.mystical.name=Mystical
 
 extrabees.species.arid.name=干旱
 extrabees.species.arid.desc=他们喜欢干旱的大陆,他们的蜂巢几乎都由蜡组成,少有蜂蜜.|养蜂人手册
@@ -471,6 +459,10 @@ extrabees.species.invar.name=殷钢
 extrabees.species.quantum.name=量子
 extrabees.species.spatial.name=空间
 extrabees.species.unusual.name=异常
+extrabees.species.yellorium.name=Yellorium
+extrabees.species.cyanite.name=Cyanite
+extrabees.species.blutonium.name=Blutonium
+extrabees.species.mystical.name=Mystical
 
 extrabees.effect.ectoplasm.name=胶化
 extrabees.effect.acid.name=腐蚀酸液
