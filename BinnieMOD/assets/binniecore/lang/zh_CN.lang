@@ -42,20 +42,20 @@ binniecore.rootFlowers.epitome.4=绿色Green Thumb
 binniecore.rootFlowers.epitome.5=大师级园丁Master Garderner
 binniecore.rootFlowers.epitome.6=Peerless Botanist
 
-binniecore.rootBees.chromosome.species=种群
-binniecore.rootBees.chromosome.speed=产物
-binniecore.rootBees.chromosome.lifespan=生命周期
-binniecore.rootBees.chromosome.fertility=繁育能力
-binniecore.rootBees.chromosome.temperature_tolerance=温度适应性
-binniecore.rootBees.chromosome.nocturnal=夜行
+binniecore.rootBees.chromosome.species=品种
+binniecore.rootBees.chromosome.speed=效率
+binniecore.rootBees.chromosome.lifespan=寿命
+binniecore.rootBees.chromosome.fertility=生育力
+binniecore.rootBees.chromosome.temperature_tolerance=温度耐受性
+binniecore.rootBees.chromosome.nocturnal=昼夜型
 binniecore.rootBees.chromosome.humidity=湿度
-binniecore.rootBees.chromosome.humidity_tolerance=湿度适应性
-binniecore.rootBees.chromosome.tolerant_flyer=雨行
-binniecore.rootBees.chromosome.cave_dwelling=穴居
+binniecore.rootBees.chromosome.humidity_tolerance=湿度耐受性
+binniecore.rootBees.chromosome.tolerant_flyer=耐雨飞行性
+binniecore.rootBees.chromosome.cave_dwelling=穴居性
 binniecore.rootBees.chromosome.flower_provider=采蜜对象
-binniecore.rootBees.chromosome.flowering=授粉速度
-binniecore.rootBees.chromosome.territory=工作范围
-binniecore.rootBees.chromosome.effect=特效
+binniecore.rootBees.chromosome.flowering=授粉
+binniecore.rootBees.chromosome.territory=活动范围
+binniecore.rootBees.chromosome.effect=特殊效果
 
 binniecore.rootTrees.chromosome.species=品种
 binniecore.rootTrees.chromosome.growth=生长状况
@@ -69,7 +69,7 @@ binniecore.rootTrees.chromosome.territory=影响范围
 binniecore.rootTrees.chromosome.effect=特殊效果
 binniecore.rootTrees.chromosome.maturation=突变
 binniecore.rootTrees.chromosome.girth=干围
-binniecore.rootTrees.chromosome.fireproof=Fireproof
+binniecore.rootTrees.chromosome.fireproof=抗燃
 
 binniecore.rootButterflies.chromosome.species=品种
 binniecore.rootButterflies.chromosome.size=大小
@@ -101,34 +101,34 @@ binniecore.rootFlowers.chromosome.stem=茎色
 
 
 
-binniecore.allele.fertility.low=Low
-binniecore.allele.fertility.normal=Normal
-binniecore.allele.fertility.high=High
-binniecore.allele.fertility.maximum=Maximum
+binniecore.allele.fertility.low=低
+binniecore.allele.fertility.normal=普通
+binniecore.allele.fertility.high=高
+binniecore.allele.fertility.maximum=最高
 
-binniecore.allele.true=Yes
-binniecore.allele.false=No
+binniecore.allele.true=是
+binniecore.allele.false=否
 
-binniecore.allele.metabolism.highest=Highest
-binniecore.allele.metabolism.higher=Higher
-binniecore.allele.metabolism.high=High
-binniecore.allele.metabolism.average=Average
-binniecore.allele.metabolism.slow=Slow
-binniecore.allele.metabolism.slower=Slower
-binniecore.allele.metabolism.slowest=Slowest
+binniecore.allele.metabolism.highest=最快
+binniecore.allele.metabolism.higher=较快
+binniecore.allele.metabolism.high=快
+binniecore.allele.metabolism.average=平均
+binniecore.allele.metabolism.slow=慢
+binniecore.allele.metabolism.slower=较慢
+binniecore.allele.metabolism.slowest=最慢
 
 
-binniecore.allele.none=None
+binniecore.allele.none=无
 
 binniecore.allele.growth.tropical=Tropical
 binniecore.allele.growth.lightlevel=Light Level
 
 
-binniecore.beemodifier.territory=Territory
+binniecore.beemodifier.territory=影响范围
 binniecore.beemodifier.mutation=Mutation
-binniecore.beemodifier.lifespan=Lifespan
-binniecore.beemodifier.production=Production
-binniecore.beemodifier.flowering=Flowering
+binniecore.beemodifier.lifespan=寿命
+binniecore.beemodifier.production=产物
+binniecore.beemodifier.flowering=授粉速度
 binniecore.beemodifier.geneticdecay=Genetic Decay
 
 
@@ -142,7 +142,7 @@ binniecore.item.container.refractory=耐火胶囊
 binniecore.item.container.can=罐
 binniecore.item.container.bucket=桶
 binniecore.item.container.glass=瓶
-binniecore.item.container.cylinder=筒
+binniecore.item.container.cylinder=桶
 
 binniecore.machine.storage.compartment=组合箱
 binniecore.machine.storage.compartmentIron=铁质组合箱
