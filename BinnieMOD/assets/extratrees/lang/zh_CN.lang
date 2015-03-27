@@ -175,7 +175,7 @@ extratrees.block.planks.forestry.citrus.desc=
 
 
 
-extratrees.species.orchardapple.name=Orchard Apple
+extratrees.species.orchardapple.name=苹果
 extratrees.species.sweetcrabapple.name=Sweet Crabapple
 extratrees.species.floweringcrabapple.name=Flowering Crabapple
 extratrees.species.prairiecrabapple.name=Prairie Crabapple
@@ -185,7 +185,7 @@ extratrees.species.peach.name=桃
 extratrees.species.nectarine.name=油桃
 extratrees.species.apricot.name=杏子
 extratrees.species.almond.name=扁桃
-extratrees.species.wildcherry.name=Wild Cherry
+extratrees.species.wildcherry.name=野樱桃
 extratrees.species.sourcherry.name=欧洲酸樱桃
 extratrees.species.blackcherry.name=黑樱桃
 extratrees.species.orange.name=橙子
@@ -283,7 +283,7 @@ extratrees.item.food.crabapple=Crabapple
 extratrees.item.food.orange=橙子
 extratrees.item.food.kumquat=金橘
 extratrees.item.food.lime=酸橙
-extratrees.item.food.wildcherry=Wild Cherry
+extratrees.item.food.wildcherry=野樱桃
 extratrees.item.food.sourcherry=欧洲酸樱桃
 extratrees.item.food.blackcherry=黑樱桃
 extratrees.item.food.blackthorn=黑刺李
