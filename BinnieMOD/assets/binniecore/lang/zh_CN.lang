@@ -142,7 +142,7 @@ binniecore.item.container.refractory=耐火胶囊
 binniecore.item.container.can=罐
 binniecore.item.container.bucket=桶
 binniecore.item.container.glass=瓶
-binniecore.item.container.cylinder=桶
+binniecore.item.container.cylinder=玻璃罐
 
 binniecore.machine.storage.compartment=组合箱
 binniecore.machine.storage.compartmentIron=铁质组合箱

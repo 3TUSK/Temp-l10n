@@ -19,7 +19,6 @@ genetics.machine.labMachine.genepool.info=基因生成池使用酶和乙醇来�
 
 
 genetics.machine.labMachine.labMachine=实验台
-##Lab Stand
 
 genetics.machine.labMachine.analyser=分析仪
 genetics.machine.labMachine.analyser.info=分析仪将会解析可增殖的DNA序列,并确定当前的基因类型. 这需要DNA标记染料, 由紫色染料和荧石粉合成而来
@@ -28,6 +27,7 @@ genetics.machine.labMachine.incubator=恒温箱
 genetics.machine.labMachine.incubator.info=恒温箱的作用是使用特定液体和物品来进行恒温,确保细菌能够在理想的环境下快速增殖
 
 genetics.machine.labMachine.acclimatiser=气候改造器
+
 
 
 
