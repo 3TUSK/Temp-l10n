@@ -1,6 +1,6 @@
 # Plant Mega Pack for Minecraft 1.8
 # zh_CN
-
+# Credits inlucing without limitation of: autopsychorhythmia, bakaxyf, 3TUSK
 
 
 
@@ -214,49 +214,49 @@ decorator.biome.ebxl.ebxlTemperateRainforest=Temperate Rainforest
 decorator.biome.ebxl.ebxlTundra=Tundra
 decorator.biome.ebxl.ebxlWoodlands=Woodlands
 
-decorator.biome.hl.hlAlps=Alps
-decorator.biome.hl.hlAutumnForest=Autumn Forest
-decorator.biome.hl.hlBadlands=Badlands
-decorator.biome.hl.hlBaldHill=Bald Hill
-decorator.biome.hl.hlBirchHills=Birch Hills
-decorator.biome.hl.hlBog=Bog
-decorator.biome.hl.hlCanyon=Canyon
-decorator.biome.hl.hlCliffs=Cliffs
-decorator.biome.hl.hlDesertIsland=Desert Island
-decorator.biome.hl.hlDesertMountains=Desert Mountains
-decorator.biome.hl.hlDunes=Dunes
-decorator.biome.hl.hlEstuary=Estuary
-decorator.biome.hl.hlForestIsland=Forest Island
-decorator.biome.hl.hlFlyingMountains=Flying Mountains
-decorator.biome.hl.hlGlacier=Glacier
-decorator.biome.hl.hlHighlands=Highlands
-decorator.biome.hl.hlJungleIsland=Jungle Island
-decorator.biome.hl.hlLake=Lake
-decorator.biome.hl.hlLowlands=Lowlands
-decorator.biome.hl.hlMeadow=Meadow
-decorator.biome.hl.hlMesa=Mesa
-decorator.biome.hl.hlOasis=Oasis
-decorator.biome.hl.hlOutback=Outback
-decorator.biome.hl.hlPinelands=Pinelands
-decorator.biome.hl.hlRainforest=Rainforest
-decorator.biome.hl.hlRedwoodForest=Redwood Forest
-decorator.biome.hl.hlRockIsland=Rock Island
-decorator.biome.hl.hlRockMountains=Rock Mountains
-decorator.biome.hl.hlSahel=Sahel
-decorator.biome.hl.hlSavannah=Savannah
-decorator.biome.hl.hlShrubland=Shrubland
-decorator.biome.hl.hlSteppe=Steppe
-decorator.biome.hl.hlSnowIsland=Snow Island
-decorator.biome.hl.hlSnowMountains=Snow Mountains
-decorator.biome.hl.hlTallPineForest=Tall Pine Forest
-decorator.biome.hl.hlTropics=Tropics
-decorator.biome.hl.hlTropicalIslands=Tropical Islands
-decorator.biome.hl.hlTundra=Tundra
-decorator.biome.hl.hlWoodlands=Woodlands
-decorator.biome.hl.hlWoodlandMountains=Woodland Mountains
-decorator.biome.hl.hlValley=Valley
-decorator.biome.hl.hlVolcanoIsland=Volcano Island
-decorator.biome.hl.hlWindyIsland=Windy Island
+decorator.biome.hl.hlAlps=阿尔卑斯山(Alps)
+decorator.biome.hl.hlAutumnForest=秋季森林(Autumn Forest)
+decorator.biome.hl.hlBadlands=荒原(Badlands)
+decorator.biome.hl.hlBaldHill=光秃山丘(Bald Hill)
+decorator.biome.hl.hlBirchHills=白桦山丘(Birch Hills)
+decorator.biome.hl.hlBog=泥沼(Bog)
+decorator.biome.hl.hlCanyon=峡谷(Canyon)
+decorator.biome.hl.hlCliffs=悬崖(Cliffs)
+decorator.biome.hl.hlDesertIsland=沙岛(Desert Island)
+decorator.biome.hl.hlDesertMountains=沙山(Desert Mountains)
+decorator.biome.hl.hlDunes=沙丘(Dunes)
+decorator.biome.hl.hlEstuary=河口(Estuary)
+decorator.biome.hl.hlForestIsland=森林岛(Forest Island)
+decorator.biome.hl.hlFlyingMountains=浮空岛屿(Flying Mountains)
+decorator.biome.hl.hlGlacier=冰川(Glacier)
+decorator.biome.hl.hlHighlands=高地(Highlands)
+decorator.biome.hl.hlJungleIsland=丛林岛(Jungle Island)
+decorator.biome.hl.hlLake=湖泊(Lake)
+decorator.biome.hl.hlLowlands=低地(Lowlands)
+decorator.biome.hl.hlMeadow=草原(Meadow)
+decorator.biome.hl.hlMesa=平顶山(Mesa)
+decorator.biome.hl.hlOasis=绿洲(Oasis)
+decorator.biome.hl.hlOutback=内地(Outback)
+decorator.biome.hl.hlPinelands=松木林(Pinelands)
+decorator.biome.hl.hlRainforest=雨林(Rainforest)
+decorator.biome.hl.hlRedwoodForest=红树林(Redwood Forest)
+decorator.biome.hl.hlRockIsland=石岛(Rock Island)
+decorator.biome.hl.hlRockMountains=石山(Rock Mountains)
+decorator.biome.hl.hlSahel=荒漠草原(Sahel)
+decorator.biome.hl.hlSavannah=热带草原(Savannah)
+decorator.biome.hl.hlShrubland=灌木地带(Shrubland)
+decorator.biome.hl.hlSteppe=干草原(Steppe)
+decorator.biome.hl.hlSnowIsland=雪岛(Snow Island)
+decorator.biome.hl.hlSnowMountains=雪山(Snow Mountains)
+decorator.biome.hl.hlTallPineForest=高大松木林(Tall Pine Forest)
+decorator.biome.hl.hlTropics=热带(Tropics)
+decorator.biome.hl.hlTropicalIslands=热带岛屿(Tropical Islands)
+decorator.biome.hl.hlTundra=冻土(Tundra)
+decorator.biome.hl.hlWoodlands=林地(Woodlands)
+decorator.biome.hl.hlWoodlandMountains=林地山丘(Woodland Mountains)
+decorator.biome.hl.hlValley=山谷(Valley)
+decorator.biome.hl.hlVolcanoIsland=火山岛(Volcano Island)
+decorator.biome.hl.hlWindyIsland=冬之岛(Windy Island)
 
 decorator.biome.vanilla.beachCold=冻滩(Cold Beach)
 decorator.biome.vanilla.beachOcean=沙滩(Beach)
@@ -339,7 +339,7 @@ flower.color.purple=紫色
 flower.color.pink=粉色
 flower.color.white=白色
 
-#配置
+#配置; Decorator==地形修饰器?
 gui.screen.configAddPlant=添加植物
 gui.screen.configContent=内容
 gui.screen.configContentPlanters=花盆
