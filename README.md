@@ -25,3 +25,4 @@ At the same time, here provides support of discussing and editing localization f
 
 # About permission
 I keep the permission to remove file to responce original author's request.
+If no more other porblem, all language file should use the license that the mod uses, whcich the language file belongs to.
