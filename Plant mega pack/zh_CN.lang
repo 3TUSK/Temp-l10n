@@ -1,6 +1,6 @@
 # Plant Mega Pack for Minecraft 1.8
-# zh_CN
 # Credits inlucing without limitation of: autopsychorhythmia, bakaxyf, 3TUSK
+
 
 
 
@@ -96,9 +96,6 @@ decorator.biome.bop.bopWasteland=荒漠(Wasteland)
 decorator.biome.bop.bopWetland=湿地沼泽(Wetland)
 decorator.biome.bop.bopWoodland=林地(Woodland)
 
-
-
-#EnhancedBiomes中的地形名称,暂时不翻译
 decorator.biome.eb.ebAlpineMountains=Alpine Mountains
 decorator.biome.eb.ebAlpineMountainsM=Alpine Mountains M
 decorator.biome.eb.ebAlpineTundra=Alpine Tundra
@@ -186,9 +183,6 @@ decorator.biome.eb.ebWoodlands=Woodlands
 decorator.biome.eb.ebXericSavannah=Xeric Savannah
 decorator.biome.eb.ebXericShrubland=Xeric Shrubland
 
-
-
-#ExtraBiomesXL中的地形名称,暂时不翻译
 decorator.biome.ebxl.ebxlAlpine=Alpine
 decorator.biome.ebxl.ebxlAutumnWoods=Autumn Woods
 decorator.biome.ebxl.ebxlExtremeJungle=Extreme Jungle
@@ -339,7 +333,7 @@ flower.color.purple=紫色
 flower.color.pink=粉色
 flower.color.white=白色
 
-#配置; Decorator==地形修饰器?
+#配置; Decorator==
 gui.screen.configAddPlant=添加植物
 gui.screen.configContent=内容
 gui.screen.configContentPlanters=花盆
@@ -359,13 +353,13 @@ gui.screen.configItems=物件
 gui.screen.configItemsPowders=植物粉末
 gui.screen.configItemsSalves=医疗药膏
 gui.screen.configMainMenu=主选单
-gui.screen.configPlantCustomize=自定义植物生长环境
+gui.screen.configPlantCustomize=自定义植物生长
 gui.screen.configPlants=植物资料
 gui.screen.configPlantLocator=植物定位
 gui.screen.configPlantSettings=植物设定
-gui.screen.configWorldgen=World Generation
+gui.screen.configWorldgen=植物生成
 gui.screen.configWorldgenCoralReefs=珊瑚礁设定
-gui.screen.configWorldgenFeatures=Worldgen Features
+gui.screen.configWorldgenFeatures=植物生成几率
 gui.screen.configWorldgenSettings=Worldgen Settings
 gui.screen.configWorldgenVillages=村庄
 gui.screen.confirmAction=Confirm Action
@@ -420,7 +414,7 @@ gui.screen.text.tooltips=信息提示
 gui.screen.text.warning=<< 警告 >>
 gui.screen.text.worldgen=Worldgen
 gui.screen.text.worldgenEmptyChunks=空区块
-gui.screen.text.worldgenIsDisabled=World generation is disabled
+gui.screen.text.worldgenIsDisabled=自定义生成已被禁止.
 gui.screen.text.worldgenMasterRate=主世界生成几率
 gui.screen.text.worldgenMode=Generation Mode
 
@@ -1101,8 +1095,6 @@ tile.coralRedSeaFan.snam=Iciligorgia schrammi
 tile.coralSunPolyps.name=管星珊瑚
 tile.coralSunPolyps.snam=管星珊瑚属(Tubastraea)
 
-
-#菜场
 tile.cropCentella.name=积雪草
 tile.cropCentella.snam=积雪草属积雪草(C.asiatica)
 tile.cropLaksaLeaf.name=越南香菜
