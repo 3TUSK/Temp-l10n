@@ -1,0 +1,9 @@
+tile.supercraftingframe.name=Super Crafting Frame
+tile.superitemframe.name=Super Item Frame
+tile.supervoidframe.name=Super Void Frame
+scf.missing.ingredient=Missing ingredient: '%1$s'
+scf.config.inventory_check.comment=Check attached inventory for items before crafting new ones.
+scf.config.super_void_frame_particles.comment=Show void particles around the Super Void Frame.
+scf.craftingframe.mode.both=Player & Inventory
+scf.craftingframe.mode.player=Player Only
+scf.craftingframe.mode.inventory=Inventory Only
