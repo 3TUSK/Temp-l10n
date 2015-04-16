@@ -14,6 +14,8 @@ If you want to put a language file here:
     3.if you answer no for 1., set up a new folder with the name of mod you are localzing and upload your file into this new     folder. Using "_" instead of " " is recommended.
 
     4.Upload en_US.lang as the reference is recommended.
+    
+    5.Once a language file gets its appropiate place to be merged, file should be deleted from this repo, unless it is work as backup
 
 At the same time, here provides support of discussing and editing localization file. If you need to do so, remember:
 
