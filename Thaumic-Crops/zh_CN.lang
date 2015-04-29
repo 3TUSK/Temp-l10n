@@ -110,12 +110,12 @@ item.ThaumicCrops.coalseed.name=煤炭种子
 item.ThaumicCrops.goldseed.name=金种子
 
 
-item.ThaumicCrops.airShard.name=风之碎片的片段
-item.ThaumicCrops.fireShard.name=火之碎片的片段
-item.ThaumicCrops.waterShard.name=水之碎片的片段
-item.ThaumicCrops.earthShard.name=地之碎片的片段
-item.ThaumicCrops.orderShard.name=秩序碎片的片段
-item.ThaumicCrops.entropyShard.name=混沌碎片的片段
+item.ThaumicCrops.airShard.name=碎裂的风之碎片
+item.ThaumicCrops.fireShard.name=碎裂的火之碎片
+item.ThaumicCrops.waterShard.name=碎裂的水之碎片
+item.ThaumicCrops.earthShard.name=碎裂的地之碎片
+item.ThaumicCrops.orderShard.name=碎裂的秩序碎片
+item.ThaumicCrops.entropyShard.name=碎裂的混沌碎片
 
 item.ThaumicCrops.diamondShard.name=钻石碎片
 item.ThaumicCrops.lapisShard.name=青金石碎片
@@ -129,13 +129,13 @@ item.ThaumicCrops.treasureCore.name=瑰宝核心
 item.ThaumicCrops.teleportCore.name=次元核心
 item.ThaumicCrops.soulCore.name=灵魂核心
 
-item.ThaumicCrops.agent1.name=神秘粘合剂(I)
-item.ThaumicCrops.agent2.name=神秘粘合剂(II)
-item.ThaumicCrops.agent3.name=神秘粘合剂(III)
-item.ThaumicCrops.agent4.name=神秘粘合剂(IV)
-item.ThaumicCrops.agent5.name=神秘粘合剂(V)
-item.ThaumicCrops.agent6.name=神秘粘合剂(VI)
-item.ThaumicCrops.agent7.name=神秘粘合剂(VII)
+item.ThaumicCrops.agent1.name=奥法粘合剂(I)
+item.ThaumicCrops.agent2.name=奥法粘合剂(II)
+item.ThaumicCrops.agent3.name=奥法粘合剂(III)
+item.ThaumicCrops.agent4.name=奥法粘合剂(IV)
+item.ThaumicCrops.agent5.name=奥法粘合剂(V)
+item.ThaumicCrops.agent6.name=奥法粘合剂(VI)
+item.ThaumicCrops.agent7.name=奥法粘合剂(VII)
 
 item.ThaumicCrops.interdimtreasure1.name=Interdimensional Treasure (I)
 item.ThaumicCrops.interdimtreasure2.name=Interdimensional Treasure (II)
@@ -145,6 +145,6 @@ tc.research_name.PRIMALASPSEEDS=元始要素种子
 tc.research_text.PRIMALASPSEEDS=增长你的奥术知识.
 thaumiccrops.research.primalaspseeds=运用你的农耕知识和奥术智慧,你相信元始要素可以像小麦一样种植.
 
-tc.research_name.AGENT=神秘粘合剂
+tc.research_name.AGENT=奥法粘合剂
 tc.research_text.AGENT=难道你不认为这将给你带来便利?
-thaumiccrops.research.agent=Growing primal aspects is great and all... but you want to expand the collection. The only problem is just combining like you would in a crafting table is too chaotic.你需要一些能使它们粘合的同时足够稳定的东西.这也是神秘粘合剂到来的原因.
+thaumiccrops.research.agent=Growing primal aspects is great and all... but you want to expand the collection. The only problem is just combining like you would in a crafting table is too chaotic.你需要一些能使它们粘合的同时足够稳定的东西.这也是奥法粘合剂到来的原因.
