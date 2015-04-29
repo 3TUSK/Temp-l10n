@@ -110,12 +110,12 @@ item.ThaumicCrops.coalseed.name=煤炭种子
 item.ThaumicCrops.goldseed.name=金种子
 
 
-item.ThaumicCrops.airShard.name=Air Shard Fragment
-item.ThaumicCrops.fireShard.name=Fire Shard Fragment
-item.ThaumicCrops.waterShard.name=Water Shard Fragment
-item.ThaumicCrops.earthShard.name=Earth Shard Fragment
-item.ThaumicCrops.orderShard.name=Order Shard Fragment
-item.ThaumicCrops.entropyShard.name=Entropy Shard Fragment
+item.ThaumicCrops.airShard.name=风之碎片的片段
+item.ThaumicCrops.fireShard.name=火之碎片的片段
+item.ThaumicCrops.waterShard.name=水之碎片的片段
+item.ThaumicCrops.earthShard.name=地之碎片的片段
+item.ThaumicCrops.orderShard.name=秩序碎片的片段
+item.ThaumicCrops.entropyShard.name=混沌碎片的片段
 
 item.ThaumicCrops.diamondShard.name=钻石碎片
 item.ThaumicCrops.lapisShard.name=青金石碎片
@@ -126,16 +126,16 @@ item.ThaumicCrops.witherShard.name=Wither shard
 item.ThaumicCrops.amberShard.name=琥珀碎片
 
 item.ThaumicCrops.treasureCore.name=瑰宝核心
-item.ThaumicCrops.teleportCore.name=Interdimensional Core
+item.ThaumicCrops.teleportCore.name=次元核心
 item.ThaumicCrops.soulCore.name=灵魂核心
 
-item.ThaumicCrops.agent1.name=Arcane Binding Agent (I)
-item.ThaumicCrops.agent2.name=Arcane Binding Agent (II)
-item.ThaumicCrops.agent3.name=Arcane Binding Agent (III)
-item.ThaumicCrops.agent4.name=Arcane Binding Agent (IV)
-item.ThaumicCrops.agent5.name=Arcane Binding Agent (V)
-item.ThaumicCrops.agent6.name=Arcane Binding Agent (VI)
-item.ThaumicCrops.agent7.name=Arcane Binding Agent (VII)
+item.ThaumicCrops.agent1.name=神秘粘合剂(I)
+item.ThaumicCrops.agent2.name=神秘粘合剂(II)
+item.ThaumicCrops.agent3.name=神秘粘合剂(III)
+item.ThaumicCrops.agent4.name=神秘粘合剂(IV)
+item.ThaumicCrops.agent5.name=神秘粘合剂(V)
+item.ThaumicCrops.agent6.name=神秘粘合剂(VI)
+item.ThaumicCrops.agent7.name=神秘粘合剂(VII)
 
 item.ThaumicCrops.interdimtreasure1.name=Interdimensional Treasure (I)
 item.ThaumicCrops.interdimtreasure2.name=Interdimensional Treasure (II)
@@ -145,6 +145,6 @@ tc.research_name.PRIMALASPSEEDS=元始要素种子
 tc.research_text.PRIMALASPSEEDS=增长你的奥术知识.
 thaumiccrops.research.primalaspseeds=运用你的农耕知识和奥术智慧,你相信元始要素可以像小麦一样种植.
 
-tc.research_name.AGENT=Arcane Binding Agent
-tc.research_text.AGENT=You didn't think it would be THAT easy did you?
-thaumiccrops.research.agent=Growing primal aspects is great and all... but you want to expand the collection. The only problem is just combining like you would in a crafting table is too chaotic. You need something that can combine them while at the same time making them stable. And that's where this comes in.
+tc.research_name.AGENT=神秘粘合剂
+tc.research_text.AGENT=难道你不认为这将给你带来便利?
+thaumiccrops.research.agent=Growing primal aspects is great and all... but you want to expand the collection. The only problem is just combining like you would in a crafting table is too chaotic.你需要一些能使它们粘合的同时足够稳定的东西.这也是神秘粘合剂到来的原因.
