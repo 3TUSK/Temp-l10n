@@ -41,7 +41,7 @@ tile.hive.deep.name=深度蜂巢
 tile.hive.resonant.name=共鸣蜂巢
 tile.hive.infernal.name=地狱蜂巢
 tile.hive.oblivion.name=湮没蜂巢
-	
+
 #Combs
 comb.mundane=平凡蜂巢
 comb.molten=熔融蜂巢
@@ -66,16 +66,16 @@ comb.TCorder=闪耀的秩序蜂巢
 comb.TCchaos=闪耀的混沌蜂巢
 comb.essence=源质蜂巢
 comb.potent=强力蜂巢
-comb.TEcarbon=煤碳蜂巢
-comb.TEelectric=电气蜂巢
-comb.TElux=勒克斯蜂巢
-comb.TEendearing=可爱蜂巢
-	
+comb.TEcarbon=Carbon Comb
+comb.TEelectric=Electric Comb
+comb.TElux=Lux Comb
+comb.TEendearing=Endearing Comb
+
 #Waxes
 wax.magic=魔力蜜蜡
 wax.soul=灵魂蜜蜡
 wax.amnesic=遗忘蜜蜡
-	
+
 #Drops
 drop.enchanting=蕴魔液滴
 drop.intellect=智慧液滴
@@ -83,11 +83,11 @@ drop.destabilized=不稳定液滴
 drop.carbon=煤炭液滴
 drop.lux=勒克斯液滴
 drop.endearing=可爱液滴
-	
+
 #Pollens
 pollen.unusual=罕见花粉
 pollen.phased=相位花粉
-	
+
 #Nuggets
 nugget.iron=铁粒
 nugget.steel=钢粒
@@ -98,7 +98,7 @@ nugget.lead=铅粒
 nugget.diamond=钻石碎片
 nugget.emerald=绿宝石碎片
 nugget.apatite=磷灰石碎片
-	
+
 #Propolises
 propolis.dull=枯竭蜂胶
 propolis.air=和风蜂胶
@@ -107,7 +107,7 @@ propolis.water=奔流蜂胶
 propolis.earth=石化蜂胶
 propolis.magic=蕴魔蜂胶
 propolis.unstable=不稳定蜂胶
-	
+
 #Misc resources
 resource.fragment=卷章碎片
 resource.lump=芬芳块
@@ -131,7 +131,7 @@ resource.TCchaosDust=混沌之尘
 resource.dimensionalSingularity=奇异维度
 resource.startNode=蜜蜂与魔法
 resource.crystalAspect=晶化 %s 要素
-	
+
 #Frames
 item.frameMagic.name=魔力框架
 item.frameResilient.name=弹力框架
@@ -140,11 +140,11 @@ item.frameMetabolic.name=代谢框架
 item.frameNecrotic.name=坏死框架
 item.frameTemporal.name=瞬息框架
 item.frameOblivion.name=湮灭框架
-	
+
 #Capsules
 capsule.magic=%s魔力胶囊
 capsule.void=%s虚空胶囊
-	
+
 #Liquids
 liquid.=空
 liquid.water=水
@@ -171,7 +171,7 @@ liquid.pyrotheum=烈焰之炽焱
 liquid.cryotheum=极寒之凛冰
 liquid.mana=元始魔力
 liquid.coal=液态煤炭
-	
+
 #Moondial
 moon.full=满月
 moon.gibbousWaning=亏凸月
@@ -184,7 +184,7 @@ moon.new=新月
 
 #Backpack
 backpack.thaumaturge=神秘使背包
-	
+
 #Itemgroups
 itemGroup.magicbees=魔法蜜蜂
 
@@ -206,231 +206,233 @@ research.node.pure=纯净
 research.node.dark=黑暗
 research.node.chaotic=混乱
 research.block.crystals=晶簇
-	
+
 #Species
 magicbees.speciesMystical=神秘
-magicbees.speciesMystical.description=在很多地方很常见，这种蜜蜂偶尔会对自己产生一些奇怪的念头.|Apinomicon
+magicbees.speciesMystical.description=Common in many parts of the world, these bees have a little extra whimsy about them.|Apinomicon
 magicbees.speciesSorcerous=巫术
-magicbees.speciesSorcerous.description=喜欢温暖的环境，在干旱的环境中它们似乎有从空气中召唤水的能力|Apinomicon
+magicbees.speciesSorcerous.description=Fond of warm, dry environments, they seem to have the ability to conjure water from thin air.|Apinomicon
 magicbees.speciesUnusual=非凡
-magicbees.speciesUnusual.description="我的新收藏品：一种好奇宝宝一样的蜜蜂!"|初级养蜂人
+magicbees.speciesUnusual.description="A curious specimen for my collection!"|Junior Apiarist
 magicbees.speciesAttuned=谐振
-magicbees.speciesAttuned.description=他们飞行时仿佛被空气中看不见的线牵引着一般.|Apinomicon
+magicbees.speciesAttuned.description=They fly as though guided by unseen threads through the air.|Apinomicon
 
 magicbees.speciesEldritch=怪异
-magicbees.speciesEldritch.description=这种蜜蜂体内被封印的潜能渐渐开始崭露头角.|Apinomicon
+magicbees.speciesEldritch.description=The potential that was locked within this bee's ancestors has now come to the fore.|Apinomicon
 
 magicbees.speciesEsoteric=玄奥
-magicbees.speciesEsoteric.description=罕见的杂交品种，具有魔力特性.|Apinomicon
+magicbees.speciesEsoteric.description=An unusual crossbreed which seems to have magical properties.|Apinomicon
 magicbees.speciesMysterious=奥秘
-magicbees.speciesMysterious.description=这些蜜蜂曾经去过世界的尽头并凯旋归来，它们的能力得到了长足增强.|Apinomicon
+magicbees.speciesMysterious.description=These bees have been to the end of the world and back, and their power has grown.|Apinomicon
 magicbees.speciesArcane=奥能
-magicbees.speciesArcane.description="它们的产物充满了魔力!"|Azanor, 大神秘使
+magicbees.speciesArcane.description="Their produce is charged with magic."|Azanor, Master Thaumaturge
 
 magicbees.speciesCharmed=魅惑
-magicbees.speciesCharmed.description=你的神秘学养蜂试验终于结出了硕果-一种会嗡嗡叫名为蜜蜂的硕果.|Apinomicon
+magicbees.speciesCharmed.description=Your first experiments in Thaumaturgical Apiculture have yielded fruit. Buzzing fruit.|Apinomicon
 magicbees.speciesEnchanted=蕴魔
-magicbees.speciesEnchanted.description=数代魅惑蜂的繁衍让小东西们逐渐接触到未知的存在.|Apinomicon
+magicbees.speciesEnchanted.description=Successive generations of Charmed bees have reinforced their connection to the unknown.|Apinomicon
 magicbees.speciesSupernatural=超能
-magicbees.speciesSupernatural.description=蜜蜂行走在不可视境界线之上.|Apinomicon
+magicbees.speciesSupernatural.description=These bees walk the line between this world and the unseen.|Apinomicon
 
 magicbees.speciesEthereal=以太
-magicbees.speciesEthereal.description=幽灵般地，被来自天域的力量充能.|Apinomicon
-	
+magicbees.speciesEthereal.description=Ghostly, and charged with energy from beyond.|Apinomicon
+
 magicbees.speciesWatery=水
-magicbees.speciesWatery.description=喜欢潮湿的地方和流动的水.|Apinomicon
+magicbees.speciesWatery.description=Fond of damp spots and flowing water.|Apinomicon
 magicbees.speciesEarthen=土
-magicbees.speciesEarthen.description=他们与石头和泥土有强烈的联系.|Apinomicon
+magicbees.speciesEarthen.description=They have an iron-strong connection with stone and dirt.|Apinomicon
 magicbees.speciesFirey=火
-magicbees.speciesFirey.description=他们尽可能的居住在接近炽热火焰的地方.|Apinomicon
+magicbees.speciesFirey.description=As close as you can get to living flame without involving candescence.|Apinomicon
 magicbees.speciesWindy=风
-magicbees.speciesWindy.description=罕见的发现在平地.他们喜欢开阔的地方.他们有广袤的活动空间.|Apinomicon
+magicbees.speciesWindy.description=Rarely seen in flat, wide open spaces. Their territories are vast.|Apinomicon
 
 magicbees.speciesPupil=学徒
-magicbees.speciesPupil.description="这群蜜蜂想对我的研究稿做什么?!|Yorae,图书馆馆员
+magicbees.speciesPupil.description="What does that bee want with my paper?!"|Yorae, Librarian
 magicbees.speciesScholarly=博学
-magicbees.speciesScholarly.description="我难以确信,但我觉得它们比我更聪明 ..."|Yorae,图书馆馆员
+magicbees.speciesScholarly.description="I can't be sure, but I think they might be smarter than me..."|Yorae, Librarian
 magicbees.speciesSavant=专家
-magicbees.speciesSavant.description=lim(x^(i / pi)/ log(e * 7 - ln(32/x^-pi))).把这个解出来我就给你们蜂蜜.|Yorae的桌子上发现的便签
-	
+magicbees.speciesSavant.description=lim(x^(i / pi)/ log(e * 7 - ln(32/x^-pi))). Solve for honey.|Note found on Yorae's desk
+
 magicbees.speciesAware=感知
-magicbees.speciesAware.description="它们看得见你的灵魂!"|Florastar,养蜂专家
+magicbees.speciesAware.description="They can see into your soul!"|Florastar, Expert Beekeeper
 magicbees.speciesSpirit=精神
-magicbees.speciesSpirit.description=据说这种蜜蜂能和死者沟通.|Apinomicon
+magicbees.speciesSpirit.description=It is said these bees are able to contact the dead.|Apinomicon
 magicbees.speciesSoul=魂魄
-magicbees.speciesSoul.description="路西法亲自收割你的灵魂来啦!"|Yooooooooo
-	
+magicbees.speciesSoul.description="The Dread Pirate Roberts has come for your SOOOOOOULS!"|Dread Pirate Roberts
+
 magicbees.speciesSkulking=诡隐
-magicbees.speciesSkulking.description=这些蜜蜂变得暴躁排外，你可得当心了!|Apinomicon
+magicbees.speciesSkulking.description=These bees have become xenophobic and bad-tempered. Use caution.|Apinomicon
 magicbees.speciesGhastly=幽魂
-magicbees.speciesGhastly.description="*叹息*... 真的,神秘?"|Taveria
+magicbees.speciesGhastly.description="*sigh*... Really, Myst?"|Taveria, irritated Apiarist
 magicbees.speciesSpidery=蜘蛛
-magicbees.speciesSpidery.description=蜘蛛蜂; 嗯.做蜘蛛蜂该做的事情.|未知语
+magicbees.speciesSpidery.description=Spiderbee; n. Does whatever a spider-bee does.|Unknown
 magicbees.speciesSmouldering=闷烧
-magicbees.speciesSmouldering.description=这种鬼鬼祟祟的蜜蜂已经成为了火灾的源头.|Apinomicon
-	
+magicbees.speciesSmouldering.description=The Skulking bees have become alight with the fire of the ever-burning Blazes.|Apinomicon
+magicbees.speciesBigBad=Big Bad
+magicbees.speciesBigBad.description="Who is afraid of the Big Bad Chris?"|Pahimar, last words
+
 magicbees.speciesTimely=瞬息
-magicbees.speciesTimely.description="养蜂员从不迟到，他想去的时候就能准点到达!"|Sengir,养蜂狂人
+magicbees.speciesTimely.description="An apiarist is never late. He arrives precisely when he means to!"|Sengir, Mad Apiarist
 magicbees.speciesLordly=贵族
-magicbees.speciesLordly.description=它们平和生活，共建和谐社会|古遗物
+magicbees.speciesLordly.description=They live in peace, within the sight of the Eye of Harmony|Tattered Remains of ancient Apinomicon
 magicbees.speciesDoctoral=博士
-magicbees.speciesDoctoral.description="你们喜欢胶糖娃娃吗?"|戴着大围巾，手持蓝色盒子的陌生人
-	
+magicbees.speciesDoctoral.description="Would you like a Jelly Baby?"|Passing stranger with a great scarf and a blue box
+
 magicbees.speciesInfernal=地狱
-magicbees.speciesInfernal.description=诞生于地狱深处的蜂种，具有特殊的力量|Apinomicon
-magicbees.speciesHateful=憎恶
-magicbees.speciesHateful.description=生存在下届已经改变了这些蜜蜂的脾气. 请小心.|Apinomicon
-magicbees.speciesSpiteful=恶意
-magicbees.speciesSpiteful.description=他们在守卫自己的领土是表现的十分激烈，就像恶魔一样，用火焰驱赶敌人.|Apinomicon
+magicbees.speciesInfernal.description=Spawned deep within the hellish realm, none have survived long enough to determine their abilities.|Apinomicon
+magicbees.speciesHateful=Hateful
+magicbees.speciesHateful.description=Continued exposure to the Nether has not improved their temperament in the least. Use caution.|Apinomicon
+magicbees.speciesSpiteful=Spiteful
+magicbees.speciesSpiteful.description=They guard their territory fiercely, with the zeal of fiends, and welts of fire.|Apinomicon
 magicbees.speciesWithering=凋零
-magicbees.speciesWithering.description=他们会使用使生命凋零力量，慢慢的用这种力量描绘吃领地.|Apinomicon
+magicbees.speciesWithering.description=Their mere passing causes life to fail, slowly drawing all energy from their territory.|Apinomicon
 
 magicbees.speciesOblivion=湮没
-magicbees.speciesOblivion.description=我们仍然不知道这种蜜蜂是否是本世界的土著，还是异域来客。|Apinomicon
+magicbees.speciesOblivion.description=It is unclear whether these bees are native to this world, or some other.|Apinomicon
 magicbees.speciesNameless=不可名状
-magicbees.speciesNameless.description=“其他的博物学家已经拒绝了研究这些蜜蜂。我必须要知道这是为什么。”|Tattered Research Notes
+magicbees.speciesNameless.description="Other naturalists have refused to study these bees. I must know why."|Tattered Research Notes
 magicbees.speciesAbandoned=遗忘
-magicbees.speciesAbandoned.description=“我越深入研究这些蜜蜂，我越觉得他们不属于这里，或者其他任何地方。”|Tattered Research Notes
+magicbees.speciesAbandoned.description="The more I study these bees, the more I feel they do not belong here, or anywhere else."|Tattered Research Notes
 magicbees.speciesForlorn=绝望
-magicbees.speciesForlorn.description=“我现在确信他们是被一些未知的人故意的放在我们的宇宙的。”|Tattered Research Notes
+magicbees.speciesForlorn.description="I am now convinced they were left in our universe on purpose by some unknowable beings."|Tattered Research Notes
 magicbees.speciesDraconic=龙
-magicbees.speciesDraconic.description=“恶魔一样的声音从蜂箱爆发出来。那是我们最后一次见到杰拉尔德。”|Tattered Research Notes
+magicbees.speciesDraconic.description="With a fel sound, they erupted from their hive. That was the last we ever saw of Gerald."|Tattered Research Notes
 
 magicbees.speciesIron=灰铁
-magicbees.speciesIron.description=这种蜜蜂能从周围聚集铁元素.|Apinomicon
+magicbees.speciesIron.description=Having absorbed some of the base metal, these bees can concentrate the essence of iron from the region.|Apinomicon
 magicbees.speciesGold=黄金
-magicbees.speciesGold.description=闪光的东西未必是黄金.|古代格言
+magicbees.speciesGold.description=Not all that glitters is gold.|Ancient Aphorism
 magicbees.speciesCopper=紫铜
-magicbees.speciesCopper.description=铜是非常有用的常见金属，这种蜜蜂能从周围聚集铜元素.|Apinomicon
+magicbees.speciesCopper.description=A base metal common in many applications; these bees are helpful for resource-starved magicians.|Apinomicon
 magicbees.speciesTin=白锡
-magicbees.speciesTin.description=涉及到金属的时候，这些蜜蜂异常脆弱.|Apinomicon
+magicbees.speciesTin.description=While metalic, these bees are suprisingly fragile.|Apinomicon
 magicbees.speciesSilver=白银
-magicbees.speciesSilver.description=即使略逊于黄金蜂，它们也自有其价值所在.|Apinomicon
+magicbees.speciesSilver.description=While they do not recieve as much attention as Golden bees, they are nonetheless valuable.|Apinomicon
 magicbees.speciesLead=黑铅
-magicbees.speciesLead.description=业余炼金术师的最好，它们相信这种蜜蜂能点铅化金.|Apinomicon
+magicbees.speciesLead.description=A favourite of amateur alchemists, they believe they can transform these bees into gold.|Apinomicon
 magicbees.speciesAluminum=亮铝
-magicbees.speciesAluminum.description=闪亮起皱又极具韧性.|Apinomicon
+magicbees.speciesAluminum.description=Crinkly, shiny, and extremely malleable.|Apinomicon
 magicbees.speciesArdite=阿迪特
-magicbees.speciesArdite.description=钟爱一种地狱的橙黄色矿产.|Apinomicon
+magicbees.speciesArdite.description=Fond of yellowish-orange material found in hellish areas.|Apinomicon
 magicbees.speciesCobalt=辉钴
-magicbees.speciesCobalt.description=这种金属不稳定的特性似乎丝毫没有影响这些蜜蜂.|Apinomicon
+magicbees.speciesCobalt.description=The unstable properties of this material seem to not affect the bees in the slightest.|Apinomicon
 magicbees.speciesManyullyn=玛玉灵
-magicbees.speciesManyullyn.description="咚!嘟滴嘟~咚!"
+magicbees.speciesManyullyn.description="Doot doo-dee-doot doot!"
 
 magicbees.speciesDiamond=钻石
-magicbees.speciesDiamond.description=闪光的结晶，硬比龙牙.钻石恒久远，一颗永流传.|Apinomicon
+magicbees.speciesDiamond.description=Crystalline, glittering, and harder than dragon's teeth. These bees are none of those.|Apinomicon
 magicbees.speciesEmerald=宝石
-magicbees.speciesEmerald.description=据说它们曾造访伟大巫师统治之地，并将巫师之城的要素劫掠一空.|Apinomicon
+magicbees.speciesEmerald.description=It is said they have been to a land ruled by a Great Wizard, and have taken the aspect of his city.|Apinomicon
 magicbees.speciesApatite=磷化
-magicbees.speciesApatite.description=这些东西真心是日夜牢骚不断.我关紧窗户躲进地下室，但蜜蜂尖锐的嗡嗡声却无处不在地透墙而过，乱我心绪.|养蜂入门
+magicbees.speciesApatite.description=Day and night the whining droned on. I barricaded the windows and hid in the cellar, but everywhere the high-pitched noise of the apatine bees penetrated the walls and drove me to distraction.|Beekeeping 101
 
 magicbees.speciesMutable=善变
-magicbees.speciesMutable.description=多变的性质，善变的个性。|Apinomicon
+magicbees.speciesMutable.description=Changeable in nature, mercurial in personality.|Apinomicon
 magicbees.speciesTransmuting=蜕变
-magicbees.speciesTransmuting.description=“我发誓这是昨天用石头建造的！”|Sengir, Mad Apiarist
+magicbees.speciesTransmuting.description="I could've sworn this was made out of stone yesterday!"|Sengir, Mad Apiarist
 magicbees.speciesCrumbling=崩溃
-magicbees.speciesCrumbling.description=他们对周围环境有强烈的腐蚀作用，他们会迅速衰老。|Apinomicon
+magicbees.speciesCrumbling.description=They have a corrosive effect on their surroundings, rapidly aging them.|Apinomicon
 
 magicbees.speciesInvisible=隐形
-magicbees.speciesInvisible.description=它们很容易忽略，玻璃一样的身体是很难被发现。|Apinomicon
+magicbees.speciesInvisible.description=Easy to miss, their glassy body is difficult to spot in the countryside.|Apinomicon
 
 magicbees.speciesTCAir=灵气
-magicbees.speciesTCAir.description="工作敏捷，扣人心弦！"|Sengir,养蜂狂人
+magicbees.speciesTCAir.description="They work so fast it's breathtaking."|Sengir, Mad Apiarist
 magicbees.speciesTCFire=灼热
-magicbees.speciesTCFire.description=注意:蜂房中的东西相当灼热.| Azanor 的蜂房的警告牌
+magicbees.speciesTCFire.description=Caution: Contents of hive extremely hot.|Warning label on Azanor's apiary
 magicbees.speciesTCWater=流水
-magicbees.speciesTCWater.description="我试图养育它们，结果变成落汤鸡！"|MysteriousAges,神秘使学徒
+magicbees.speciesTCWater.description="I tried to breed them once, but that was a wash."|MysteriousAges, Apprentice Thaumaturge
 magicbees.speciesTCEarth=泥土
-magicbees.speciesTCEarth.description="这些蜜蜂真心是挖掘专家，小心它们挖洞"|MysteriousAges,滑稽剧学徒
+magicbees.speciesTCEarth.description="You're really gonna dig these bees, but watch out - they bore quite easily."|MysteriousAges, Apprentice Comedian
 magicbees.speciesTCOrder=奇术
-magicbees.speciesTCOrder.description=养蜂本身就是一种魔法!|Apinomicon,绪论
+magicbees.speciesTCOrder.description=Their combs are nearly perfect, each part mirroring the pattern of the whole.|Apinomicon
 magicbees.speciesTCChaos=朴实
-magicbees.speciesTCChaos.description="它们能吸引魔力的碎片，具体有待研究！"|Azanor,大神秘使
+magicbees.speciesTCChaos.description=The social structure of their hives seems to vary day by day, making it more flexible and resillient than others, but significantly more unpredictable.|Apinomicon
 
 magicbees.speciesTCVis=魔力
-magicbees.speciesTCVis.description="它们能感知到魔力的存在，却还不能影响到魔力."|Azanor,研究笔记
+magicbees.speciesTCVis.description="They can feel changes in the aura, but are not yet able to affect it."|Azanor, research notes
 magicbees.speciesTCPure=纯净
-magicbees.speciesTCPure.description="蜜蜂中的卫士!"|MysteriousAges,神秘使
+magicbees.speciesTCPure.description="It's like a bee janitor!"|MysteriousAges, Thaumaturge
 magicbees.speciesTCFlux=咒波
-magicbees.speciesTCFlux.description="我以为能解决咒波问题呢，结果情况更糟糕了!"|Kreicus,神秘使学徒
+magicbees.speciesTCFlux.description="I thought they would help clean up, but it only makes things worse!"|Kreicus, Apprentice Thaumaturge
 magicbees.speciesTCAttractive=吸引
-magicbees.speciesTCAttractive.description=经过古怪的突变后，这种蜜蜂能吸引魔力.|Apinomicon
+magicbees.speciesTCAttractive.description=Having undergone a freak mutation, these bees now attract magic to them.|Apinomicon
 magicbees.speciesTCRejuvenating=复兴
-magicbees.speciesTCRejuvenating.description=神奇的蜜蜂，能吸引附近的节点靠近.|Apinomicon
+magicbees.speciesTCRejuvenating.description=The hum of the hive is magical, and over time is absorbed by nearby nodes.|Apinomicon
 magicbees.speciesTCBrainy=怒尸
-magicbees.speciesTCBrainy.description=蜂巢变得恶臭难闻，但这些家伙变得好聪明！|Apinomicon
+magicbees.speciesTCBrainy.description=Their combs may be fetid and foul-smelling, but their intelligence is well-developed.|Apinomicon
 magicbees.speciesTCWispy=精灵
-magicbees.speciesTCWispy.description=它们的语言支离破碎，难以理解，也许它们在和某种超自然的生物沟通？|Apinomicon
+magicbees.speciesTCWispy.description=Their language is garbled and unintelligible. It is probable they are speaking to unnatural beings.|Apinomicon
 magicbees.speciesTCBatty=火蝠
-magicbees.speciesTCBatty.description=它们通过未知的方法吸引了许多火焰蝙蝠.|Apinomicon
+magicbees.speciesTCBatty.description=They tend to attract bats to their hives through means unknown.|Apinomicon
 magicbees.speciesTCChicken=家禽
-magicbees.speciesTCChicken.description="咯咯.咯咯咯，咯咯咯咯! ... 听到没？"|困惑的蜜蜂
+magicbees.speciesTCChicken.description="Cluck. Cluck cluck! ... You heard me."|Confused bee
 magicbees.speciesTCBeef=壮牛
-magicbees.speciesTCBeef.description="哞哞,哞哞,哞哞.稍等，咋回事?"|困惑的蜜蜂
+magicbees.speciesTCBeef.description="Moo, moo, moo. Wait, what?"|Confused bee
 magicbees.speciesTCPork=猪啰
-magicbees.speciesTCPork.description="呼噜,呼噜噜.额.... 嗡嗡?"|困惑的蜜蜂
+magicbees.speciesTCPork.description="Oink, oink. Er.... bzzz?"|Confused bee
 magicbees.speciesEEMinium=铅丹
-magicbees.speciesEEMinium.description=善变乃其天性.|Apinomicon
+magicbees.speciesEEMinium.description=It may be possible to exploit their mercurial and changeable nature.|Apinomicon
 magicbees.speciesAMEssence=源质
-magicbees.speciesAMEssence.description=集中力量汇集大气中的微尘.|Apinomicon
+magicbees.speciesAMEssence.description=Drawing from motes of dust in the air and ground, they concentrate the energy
 magicbees.speciesAMQuintessence=精萃
-magicbees.speciesAMQuintessence.description=魔法之心蕴藏世间诸事.|Apinomicon,绪论
+magicbees.speciesAMQuintessence.description=The heart of magic lies dormant in all things.|Apinomicon, preface
 magicbees.speciesAMEarth=大地
-magicbees.speciesAMEarth.description=大地的力量灌注下，它们制造地属性的源质.|Apinomicon
+magicbees.speciesAMEarth.description=Empowered by the Earth, their produce is infused with its essence.|Apinomicon
 magicbees.speciesAMAir=和风
-magicbees.speciesAMAir.description=在风的加持下，比空气更轻盈.|Apinomicon
+magicbees.speciesAMAir.description=Swift as the wind, and lighter than air.|Apinomicon
 magicbees.speciesAMFire=焰火
-magicbees.speciesAMFire.description=它们能沸水溶金.|Apinomicon
+magicbees.speciesAMFire.description=Their colony can reach temperatures that boil water and melt metals.|Apinomicon
 magicbees.speciesAMWater=水灵
-magicbees.speciesAMWater.description=浸透了液体后，它们的蜂巢潮湿又沉重.|Apinomicon
+magicbees.speciesAMWater.description=Through prolonged exposure to liquids, their combs are quite wet and heavy.|Apinomicon
 magicbees.speciesAMLightning=闪电
-magicbees.speciesAMLightning.description=瞬息千里，所到即生野火.|Apinomicon
+magicbees.speciesAMLightning.description=They can travel vast distances in a blink, and are known for starting many wildfires.|Apinomicon
 magicbees.speciesAMPlant=延年
-magicbees.speciesAMPlant.description=与绿色和生命的力量天生亲和.|Apinomicon
+magicbees.speciesAMPlant.description=They have an affinity for all that is green and grows.|Apinomicon
 magicbees.speciesAMIce=冰霜
-magicbees.speciesAMIce.description="它们老偷我东西，但我却抓不住它们.它们太滑溜."|MysteriousAges,无可救药的俏皮话大师
+magicbees.speciesAMIce.description="They keep stealing stuff from me, and I never see them. They're far too slippery."|MysteriousAges, incorrigible punster
 magicbees.speciesAMMagma=熔岩
-magicbees.speciesAMMagma.description=它们飞过之处，大地被烧灼成灰烬之地，所有的植被都被焚烧干净.|Apinomicon
+magicbees.speciesAMMagma.description=As they fly by, they sear the surface of the landscape, eventually scouring all plants and fragile minerals away.|Apinomicon
 magicbees.speciesAMArcane=奥义
-magicbees.speciesAMArcane.description="古怪的生物，但是产物蛮有用的"|Mithion,专家级法师
+magicbees.speciesAMArcane.description="Curious creatures, though their produce is quite useful."|Mithion, Adept
 magicbees.speciesAMVortex=漩涡
-magicbees.speciesAMVortex.description=它们贪婪地渴求法力，对任何施法者它们都相当危险.|Apinomicon
+magicbees.speciesAMVortex.description=Ravenous for mana, they may be dangerous for any caster.|Apinomicon
 magicbees.speciesAMWight=重量
-magicbees.speciesAMWight.description="它们能吸收魔力;并非总是很温顺."|Mithion,专家级法师
-magicbees.speciesTEBlizzy=暴雪
-magicbees.speciesTEBlizzy.description=严寒与冰冷，就像小小的雪人一样.|Apinomicon
-magicbees.speciesTEGelid=冰冷
-magicbees.speciesTEGelid.description=冷却液生产者.|Apinomicon
-magicbees.speciesTEDante=但丁
-magicbees.speciesTEDante.description=地狱产生的蜜蜂生产了惊人的结果。|Apinomicon
-magicbees.speciesTEPyro=烟火
-magicbees.speciesTEPyro.description=你的怪物.|Everyone, to you.
-magicbees.speciesTEElectrum=金银合金
-magicbees.speciesTEElectrum.description=...|Apinomicon
-magicbees.speciesTEPlatinum=铂金
-magicbees.speciesTEPlatinum.description=...|Apinomicon
-magicbees.speciesTENickel=镍
-magicbees.speciesTENickel.description=...|Apinomicon
-magicbees.speciesTEInvar=殷钢
-magicbees.speciesTEInvar.description=...|Apinomicon
-magicbees.speciesTEBronze=修补
-magicbees.speciesTEBronze.description=...|Apinomicon
-magicbees.speciesTECoal=碳
-magicbees.speciesTECoal.description=...|Apinomicon
-magicbees.speciesTEDestabilized=不稳定
-magicbees.speciesTEDestabilized.description=这些蜜蜂随着时间流逝变的不稳定了.|Apinomicon
-magicbees.speciesTELux=勒克斯
-magicbees.speciesTELux.description=要有光…|Apinomicon
-magicbees.speciesTEWinsome=迷人
-magicbees.speciesTEWinsome.description=....|Apinomicon
-magicbees.speciesTEEndearing=可爱
-magicbees.speciesTEEndearing.description=....|Apinomicon
-magicbees.speciesRSAFluxed=焊剂
-magicbees.speciesRSAFluxed.description=....|Apinomicon
+magicbees.speciesAMWight.description="They attract magical spirits; not always docile."|Mithion, Adept
+magicbees.speciesTEBlizzy=Blizzy
+magicbees.speciesTEBlizzy.description=Frigid and cold, like miniature snowmen.|Apinomicon
+magicbees.speciesTEGelid=Gelid
+magicbees.speciesTEGelid.description=Liquid coolant producers.|Apinomicon
+magicbees.speciesTEDante=Dante
+magicbees.speciesTEDante.description=Mixing bees in an inferno produces surprising results.|Apinomicon
+magicbees.speciesTEPyro=Pyro
+magicbees.speciesTEPyro.description=You Monster.|Everyone, to you.
+magicbees.speciesTEElectrum=Electrum
+magicbees.speciesTEElectrum.description=The best of both precious metals, but somehow greater than both.|Apinomicon
+magicbees.speciesTEPlatinum=Platinum
+magicbees.speciesTEPlatinum.description=Precious, malleable, and unbelieveably shiny.|Apinomicon
+magicbees.speciesTENickel=Nickel
+magicbees.speciesTENickel.description="If I had a Nickel every time I've heard that... I'd have a hive!"|Marquis Muskrat
+magicbees.speciesTEInvar=Invar
+magicbees.speciesTEInvar.description="The coefficient of thermal expansion is quite low. Also, it's a pun!"|Marquis Muskrat
+magicbees.speciesTEBronze=Bronzed
+magicbees.speciesTEBronze.description="I love these bees so much, I had them preserved for later."|Marquis Muskrat
+magicbees.speciesTECoal=Carbon
+magicbees.speciesTECoal.description="Geeze, these ones are a CARBON copy of the ones in Extra Bees!"|Marquis Muskrat
+magicbees.speciesTEDestabilized=Destabilized
+magicbees.speciesTEDestabilized.description=These bees started out unstable; they didn't get better with time.|Apinomicon
+magicbees.speciesTELux=Lux
+magicbees.speciesTELux.description="Let there be light!"|Marquis Muskrat
+magicbees.speciesTEWinsome=Winsome
+magicbees.speciesTEWinsome.description="I like these ones, they're so adorable!"|Jadedcat, maker of packs
+magicbees.speciesTEEndearing=Endearing
+magicbees.speciesTEEndearing.description="Hypnotic powers and vicious temperment aside, these bees are the cutest!"|Jadedcat, maker of packs
+magicbees.speciesRSAFluxed=Fluxed
+magicbees.speciesRSAFluxed.description="What? Bees are OP."|Marquis Muskrat
 magicbees.speciesBMBloody=血腥
-magicbees.speciesBMBloody.description=....|Apinomicon
+magicbees.speciesBMBloody.description=Infused with the power of blood, they now seek additional power.|Apinomicon
 magicbees.speciesBMBound=束缚
-magicbees.speciesBMBound.description=....|Apinomicon
+magicbees.speciesBMBound.description="You're... CERTAIN to like these ones!"|WayOfFlowingTime, terrible punster
 magicbees.speciesBotRooted=Rooted
 magicbees.speciesBotRooted.description="If you square these bees, they won't be rooted anymore."|MysteriousAges, bad at math jokes
 magicbees.speciesBotBotanic=Botanic
@@ -456,8 +458,8 @@ magicbees.effectDigSpeed=挖掘加速
 magicbees.effectMoveSpeed=速度
 magicbees.effectSlowSpeed=缓慢
 magicbees.effectWithering=凋灵
-magicbees.effectTransmuting=嬗变
-magicbees.effectCrumbling=崩溃
+magicbees.effectTransmuting=Transmuting
+magicbees.effectCrumbling=Crumbling
 magicbees.effectInvisiblility=隐形
 magicbees.effectNodeAttract=灵气吸收
 magicbees.effectNodePurify=灵气纯化
@@ -469,9 +471,11 @@ magicbees.effectWispy=精灵
 magicbees.effectGhastly=幽魂
 magicbees.effectSpidery=蜘蛛
 magicbees.effectAblaze=火光
+magicbees.effectCanine=Howling
 magicbees.effectManaDrainer=漩涡
 magicbees.effectAMWisp=精灵[AM]
-magicbees.effectTEBlizzy=暴雪[TE]
+magicbees.effectTEBlizzy=Blizzy
+magicbees.effectDreaming=Dreaming
 
 flowerProvider.book=书
 flowerProvider.magic=神秘植物
@@ -480,36 +484,39 @@ flowerProvider.node=节点
 flowerProvider.botania=Mystical Flowers
 
 classification.veiled=隐藏
-classification.veiled.description=这种古怪的物种散布在世界上，它们的能力超越了人类的理解能力.|Apinomicon
+classification.veiled.description=The curious species found scattered through the world may have abilities beyond one's reasoning.|Apinomicon
 classification.arcane=奥能
-classification.arcane.description=对奥法亲和的蜜蜂。|Apinomicon
+classification.arcane.description=These bees have inexplicable affinity for magic.|Apinomicon
 classification.supernatural=超能
-classification.supernatural.description=非比寻常，和很多神秘现象有关。|Apinomicon
+classification.supernatural.description=No longer ordinary bees, they have been associated with many odd occurances.|Apinomicon
 classification.scholarly=博学
-classification.scholarly.description=这种蜜蜂拥有强大的智慧和演算能力。|Apinomicon
+classification.scholarly.description=The caste of bees which have great intellect and deductive ability.|Apinomicon
 classification.skulking=诡隐
-classification.skulking.description=令人不快的恶意。当心它们。|Apinomicon
+classification.skulking.description=Unpleasant and malicious. Treat this group with caution.|Apinomicon
 classification.magic=意识
-classification.magic.description=它们是否有意识不能妄断，但它们对周围的环境很敏锐。|Apinomicon
+classification.magic.description=It is unclear whether they are sentient, but they have suprising awareness of their surroundings.|Apinomicon
 classification.time=时间
-classification.time.description=通过巧妙的时间控制能力，这种蜜蜂一天能当两天过。|Apinomicon
+classification.time.description=Though clever use of time travel, these bees accomplish twice as much in one day.|Apinomicon
 classification.soul=灵魂
-classification.soul.description=它们在收集死者的魂魄，好可怕!|Apinomicon
-classification.abominable=厌恶
-classification.Extrinsic=外来
+classification.soul.description=It would be eerie to think that they collected the souls of the deceased.|Apinomicon
+classification.abominable=Abominable
+classification.abominable.description=Spawned in the firey depths of the Nether, there is nothing pleasant about these creatures.|Apinomicon
+classification.Extrinsic=Extrinsic
+classification.Extrinsic.description=It is unknown whether these creatures gave rise to the family Apidae in this universe, or if these evolved seperately.|Apinomicon
 classification.metallic=金属
-classification.metallic.description=汇聚金属的蜜蜂。|Apinomicon
+classification.metallic.description=They collect fragments of metal and combine them into larger portions.|Apinomicon
 classification.gem=宝石
-classification.gem.description=汇聚宝石的蜜蜂。|Apinomicon
-classification.transmuting=多态
+classification.gem.description=They collect fragments of precious gems in their combs.|Apinomicon
+classification.transmuting=Polymorphic
+classification.transmuting.description=Reality seems to be somewhat volatile around bees of this family.|Apinomicon
 classification.thaumic=神秘
-classification.thaumic.description=和很多神秘力量亲和的蜜蜂。|Apinomicon
+classification.thaumic.description=These bees have an increased affinity to magic and aura.|Apinomicon
 classification.fleshy=肉块
-classification.fleshy.description=因为未知原因，这种蜜蜂大量产出可使用的肉。|Apinomicon
+classification.fleshy.description=Through an unknown mechanism, these bees accrue chunks of animal flesh. Somehow, it's still edible.|Apinomicon
 classification.alchemical=炼金
-classification.alchemical.description=这种蜜蜂有一种嬗变的天性。|Apinomicon
+classification.alchemical.description=These bees have a changeable nature.|Apinomicon
 classification.essential=源质
-classification.essential.description=这种蜜蜂对魔法源质非常亲和。|Apinomicon
+classification.essential.description=These bees have an increased affinity for aspected magic.|Apinomicon
 classification.botanical=花卉
 classification.botanical.description=A peculiar variant of mundane bees,她们似乎对于各种花有极强的亲和力.|Apinomicon
 
