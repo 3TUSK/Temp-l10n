@@ -5,7 +5,7 @@ language.code=zh_CN
 # Miscellaneous strings
 # -- Updater strings. Please try to keep these to one line if possible.
 magicbees.versioning.newVersion=有新版魔法蜜蜂可用: %s
-magicbees.versioning.critical=魔法蜜蜂紧急放出新版本: %s -请尽快更新!
+magicbees.versioning.critical=魔法蜜蜂紧急更新: %s -请尽快更新!
 magicbees.versioning.clickDownload=点此打开下载页面.将鼠标指针悬停在链接上以显示更新内容.
 magicbees.config.category.general=普通
 magicbees.config.category.general.tooltip=全局MOD设定
@@ -418,9 +418,9 @@ magicbees.speciesTEInvar.description="热(热)胀(力)冷(膨)缩(胀)系数偏�
 magicbees.speciesTEBronze=修补
 magicbees.speciesTEBronze.description="我非常喜欢这些蜜蜂,我一会得把它们好好保存起来."|Marquis Muskrat
 magicbees.speciesTECoal=碳素
-magicbees.speciesTECoal.description="哦天哪,这蜜蜂是个更多蜜蜂里的蜜蜂的碳化复制体!"|Marquis Muskrat
+magicbees.speciesTECoal.description="哦天哪,这蜜蜂原来是个更多蜜蜂里的蜜蜂的碳化复制体!"|Marquis Muskrat
 magicbees.speciesTEDestabilized=不稳
-magicbees.speciesTEDestabilized.description=这些蜜蜂开始不安起来;然而它们的状态并没有随时间流逝而好转起来.|Apinomicon
+magicbees.speciesTEDestabilized.description=这些蜜蜂开始不安起来;然而这不稳定的状态并没有随时间流逝而好转起来.|Apinomicon
 magicbees.speciesTELux=流明
 magicbees.speciesTELux.description="让这里亮起来吧!"|Marquis Muskrat
 magicbees.speciesTEWinsome=迷人
@@ -428,7 +428,7 @@ magicbees.speciesTEWinsome.description="我喜欢这一群,它们可爱极了!"|
 magicbees.speciesTEEndearing=可爱
 magicbees.speciesTEEndearing.description="催眠的力量,辅以邪恶的性情,这些蜜蜂怎么可能有这么可爱!"|Jadedcat,整合包制作者
 magicbees.speciesRSAFluxed=焊接
-magicbees.speciesRSAFluxed.description="什么?蜜蜂是管理员."|Marquis Muskrat
+magicbees.speciesRSAFluxed.description="什么?蜜蜂可是管理员哦."|Marquis Muskrat
 magicbees.speciesBMBloody=血腥
 magicbees.speciesBMBloody.description=灌输以血之力,它们现在正追寻更强大的力量.|Apinomicon
 magicbees.speciesBMBound=束缚
@@ -473,7 +473,7 @@ magicbees.effectSpidery=蜘蛛
 magicbees.effectAblaze=火光
 magicbees.effectCanine=嚎叫
 magicbees.effectManaDrainer=漩涡
-magicbees.effectAMWisp=精灵[AM]
+magicbees.effectAMWisp=精灵
 magicbees.effectTEBlizzy=暴雪
 magicbees.effectDreaming=梦乡
 
@@ -499,16 +499,16 @@ classification.time=时间
 classification.time.description=Though clever use of time travel, these bees accomplish twice as much in one day.|Apinomicon
 classification.soul=灵魂
 classification.soul.description=It would be eerie to think that they collected the souls of the deceased.|Apinomicon
-classification.abominable=Abominable
+classification.abominable=可恶
 classification.abominable.description=Spawned in the firey depths of the Nether, there is nothing pleasant about these creatures.|Apinomicon
-classification.Extrinsic=Extrinsic
+classification.Extrinsic=外来
 classification.Extrinsic.description=It is unknown whether these creatures gave rise to the family Apidae in this universe, or if these evolved seperately.|Apinomicon
 classification.metallic=金属
 classification.metallic.description=They collect fragments of metal and combine them into larger portions.|Apinomicon
 classification.gem=宝石
-classification.gem.description=They collect fragments of precious gems in their combs.|Apinomicon
-classification.transmuting=Polymorphic
-classification.transmuting.description=Reality seems to be somewhat volatile around bees of this family.|Apinomicon
+classification.gem.description=它们会收集珍贵宝石懂颗粒并储存在它们的蜂巢里.|Apinomicon
+classification.transmuting=多变
+classification.transmuting.description=对于这个大家族的蜜蜂来说,真实,似乎是一个并不稳定的存在.|Apinomicon
 classification.thaumic=神秘
 classification.thaumic.description=These bees have an increased affinity to magic and aura.|Apinomicon
 classification.fleshy=肉块
@@ -520,22 +520,22 @@ classification.essential.description=These bees have an increased affinity for a
 classification.botanical=花卉
 classification.botanical.description=A peculiar variant of mundane bees,她们似乎对于各种花有极强的亲和力.|Apinomicon
 
-tc.aspect.tempus=时间,瞬息,永恒
+tc.aspect.tempus=时间,须臾,永远
 tc.research_category.MAGICBEES=神秘养蜂学
 
 
 tc.research_name.MB_Root=神秘养蜂学
-tc.research_text.MB_Root=[MB] Adding some sparkle to your buzz.
-tc.research_page.MB_Root.1=Welcome to Apimancy! As a budding keeper of magical bees, there are a few things you should know before diving in. As your acceptance letter to the Academy of Austere Apimancers has mentioned, there are several new tools available to discover. These include some improved versions of Forestry tools, each with their own particular quirks and new frames for your apiaries. <LINE> You may also discover that there are new bee strains available to discover, if you can coax them to live in certain conditions. The Forestry Escritoire will help you discover them and become the envy
-tc.research_page.MB_Root.2=of your former, nonmagical colleagues. Also take note of the several new strains of wild bees that have appeared: these are the key to progressing into the magical lineages of your small winged charges.
+tc.research_text.MB_Root=[MB] 向蜂群中加一点活力.
+tc.research_page.MB_Root.1=欢迎来到神秘养蜂学的世界! 作为一个饲养魔法蜜蜂的新人,在跳进这个大坑前还是要了解些注意事项. 正如你的神秘养蜂使修行学园录取通知书所提到的那样, 有几种新的可用工具在等待你的发现. 这些工具包括一些林业工具的增强版,每种工具都有其特别的性质,此外还有几种新的蜂箱框架. <LINE> 你或许会发现还有一些新的可用蜜蜂等待你的发现---如果你能哄它们在特定环境下定居的话. 林业的Escritoire会帮你找出那些蜜蜂,然后你就成为了
+tc.research_page.MB_Root.2=你的前辈羡慕嫉妒恨的对象,准确的说,那些不会使用魔法的同行羡慕嫉妒恨的对象. 另外别忘了给野外出现的新蜜蜂品种记笔记:这些笔记将会帮助你发现这些小蜜蜂的新的血统.
 
 tc.research_name.MB_LoreFragment=知识碎片
-tc.research_text.MB_LoreFragment=[MB]研究?不如说是蜜蜂搜索!
-tc.research_page.MB_LoreFragment.1=在蜜蜂繁育的实验中, you may run accross a strain whose intellectual capabilities are a match for your own. Well, maybe, however unlikely that is. It's possible that they may unearth some obscure reference or a snippet of information that your great intellect may have missed while exploiting the greater mysteries of the universe. <BR> Should your helpful buzzing friends happen to locate this sort of item for you, it may be possible to combine the scraps together into something a little more cohesive.
+tc.research_text.MB_LoreFragment=[MB] 研究?不如说是蜜蜂搜索!
+tc.research_page.MB_LoreFragment.1=在蜜蜂繁育的实验中,你或许会遇见某种智力与你相当的品种的蜜蜂. 好吧,然而,这情况或许不会发生. 但是它们依旧可能发现一些令人费解的参考资料,或者只是一小条信息,而这些东西或许就是你超常的智力在探索更广大的宇宙的答案时所错过的东西. <BR> 拜你的嗡嗡嗡的热心朋友所赐,发现这些"东西"的位置后,将这些残卷重组为更完整的整体成为了可能.
 
 tc.research_name.MB_FrameMagic=魔法框架
 tc.research_text.MB_FrameMagic=[MB] 将魔法融入养蜂
-tc.research_page.MB_FrameMagic.1=这魔法框架是你平时所使用的框架的升级版, run-of-the-mill Untreated Frames. Still fairly simple to produce, it is capable of lasting three times longer in an apiary than Untreated Frames before becoming unuseable. The enchantable properties of the Magic Frame enable it to be used with several of the special essences involved in Apimancy where other frames would reject the infusion of magics.
+tc.research_page.MB_FrameMagic.1=这魔法框架是你平时所使用的普通的未处理框架的升级版. 制作工艺依旧十分简单,但是它却有着三倍于普通未处理框架的使用时长. 而且,不像其它那些拒绝魔力注入的框架,魔法框架所有的可附魔特性使其可以与一些特殊源质一起使用,并作用于蜂箱上.
 
 tc.research_name.MB_Scoop=奥法捕蜂网
 tc.research_text.MB_Scoop=[MB] 轻拿轻放.
@@ -555,23 +555,23 @@ tc.reseacrh_page.MB_EssenceDeath.1=暗影之墓源质引导着无数游荡于这
 
 tc.research_name.MB_EssenceArmor=恒久不灭源质
 tc.research_text.MB_EssenceArmor=[MB] 你胶水上的橡胶
-tc.research_page.MB_EssenceArmor.1=由护甲源质蒸馏而来, 加以永久封印, 或者直到储存于其中的魔力弱化,直到破灭. 但直到现在, 它还是无敌的. 大多数时候确实如此. <BR> 虽然魔力框架确实有用,它们依旧有些不耐用. This essence takes the enchantments you weave into Magic frames to an entirely new level. Combine the essence with a magic frame, and it should have a vastly extended lifespan.
+tc.research_page.MB_EssenceArmor.1=由护甲源质蒸馏而来, 加以永久封印, 或者直到储存于其中的魔力弱化,直到破灭. 但就现在来说,它依旧是无敌的. 大多数时候确实如此. <BR> 虽然魔力框架确实有用,它们依旧有些不耐用. This essence takes the enchantments you weave into Magic frames to an entirely new level. Combine the essence with a magic frame, and it should have a vastly extended lifespan.
 
 tc.research_name.MB_EssenceUnstable=变换不定源质
 tc.research_text.MB_EssenceUnstable=[MB] 不定之中的确定
-tc.research_page.MB_EssenceUnstable.1=自然造就了它的不稳定, 变换不定源质可以只影响那些平时稳定的生物的系统,让那些系统不再那么可靠. While this may mostly be a bad thing, Apimancers have discovered that exposing a hive to the essence has the duel effects of both causing the bees to work faster, and the offspring to have higher mutation rates.
+tc.research_page.MB_EssenceUnstable.1=自然造就了它的不稳定, 变换不定源质可以只影响那些平时稳定的生物的系统,让那些系统不再那么可靠. 尽管大多数时候这的确不怎么好,神秘养蜂使们却已经发现,将蜂箱暴露在这种源质下会有双重效果:一方面蜜蜂工作速度加快,另一方面后代发生突变的概率也有了一定提高.
 
 tc.research_name.MB_EssenceTime=迷失之时源质
 tc.research_text.MB_EssenceTime=[MB] 没有须臾喜欢永远
-tc.research_page.MB_EssenceTime.1=时间,无常物也. 它来,它去,但它究竟去哪? 然而作为一个可敬的神秘使, 捕获那些流逝的光阴并转存以魔力形式对你来说似乎是可能的. So, now that it is possible to collect extra time from the world, it seems only appropriate that they are used in a place that would be useful. It would be too dangerous to attempt to access these moments yourself for the moment, but perhaps it would be simple to allow your bees access to this untapped lump of time. <BR> By combining the essence with a Magic Frame as usual will suffice to extend the lifespan of bees in your keeping by several times.
+tc.research_page.MB_EssenceTime.1=时间,无常物也. 它来,它去,但它究竟去哪? 然而作为一个可敬的神秘使,捕获那些流逝的光阴并转存以魔力形式对你来说似乎是可能的. 所以,现在从这个世界里回收多余时间不再是天方夜谭,似乎只需要在合适的地方以合适地方式使用它就可以了. 若是你自己亲自去获取这些瞬间的话会相当危险, 但若是让你的蜜蜂去获取这些额外的时间块话或许会很简单. <BR> 像往常一样魔力框架和此种源质结合在一起,就将足以延长你饲养的蜜蜂以一段时间的寿命.
 
 tc.research_name.MB_DimensionalSingularity=奇异维度
 tc.research_text.MB_DimensionalSingularity=[MB] 量子之变幻,予汝以无尽之可能
-tc.research_page.MB_DimensionalSingularity.1=While it may appear similar to the Portable Hole, it serves as a two-way link with another place, which is... probably uninhabited. It should be possible to utilize these singularities to store materials outside of your dimensional understanding - which of course means that they won't clutter up your inventory. As they are now, they are not particularly useful, but there should be ways to unlock their potential.
+tc.research_page.MB_DimensionalSingularity.1=虽然它表现出了和便携式洞穴相似的性质,它实质上是连接另一个世界的双向通道, which is... probably uninhabited. It should be possible to utilize these singularities to store materials outside of your dimensional understanding - which of course means that they won't clutter up your inventory. As they are now, they are not particularly useful, but there should be ways to unlock their potential.
 
 tc.research_name.MB_EssenceOblivion=无尽漠视源质
-tc.research_text.MB_EssenceOblivion=[MB] Cast aside with malice
-tc.research_page.MB_EssenceOblivion.1=Breeding bees for mutations can be aggrivating, especially whith long-lived species. With a little cleverness and only the slightest hint of smugness, you have found a way to utilize the Dimensional Singularity in a manner that only sucks away the life force of your tiny flying friends, bit by bit. Well, maybe significant amounts all at once. It's probably not going to affect them too badly. <BR> It may be somewhat tricky to obtain more than one of the §5Dragon Eggs§0 nessecary to obtain more than one of these. Perhaps there is a bee species that can assist with the limitation.
+tc.research_text.MB_EssenceOblivion=[MB] 封装恶毒于一侧
+tc.research_page.MB_EssenceOblivion.1=杂交蜜蜂可能会非常令人恼火,尤其是在遇到那些长寿的品种的时候. With a little cleverness and only the slightest hint of smugness, 你发现了应用奇异维度的方式:in a manner that only sucks away the life force of your tiny flying friends, bit by bit. Well, maybe significant amounts all at once. It's probably not going to affect them too badly. <BR> It may be somewhat tricky to obtain more than one of the §5Dragon Eggs§0 nessecary to obtain more than one of these. 或许有一种蜜蜂可以帮你突破这个局限.
 
 tc.research_name.MB_VisAuraProvider=Vis蜂箱加速器
 tc.research_text.MB_VisAuraProvider=[MB] Vis(灵气)?Bis如何?
@@ -581,7 +581,7 @@ tc.research_page.MB_VisAuraProvider.1=啦啦啦 啦啦啦啦.
 magicbees.botania.lexicon.subtitle=[魔法蜜蜂]
 
 magicbees.botania.lexicon.manasteelScoop=&1魔钢捕蜂网&0
-magicbees.botania.lexicon.manasteelGrafter=The &1魔钢剪枝器&0
+magicbees.botania.lexicon.manasteelGrafter=&1魔钢剪枝器&0
 
 magicbees.botania.lexicon.beeAlfheim.trade=换取&b精灵雄蜂&0
 magicbees.botania.lexicon.beeAlfheim.0=&1精灵族养蜂人&0正急于与来自你的世界的蜜蜂分享快乐,而且特别对你可以提供的&1梦境 雄蜂&0感兴趣.作为回报,精灵们会以&b精灵 雄蜂&0为交换,这是精灵界仅有的一种蜜蜂.
@@ -593,7 +593,7 @@ magicbees.botania.lexicon.beegonia.2=Well. It was this or &2Beenus Fly Trap&0, b
 
 magicbees.botania.lexicon.hiveacynth.0=Finding new bees for your stock can be a bit of a pain. Thankfully, we can tap into the memories of flowers to reproduce bees with up to 74% accuracy! Maybe.<br>The &1Hiveacynth&0 absorbs mana from a nearby mana pool, and once it has collected enough, it begins converting it into life essence and produces a bee! It seems the species is somewhat random, though only 'mundane' bees
 magicbees.botania.lexicon.hiveacynth.1=will ever be produced, and roughly in proportion to how they are found in the wild.<br>Occasionally, the flower will give itself airs, and produce a vaunted heiress rather than a vulgar drone. A redstone signal will prevent the &1Hiveacynth&0 from converting mana into life essence.
-magicbees.botania.lexicon.hiveacynth.crafting=> beesbeesbees.com
+magicbees.botania.lexicon.hiveacynth.crafting=点此了解详情> beesbeesbees.com
 
 magicbees.botania.lexicon.manaBooster.0=魔力蜂箱是一种非常自然的让蜜蜂加快工作速度的方式,但它也有一点...局限. 幸运的是,活石和花瓣的特性使得它们可以偶尔为蜜蜂充能,使蜜蜂们更高产. 只需向&1魔力蜂箱加速器&0持续提供魔力,它们就可以持续使蜜蜂们保持高效状态.
-magicbees.botania.lexicon.manaBooster.crafting=来自魔力的嗡嗡声!
+magicbees.botania.lexicon.manaBooster.crafting=充满魔力的蜂群中!
