@@ -66,10 +66,10 @@ comb.TCorder=闪耀的秩序蜂巢
 comb.TCchaos=闪耀的混沌蜂巢
 comb.essence=源质蜂巢
 comb.potent=强力蜂巢
-comb.TEcarbon=Carbon Comb
-comb.TEelectric=Electric Comb
-comb.TElux=Lux Comb
-comb.TEendearing=Endearing Comb
+comb.TEcarbon=碳素蜂巢
+comb.TEelectric=电气蜂巢
+comb.TElux=流明蜂巢
+comb.TEendearing=可爱蜂巢
 
 #Waxes
 wax.magic=魔力蜜蜡
@@ -81,7 +81,7 @@ drop.enchanting=蕴魔液滴
 drop.intellect=智慧液滴
 drop.destabilized=不稳定液滴
 drop.carbon=煤炭液滴
-drop.lux=勒克斯液滴
+drop.lux=流明液滴
 drop.endearing=可爱液滴
 
 #Pollens
@@ -555,7 +555,7 @@ tc.reseacrh_page.MB_EssenceDeath.1=暗影之墓源质引导着无数游荡于这
 
 tc.research_name.MB_EssenceArmor=恒久不灭源质
 tc.research_text.MB_EssenceArmor=[MB] 你胶水上的橡胶
-tc.research_page.MB_EssenceArmor.1=由护甲源质蒸馏而来, 加以永久封印, 或者直到储存于其中的魔力弱化,直到破灭. 但就现在来说,它依旧是无敌的. 大多数时候确实如此. <BR> 虽然魔力框架确实有用,它们依旧有些不耐用. This essence takes the enchantments you weave into Magic frames to an entirely new level. Combine the essence with a magic frame, and it should have a vastly extended lifespan.
+tc.research_page.MB_EssenceArmor.1=由护甲源质蒸馏而来, 加以永久封印, 或者直到储存于其中的魔力弱化,直到破灭. 但就现在来说,它依旧是无敌的. 大多数时候确实如此. <BR> 虽然魔力框架确实有用,但它们依旧有些不耐用. 然而这种源质所带来的强化效果,将你的魔法框架提升到了一个全新的高度. 与这种源质结合的魔法框架将会极大地提升蜜蜂的寿命.
 
 tc.research_name.MB_EssenceUnstable=变换不定源质
 tc.research_text.MB_EssenceUnstable=[MB] 不定之中的确定
@@ -567,15 +567,15 @@ tc.research_page.MB_EssenceTime.1=时间,无常物也. 它来,它去,但它究�
 
 tc.research_name.MB_DimensionalSingularity=奇异维度
 tc.research_text.MB_DimensionalSingularity=[MB] 量子之变幻,予汝以无尽之可能
-tc.research_page.MB_DimensionalSingularity.1=虽然它表现出了和便携式洞穴相似的性质,它实质上是连接另一个世界的双向通道, which is... probably uninhabited. It should be possible to utilize these singularities to store materials outside of your dimensional understanding - which of course means that they won't clutter up your inventory. As they are now, they are not particularly useful, but there should be ways to unlock their potential.
+tc.research_page.MB_DimensionalSingularity.1=虽然它表现出了和便携式洞穴相似的性质,它实质上是连接另一个世界的双向通道,或许这是...荒无人烟的世界. It should be possible to utilize these singularities to store materials outside of your dimensional understanding - which of course means that they won't clutter up your inventory. As they are now, they are not particularly useful, but there should be ways to unlock their potential.
 
 tc.research_name.MB_EssenceOblivion=无尽漠视源质
 tc.research_text.MB_EssenceOblivion=[MB] 封装恶毒于一侧
-tc.research_page.MB_EssenceOblivion.1=杂交蜜蜂可能会非常令人恼火,尤其是在遇到那些长寿的品种的时候. With a little cleverness and only the slightest hint of smugness, 你发现了应用奇异维度的方式:in a manner that only sucks away the life force of your tiny flying friends, bit by bit. Well, maybe significant amounts all at once. It's probably not going to affect them too badly. <BR> It may be somewhat tricky to obtain more than one of the §5Dragon Eggs§0 nessecary to obtain more than one of these. 或许有一种蜜蜂可以帮你突破这个局限.
+tc.research_page.MB_EssenceOblivion.1=杂交蜜蜂可能会非常令人恼火,尤其是在遇到那些长寿的品种的时候. 在少许机智和少许自命不凡的帮助下,你发现了应用奇异维度的方式:这种方式将会逐渐削弱你的蜜蜂的生命力. 然而,片刻之间削去大量生命也是可能的. 也许不会对它们造成太大伤害. <BR> 然而,讽刺的是,为此你需要获得第二个甚至更多的§5龙蛋§0. 或许有一种蜜蜂可以帮你突破这个局限.
 
 tc.research_name.MB_VisAuraProvider=Vis蜂箱加速器
 tc.research_text.MB_VisAuraProvider=[MB] Vis(灵气)?Bis如何?
-tc.research_page.MB_VisAuraProvider.1=啦啦啦 啦啦啦啦.
+tc.research_page.MB_VisAuraProvider.1=啦啦啦 啦啦啦啦. (讲这么多其实都没用,看物品名字就够了)
 
 #Botania Lexicon entries
 magicbees.botania.lexicon.subtitle=[魔法蜜蜂]
