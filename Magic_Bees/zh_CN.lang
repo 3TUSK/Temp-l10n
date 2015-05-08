@@ -518,7 +518,7 @@ classification.alchemical.description=These bees have a changeable nature.|Apino
 classification.essential=源质
 classification.essential.description=These bees have an increased affinity for aspected magic.|Apinomicon
 classification.botanical=花卉
-classification.botanical.description=A peculiar variant of mundane bees,她们似乎对于各种花有极强的亲和力.|Apinomicon
+classification.botanical.description=作为那些平凡的蜜蜂的一支变种,她们似乎对于各种花有极强的亲和力.|Apinomicon
 
 tc.aspect.tempus=时间,须臾,永远
 tc.research_category.MAGICBEES=神秘养蜂学
@@ -539,7 +539,7 @@ tc.research_page.MB_FrameMagic.1=这魔法框架是你平时所使用的普通�
 
 tc.research_name.MB_Scoop=奥法捕蜂网
 tc.research_text.MB_Scoop=[MB] 轻拿轻放.
-tc.research_page.MB_Scoop.1=普通的捕蜂网很不耐用,而且易碎. 作为神秘养蜂学的权威,你完全可以做得更好. 通过向其手柄中加入神秘锭,并以一定量秩序要素绑定,你的新捕蜂网从此拥有了三倍耐久! <BR> 另外,这个设备中的神秘锭成分使它可以接受修复附魔.
+tc.research_page.MB_Scoop.1=普通的捕蜂网很不耐用,而且易碎. 作为神秘养蜂学的权威,你完全可以做得更好. 以神秘锭打造手柄,再以一定量秩序要素织网,你的新捕蜂网从此拥有了三倍耐久! <BR> 另外,这个设备中的神秘锭成分使它可以接受修复附魔.
 
 tc.research_name.MB_Grafter=奥法剪枝器
 tc.research_text.MB_Grafter=[MB] 每次都会有树苗哦.
@@ -567,7 +567,7 @@ tc.research_page.MB_EssenceTime.1=时间,无常物也. 它来,它去,但它究�
 
 tc.research_name.MB_DimensionalSingularity=奇异维度
 tc.research_text.MB_DimensionalSingularity=[MB] 量子之变幻,予汝以无尽之可能
-tc.research_page.MB_DimensionalSingularity.1=虽然它表现出了和便携式洞穴相似的性质,它实质上是连接另一个世界的双向通道,或许这是...荒无人烟的世界. It should be possible to utilize these singularities to store materials outside of your dimensional understanding - which of course means that they won't clutter up your inventory. As they are now, they are not particularly useful, but there should be ways to unlock their potential.
+tc.research_page.MB_DimensionalSingularity.1=虽然它表现出了和便携式洞穴相似的性质,它实质上是连接另一个世界的双向通道,或许这是...荒无人烟的世界. 将奇点用于储存你的认知维度之外的材料应该是可能的 - 这意味着它不会把你的物品栏弄得一团糟. 就现在来看它们并不是什么特别有用的材料,但是你应该能够找到解封它的特性的方法.
 
 tc.research_name.MB_EssenceOblivion=无尽漠视源质
 tc.research_text.MB_EssenceOblivion=[MB] 封装恶毒于一侧
@@ -588,11 +588,11 @@ magicbees.botania.lexicon.beeAlfheim.0=&1精灵族养蜂人&0正急于与来自�
 
 magicbees.botania.lexicon.beegonia.0=雄蜂是一个强健的聚居地的未来的基石,但事实上,她们甚至可以在一个你根本不知从何下手的地方开始堆积起来. <br> 现在正式推出&1Beegonia&0,这是一种解决蜜蜂过度拥挤的极佳方案! 只需把你备的蜜蜂丢给她的同类, 她们就会开始改造她们的生命力并最终变为魔力!她们并不是很挑剔,她们会
 magicbees.botania.lexicon.beegonia.1=在工作时持续产出一定量的魔力, 虽然这看起来确实"复杂":蜜蜂提供了比普通蜜蜂更多的魔力,管它什么意思.
-magicbees.botania.lexicon.beegonia.crafting=Syncrostrike's Elegant Solution
-magicbees.botania.lexicon.beegonia.2=Well. It was this or &2Beenus Fly Trap&0, but that one has its own issues.
+magicbees.botania.lexicon.beegonia.crafting=Syncrostrike的完美解决方案
+magicbees.botania.lexicon.beegonia.2=嗯.要么就是它,要么就是&2飞行蜜蜂陷阱&0,但是那个也有它自己的问题.
 
-magicbees.botania.lexicon.hiveacynth.0=Finding new bees for your stock can be a bit of a pain. Thankfully, we can tap into the memories of flowers to reproduce bees with up to 74% accuracy! Maybe.<br>The &1Hiveacynth&0 absorbs mana from a nearby mana pool, and once it has collected enough, it begins converting it into life essence and produces a bee! It seems the species is somewhat random, though only 'mundane' bees
-magicbees.botania.lexicon.hiveacynth.1=will ever be produced, and roughly in proportion to how they are found in the wild.<br>Occasionally, the flower will give itself airs, and produce a vaunted heiress rather than a vulgar drone. A redstone signal will prevent the &1Hiveacynth&0 from converting mana into life essence.
+magicbees.botania.lexicon.hiveacynth.0=为了你的库存而到处找蜜蜂是个痛苦的工作. 幸运的是,我们可以以高达74%的准确率从花的记忆里重组出蜜蜂! 或许吧(笑).<br> &1Hiveacynth&0将会从附近的魔力池中吸取魔力,一旦吸取了足够多的魔力,它就会开始将其转化为生命精华,并最终组成一个蜜蜂! 看起来重组出的蜜蜂基因是随机的, 然而只有'平凡的'蜜蜂
+magicbees.botania.lexicon.hiveacynth.1=才可能被重组出来,其属性也大概和野外发现的差不多.<br>偶尔这些鲜花们也会给予她们自己一些新鲜空气,然后产出了一只自吹自擂的公主蜂,而不是平时那些普普通通的雄蜂. 红石信号将会停止&1Hiveacynth&0消耗魔力并生产蜜蜂的进程.
 magicbees.botania.lexicon.hiveacynth.crafting=点此了解详情> beesbeesbees.com
 
 magicbees.botania.lexicon.manaBooster.0=魔力蜂箱是一种非常自然的让蜜蜂加快工作速度的方式,但它也有一点...局限. 幸运的是,活石和花瓣的特性使得它们可以偶尔为蜜蜂充能,使蜜蜂们更高产. 只需向&1魔力蜂箱加速器&0持续提供魔力,它们就可以持续使蜜蜂们保持高效状态.
