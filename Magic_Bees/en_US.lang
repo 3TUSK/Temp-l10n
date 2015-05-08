@@ -193,6 +193,8 @@ tile.botania:flower.beegonia.name=Beegonia
 tile.botania:flower.beegonia.lore=We won't bee seeing you any more...
 tile.botania:flower.hiveacynth.name=Hiveacynth
 tile.botania:flower.hiveacynth.lore=In a Morvelaira's Garden
+tile.botania:flower.hibeescus.name=Hibeescus
+tile.botania:flower.hibeescus.lore=The puns may sting a bit
 
 #Research
 research.requiresBlock=Requires a foundation of %s
@@ -348,7 +350,6 @@ magicbees.speciesTCOrder=Ordered
 magicbees.speciesTCOrder.description=Their combs are nearly perfect, each part mirroring the pattern of the whole.|Apinomicon
 magicbees.speciesTCChaos=Chaotic
 magicbees.speciesTCChaos.description=The social structure of their hives seems to vary day by day, making it more flexible and resillient than others, but significantly more unpredictable.|Apinomicon
-
 magicbees.speciesTCVis=Vis
 magicbees.speciesTCVis.description="They can feel changes in the aura, but are not yet able to affect it."|Azanor, research notes
 magicbees.speciesTCPure=Pure
@@ -448,7 +449,7 @@ magicbees.speciesBotSomnolent.description=Slow and sluggish, they work slowly co
 magicbees.speciesBotDreaming=Dreaming
 magicbees.speciesBotDreaming.description=These bees spend an inordinate time inactive and asleep; there is no way to know what they dream of.|Apinomicon
 magicbees.speciesBotAlfheim=Alfheim
-magicbees.speciesBotAlfheim.description=They recall their time in Alfheim, and yearn for a world infused with mana, and so seek to make it so.|Apinomicon
+magicbees.speciesBotAlfheim.description=They recall their time in Alfheim, and yearn for a world infused with mana, and seek to make it so.|Apinomicon
 magicbees.species=
 magicbees.species.description=
 
@@ -574,8 +575,8 @@ tc.research_text.MB_EssenceOblivion=[MB] Cast aside with malice
 tc.research_page.MB_EssenceOblivion.1=Breeding bees for mutations can be aggrivating, especially whith long-lived species. With a little cleverness and only the slightest hint of smugness, you have found a way to utilize the Dimensional Singularity in a manner that only sucks away the life force of your tiny flying friends, bit by bit. Well, maybe significant amounts all at once. It's probably not going to affect them too badly. <BR> It may be somewhat tricky to obtain more than one of the §5Dragon Eggs§0 nessecary to obtain more than one of these. Perhaps there is a bee species that can assist with the limitation.
 
 tc.research_name.MB_VisAuraProvider=Vis Apiary Booster
-tc.research_text.MB_VisAuraProvider=[MB]Vis? What about Bis?
-tc.research_page.MB_VisAuraProvider.1=Blah blah blah.
+tc.research_text.MB_VisAuraProvider=[MB] Vis? What about Bis?
+tc.research_page.MB_VisAuraProvider.1=Infusing Unusual Pollen with vis and combining it with gold creates an unusual crystal that, when fed vis from an aura node, creates an energizing aura that bees are naturally attracted to when attuned to the environment within a Magic Apiary.
 
 #Botania Lexicon entries
 magicbees.botania.lexicon.subtitle=[Magic Bees]
@@ -594,6 +595,10 @@ magicbees.botania.lexicon.beegonia.2=Well. It was this or &2Beenus Fly Trap&0, b
 magicbees.botania.lexicon.hiveacynth.0=Finding new bees for your stock can be a bit of a pain. Thankfully, we can tap into the memories of flowers to reproduce bees with up to 74% accuracy! Maybe.<br>The &1Hiveacynth&0 absorbs mana from a nearby mana pool, and once it has collected enough, it begins converting it into life essence and produces a bee! It seems the species is somewhat random, though only 'mundane' bees
 magicbees.botania.lexicon.hiveacynth.1=will ever be produced, and roughly in proportion to how they are found in the wild.<br>Occasionally, the flower will give itself airs, and produce a vaunted heiress rather than a vulgar drone. A redstone signal will prevent the &1Hiveacynth&0 from converting mana into life essence.
 magicbees.botania.lexicon.hiveacynth.crafting=> beesbeesbees.com
+
+magicbees.botania.lexicon.hibeescus.0=&5Ignoble&0 bees, while exactly as useful as their &2Pristine&0 kin, have but only one flaw - after 100 generations or so, they begin to become diseased, weak, and may die off on you, right before you get that coveted mutation that'll drive your fellow Apiarists mad with envy. It seems that there is a solution to this after all, though! With enough mana, time, and the help of the very special
+magicbees.botania.lexicon.hibeescus.1=&1Hibeescus&0 at your side, you can expunge the multitude of genetic weeknesses in the &5Ignoble&0 wild bees. Patience is a must, since the &1Hibeescus&0 performs its magic very slowly, up to 2 full days!<br>It is also recommended that you use its power sparingly, as it is incredibly mana-hungry.
+magicbees.botania.lexicon.hibeescus.crafting=Only for use by Spiteful people.
 
 magicbees.botania.lexicon.manaBooster.0=The Magic Apiary is a natural way to keep bees working quickly, but its a bit... limited. Thankfully, the properties of living stone and petals have a way of apparently energizing bees, making them produce more. Simply provide the &1Mana Apiary Booster&0 with a constant supply of mana, and it will keep the apiaries working efficiently.
 magicbees.botania.lexicon.manaBooster.crafting=Abuzz with mana!
