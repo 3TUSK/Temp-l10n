@@ -5,7 +5,8 @@
 This folder is aim to review and correct zh_CN.lang of Magic Bees.
 
 ####zh_CN Todo:
-* [ ] Thaumonomicon (Apimancy)
-* [ ] Lexica Botania (Beegonia)
+* [X] Thaumonomicon (Apimancy)
+* [X] Lexica Botania (Beegonia)
 * [ ] Bees Description
+* [ ] New Item Name
 * [ ] Correction&Review
