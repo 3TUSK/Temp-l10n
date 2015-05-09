@@ -1,0 +1,99 @@
+﻿//blocks
+Aether Portal					以太传送门
+Aether Dirt						以太泥土
+Aether Grass					以太草地
+Enchanted Aether Grass			魔力以太草地
+Quicksoil						流沙
+Holystone						神圣石头
+Mossy Holyston					神圣苔石
+Icestone						寒石
+Cold Aercloud					寒气以太云
+Blue Aercloud					蓝色以太云
+Golden Aercloud					黄金以太云
+Green Aercloud					绿色以太云
+Storm Aercloud					风暴以太云
+Purple Aercloud					紫色以太云
+Aerogel							气凝胶
+Altar							祭坛
+Incubator						孵化器
+Skyroot Log						天根木原木
+Golden Oak Log					黄金橡树原木
+Skyroot Plank					天根木木板
+Green Skyroot Leaves			绿色天根木树叶
+Golden Oak Leaves				黄金橡树树叶
+Green Skyroot Sapling			绿色天根木树苗
+Golden Oak Sapling				黄金橡树树苗
+Ambrosium Ore					以太碳矿石
+Ambrosium Torch					以太火把
+Zanite Ore						紫晶矿石
+Gravitite Ore					重力矿石
+Enchanted Gravitite				魔力重力矿石
+Carved Trap						雕纹陷阱石
+Angelic Trap					天使陷阱石
+Hellfire Trap					地狱火陷阱石
+Chest Mimic						宝箱怪
+Treasure Chest					宝箱
+Carved Stone					雕纹石头
+Angelic Stone					天使石头
+Hellfire Stone					地狱火石头
+Sentry Stone					哨兵石头
+Light Angelic Stone				发光天使石头
+Light Hellfire Stone			发光地狱火石头
+Locked Carved Stone				锁定雕纹石头
+Locked Angelic Stone			锁定天使石头
+Locked Hellfire Stone			锁定地狱火石头
+Locked Sentry Stone				锁定哨兵石头
+Locked Light Angelic Stone		锁定发光天使石头
+Locked Light Hellfire Stone		锁定发光地狱火石头
+Pillar							柱子
+Pillar Top						柱缘
+Pillar Bottom					柱座
+Zanite Block					紫晶方块
+Quicksoil Glass					流沙玻璃
+Freezer							冷冻器
+White Flower					苍色花
+Purple Flower					紫光花
+Christmas Leaves				圣诞树树叶
+Decorative Leaves				装饰用树叶
+Present							礼物盒
+Berry Bush						蓝莓灌木
+Berry Bush Stem					蓝莓灌木丛
+Mossy Holystone Stairs			神圣苔石楼梯
+Icestone Stairs					寒石楼梯
+Skyroot Stairs					天根木楼梯
+Carved Stairs					雕纹石楼梯
+Angelic Stairs					天使石楼梯
+Hellfire Stairs					地狱火楼梯
+Holystone Fence					神圣石头栅栏
+Mossy Holystone Wall			神圣苔石墙
+Icestone Wall					寒石墙
+Skyroot Fence					天根木栅栏
+Carved Wall						雕纹石墙
+Angelic Wall					天使石墙
+Hellfire Wall					地狱火石墙
+Holystone Brick					神圣石砖
+Blue Skyroot Leaves				蓝色天根木树叶
+Skyroot Log Wall				天根木原木墙
+Tall Aether Grass				茂盛以太草
+Dark Blue Skyroot Leaves		深蓝天根木树叶
+Blue Skyroot Sapling			蓝色天根木树苗
+Skyroot Chest					天根木箱子
+Bronze Door Controller			青铜之门控制器
+//Purple Crystal Leaves			紫色天根木树叶
+//Purple Fruit Leaves			紫色天根木树叶
+//Purple Skyroot Sapling		紫色天根木树苗
+Orange Fruit Tree Sapling		橙子树树苗
+Bronze Door						青铜之门
+Bronze Door Lock				青铜之锁
+Continuum Ore					命运矿石
+Dark Blue Skyroot Sapling		深蓝天根木树苗
+Skyroot Crafting Table			天根木合成台
+Dungeon Entrance				地牢入口
+Dungeon Entrance Lock			地牢之锁
+Dungeon Entrance Controller		地牢入口机关
+Dungeon Holystone				地牢神圣石头
+Dungeon Mossy Holystone			地牢神圣苔石
+Locked Carved Stone Stairs		锁定雕纹石楼梯
+Locked Carved Stone Wall		锁定雕纹石墙
+Holystone Stairs				神圣石头楼梯
+Cold Fire						冷焰
