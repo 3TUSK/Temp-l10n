@@ -1,0 +1,384 @@
+Aerwhale														Aerwhale
+Zephyr															Zephyr
+Phyg															Phyg
+Aerbunny														Aerbunny
+Sheepuff														Sheepuff
+Cloud Parachute													Cloud Parachute
+Floating Block													Floating Block
+Hammer Projectile												Hammer Projectile
+Cockatrice														Cockatrice
+Moa																Moa
+Flying Cow														Flying Cow
+Slider															Slider
+Aechor Plant													Aechor Plant
+Poison Needle													Poison Needle
+Golden Dart														Golden Dart
+Enchanted Dart													Enchanted Dart
+Poison Dart														Poison Dart
+Sentry															Sentry
+Battle Sentry													Battle Sentry
+Lightning Knife													Lightning Knife
+Mimic															Mimic
+Present TNT														Present TNT
+Aether Lightning												Aether Lightning
+Swet															Swet
+Tracking Golem													Tracking Golem
+Sentry Golem													Sentry Golem
+Phoenix Dart													Phoenix Dart
+Slider Host Mimic												Slider Host Mimic
+Host Eye														Host Eye
+Sentry Guardian													Sentry Guardian
+Sentry Projectile												Sentry Projectile
+Slider															Slider
+Loose Cog														Loose Cog
+Labyrinth Eye													Labyrinth Eye
+Carrion Sprout													Carrion Sprout
+Zephyroo														Zephyroo
+Tempest															Tempest
+Soaring Wisp													Soaring Wisp
+Fleeting Wisp													Fleeting Wisp
+Ethereal Wisp													Ethereal Wisp
+Shade of Arkenzus												Shade of Arkenzus
+Fangrin															Fangrin
+Kraisith														Kraisith
+Baby Pink Swet													Baby Pink Swet
+Nex Spirit														Nex Spirit
+Moa Egg															Moa Egg
+Aether Music Disc												Aether Music Disc
+Golden Amber													Golden Amber
+Aechor Petal													Aechor Petal
+Skyroot Stick													Skyroot Stick
+Golden Dart														Golden Dart
+Poison Dart														Poison Dart
+Enchanted Dart													Enchanted Dart
+Golden Dart Shooter												Golden Dart Shooter
+Poison Dart Shooter												Poison Dart Shooter
+Enchanted Dart Shooter											Enchanted Dart Shooter
+Phoenix Dart Shooter											Phoenix Dart Shooter
+Ambrosium Shard													Ambrosium Shard
+Zanite Gemstone													Zanite Gemstone
+Skyroot Bucket													Skyroot Bucket
+Skyroot Pickaxe													Skyroot Pickaxe
+Holystone Pickaxe												Holystone Pickaxe
+Zanite Pickaxe													Zanite Pickaxe
+Gravitite Pickaxe												Gravitite Pickaxe
+Skyroot Shovel													Skyroot Shovel
+Holystone Shovel												Holystone Shovel
+Zanite Shovel													Zanite Shovel
+Gravitite Shovel												Gravitite Shovel
+Skyroot Axe														Skyroot Axe
+Holystone Axe													Holystone Axe
+Zanite Axe														Zanite Axe
+Gravitite Axe													Gravitite Axe
+Skyroot Sword													Skyroot Sword
+Holystone Sword													Holystone Sword
+Zanite Sword													Zanite Sword
+Gravitite Sword													Gravitite Sword
+Iron Bubble														Iron Bubble
+Pig Slayer														Pig Slayer
+Vampire Blade													Vampire Blade
+Flaming Sword													Flaming Sword
+Holy Sword														Holy Sword
+Lightning Sword													Lightning Sword
+Lightning Knife													Lightning Knife
+Blue Gummy Swet													Blue Gummy Swet
+Golden Gummy Swet												Golden Gummy Swet
+Hammer of Notch													Hammer of Notch
+Dark Gummy Swet													Dark Gummy Swet
+Cold Cloud Parachute											Cold Cloud Parachute
+Golden Cloud Parachute											Golden Cloud Parachute
+Purple Cloud Parachute											Purple Cloud Parachute
+Green Cloud Parachute											Green Cloud Parachute
+Blue Cloud Parachute											Blue Cloud Parachute
+Shard of Life													Shard of Life
+Orb of Arkenzus													Orb of Arkenzus
+Valkyrie Lance													Valkyrie Lance
+Iron Ring														Iron Ring
+Golden Ring														Golden Ring
+Zanite Ring														Zanite Ring
+Iron Pendant													Iron Pendant
+Golden Pendant													Golden Pendant
+Zanite Pendant													Zanite Pendant
+Baby Pink Swet													Baby Pink Swet
+Leather Gloves													Leather Gloves
+Chain Gloves													Chain Gloves
+Iron Gloves														Iron Gloves
+Golden Gloves													Golden Gloves
+Diamond Gloves													Diamond Gloves
+Zanite Gloves													Zanite Gloves
+Zanite Helmet													Zanite Helmet
+Zanite Chestplate												Zanite Chestplate
+Zanite Leggings													Zanite Leggings
+Zanite Boots													Zanite Boots
+Gravitite Gloves												Gravitite Gloves
+Gravitite Helmet												Gravitite Helmet
+Gravitite Chestplate											Gravitite Chestplate
+Gravitite Leggings												Gravitite Leggings
+Gravitite Boots													Gravitite Boots
+Phoenix Gloves													Phoenix Gloves
+Phoenix Helmet													Phoenix Helmet
+Phoenix Chestplate												Phoenix Chestplate
+Phoenix Leggings												Phoenix Leggings
+Phoenix Boots													Phoenix Boots
+Obsidian Gloves													Obsidian Gloves
+Obsidian Chestplate												Obsidian Chestplate
+Obsidian Helmet													Obsidian Helmet
+Obsidian Leggings												Obsidian Leggings
+Obsidian Boots													Obsidian Boots
+Neptune Gloves													Neptune Gloves
+Neptune Helmet													Neptune Helmet
+Neptune Chestplate												Neptune Chestplate
+Neptune Leggings												Neptune Leggings
+Neptune Boots													Neptune Boots
+Sentry Boots													Sentry Boots
+Regeneration Stone												Regeneration Stone
+Ethereal Stone													Ethereal Stone
+Fleeting Stone													Fleeting Stone
+Fangrin Capsule													Fangrin Capsule
+Death Seal														Death Seal
+Kraisith Capsule												Kraisith Capsule
+Valkyrie Pickaxe												Valkyrie Pickaxe
+Valkyrie Axe													Valkyrie Axe
+Valkyrie Shovel													Valkyrie Shovel
+Healing Stone													Healing Stone
+Ice Ring														Ice Ring
+Ice Pendant														Ice Pendant
+Blue Berry														Blue Berry
+Gingerbread Man													Gingerbread Man
+Candy Cane														Candy Cane
+Candy Cane Sword												Candy Cane Sword
+White Apple														White Apple
+Blue Swet Jelly													Blue Swet Jelly
+Golden Swet Jelly												Golden Swet Jelly
+Dark Swet Jelly													Dark Swet Jelly
+Sentry Boots													Sentry Boots
+Valkyrie Music Disc												Valkyrie Music Disc
+Valkyrie Helmet													Valkyrie Helmet
+Valkyrie Chestplate												Valkyrie Chestplate
+Valkyrie Leggings												Valkyrie Leggings
+Valkyrie Boots													Valkyrie Boots
+Valkyrie Gloves													Valkyrie Gloves
+Soaring Stone													Soaring Stone
+Mouse Ear Cap													Mouse Ear Cap
+Enchanted Berry													Enchanted Berry
+Rainbow Strawberry												Rainbow Strawberry
+Continuum Orb													Continuum Orb
+Orange															Orange
+Labyrinth Music Disc											Labyrinth Music Disc
+Moa Music Disc													Moa Music Disc
+Aerwhale Music Disc												Aerwhale Music Disc
+Crystal EXP Bottle												Crystal EXP Bottle
+Piggie Bank														Piggie Bank
+Wyndberry														Wyndberry
+Skyroot Water Bucket											Skyroot Water Bucket
+Skyroot Poison Bucket											Skyroot Poison Bucket
+Skyroot Milk Bucket												Skyroot Milk Bucket
+Skyroot Door													Skyroot Door
+Skyroot Sign													Skyroot Sign
+Skyroot Bed														Skyroot Bed
+Candy Corn														Candy Corn
+Stomper Pop														Stomper Pop
+Blueberry Lollipop												Blueberry Lollipop
+Orange Lollipop													Orange Lollipop
+Jelly Pumpkin													Jelly Pumpkin
+Icestone Poprocks												Icestone Poprocks
+Cocoatrice														Cocoatrice
+Wrapped Chocolates												Wrapped Chocolates
+Recording #892													Recording #892
+Skyroot Bowl													Skyroot Bowl
+Cornstarch Bowl													Cornstarch Bowl
+Chain Gloves													Chain Gloves
+Aether Portal													Aether Portal
+Aether Dirt														Aether Dirt
+Aether Grass													Aether Grass
+Enchanted Aether Grass											Enchanted Aether Grass
+Enchanted Grass													Enchanted Grass
+Quicksoil														Quicksoil
+Holystone														Holystone
+Mossy Holystone													Mossy Holystone
+Icestone														Icestone
+Cold Aercloud													Cold Aercloud
+Blue Aercloud													Blue Aercloud
+Golden Aercloud													Golden Aercloud
+Green Aercloud													Green Aercloud
+Storm Aercloud													Storm Aercloud
+Purple Aercloud													Purple Aercloud
+Aerogel															Aerogel
+Altar															Altar
+Incubator														Incubator
+Skyroot Log														Skyroot Log
+Golden Oak Log													Golden Oak Log
+Skyroot Plank													Skyroot Plank
+Green Skyroot Leaves											Green Skyroot Leaves
+Golden Oak Leaves												Golden Oak Leaves
+Green Skyroot Sapling											Green Skyroot Sapling
+Golden Oak Sapling												Golden Oak Sapling
+Ambrosium Ore													Ambrosium Ore
+Ambrosium Torch													Ambrosium Torch
+Zanite Ore														Zanite Ore
+Gravitite Ore													Gravitite Ore
+Enchanted Gravitite												Enchanted Gravitite
+Carved Stone													Carved Stone
+Angelic Stone													Angelic Stone
+Hellfire Stone													Hellfire Stone
+Skyroot Chest Mimic												Skyroot Chest Mimic
+Carved Stone													Carved Stone
+Sentry Stone													Sentry Stone
+Divine Carved Stone												Divine Carved Stone
+Divine Sentry Stone												Divine Sentry Stone
+White Gold Pillar												White Gold Pillar
+White Gold Carved Pillar										White Gold Carved Pillar
+Labyrinth Pillar												Labyrinth Pillar
+Carved Labyrinth Pillar											Carved Labyrinth Pillar
+Zanite Block													Zanite Block
+Quicksoil Glass													Quicksoil Glass
+White Rose														White Rose
+Purple Flower													Purple Flower
+Present															Present
+Berry Bush														Berry Bush
+Berry Bush Stem													Berry Bush Stem
+Holystone Stairs												Holystone Stairs
+Mossy Holystone Stairs											Mossy Holystone Stairs
+Icestone Stairs													Icestone Stairs
+Skyroot Stairs													Skyroot Stairs
+Carved Stone Stairs												Carved Stone Stairs
+Holystone Wall													Holystone Wall
+Mossy Holystone Wall											Mossy Holystone Wall
+Icestone Wall													Icestone Wall
+Skyroot Fence													Skyroot Fence
+Carved Stone Wall												Carved Stone Wall
+Holystone Brick													Holystone Brick
+Skyroot Log Wall												Skyroot Log Wall
+Tall Aether Grass												Tall Aether Grass
+Dark Blue Skyroot Leaves										Dark Blue Skyroot Leaves
+Blue Skyroot Leaves												Blue Skyroot Leaves
+Blue Skyroot Sapling											Blue Skyroot Sapling
+Skyroot Chest													Skyroot Chest
+Purple Crystal Leaves											Purple Crystal Leaves
+Purple Fruit Leaves												Purple Fruit Leaves
+Purple Crystal Sapling											Purple Crystal Sapling
+Orange Tree														Orange Tree
+Continuum Ore													Continuum Ore
+Dark Blue Skyroot Sapling										Dark Blue Skyroot Sapling
+Skyroot Crafting Table											Skyroot Crafting Table
+Divine Carved Stone Wall										Divine Carved Stone Wall
+Divine Carved Stone Stairs										Divine Carved Stone Stairs
+Slider Labyrinth Totem											Slider Labyrinth Totem
+Skyroot Fence Gate												Skyroot Fence Gate
+Aerogel Stairs													Aerogel Stairs
+Sentry Stone Stairs												Sentry Stone Stairs
+Holystone Brick Stairs											Holystone Brick Stairs
+Divine Sentry Stone Stairs										Divine Sentry Stone Stairs
+Aerogel Wall													Aerogel Wall
+Sentry Stone Wall												Sentry Stone Wall
+Holystone Brick Wall											Holystone Brick Wall
+Divine Sentry Stone Wall										Divine Sentry Stone Wall
+Skyroot Wall													Skyroot Wall
+Skyroot Ladder													Skyroot Ladder
+Aerogel Slab													Aerogel Slab
+Holystone Brick Slab											Holystone Brick Slab
+Icestone Slab													Icestone Slab
+Divine Sentry Stone Slab										Divine Sentry Stone Slab
+Divine Carved Stone Slab										Divine Carved Stone Slab
+Mossy Holystone Slab											Mossy Holystone Slab
+Sentry Stone Slab												Sentry Stone Slab
+Holystone Slab													Holystone Slab
+Carved Stone Slab												Carved Stone Slab
+Skyroot Slab													Skyroot Slab
+Skyroot Trap Door												Skyroot Trap Door
+Skyroot Bookshelf												Skyroot Bookshelf
+Quicksoil Glass Pane											Quicksoil Glass Pane
+Skyroot Log														Skyroot Log
+Aether Grass													Aether Grass
+Enchanted Grass													Enchanted Grass
+Enchanted Aether Grass											Enchanted Aether Grass
+Purple Aercloud													Purple Aercloud
+Holystone Furnace												Holystone Furnace
+Slider Labyrinth Door											Slider Labyrinth Door
+Blood Moss Holystone											Blood Moss Holystone
+Hostile Paradise												Hostile Paradise
+Oddly Familiar													Oddly Familiar
+Enlightenment													Enlightenment
+Do You Believe in Magic?										Do You Believe in Magic?
+Now You're Family.												Now You're Family.
+To Infinity and Beyond!											To Infinity and Beyond!
+When Phygs Fly!													When Phygs Fly!
+Time Warp!														Time Warp!
+First Ones Double												First Ones Double
+I Must Go...													I Must Go...
+Man's Best Friend												Man's Best Friend
+Postmortem														Postmortem
+Lancin' and Dancin'												Lancin' and Dancin'
+Bloodthirsty													Bloodthirsty
+Like a Bossaru!													Like a Bossaru!
+Slaughterhouse													Slaughterhouse
+Playing God														Playing God
+With Great Power...												With Great Power...
+...Comes Great Responsibility									...Comes Great Responsibility
+Vertigo															Vertigo
+Mazerunner														Mazerunner
+...Gives You Wings												...Gives You Wings
+Walking Tank													Walking Tank
+No Turning Back													No Turning Back
+Cold Blooded													Cold Blooded
+Sharpshooter													Sharpshooter
+Leaving So Soon?												Leaving So Soon?
+Ascend to the Aether through a glowstone portal					Ascend to the Aether through a glowstone portal
+Attack a tree until a block of Skyroot pops out					Attack a tree until a block of Skyroot pops out
+Obtain your first piece of Ambrosium							Obtain your first piece of Ambrosium
+Craft an Altar													Craft an Altar
+Incubate a Moa													Incubate a Moa
+Bounce on a Blue Aercloud										Bounce on a Blue Aercloud
+Fly on a Phyg													Fly on a Phyg
+Use a Continuum Orb												Use a Continuum Orb
+Craft a Skyroot tool or weapon									Craft a Skyroot tool or weapon
+Use a Gravitite tool to make a block fly						Use a Gravitite tool to make a block fly
+Find and equip a companion										Find and equip a companion
+Be resurrected by your Nex Spirit								Be resurrected by your Nex Spirit
+Obtain and use a Valkyrie Lance									Obtain and use a Valkyrie Lance
+Obtain and use a Vampire Blade									Obtain and use a Vampire Blade
+Conquer the Slider's Labyrinth									Conquer the Slider's Labyrinth
+Obtain and use a Pig Slayer										Obtain and use a Pig Slayer
+Obtain and use a Hammer of Notch								Obtain and use a Hammer of Notch
+Obtain your first Legendary weapon								Obtain your first Legendary weapon
+Obtain your first piece of Legendary armor						Obtain your first piece of Legendary armor
+Survive a fatal fall wearing Sentry Boots						Survive a fatal fall wearing Sentry Boots
+Conquer the Slider's Labyrinth alone, in under 5 minutes		Conquer the Slider's Labyrinth alone, in under 5 minutes
+Equip a full set of Valkyrie armor								Equip a full set of Valkyrie armor
+Equip a full set of Obsidian armor								Equip a full set of Obsidian armor
+Enter the Slider's Labyrinth									Enter the Slider's Labyrinth
+Kill a Tempest with it's own iceball							Kill a Tempest with it's own iceball
+Kill a Zephyr using a Dart Shooter								Kill a Zephyr using a Dart Shooter
+Fall out of the Aether											Fall out of the Aether
+Chat															Chat
+Social															Social
+Options															Options
+Cloud Network													Cloud Network
+Notifications													Notifications
+Party															Party
+Accessories														Accessories
+Companion														Companion
+Donator Perks													Donator Perks
+Minecraft's default menu.										Minecraft's default menu.
+The sequel to the Aether I mod.									The sequel to the Aether I mod.
+Blue Grass!														Blue Grass!
+The Slider has awoken!											The Slider has awoken!
+There's a bunny on your head!									There's a bunny on your head!
+Nerfed Zephyrs!													Nerfed Zephyrs!
+Zephyr Targeting !!!											Zephyr Targeting !!!
+Floating pink stuff!											Floating pink stuff!
+Is it a plane? Is it a whale?									Is it a plane? Is it a whale?
+No turning back.												No turning back.
+Now with less dev glow!											Now with less dev glow!
+Purple slimes!													Purple slimes!
+Flaming swords!													Flaming swords!
+Cloud creatures!												Cloud creatures!
+Like a bossaru!													Like a bossaru!
+Do ya' wanna do a dungeon?										Do ya' wanna do a dungeon?
+Rosriknalrocarth the Labyrinth Eye!								Rosriknalrocarth the Labyrinth Eye!
+Don't look down!												Don't look down!
+Better than ever!												Better than ever!
+Right click to dismount!										Right click to dismount!
+Trapped chests!													Trapped chests!
+White Apples!													White Apples!
+Killing the animals; you know you want to!						Killing the animals; you know you want to!
