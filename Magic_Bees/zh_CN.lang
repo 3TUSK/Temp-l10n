@@ -6,7 +6,7 @@ language.code=zh_CN
 # -- Updater strings. Please try to keep these to one line if possible.
 magicbees.versioning.newVersion=有新版魔法蜜蜂可用: %s
 magicbees.versioning.critical=魔法蜜蜂紧急更新: %s -请尽快更新!
-magicbees.versioning.clickDownload=点此打开下载页面.将鼠标指针悬停在链接上以显示更新内容.
+magicbees.versioning.clickDownload=点击打开下载页面.将鼠标指针悬停在链接上以显示更新内容.
 magicbees.config.category.general=普通
 magicbees.config.category.general.tooltip=全局MOD设定
 magicbees.config.category.debug=调试
@@ -100,12 +100,12 @@ nugget.emerald=绿宝石碎片
 nugget.apatite=磷灰石碎片
 
 #Propolises
-propolis.dull=枯竭蜂胶
+propolis.dull=秩序蜂胶
 propolis.air=和风蜂胶
 propolis.fire=炽热蜂胶
 propolis.water=奔流蜂胶
 propolis.earth=石化蜂胶
-propolis.magic=蕴魔蜂胶
+propolis.magic=混沌蜂胶
 propolis.unstable=不稳定蜂胶
 
 #Misc resources
@@ -192,7 +192,7 @@ itemGroup.magicbees=魔法蜜蜂
 tile.botania:flower.beegonia.name=Beegonia
 tile.botania:flower.beegonia.lore=我们不会再让蜜蜂看见你了...
 tile.botania:flower.hiveacynth.name=Hiveacynth
-tile.botania:flower.hiveacynth.lore=In a Morvelaira's Garden
+tile.botania:flower.hiveacynth.lore=于Morvelaira的花园中
 
 #Research
 research.requiresBlock=需要一个%s作为基础
@@ -256,7 +256,7 @@ magicbees.speciesAware.description="它们看得见你的灵魂!"|Florastar,养�
 magicbees.speciesSpirit=精神
 magicbees.speciesSpirit.description=据说这种蜜蜂能和死者沟通.|Apinomicon
 magicbees.speciesSoul=魂魄
-magicbees.speciesSoul.description="The Dread Pirate Roberts has come for your SOOOOOOULS!"|Dread Pirate Roberts
+magicbees.speciesSoul.description="Dread Pirate Roberts来收割你的灵魂啦!"|Dread Pirate Roberts代表路西法如是说
 
 magicbees.speciesSkulking=诡隐
 magicbees.speciesSkulking.description=这些蜜蜂变得暴躁排外, 务必小心!|Apinomicon
@@ -267,7 +267,7 @@ magicbees.speciesSpidery.description=蜘蛛蜂; 嗯.做蜘蛛蜂该做的事情.
 magicbees.speciesSmouldering=闷烧
 magicbees.speciesSmouldering.description=永恒之焰中潜伏的蜜蜂格外耀眼.|Apinomicon
 magicbees.speciesBigBad=Big Bad
-magicbees.speciesBigBad.description="谁会怕Big Bad克莉斯?"|Pahimar, 临终遗言
+magicbees.speciesBigBad.description="谁会怕Big Bad克莉斯?"|Pahimar的临终遗言
 magicbees.speciesTimely=瞬息
 magicbees.speciesTimely.description="养蜂员从不迟到，他想去的时候就能准点到达!"|Sengir,养蜂狂人
 magicbees.speciesLordly=贵族
@@ -287,13 +287,13 @@ magicbees.speciesWithering.description=仅是它们的经过可使万物凋零, 
 magicbees.speciesOblivion=湮没
 magicbees.speciesOblivion.description=我们仍不知道这种蜜蜂是否是本世界的土著,还是异域来客。|Apinomicon
 magicbees.speciesNameless=无名
-magicbees.speciesNameless.description=“其他的博物学家已经拒绝了研究这些蜜蜂。我必须要知道这是为什么。”|Tattered Research Notes
+magicbees.speciesNameless.description=“其他的博物学家已经拒绝了研究这些蜜蜂。我必须要知道这是为什么。”|研究笔记残卷
 magicbees.speciesAbandoned=遗忘
-magicbees.speciesAbandoned.description=“我越深入研究这些蜜蜂，我越觉得他们不属于这里，或者其他任何地方。”|Tattered Research Notes
+magicbees.speciesAbandoned.description=“我越深入研究这些蜜蜂，我越觉得他们不属于这里，或者其他任何地方。”|研究笔记残卷
 magicbees.speciesForlorn=绝望
-magicbees.speciesForlorn.description=“我现在确信他们是被一些未知的人故意的放在我们的宇宙的。”|Tattered Research Notes
+magicbees.speciesForlorn.description=“我现在确信他们是被一些未知的人故意的放在我们的宇宙的。”|研究笔记残卷
 magicbees.speciesDraconic=恶龙
-magicbees.speciesDraconic.description=“恶魔一样的声音从蜂箱爆发出来。那是我们最后一次见到杰拉尔德。”|Tattered Research Notes
+magicbees.speciesDraconic.description=“恶魔一样的声音从蜂箱爆发出来。那是我们最后一次见到杰拉尔德。”|研究笔记残卷
 
 magicbees.speciesIron=灰铁
 magicbees.speciesIron.description=这种蜜蜂能从周围聚集铁元素.|Apinomicon
@@ -326,7 +326,7 @@ magicbees.speciesApatite.description=这些东西真心是日夜牢骚不断.我
 magicbees.speciesMutable=善变
 magicbees.speciesMutable.description=多变的性质,善变的个性.|Apinomicon
 magicbees.speciesTransmuting=蜕变
-magicbees.speciesTransmuting.description="我发誓这是昨天用石头建造的!"|Sengir, Mad Apiarist
+magicbees.speciesTransmuting.description="我发誓这是昨天用石头建造的!"|Sengir, 愤怒的养蜂人
 magicbees.speciesCrumbling=崩溃
 magicbees.speciesCrumbling.description=他们对周围环境有强烈的腐蚀作用,他们会迅速衰老.|Apinomicon
 
@@ -336,18 +336,18 @@ magicbees.speciesInvisible.description=它们很容易忽略,玻璃般的身躯�
 magicbees.speciesTCAir=灵气
 magicbees.speciesTCAir.description="工作敏捷,扣人心弦!"|Sengir,养蜂狂人
 magicbees.speciesTCFire=灼热
-magicbees.speciesTCFire.description=警告:蜂房中的东西相当灼热.| Azanor的蜂房的警告牌
+magicbees.speciesTCFire.description=警告:蜂房中的东西相当灼热.|Azanor的蜂房的警告牌
 magicbees.speciesTCWater=流水
 magicbees.speciesTCWater.description="我试图养育它们,结果变成落汤鸡!"|MysteriousAges,神秘使学徒
 magicbees.speciesTCEarth=泥土
-magicbees.speciesTCEarth.description="你绝对很想把它们挖出来,但是请注意,它们可是蓝翔毕业的."|MysteriousAges,喜剧学徒
+magicbees.speciesTCEarth.description="你绝对很想把它们挖出来,但是请注意,它们相当擅长打洞."|MysteriousAges,喜剧学徒
 magicbees.speciesTCOrder=奇术
 magicbees.speciesTCOrder.description=它们有着臻于完美无瑕的蜂巢,其每个部分都是整体图案的镜像.|Apinomicon
 magicbees.speciesTCChaos=朴实
 magicbees.speciesTCChaos.description=它们的社会结构每天都在变化,这给它们带来了极强的灵活性和适应性, 但也使得它们变得难以捉摸.|Apinomicon
 
 magicbees.speciesTCVis=魔力
-magicbees.speciesTCVis.description="它们能感知到魔力的存在，却还不能影响到魔力."|Azanor,研究笔记
+magicbees.speciesTCVis.description="它们能感知到魔力的存在，却还不能影响到魔力."|Azanor的研究笔记
 magicbees.speciesTCPure=纯净
 magicbees.speciesTCPure.description="蜜蜂中的卫士!"|MysteriousAges,神秘使
 magicbees.speciesTCFlux=咒波
@@ -374,7 +374,7 @@ magicbees.speciesEEMinium.description=善变乃其天性.|Apinomicon
 magicbees.speciesAMEssence=源质
 magicbees.speciesAMEssence.description=集中力量汇集大气中的微尘.|Apinomicon
 magicbees.speciesAMQuintessence=精萃
-magicbees.speciesAMQuintessence.description=魔法之心蕴藏世间诸事.|Apinomicon,绪论
+magicbees.speciesAMQuintessence.description=魔法之心蕴藏世间诸事.|Apinomicon绪论
 magicbees.speciesAMEarth=大地
 magicbees.speciesAMEarth.description=大地的力量灌注下,它们制造地属性的源质.|Apinomicon
 magicbees.speciesAMAir=和风
@@ -430,7 +430,7 @@ magicbees.speciesRSAFluxed.description="什么?蜜蜂可是管理员哦."|Marqui
 magicbees.speciesBMBloody=血腥
 magicbees.speciesBMBloody.description=灌输以血之力,它们现在正追寻更强大的力量.|Apinomicon
 magicbees.speciesBMBound=束缚
-magicbees.speciesBMBound.description="你...一定会喜欢这个的!"|WayOfFlowingTime, terrible punster
+magicbees.speciesBMBound.description="你...一定会喜欢这个的!"|WayOfFlowingTime,不擅长开玩笑的人
 magicbees.speciesBotRooted=生根
 magicbees.speciesBotRooted.description="若以方(平)形(方)修剪,她们就不会在此扎(开)根(方)了."|MysteriousAges,不擅长开数学的玩笑
 magicbees.speciesBotBotanic=植物
