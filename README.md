@@ -1,6 +1,6 @@
 # Temp_LocalizationFile
 
-#### Introductoin
+#### Introduction
 This is just a repository where can put some localization files,especially for the language files that no more appropriate place for them.
 
 Technically this repository is only for Minecraft mods. 
@@ -14,11 +14,11 @@ If you want to put a language file here:
 
 2. If you answer yes for 1., upload the file with correct name to proper folder.
 
-3. If you answer no for 1., set up a new folder with the name of mod you are localzing and upload your file into this new     folder. Using "_" instead of " " in name is recommended.
+3. If you answer no for 1., set up a new folder with the name of mod you are localizing and upload your file into this new folder. Using "_" instead of " " in name is recommended.
 
-4. Upload en_US.lang as the reference is recommended.
+4. Upload `en_US.lang` as the reference is recommended.
 
-5. Once a language file gets its appropiate place and get merged, file should be deleted from this repo, unless it's backup
+5. Once a language file gets its appropriate place and get merged, file should be deleted from this repo, unless it's backup
 
 #### Contributing Requirement
 At the same time, here provides support of discussing and editing localization file. If you need to do so, remember:
@@ -30,6 +30,6 @@ At the same time, here provides support of discussing and editing localization f
     3.Beautiful, if possible
 
 #### About permission
-I keep the right to remove file to responce original author's request.
+I keep the right to remove file to response original author's request.
 
-If no more other porblem, all language file should inherit licence from which the file(s) originally belongs to.
+If there's no more problem, all language file should inherit licence from which the file(s) originally belongs to.
