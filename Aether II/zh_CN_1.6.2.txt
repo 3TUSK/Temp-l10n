@@ -97,3 +97,139 @@ Locked Carved Stone Stairs		锁定雕纹石楼梯
 Locked Carved Stone Wall		锁定雕纹石墙
 Holystone Stairs				神圣石头楼梯
 Cold Fire						冷焰
+//items
+Victory Medal					胜利勋章
+Bronze Key						青铜钥匙
+Silver Key						白银钥匙
+Golden Key						黄金钥匙
+Guardian Key					守卫钥匙
+Host Key						主宰钥匙
+Cog Key							齿轮钥匙
+Moa Egg							恐鸟蛋
+Aether Music Disk				以太唱片
+Golden Amber					金色琥珀
+Aechor Petal					毒箭草花瓣
+Skyroot Stick					天根木木棍
+Golden Dart						黄金飞镖
+Poison Dart						剧毒飞镖
+Enchanted Dart					魔力飞镖
+Golden Dart Shooter				黄金吹筒
+Poison Dart Shooter				剧毒吹筒
+Enchanted Dart Shooter			魔力吹筒
+Phoenix Dart Shooter			凤凰吹筒
+Ambrosium Shard					以太碳
+Zanite Gemstone					紫晶宝石
+Skyroot Bucket					天根木木桶
+Skyroot Milk Bucket				天根木牛奶桶
+Skyroot Poison Bucket			天根木毒液桶
+Skyroot Cure Bucket				天根木药剂桶
+Skyroot Pickaxe					天根木镐
+Holystone Pickaxe				神圣石镐
+Zanite Pickaxe					紫晶镐
+Gravitite Pickaxe				重力镐
+Skyroot Shovel					天根木铲
+Holystone Shovel				神圣石铲
+Zanite Shovel					紫晶铲
+Gravitite Shovel				重力铲
+Skyroot Axe						天根木斧
+Holystone Axe					神圣石斧
+Zanite Axe						紫晶斧
+Gravitite Axe					重力斧
+Skyroot Sword					天根木剑
+Holystone Sword					神圣石剑
+Zanite Sword					紫晶剑
+Gravitite Sword					重力剑
+Iron Bubble						铁泡泡
+Pig Slayer						杀猪刀
+Vampire Blade					吸血鬼之刃
+Flaming Sword					烈焰之刃
+Holy Sword						圣剑
+Lightning Sword					雷霆之剑
+Lightning Knife					雷动飞刀
+Blue Gummie Swet				蓝色凝胶
+Golden Gummie Swet				金色凝胶
+Hammer of Notch					Notch之锤
+Cold Cloud Parachute			降落伞
+Golden Cloud Parachute			金色降落伞
+Purple Cloud Parachute			紫色降落伞
+Green Cloud Parachute			绿色降落伞
+Blue Cloud Parachute			蓝色浮空伞
+Shard of Life					生命碎片
+Valkyrie Cape					女武神披风
+Valkyrie Lance					女武神之枪
+Iron Ring						铁指环
+Golden Ring						金指环
+Zanite Ring						紫晶指环
+Iron Pendant					铁吊坠
+Golden Pendant					金吊坠
+Zanite Pendant					紫晶吊坠
+Swet Cape						史维特披风
+Leather Gloves					皮革手套
+Iron Gloves						铁手套
+Golden Gloves					金手套
+Diamond Gloves					钻石手套
+Zanite Gloves					紫晶手套
+Zanite Helmet					紫晶头盔
+Zanite Chestplate				紫晶胸甲
+Zanite Leggings					紫晶护腿
+Zanite Boots					紫晶靴子
+Gravitite Gloves				重力手套
+Gravitite Helmet				重力头盔
+Gravitite Chestplate			重力胸甲
+Gravitite Leggings				重力护腿
+Gravitite Boots					重力靴子
+Phoenix Gloves					凤凰手套
+Phoenix Helmet					凤凰头盔
+Phoenix Chestplate				凤凰胸甲
+Phoenix Leggings				凤凰护腿
+Phoenix Boots					凤凰靴子
+Obsidian Gloves					黑曜石手套
+Obsidian Chestplate				黑曜石胸甲
+Obsidian Helmet					黑曜石头盔
+Obsidian Leggings				黑曜石护腿
+Obsidian Boots					黑曜石靴子
+Neptune Gloves					海神手套
+Neptune Helmet					海神头盔
+Neptune Chestplate				海神胸甲
+Neptune Leggings				海神护腿
+Neptune Boots					海神靴子
+Regeneration Stone				重生之石
+Invisibility Cloak				隐形斗篷
+Agility Cape					敏捷披风
+White Cape						白色披风
+Red Cape						红色披风
+Yellow Cape						黄色披风
+Blue Cape						蓝色披风
+Valkyrie Pickaxe				女武神镐
+Valkyrie Axe					女武神斧
+Valkyrie Shovel					女武神铲
+Healing Stone					治愈之石
+Ice Ring						冰冻指环
+Ice Pendant						冰冻吊坠
+Blue Berry						蓝莓
+Gingerbread Man					姜饼人
+Candy Cane						拐杖糖
+Candy Cane Sword				拐杖糖剑
+White Apple						白苹果
+Swetty Ball						蓝色史维特球
+Sentry Boots					哨卫靴子
+Valkyrie Music Disk				女武神唱片
+Valkyrie Helmet					女武神头盔
+Valkyrie Chestplate				女武神胸甲
+Valkyrie Leggings				女武神护腿
+Valkyrie Boots					女武神靴子
+Valkyrie Gloves					女武神手套
+Dexterity Cape					灵巧披风
+Swetty Pendant					蓝色史维特吊坠
+Deadmau5 Ears					Deadmau5之耳
+Enchanted Berry					魔莓
+Rainbow Strawberry				彩虹草莓
+Continuum Orb					命运之珠
+Orange							橙子
+Labyrinth Music Disk			迷宫唱片
+Moa Music Disk					恐鸟唱片
+Aerwhale Music Disk				以太鲸音乐唱片
+Crystal EXP Bottle				水晶经验瓶
+Piggie Bank						小猪存钱罐
+Wyndberry						蓝莓
+
