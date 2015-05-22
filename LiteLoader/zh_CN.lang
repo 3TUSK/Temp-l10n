@@ -1,8 +1,8 @@
 # This file MUST be saved as UTF-8
 
-key.categories.litemods=§eMod Keys
+key.categories.litemods=§e模组按键
 
-gui.about.modsloaded=已加载%d个mod
+gui.about.modsloaded=已加载%d个模组
 gui.about.versiontext=版本号%s
 gui.about.poweredbyversion=v%s§r 由LiteLoader提供技术支持 v%s
 
@@ -21,14 +21,14 @@ gui.about.taboptions=§nLiteLoader边栏选项
 
 gui.about.authors=作者
 
-gui.disablemod=禁用mod
-gui.enablemod=启用mod
+gui.disablemod=禁用模组
+gui.enablemod=启用模组
 gui.modsettings=设置...
 
 gui.unknown=未知
 
 gui.status.loaded=已加载
-gui.status.active=活跃
+gui.status.active=已启用
 gui.status.disabled=已禁用
 gui.status.pending.enabled=在下次启动游戏时启用
 gui.status.pending.disabled=在下次启动游戏时禁用
@@ -82,6 +82,6 @@ gui.log.closedialog=关闭
 
 gui.error.title=%s的启动错误
 
-gui.error.tooltip=检测到%d个mod启动错误(%d个严重错误)
+gui.error.tooltip=检测到%d个模组启动错误(%d个严重错误)
 
 gui.notifications.updateavailable=有可用的LiteLoader更新!
