@@ -1,7 +1,11 @@
 # Temp_LocalizationFile
 
 #### Introduction
-This is just a repository where can put some localization files,especially for the language files that no more appropriate place for them.
+This is just a repository where can put some localization files, especially for the language files 
+
+1.that no more appropriate place for them.
+
+2.that needs edited frequently
 
 Technically this repository is only for Minecraft mods. 
 
@@ -33,3 +37,5 @@ At the same time, here provides support of discussing and editing localization f
 I keep the right to remove file to response original author's request.
 
 If there's no more problem, all language file should inherit licence from which the file(s) originally belongs to.
+
+If there is no information about license, all language file without license should be under CC-BY-NC-SA 3.0.
