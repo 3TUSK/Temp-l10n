@@ -9,3 +9,7 @@ Currently I still cannot figure out where is the best place to put TH lang file.
 It is absolutely necessary to translate this mod so that more people can enjoy it naturally.
 
 Beside, welcome to help to correct translation!
+
+# Current Status
+* [ ] Translation
+* [ ] Correction & Review
