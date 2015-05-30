@@ -11,5 +11,5 @@ It is absolutely necessary to translate this mod so that more people can enjoy i
 Beside, welcome to help to correct translation!
 
 # Current Status
-* [ ] Translation
+* [X] Translation
 * [ ] Correction & Review
