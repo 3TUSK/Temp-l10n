@@ -1,0 +1,151 @@
+//misc
+death.attack.eldritch=%1$s was overtaken by The Eldritch
+death.attack.eldritch.player=%1$s was overtaken by Eldritch energy whilst fighting %2$s
+
+//blocks
+tile.OreShadow.name=Shadow Ore
+tile.WarpWood.name=Warpwood
+
+//items
+item.WarpedGoggles.name=Warped Goggles of Revealing
+item.WarpedPraetorArmorHelm.name=Warped Praetor Helm
+item.WarpedPraetorArmorChest.name=Warped Praetor Chestplate
+item.WarpedPraetorArmorLegs.name=Warped Praetor Greaves
+item.ShadowGem.name=Shadow Gem
+item.CrimsonFabric.name=Crimson Fabric
+item.HelmetVoidFortress.name=Void Fortress Helm
+item.ChestplateVoidFortress.name=Void Fortress Cuirass
+item.LeggingsVoidFortress.name=Void Fortress Thigh Guards
+item.CrimsonPlating.name=Crimson Plating
+item.ShadowMetal.name=Shadowmetal
+item.HardenedDiamond.name=Hardened Diamond
+item.HardenedShadowMetal.name=Hardened Shadowmetal
+item.ShadowCloth.name=Shadow Cloth
+item.ShadowDust.name=Shadow Dust
+item.WarpedShard.name=Warped Shard
+item.FluxShard.name=Flux Shard
+item.CrimsonVoidHelm.name=Crimson Cult Hood
+item.CrimsonVoidChest.name=Crimson Cult Robe
+item.CrimsonVoidLegs.name=Crimson Cult Leggings
+item.CrimsonVoidBoots.name=Crimson Cult Boots
+item.CrimsonPlateVoidHelm.name=Crimson Cult Helm
+item.CrimsonPlateVoidChest.name=Crimson Cult Chestplate
+item.CrimsonPlateVoidLegs.name=Crimson Cult Greaves
+item.CrimsonLeaderVoidHelm.name=Crimson Praetor Helm
+item.CrimsonLeaderVoidChest.name=Crimson Praetor Chestplate
+item.CrimsonLeaderVoidLegs.name=Crimson Praetor Greaves
+
+//Wand
+item.FocusTaint.name=Wand Focus: Taint Storm
+item.FocusEldritch.name=Wand Focus: Eldritch
+item.WarpRod.name=Warpwood Rod
+item.ShadowCap.name=Shadowmetal Cap
+item.Wand.SHADOW.cap=Shadow Embellished
+item.Wand.WARP.rod=Warpwood
+item.WarpStaffCore.name=Warpwood Staff Core
+
+//misc
+itemGroup.TaintedMagic=Tainted Magic
+
+//research
+tc.research_category.TM=Tainted Magic
+
+//TAINTEDMAGIC
+tm.name.TAINTEDMAGIC=Evil Magic
+
+tm.tag.TAINTEDMAGIC=Is this a good idea?
+
+tm.text.TAINTEDMAGIC.1=On your adventures through the world you came across a a ripped page from another thaumaturge's thaumonomicon (see right). From what you could decipher, it speaks of putting the evil magics to use. The idea intrigues you, but it seems very risky. Taint, flux, and warp are all somewhat dangerous... But only the weak would be afraid to adventure into the realm of the unknown! You are sure there are countless uses to be discovered from warp and flux. The page is still unclear, and in scribbles, but one day, you will master the art of evil magic. One day!
+tm.text.TAINTEDMAGIC.2=<IMG>taintedmagic:textures/misc/BACKTAINT.png:0:255:255:255:.5</IMG>
+
+//SHADOWMETAL
+tm.name.SHADOWMETAL=Shadowmetal
+
+tm.tag.SHADOWMETAL=An ancient substance
+
+tm.text.SHADOWMETAL.1=While mining, you have came across a rather interesting ore. Physically, it is a blackish purple in color. But who knows what mysterious properties it could posess. This metal should prove usefull for many devices in the future - although, the smelting process is quite tedious.<LINE>You are sure there will be lots of future uses for Shadowmetal... But you think you will need to obtain more warp first, maybe the eldritch can give you more information... But who knows...
+
+//CAP_SHADOW
+tm.name.CAP_SHADOW=Shadowmetal Wand Caps
+
+tm.tag.CAP_SHADOW=Shikamaru...?
+
+tm.text.CAP_SHADOW.1=With the discovery of voidmetal wandcaps you wondered, what if you could improve the performance of the void caps even further? You tested this theory by infusing the caps with voidmetal, and some other magical objects, as well as the power of a nether star, and it proved VERY sucessful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 35% for all primal aspects.<BR>It seems the power of the void, combined with the power of the shadows is extremely powerful.
+
+//ROD_WARP
+tm.name.ROD_WARP=Warpwood Wand Rod
+
+tm.tag.ROD_WARP=Probably made by Orochimaru.
+
+tm.text.ROD_WARP.1=Your discovery of Warpwood left you wondering if you could make a wand from this magical wood. After many failed attempts, it came to you, you will need something to stabalize the core. It seems the reconstructive properties of voidmetal did just that, and more... The reconstructive properties of the voidmetal combined with the shadowmetal seem to fester off your warp, and convert it into vis. The more warp you have, the faster the wand will auto-recharge.<BR>This wand core holds 250 of every primal vis, and when combined with the Shadowmetal Caps, this wand will boast quite the discount.<BR>Say goodbye to your vis problems.
+
+//ROD_WARP_staff
+tm.name.ROD_WARP_staff=Warpwood Staff Core
+
+tm.tag.ROD_WARP_staff=I feel like gandalf.
+
+tm.text.ROD_WARP_staff.1=After seeing the wonders of wands made from Warpwood, you just had to try and make a staff. Just like with most of the other staves, attaching a primal charm to 2 rods seems to do the trick.<BR>The same auto recharging abilities seem to apply as well, and on top of all of that this staff core offers a huge amount of storage - 500 primal vis, that is.<BR>Storing vis in voidspace won't cause any problems... Right?
+
+//EVILSHARDS
+tm.name.EVILSHARDS=Evil Shards
+
+tm.tag.EVILSHARDS=Congealed evil
+
+tm.text.EVILSHARDS.1=Using the aspects in a balanced shard, and infusing them with pure evil aspects, such as alienis or vitium; You have discovered a new type of shard. Shards of warp and flux.<LINE>To make these shards, throw a balanced shard into a crubible with specific aspects.<BR>To make a Warped Shard, throw a balanced shard into a heated crucible with Alienis.<BR>To make a Flux Shard, throw a balanced shard into a heated crucible with Vitium.
+
+//WARPEDESS
+tm.name.WARPEDESS=Warped Essentials
+
+tm.tag.WARPEDESS=Dark as my soul...
+
+tm.text.WARPEDESS.1=From studying Tainted Magic you have found need for some simple materials made from warp, flux, and shadowmetal. These materials should be useful for many tools, armor pieces, and devices.<LINE>Over the next couple pages you have written the recipes for:<BR>- Warpwood<BR>- Shadow Gems<BR>- Shadow Dust<BR>- Shadow Cloth
+
+//CRIMSONROBES
+tm.name.CRIMSONROBES=Crimson Seamstry
+
+tm.tag.CRIMSONROBES=Not avaliable at Aeropostale
+
+tm.text.CRIMSONROBES.1=After fighting the Crimson Cult countless times, you have noticed one thing; all of their clothing is made from deep red fabric. You have obtained some of this rich cloth after killing the cultists, and you have realised it is quite simple to make, and it should be quite easy to replicate their robes.<LINE>Using Crimson Fabric (see right) you are able to make all of the robe pieces, their recipes are written on the following pages.
+
+//VOIDFORTRESS
+tm.name.VOIDFORTRESS=Void Fortress Armor
+tm.tag.VOIDFORTRESS=Just like lord 3rd.
+tm.text.VOIDFORTRESS.1=This is a simple improvement on the concepts layed down by the discovery of fortress armor. By using Void Metal instead of Thaumium you are not only increasing the effectiveness of the armor, but also it's durability.<BR>Of course some people claim that wearing such a large amount of Void metal is probably not good, but there will always be doubters and they should be ignored. You find the dull ache that settles into your bones as you wear it comforting.<BR>Like normal fortress armor this armor can be enhanced by various different faceplates and modifications. 
+
+//WARPEDGOGGLES
+tm.name.WARPEDGOGGLES=Warped Goggles Of Revealing
+tm.tag.WARPEDGOGGLES=Mangekyou unlocked!
+tm.text.WARPEDGOGGLES.1=By infusing your goggles of revealing with shadow metal you have solved an everlasting problem: a thaumaturge like yourself must choose between function, and protection.<BR>By using a metal of pure magic to strengthen your goggles, you have gained a few extra armor points - but at a cost...<BR>It seems that one of the lenses became clouded with warp and flux - causing you to have strange visions at times. But no problem, it could be worse, right?
+
+//TAINTFOCUS
+tm.name.TAINTFOCUS=Wand Focus: Taint Storm
+tm.tag.TAINTFOCUS=Warning: may leave a sticky residue.
+tm.text.TAINTFOCUS.1=With the study of taint biomes, you have noticed the taint swarms to be quite intrigueing. You wondered if you could replicate the taint swarm with a focus, and you more than suceeded. By infusing the Pech's Curse focus with Flux Shards and Tainted Goo, you were able to create a focus that blasts a swathe of Taint Bubbles.<BR>By infusing this further with the destructive power of Nether Stars, you have increased it's potency even further.<BR>(Continued)
+tm.text.TAINTFOCUS.2=This focus will blast an AoE attack of Taint Bubbles with a range of 17 blocks, inflicting a Taint Poison effect on contact, and causing massive damage, leaving your enemies corpses infected to the bone with flux.<BR>The downsides of this focus are the chance to taint the mob you are killing, causing it to be more nasty. It should also be noted that when using this focus there is a chance that a Tainted Slime will spawn when you kill mobs, but you are not sure why.<BR>Say goodbye to anyone who messes with you.
+
+//ELDRITCHFOCUS
+tm.name.ELDRITCHFOCUS=Wand Focus: Eldritch
+tm.tag.ELDRITCHFOCUS=Engulfed in the shadows.
+tm.text.ELDRITCHFOCUS.1=When venturing through the world, you have came across a few eldritch altars... You are very intrigued by the eldritch guardians that spawn there, and espically the orbs of dark matter that they hurl at you. After seeing this, you were bound to try and replicate it. By infusing many eldritch objects together, you have managed to summon these orbs of dark matter and blast them at your enemies.<BR>This focus has an extremly fast cooldown, allowing you to rapidly shoot these orbs, it will also inlflict 10 hearts of damage, and will kill entities in an area of 3 blocks from where it hits. (Continued)
+tm.text.ELDRITCHFOCUS.2=As the eldritch sits on his dark throne in the outerlands; You say ha to him. Because one day you will kill him with his own magic... One day...
+
+//KNIGHTROBES
+tm.name.KNIGHTROBES=Crimson Armor
+tm.tag.KNIGHTROBES=With extra reinforcements.
+tm.text.KNIGHTROBES.1=After discovering the Crimson Cloth, you decided to divise a way to re-create the armor of the Crimson Knights. Using a new invention called Crimson Plating, you were able to reinforce the Crimson Cultist robes to create the armor of the Crimson Knights.<BR>Being able to create this armor yourself should save you a lot of time, seeing as you will no longer have to kill the Knights for their armor...<BR>One day you will rule the Crimson Cult; flanked in their armor!
+
+//VOIDCRIMSON
+tm.name.VOIDCRIMSON=Voidtouched Crimson Armor
+tm.tag.VOIDCRIMSON=Preserving your clothing.
+tm.text.VOIDCRIMSON.1=After finding your own method to make Crimson Cult armor, there is still one problem.<BR>The armor will break after a short amount of time... Using voidmetal, you have made the Crimson Cult armor auto-repair itself.<BR>It should be noted that this can be applied to any piece of Crimson Cultist robes, or Crimson Knight armor.<BR>By improving the Crimson Cult's armor you are getting closer and closer to becoming the Cult's leader. One day you will truly rule the cult... One day...
+
+//VOIDPRAETOR
+tm.name.VOIDPRAETOR=Voidtouched Praetor Armor
+tm.tag.VOIDPRAETOR=It feels heavy.
+tm.text.VOIDPRAETOR.1=After discovering the Voidtouched Crimson Armor, you tried to apply this to the Praetor Armor, but it didnt quite work.<BR>The Praetor Armor is so thick and heavy that 4 measly pieces of voidmetal was not enough to make the Praetor Armor auto-repair.<BR>By adding even more voidmetal to the infusion you were able to apply the Voidtouched attribute to the Crimson Praetor Armor.<BR>The ultimate armor of the Crimson Cult... It is now yours... §lYou will now rule the Crimson Cult forever!
+
+//PRAETORARMOR
+tm.name.PRAETORARMOR=Crimson Praetor Armor
+tm.tag.PRAETORARMOR=This should be simple... Not.
+tm.text.PRAETORARMOR.1=Strange whispers have been talking to you more and more latly. They have spoke of the leader of the Crimson Cult... And you hope to encounter him some day. The other Thaumaturges showed you sketches of his armor, and you, being the type of person you are, you decided to construct your own.<BR>You thought it would be easy enough, but aparantly it is not. Using many eldritch objects, layers of plating and cloth, and lots of gold; You have created your own set of Crimson Praetor Armor.<BR>You shal truly rule the Crimson Cult now. Bow down to the new leader!
+
