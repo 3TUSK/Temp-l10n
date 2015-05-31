@@ -70,7 +70,7 @@ tm.name.CAP_SHADOW=Shadowmetal Wand Caps
 
 tm.tag.CAP_SHADOW=Shikamaru...?
 
-tm.text.CAP_SHADOW.1=With the discovery of voidmetal wandcaps you wondered, what if you could improve the performance of the void caps even further? You tested this theory by infusing the caps with voidmetal, and some other magical objects, as well as the power of a nether star, and it proved VERY sucessful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 35% for all primal aspects.<BR>It seems the power of the void, combined with the power of the shadows is extremely powerful.
+tm.text.CAP_SHADOW.1=With the discovery of voidmetal wandcaps you wondered, what if you could improve the performance of the void caps even further? You tested this theory by infusing the caps with voidmetal, and some other magical objects, as well as the power of a nether star, and it proved §lvery§r sucessful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 35% for all primal aspects.
 
 //ROD_WARP
 tm.name.ROD_WARP=Warpwood Wand Rod
@@ -109,7 +109,7 @@ tm.text.CRIMSONROBES.1=After fighting the Crimson Cult countless times, you have
 
 //VOIDFORTRESS
 tm.name.VOIDFORTRESS=Void Fortress Armor
-tm.tag.VOIDFORTRESS=Just like lord 3rd.
+tm.tag.VOIDFORTRESS=Nothing is getting out.
 tm.text.VOIDFORTRESS.1=This is a simple improvement on the concepts layed down by the discovery of fortress armor. By using Void Metal instead of Thaumium you are not only increasing the effectiveness of the armor, but also it's durability.<BR>Of course some people claim that wearing such a large amount of Void metal is probably not good, but there will always be doubters and they should be ignored. You find the dull ache that settles into your bones as you wear it comforting.<BR>Like normal fortress armor this armor can be enhanced by various different faceplates and modifications. 
 
 //WARPEDGOGGLES
@@ -121,31 +121,31 @@ tm.text.WARPEDGOGGLES.1=By infusing your goggles of revealing with shadow metal 
 tm.name.TAINTFOCUS=Wand Focus: Taint Storm
 tm.tag.TAINTFOCUS=Warning: may leave a sticky residue.
 tm.text.TAINTFOCUS.1=With the study of taint biomes, you have noticed the taint swarms to be quite intrigueing. You wondered if you could replicate the taint swarm with a focus, and you more than suceeded. By infusing the Pech's Curse focus with Flux Shards and Tainted Goo, you were able to create a focus that blasts a swathe of Taint Bubbles.<BR>By infusing this further with the destructive power of Nether Stars, you have increased it's potency even further.<BR>(Continued)
-tm.text.TAINTFOCUS.2=This focus will blast an AoE attack of Taint Bubbles with a range of 17 blocks, inflicting a Taint Poison effect on contact, and causing massive damage, leaving your enemies corpses infected to the bone with flux.<BR>The downsides of this focus are the chance to taint the mob you are killing, causing it to be more nasty. It should also be noted that when using this focus there is a chance that a Tainted Slime will spawn when you kill mobs, but you are not sure why.<BR>Say goodbye to anyone who messes with you.
+tm.text.TAINTFOCUS.2=This focus will blast an AoE attack of Taint Bubbles with a range of 17 blocks, inflicting a Taint Poison effect on contact, and causing massive damage, leaving your enemies corpses infected to the bone with flux.<BR>The downsides of this focus are the chance to taint the mob you are killing, causing it to be more nasty. It should also be noted that when using this focus there is a chance that a Tainted Slime will spawn when you kill mobs, but you are not sure why.
 
 //ELDRITCHFOCUS
 tm.name.ELDRITCHFOCUS=Wand Focus: Eldritch
 tm.tag.ELDRITCHFOCUS=Engulfed in the shadows.
-tm.text.ELDRITCHFOCUS.1=When venturing through the world, you have came across a few eldritch altars... You are very intrigued by the eldritch guardians that spawn there, and espically the orbs of dark matter that they hurl at you. After seeing this, you were bound to try and replicate it. By infusing many eldritch objects together, you have managed to summon these orbs of dark matter and blast them at your enemies.<BR>This focus has an extremly fast cooldown, allowing you to rapidly shoot these orbs, it will also inlflict 10 hearts of damage, and will kill entities in an area of 3 blocks from where it hits. (Continued)
-tm.text.ELDRITCHFOCUS.2=As the eldritch sits on his dark throne in the outerlands; You say ha to him. Because one day you will kill him with his own magic... One day...
+tm.text.ELDRITCHFOCUS.1=When venturing through the world, you have came across a few eldritch altars... You are very intrigued by the eldritch guardians that spawn there, and espically the orbs of dark matter that they hurl at you. After seeing this, you were bound to try and replicate it. By infusing many eldritch objects together, you have managed to summon these orbs of dark matter and blast them at your enemies.<BR>This focus has an extremly fast cooldown, allowing you to rapidly shoot these orbs, it will also inflict 10 hearts of damage, and will kill entities in an area of 3 blocks from where it hits. (Continued)
+tm.text.ELDRITCHFOCUS.2=As the eldritch sits on his dark throne in the outerlands; You say HA to him. Because one day you will kill him with his own magic.
 
 //KNIGHTROBES
 tm.name.KNIGHTROBES=Crimson Armor
 tm.tag.KNIGHTROBES=With extra reinforcements.
-tm.text.KNIGHTROBES.1=After discovering the Crimson Cloth, you decided to divise a way to re-create the armor of the Crimson Knights. Using a new invention called Crimson Plating, you were able to reinforce the Crimson Cultist robes to create the armor of the Crimson Knights.<BR>Being able to create this armor yourself should save you a lot of time, seeing as you will no longer have to kill the Knights for their armor...<BR>One day you will rule the Crimson Cult; flanked in their armor!
+tm.text.KNIGHTROBES.1=After discovering the Crimson Cloth, you decided to divise a way to re-create the armor of the Crimson Knights. Using a new invention called Crimson Plating, you were able to reinforce the Crimson Cultist robes to create the armor of the Crimson Knights.<BR>Being able to create this armor yourself should save you a lot of time, seeing as you will no longer have to kill the Knights for their armor.
 
 //VOIDCRIMSON
 tm.name.VOIDCRIMSON=Voidtouched Crimson Armor
 tm.tag.VOIDCRIMSON=Preserving your clothing.
-tm.text.VOIDCRIMSON.1=After finding your own method to make Crimson Cult armor, there is still one problem.<BR>The armor will break after a short amount of time... Using voidmetal, you have made the Crimson Cult armor auto-repair itself.<BR>It should be noted that this can be applied to any piece of Crimson Cultist robes, or Crimson Knight armor.<BR>By improving the Crimson Cult's armor you are getting closer and closer to becoming the Cult's leader. One day you will truly rule the cult... One day...
+tm.text.VOIDCRIMSON.1=After finding your own method to make Crimson Cult armor, there is still one problem.<BR>The armor will break after a short amount of time... Using voidmetal, you have made the Crimson Cult armor auto-repair itself.<BR>It should be noted that this can be applied to any piece of Crimson Cultist robes, or Crimson Knight armor.<BR>By improving their armor, the Crimson Cult have began to respect you greatly. Maybe you will become their leader some day.
 
 //VOIDPRAETOR
 tm.name.VOIDPRAETOR=Voidtouched Praetor Armor
 tm.tag.VOIDPRAETOR=It feels heavy.
-tm.text.VOIDPRAETOR.1=After discovering the Voidtouched Crimson Armor, you tried to apply this to the Praetor Armor, but it didnt quite work.<BR>The Praetor Armor is so thick and heavy that 4 measly pieces of voidmetal was not enough to make the Praetor Armor auto-repair.<BR>By adding even more voidmetal to the infusion you were able to apply the Voidtouched attribute to the Crimson Praetor Armor.<BR>The ultimate armor of the Crimson Cult... It is now yours... §lYou will now rule the Crimson Cult forever!
+tm.text.VOIDPRAETOR.1=After discovering the Voidtouched Crimson Armor, you tried to apply this to the Praetor Armor, but it didnt quite work.<BR>The Praetor Armor is so thick and heavy that 4 measly pieces of voidmetal was not enough to make the Praetor Armor auto-repair.<BR>By adding even more voidmetal to the infusion you were able to apply the Voidtouched attribute to the Crimson Praetor Armor as well.
 
 //PRAETORARMOR
 tm.name.PRAETORARMOR=Crimson Praetor Armor
 tm.tag.PRAETORARMOR=This should be simple... Not.
-tm.text.PRAETORARMOR.1=Strange whispers have been talking to you more and more latly. They have spoke of the leader of the Crimson Cult... And you hope to encounter him some day. The other Thaumaturges showed you sketches of his armor, and you, being the type of person you are, you decided to construct your own.<BR>You thought it would be easy enough, but aparantly it is not. Using many eldritch objects, layers of plating and cloth, and lots of gold; You have created your own set of Crimson Praetor Armor.<BR>You shal truly rule the Crimson Cult now. Bow down to the new leader!
+tm.text.PRAETORARMOR.1=Strange whispers have been talking to you more and more latly. They have spoke of the leader of the Crimson Cult... And you hope to encounter him some day. The other Thaumaturges showed you sketches of his armor, and you, being the type of person you are, you decided to construct your own.<BR>You thought it would be easy enough, but aparantly it is not. Using many eldritch objects, layers of plating and cloth, and lots of gold; You have created your own set of Crimson Praetor Armor.<BR>You hope replicating his armor won't make the Crimson Praetor mad... 
 
