@@ -189,7 +189,7 @@ backpack.thaumaturge=神秘使背包
 itemGroup.magicbees=魔法蜜蜂
 
 #Botania flowers; Lexicon entries nearer the end.
-tile.botania:flower.beegonia.name=Beegonia
+tile.botania:flower.beegonia.name=食蜂花
 tile.botania:flower.beegonia.lore=我们不会再让蜜蜂看见你了...
 tile.botania:flower.hiveacynth.name=Hiveacynth
 tile.botania:flower.hiveacynth.lore=于Morvelaira的花园中
@@ -410,9 +410,9 @@ magicbees.speciesTEElectrum.description=两种贵金属的完美组合,有时候
 magicbees.speciesTEPlatinum=亮铂
 magicbees.speciesTEPlatinum.description=珍贵,韧性,还有难以置信的闪亮.|Apinomicon
 magicbees.speciesTENickel=灰镍
-magicbees.speciesTENickel.description="每一次听说这种蜜蜂的时候,如果我有一块镍...我本应有一个蜂巢的!"|Marquis Muskrat
+magicbees.speciesTENickel.description="每一次听说这种蜜蜂的时候,如果我有五(一)分(块)钱(镍)...我本应换到一个蜂巢的!"|Marquis Muskrat
 magicbees.speciesTEInvar=因瓦
-magicbees.speciesTEInvar.description="热(热)胀(力)冷(膨)缩(胀)系数偏低.另外,一语双关哦!"|Marquis Muskrat
+magicbees.speciesTEInvar.description="热胀(力)冷(膨)缩(胀)系数偏低.另外,一语双关哦!"|Marquis Muskrat
 magicbees.speciesTEBronze=修补
 magicbees.speciesTEBronze.description="我非常喜欢这些蜜蜂,我一会得把它们好好保存起来."|Marquis Muskrat
 magicbees.speciesTECoal=碳素
@@ -425,7 +425,7 @@ magicbees.speciesTEWinsome=迷人
 magicbees.speciesTEWinsome.description="我喜欢这一群,它们可爱极了!"|Jadedcat,整合包制作者
 magicbees.speciesTEEndearing=可爱
 magicbees.speciesTEEndearing.description="催眠的力量,辅以邪恶的性情,这些蜜蜂怎么可能有这么可爱!"|Jadedcat,整合包制作者
-magicbees.speciesRSAFluxed=焊接
+magicbees.speciesRSAFluxed=焊剂
 magicbees.speciesRSAFluxed.description="什么?蜜蜂可是管理员哦."|Marquis Muskrat
 magicbees.speciesBMBloody=血腥
 magicbees.speciesBMBloody.description=灌输以血之力,它们现在正追寻更强大的力量.|Apinomicon
@@ -436,7 +436,7 @@ magicbees.speciesBotRooted.description="若以方(平)形(方)修剪,她们就�
 magicbees.speciesBotBotanic=植物
 magicbees.speciesBotBotanic.description=注以神秘的生命,她们开始到处传播神秘的花朵.|Apinomicon
 magicbees.speciesBotBlossom=花开
-magicbees.speciesBotBlossom.description=仅仅是她们的出现,可使蓓蕾绽放为鲜花.|Apinomicon
+magicbees.speciesBotBlossom.description=仅仅是她们的出现,便可使蓓蕾绽放为鲜花.|Apinomicon
 magicbees.speciesBotFloral=花海
 magicbees.speciesBotFloral.description=对花朵的极度热爱,使得她们经常把盛开的鲜花带回蜂巢.|Apinomicon
 magicbees.speciesBotVazbee=Vazbee
@@ -446,7 +446,7 @@ magicbees.speciesBotSomnolent.description=渐渐地,渐渐地,她们的工作速
 magicbees.speciesBotDreaming=梦境
 magicbees.speciesBotDreaming.description=这些毫不活跃的蜜蜂毫无节制地把时间花在睡眠上;于是我们也无从知晓她们梦到了什么.|Apinomicon
 magicbees.speciesBotAlfheim=精灵
-magicbees.speciesBotAlfheim.description=身处精灵界到她们想起了她们的时间,渴望着一个浸透着魔力的世界,于是她们开始试图使其变为现实.|Apinomicon
+magicbees.speciesBotAlfheim.description=想起了艾尔夫海姆的时间,渴望着一个浸透着魔力的世界,她们开始试图使其变为现实.|Apinomicon
 magicbees.species=
 magicbees.species.description=
 
@@ -582,9 +582,9 @@ magicbees.botania.lexicon.manasteelScoop=&1魔钢捕蜂网&0
 magicbees.botania.lexicon.manasteelGrafter=&1魔钢剪枝器&0
 
 magicbees.botania.lexicon.beeAlfheim.trade=换取&b精灵雄蜂&0
-magicbees.botania.lexicon.beeAlfheim.0=&1精灵族养蜂人&0正急于与来自你的世界的蜜蜂分享快乐,而且特别对你可以提供的&1梦境 雄蜂&0感兴趣.作为回报,精灵们会以&b精灵 雄蜂&0为交换,这是精灵界仅有的一种蜜蜂.
+magicbees.botania.lexicon.beeAlfheim.0=&1精灵族养蜂人&0正急于探寻你的蜜蜂的快乐,而且特别对你可以提供的&1梦境 雄蜂&0感兴趣.作为回报,精灵们会以&b精灵 雄蜂&0为交换,这是艾尔夫海姆仅有的一种蜜蜂.
 
-magicbees.botania.lexicon.beegonia.0=雄蜂是一个强健的聚居地的未来的基石,但事实上,她们甚至可以在一个你根本不知从何下手的地方开始堆积起来. <br> 现在正式推出&1Beegonia&0,这是一种解决蜜蜂过度拥挤的极佳方案! 只需把你备的蜜蜂丢给她的同类, 她们就会开始改造她们的生命力并最终变为魔力!她们并不是很挑剔,她们会
+magicbees.botania.lexicon.beegonia.0=雄蜂是一个强健的聚居地的未来的基石,但事实上,她们甚至可以在一个你根本不知从何下手的地方开始堆积起来. <br> 现在正式推出&1食蜂花&0,这是一种解决蜜蜂过度拥挤的极佳方案! 只需把多余的雄蜂丢给她, 她们就会开始改造她们的生命力并最终变为魔力!她们并不是很挑剔,她们会
 magicbees.botania.lexicon.beegonia.1=在工作时持续产出一定量的魔力, 虽然这看起来确实"复杂":蜜蜂提供了比普通蜜蜂更多的魔力,管它什么意思.
 magicbees.botania.lexicon.beegonia.crafting=Syncrostrike的完美解决方案
 magicbees.botania.lexicon.beegonia.2=嗯.要么就是它,要么就是&2飞行蜜蜂陷阱&0,但是那个也有它自己的问题.
@@ -597,5 +597,5 @@ magicbees.botania.lexicon.hiveacynth.crafting=点此了解详情> beesbeesbees.c
 +magicbees.botania.lexicon.hibeescus.1=&1Hibeescus&0的帮助,你就可以批量抹去野生&5卑贱种&0蜜蜂天生的基因缺陷了. 一定要有耐心,因为&1Hibeescus&0的施法速度相当慢,最长要整整两天!<br>另外强烈建议节约魔力,因为它对于魔力极度饥渴.
 +magicbees.botania.lexicon.hibeescus.crafting=仅为居心不良者使用.
 
-magicbees.botania.lexicon.manaBooster.0=魔力蜂箱是一种非常自然的让蜜蜂加快工作速度的方式,但它也有一点...局限. 幸运的是,活石和花瓣的特性使得它们可以偶尔为蜜蜂充能,使蜜蜂们更高产. 只需向&1魔力蜂箱加速器&0持续提供魔力,它们就可以持续使蜜蜂们保持高效状态.
+magicbees.botania.lexicon.manaBooster.0=魔力蜂箱是一种非常自然的让蜜蜂加快工作速度的方式,但它也有一点...局限. 幸运的是,活石和花瓣的特性使得它们可以偶尔为蜜蜂充能,从而使蜜蜂们更高产. 只需向&1魔力蜂箱加速器&0持续提供魔力,它们就可以持续使蜜蜂们保持高效状态.
 magicbees.botania.lexicon.manaBooster.crafting=充满魔力的蜂群中!
