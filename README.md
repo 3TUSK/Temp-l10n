@@ -36,9 +36,9 @@ At the same time, here provides support of discussing and editing localization f
 #### About permission
 I keep the right to remove file to response original author's request.
 
-If there's no more problem, all language file should inherit licence from which the file(s) originally belongs to.
+If there's no more problem, all language files should inherit licence from which the file(s) originally belongs to.
 
-If there is no information about license, all language file without license should be under CC-BY-NC-SA 3.0.
+If there is no information about license, all languages file without license should be under CC-BY-NC-SA 3.0.
 
 Keep in mind: 
 
