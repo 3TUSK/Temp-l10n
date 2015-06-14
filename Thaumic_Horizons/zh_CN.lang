@@ -82,8 +82,8 @@ entity.ThaumicHorizons.Syringe.name=注射器
 entity.ThaumicHorizons.BlastPhial.name=爆裂安瓿
 entity.ThaumicHorizons.BoatGreatwood.name=宏伟之木船
 entity.ThaumicHorizons.BoatThaumium.name=神秘船
-entity.ThaumicHorizons.MeatSlime.name=Meat Slime
-entity.ThaumicHorizons.MercurialSlime.name=Mercurial Slime
+entity.ThaumicHorizons.MeatSlime.name=肉质史莱姆
+entity.ThaumicHorizons.MercurialSlime.name=水银史莱姆
 
 ###POTIONS###
 
@@ -97,7 +97,7 @@ potion.synthesis=光合作用
 
 item.Wand.disposable.rod=水晶质
 item.Wand.disposable.cap=一次性
-item.eggIncubated.name=孵化到蛋
+item.eggIncubated.name=孵化的蛋
 item.lensCase.name=透镜之匣
 item.LensFire.name=火之辉光之镜
 item.LensWater.name=水之共鸣之镜
