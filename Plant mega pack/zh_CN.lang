@@ -28,6 +28,8 @@ decorator.area.waterEdge=水域边缘
 decorator.area.tree=乔木
 decorator.area.vine=藤蔓
 
+decorator.biome.amb.ambAmberoguiaBiome=Amberoguia Biome
+
 decorator.biome.bop.bopAlps=阿尔卑斯山脉(Alps)
 decorator.biome.bop.bopAlpsForest=阿尔卑斯针叶林(Alps)
 decorator.biome.bop.bopArctic=北极圈地带(Arctic)
@@ -252,6 +254,38 @@ decorator.biome.hl.hlValley=山谷(Valley)
 decorator.biome.hl.hlVolcanoIsland=火山岛(Volcano Island)
 decorator.biome.hl.hlWindyIsland=冬之岛(Windy Island)
 
+decorator.biome.rwg.rwgHotDesert=Desert, Hot
+decorator.biome.rwg.rwgSnowDesert=Desert, Snow
+decorator.biome.rwg.rwgColdForest=Forest, Cold
+decorator.biome.rwg.rwgHotForest=Forest, Hot
+decorator.biome.rwg.rwgSnowForest=Forest, Snow
+decorator.biome.rwg.rwgTemperateForest=Forest, Temperate
+decorator.biome.rwg.rwgJungle=Jungle
+decorator.biome.rwg.rwgOasis=Oasis
+decorator.biome.rwg.rwgOceanCold=Ocean, Cold
+decorator.biome.rwg.rwgOceanHot=Ocean, Hot
+decorator.biome.rwg.rwgOceanIce=Ocean, Ice
+decorator.biome.rwg.rwgOceanOasis=Ocean, Oasis
+decorator.biome.rwg.rwgOceanTemperate=Ocean, Temperate
+decorator.biome.rwg.rwgOceanWet=Ocean, Wet
+decorator.biome.rwg.rwgPlains=Plains
+decorator.biome.rwg.rwgColdPlains=Plains, Cold
+decorator.biome.rwg.rwgHotPlains=Plains, Hot
+decorator.biome.rwg.rwgRedwood=Redwood
+decorator.biome.rwg.rwgRiverCold=River, Cold
+decorator.biome.rwg.rwgRiverHot=River, Hot
+decorator.biome.rwg.rwgRiverIce=River, Ice
+decorator.biome.rwg.rwgRiverOasis=River, Oasis
+decorator.biome.rwg.rwgRiverTemperate=River, Temperate
+decorator.biome.rwg.rwgRiverWet=River, Wet
+decorator.biome.rwg.rwgTropical=Tropical
+
+decorator.biome.vc.vcFjords=Fjords
+decorator.biome.vc.vcFlat=Flat
+decorator.biome.vc.vcHighHills=High Hills
+decorator.biome.vc.vcLake=Lake
+decorator.biome.vc.vcMountains=Mountains
+
 decorator.biome.vanilla.beachCold=冻滩(Cold Beach)
 decorator.biome.vanilla.beachOcean=沙滩(Beach)
 decorator.biome.vanilla.beachStone=石滩(Stone Beach)
@@ -289,6 +323,7 @@ decorator.biome.vanilla.mesa=平顶山(Mesa)
 decorator.biome.vanilla.mesaBryce=平顶山岩柱(Mesa Bryce)
 decorator.biome.vanilla.mesaPlateau=平顶山高原(Mesa Plateau)
 decorator.biome.vanilla.mesaPlateauF=平顶山高原F(Mesa Plateau F)
+decorator.biome.vanilla.mesaPlateauFM=Mesa Plateau F M
 decorator.biome.vanilla.mushroomIsland=蘑菇岛(Mushroom Island)
 decorator.biome.vanilla.mushroomIslandShore=蘑菇岛岸(Mushroom Island Shore)
 decorator.biome.vanilla.ocean=海洋(Ocean)
@@ -310,10 +345,13 @@ decorator.biome.vanilla.taiga=针叶林(Taiga)
 decorator.biome.vanilla.taigaHills=针叶林山丘(Taiga Hills)
 decorator.biome.vanilla.taigaM=针叶林M(Taiga M)
 
+decorator.set.amb=Amberoguia
 decorator.set.bop=超多生物群系(BiomesOPlenty)
 decorator.set.eb=更好的生物群系(EnhancedBiomes)
 decorator.set.ebxl=更多生物群系(ExtraBiomesXL)
 decorator.set.hl=高地(HighLand)
+decorator.set.rwg=更真实的地图生成(Realistic World Gen)
+decorator.set.vc=VintageCraft
 decorator.set.vanilla=原版
 
 decorator.type.land=陆地
@@ -333,7 +371,6 @@ flower.color.purple=紫色
 flower.color.pink=粉色
 flower.color.white=白色
 
-#配置; Decorator==
 gui.screen.configAddPlant=添加植物
 gui.screen.configContent=内容
 gui.screen.configContentPlanters=花盆
@@ -1251,7 +1288,7 @@ tile.floatingWaterLilyPink.name=粉色睡莲
 tile.floatingWaterLilyWhite.name=白睡莲
 
 
-# 直接使用颜色表示品种,待改进.
+# 下列直接使用颜色表示品种
 
 
 # M-V
