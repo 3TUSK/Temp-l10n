@@ -22,6 +22,8 @@ decorator.area.waterEdge=Water Edge
 decorator.area.tree=Tree
 decorator.area.vine=Vine
 
+decorator.biome.amb.ambAmberoguiaBiome=Amberoguia Biome
+
 decorator.biome.bop.bopAlps=Alps
 decorator.biome.bop.bopAlpsForest=Alps Forest
 decorator.biome.bop.bopArctic=Arctic
@@ -246,6 +248,38 @@ decorator.biome.hl.hlValley=Valley
 decorator.biome.hl.hlVolcanoIsland=Volcano Island
 decorator.biome.hl.hlWindyIsland=Windy Island
 
+decorator.biome.rwg.rwgHotDesert=Desert, Hot
+decorator.biome.rwg.rwgSnowDesert=Desert, Snow
+decorator.biome.rwg.rwgColdForest=Forest, Cold
+decorator.biome.rwg.rwgHotForest=Forest, Hot
+decorator.biome.rwg.rwgSnowForest=Forest, Snow
+decorator.biome.rwg.rwgTemperateForest=Forest, Temperate
+decorator.biome.rwg.rwgJungle=Jungle
+decorator.biome.rwg.rwgOasis=Oasis
+decorator.biome.rwg.rwgOceanCold=Ocean, Cold
+decorator.biome.rwg.rwgOceanHot=Ocean, Hot
+decorator.biome.rwg.rwgOceanIce=Ocean, Ice
+decorator.biome.rwg.rwgOceanOasis=Ocean, Oasis
+decorator.biome.rwg.rwgOceanTemperate=Ocean, Temperate
+decorator.biome.rwg.rwgOceanWet=Ocean, Wet
+decorator.biome.rwg.rwgPlains=Plains
+decorator.biome.rwg.rwgColdPlains=Plains, Cold
+decorator.biome.rwg.rwgHotPlains=Plains, Hot
+decorator.biome.rwg.rwgRedwood=Redwood
+decorator.biome.rwg.rwgRiverCold=River, Cold
+decorator.biome.rwg.rwgRiverHot=River, Hot
+decorator.biome.rwg.rwgRiverIce=River, Ice
+decorator.biome.rwg.rwgRiverOasis=River, Oasis
+decorator.biome.rwg.rwgRiverTemperate=River, Temperate
+decorator.biome.rwg.rwgRiverWet=River, Wet
+decorator.biome.rwg.rwgTropical=Tropical
+
+decorator.biome.vc.vcFjords=Fjords
+decorator.biome.vc.vcFlat=Flat
+decorator.biome.vc.vcHighHills=High Hills
+decorator.biome.vc.vcLake=Lake
+decorator.biome.vc.vcMountains=Mountains
+
 decorator.biome.vanilla.beachCold=Beach, Cold
 decorator.biome.vanilla.beachOcean=Beach, Ocean
 decorator.biome.vanilla.beachStone=Beach, Stone
@@ -283,6 +317,7 @@ decorator.biome.vanilla.mesa=Mesa
 decorator.biome.vanilla.mesaBryce=Mesa Bryce
 decorator.biome.vanilla.mesaPlateau=Mesa Plateau
 decorator.biome.vanilla.mesaPlateauF=Mesa Plateau F
+decorator.biome.vanilla.mesaPlateauFM=Mesa Plateau F M
 decorator.biome.vanilla.mushroomIsland=Mushroom Island
 decorator.biome.vanilla.mushroomIslandShore=Mushroom Island Shore
 decorator.biome.vanilla.ocean=Ocean
@@ -304,10 +339,13 @@ decorator.biome.vanilla.taiga=Taiga
 decorator.biome.vanilla.taigaHills=Taiga Hills
 decorator.biome.vanilla.taigaM=Taiga M
 
+decorator.set.amb=Amberoguia
 decorator.set.bop=Biomes O' Plenty
 decorator.set.eb=Enhanced Biomes
 decorator.set.ebxl=ExtrabiomesXL
 decorator.set.hl=Highlands
+decorator.set.rwg=Realistic World Gen
+decorator.set.vc=VintageCraft
 decorator.set.vanilla=Vanilla
 
 decorator.type.land=Land
@@ -975,8 +1013,6 @@ tile.bambooWetForestSlab.name=Wet Forest Bamboo Slab
 tile.bambooWetForestStairs.name=Wet Forest Bamboo Stairs
 tile.bambooWetForestWall.name=Wet Forest Bamboo Wall
 
-tile.beachShowyAster.name=Showy Aster
-tile.beachShowyAster.snam=Eurybia spectabilis
 tile.beachButtonSage.name=Button Sage
 tile.beachButtonSage.snam=Lantana involucrata
 tile.beachDustyMiller.name=Dusty Miller
@@ -993,6 +1029,8 @@ tile.beachSeaOats.name=Sea Oats
 tile.beachSeaOats.snam=Uniola paniculata
 tile.beachSeaSandwort.name=Sea Sandwort
 tile.beachSeaSandwort.snam=Honckenya peploides
+tile.beachShowyAster.name=Showy Aster
+tile.beachShowyAster.snam=Eurybia spectabilis
 
 tile.berrybushBeauty.name=Beautyberry
 tile.berrybushBeauty.snam=Callicarpa bodinieri
