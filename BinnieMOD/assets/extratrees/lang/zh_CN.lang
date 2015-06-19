@@ -171,9 +171,21 @@ extratrees.block.planks.forestry.plum.desc=
 extratrees.block.planks.forestry.maple.desc=
 extratrees.block.planks.forestry.citrus.desc=
 
+< %1$s is name of wood used for door >
+extratrees.block.door.name=%1$s Wood Door
 
+< %1$s is name of wood used for door, %2$s is type of door >
+extratrees.block.door.name.adv=%2$s %1$s Wood Door
+extratrees.block.door.type.standard=
+extratrees.block.door.type.solid=Solid
+extratrees.block.door.type.double=Split
+extratrees.block.door.type.full=Full
 
+< %1$s is name of the wood>
+extratrees.block.plank.name=%1$s Wood Planks
 
+< %1$s is name of wood >
+extratrees.block.log.name=%1$s Wood
 
 extratrees.species.orchardapple.name=苹果
 extratrees.species.sweetcrabapple.name=Sweet Crabapple
@@ -350,4 +362,42 @@ extratrees.item.food.mango=芒果
 extratrees.item.food.starfruit=杨桃
 extratrees.item.food.candlenut=石栗
 
+extratrees.gui.database.planks.use=Can make:
+
+extratrees.gui.database.mode.fruit=Fruit
+extratrees.gui.database.mode.wood=Wood
+extratrees.gui.database.mode.planks=Planks
+
+extratrees.gui.database.tab.species.overview=Overview
+extratrees.gui.database.tab.species.genome=Genome
+extratrees.gui.database.tab.species.classification=Classification
+extratrees.gui.database.tab.species.resultant=Resultant Mutations
+extratrees.gui.database.tab.species.further=Further Mutations
+
+extratrees.gui.database.tab.branches.overview=Overview
+extratrees.gui.database.tab.branches.species=Species
+
+extratrees.gui.database.tab.breeder.breeder=Breeder
+
+
+extratrees.gui.database.tab.fruit.natural=Natural Trees
+extratrees.gui.database.tab.fruit.natura.helpList of trees that naturally produce this fruit
+extratrees.gui.database.tab.fruit.potential=Potential Trees
+extratrees.gui.database.tab.fruit.potential.help=List of trees that can produce this fruit if they possess the right allele
+extratrees.gui.database.tab.wood.natural=Natural Trees
+extratrees.gui.database.tab.wood.natural.help=List of trees that are made of this wood
+extratrees.gui.database.tab.planks.overview=Overview
+extratrees.gui.database.tab.planks.overview.help=Description and possible uses
+extratrees.gui.database.tab.planks.natural=Natural Trees
+extratrees.gui.database.tab.planks.natural.help=List of trees that produce logs that can be crafted into this plank
+
+
+extratrees.gui.database.tab.butterfly.species.overview=Overview
+extratrees.gui.database.tab.butterfly.species.classification=Classification
+extratrees.gui.database.tab.butterfly.species.specimen=Specimen
+extratrees.gui.database.tab.butterfly.species.resultant=Resultant Mutations
+extratrees.gui.database.tab.butterfly.species.further=Further Mutations
+extratrees.gui.database.tab.butterfly.branches.overview=Overview
+extratrees.gui.database.tab.butterfly.branches.species=Species
+extratrees.gui.database.tab.butterfly.breeder=Breeder
 

@@ -502,3 +502,16 @@ extrabees.effect.bonemealfruit.name=成熟
 extrabees.effect.bonemealmushroom.name=蘑菇
 extrabees.effect.power.name=能量
  
+
+
+
+extrabees.gui.database.tab.species.overview=Overview
+extrabees.gui.database.tab.species.classification=Classification
+extrabees.gui.database.tab.species.genome=Genome
+extrabees.gui.database.tab.species.products=Products
+extrabees.gui.database.tab.species.climate=Climate
+extrabees.gui.database.tab.species.resultant=Resultant Mutations
+extrabees.gui.database.tab.species.further=Further Mutations
+extrabees.gui.database.tab.branches.overview=Overview
+extrabees.gui.database.tab.branches.species=Species
+extrabees.gui.database.tab.breeder=Breeder

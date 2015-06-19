@@ -57,6 +57,21 @@ binniecore.rootBees.chromosome.flowering=Pollination
 binniecore.rootBees.chromosome.territory=Territory
 binniecore.rootBees.chromosome.effect=Effect
 
+binniecore.rootBees.chromosome.species.short=Species
+binniecore.rootBees.chromosome.speed.short=Production
+binniecore.rootBees.chromosome.lifespan.short=Lifespan
+binniecore.rootBees.chromosome.fertility.short=Fertility
+binniecore.rootBees.chromosome.temperature_tolerance.short=Temp. Tol.
+binniecore.rootBees.chromosome.nocturnal.short=Nocturnal
+binniecore.rootBees.chromosome.humidity.short=Humidity
+binniecore.rootBees.chromosome.humidity_tolerance.short=Humid. Tol.
+binniecore.rootBees.chromosome.tolerant_flyer.short=Rain Tol.
+binniecore.rootBees.chromosome.cave_dwelling.short=Cave Dwell.
+binniecore.rootBees.chromosome.flower_provider.short=Flowers
+binniecore.rootBees.chromosome.flowering.short=Pollination
+binniecore.rootBees.chromosome.territory.short=Territory
+binniecore.rootBees.chromosome.effect.short=Effect
+
 binniecore.rootTrees.chromosome.species=Species
 binniecore.rootTrees.chromosome.growth=Growth
 binniecore.rootTrees.chromosome.height=Height
@@ -70,6 +85,20 @@ binniecore.rootTrees.chromosome.effect=Effect
 binniecore.rootTrees.chromosome.maturation=Maturation
 binniecore.rootTrees.chromosome.girth=Girth
 binniecore.rootTrees.chromosome.fireproof=Fireproof
+
+binniecore.rootTrees.chromosome.species.short=Species
+binniecore.rootTrees.chromosome.growth.short=Growth
+binniecore.rootTrees.chromosome.height.short=Height
+binniecore.rootTrees.chromosome.fertility.short=Fertility
+binniecore.rootTrees.chromosome.fruits.short=Fruit
+binniecore.rootTrees.chromosome.yield.short=Yield
+binniecore.rootTrees.chromosome.plant.short=Plant Type
+binniecore.rootTrees.chromosome.sappiness.short=Sappiness
+binniecore.rootTrees.chromosome.territory.short=Territory
+binniecore.rootTrees.chromosome.effect.short=Effect
+binniecore.rootTrees.chromosome.maturation.short=Maturation
+binniecore.rootTrees.chromosome.girth.short=Girth
+binniecore.rootTrees.chromosome.fireproof.short=Fireproof
 
 binniecore.rootButterflies.chromosome.species=Species
 binniecore.rootButterflies.chromosome.size=Size
@@ -86,6 +115,21 @@ binniecore.rootButterflies.chromosome.flower_provider=Flowers
 binniecore.rootButterflies.chromosome.effect=Effect
 binniecore.rootButterflies.chromosome.territory=Territory
 
+binniecore.rootButterflies.chromosome.species.short=Species
+binniecore.rootButterflies.chromosome.size.short=Size
+binniecore.rootButterflies.chromosome.speed.short=Speed
+binniecore.rootButterflies.chromosome.lifespan.short=Lifespan
+binniecore.rootButterflies.chromosome.metabolism.short=Metabolism
+binniecore.rootButterflies.chromosome.fertility.short=Fertility
+binniecore.rootButterflies.chromosome.temperature_tolerance.short=Temp. Tol.
+binniecore.rootButterflies.chromosome.humidity_tolerance.short=Humid. Tol.
+binniecore.rootButterflies.chromosome.nocturnal.short=Nocturnal
+binniecore.rootButterflies.chromosome.tolerant_flyer.short=Rain Tol.
+binniecore.rootButterflies.chromosome.fire_resist.short=Fire Resist.
+binniecore.rootButterflies.chromosome.flower_provider.short=Flowers
+binniecore.rootButterflies.chromosome.effect.short=Effect
+binniecore.rootButterflies.chromosome.territory.short=Territory
+
 binniecore.rootFlowers.chromosome.species=Species
 binniecore.rootFlowers.chromosome.primary=Primary Colour
 binniecore.rootFlowers.chromosome.secondary=Secondary Colour
@@ -99,7 +143,18 @@ binniecore.rootFlowers.chromosome.ph_tolerance=pH Tolerance
 binniecore.rootFlowers.chromosome.sappiness=Nectar
 binniecore.rootFlowers.chromosome.stem=Stem Colour
 
-
+binniecore.rootFlowers.chromosome.species.short=Species
+binniecore.rootFlowers.chromosome.primary.short=Prim. Colour
+binniecore.rootFlowers.chromosome.secondary.short=Sec. Colour
+binniecore.rootFlowers.chromosome.fertility.short=Fertility
+binniecore.rootFlowers.chromosome.territory.short=Territory
+binniecore.rootFlowers.chromosome.effect.short=Effect
+binniecore.rootFlowers.chromosome.lifespan.short=Lifespan
+binniecore.rootFlowers.chromosome.temperature_tolerance.short=Temp. Tol.
+binniecore.rootFlowers.chromosome.humidity_tolerance.short=Humid. Tol.
+binniecore.rootFlowers.chromosome.ph_tolerance.short=pH Tol.
+binniecore.rootFlowers.chromosome.sappiness.short=Nectar
+binniecore.rootFlowers.chromosome.stem.short=Stem Colour
 
 binniecore.allele.fertility.low=Low
 binniecore.allele.fertility.normal=Normal
@@ -131,13 +186,9 @@ binniecore.beemodifier.production=Production
 binniecore.beemodifier.flowering=Flowering
 binniecore.beemodifier.geneticdecay=Genetic Decay
 
-
-
 binniecore.gui.breedingmessage.species=Species Discovered
 binniecore.gui.breedingmessage.branch=Branch Discovered
 binniecore.gui.breedingmessage.epithet=Epithet Gained
-
-
 
 binniecore.item.container.capsule=Capsule
 binniecore.item.container.refractory=Capsule
@@ -146,7 +197,6 @@ binniecore.item.container.bucket=Bucket
 binniecore.item.container.glass=Bottle
 binniecore.item.container.cylinder=Cylinder
 
-
 binniecore.machine.storage.compartment=Compartment
 binniecore.machine.storage.compartmentIron=Iron Compartment
 binniecore.machine.storage.compartmentDiamond=Diamond Compartment
@@ -154,19 +204,11 @@ binniecore.machine.storage.compartmentCopper=Copper Compartment
 binniecore.machine.storage.compartmentBronze=Bronze Compartment
 binniecore.machine.storage.compartmentGold=Gold Compartment
 
+< %1$s is the name of the pattern >
+binniecore.gui.designer.pattern=%1$s Pattern
 
+binniecore.gui.database.nodescription=No Description Provided.
 
-
-
-
-
-
-
-
-
-binniecore.rootBees.fieldkit.species.0=#name# #type#!
-binniecore.rootBees.fieldkit.species.1=Most likely a #name# bee
-binniecore.rootBees.fieldkit.species.2=Markings identify it as a #name# bee
-binniecore.rootBees.fieldkit.species.3=#latin#, also known as the #name# bee
-
-binniecore.rootBees.fieldKit.speed.0=Appears to have a #name# lifespan
+binniecore.gui.database.mode.species=Species
+binniecore.gui.database.mode.branches=Branches
+binniecore.gui.database.mode.breeder=Breeder

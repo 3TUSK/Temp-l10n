@@ -57,6 +57,21 @@ binniecore.rootBees.chromosome.flowering=授粉
 binniecore.rootBees.chromosome.territory=活动范围
 binniecore.rootBees.chromosome.effect=特殊效果
 
+binniecore.rootBees.chromosome.species.short=品种
+binniecore.rootBees.chromosome.speed.short=效率
+binniecore.rootBees.chromosome.lifespan.short=寿命
+binniecore.rootBees.chromosome.fertility.short=生育力
+binniecore.rootBees.chromosome.temperature_tolerance.short=温度耐受性
+binniecore.rootBees.chromosome.nocturnal.short=昼夜型
+binniecore.rootBees.chromosome.humidity.short=湿度
+binniecore.rootBees.chromosome.humidity_tolerance.short=湿度耐受性
+binniecore.rootBees.chromosome.tolerant_flyer.short=耐雨飞行性
+binniecore.rootBees.chromosome.cave_dwelling.short=穴居性
+binniecore.rootBees.chromosome.flower_provider.short=采蜜对象
+binniecore.rootBees.chromosome.flowering.short=授粉
+binniecore.rootBees.chromosome.territory.short=活动范围
+binniecore.rootBees.chromosome.effect.short=特殊效果
+
 binniecore.rootTrees.chromosome.species=品种
 binniecore.rootTrees.chromosome.growth=生长状况
 binniecore.rootTrees.chromosome.height=高度
@@ -70,6 +85,20 @@ binniecore.rootTrees.chromosome.effect=特殊效果
 binniecore.rootTrees.chromosome.maturation=突变
 binniecore.rootTrees.chromosome.girth=干围
 binniecore.rootTrees.chromosome.fireproof=抗燃
+
+binniecore.rootTrees.chromosome.species.short=品种
+binniecore.rootTrees.chromosome.growth.short=生长状况
+binniecore.rootTrees.chromosome.height.short=高度
+binniecore.rootTrees.chromosome.fertility.short=生育力
+binniecore.rootTrees.chromosome.fruits.short=果实
+binniecore.rootTrees.chromosome.yield.short=产量
+binniecore.rootTrees.chromosome.plant.short=树木类型
+binniecore.rootTrees.chromosome.sappiness.short=树苗
+binniecore.rootTrees.chromosome.territory.short=影响范围
+binniecore.rootTrees.chromosome.effect.short=特殊效果
+binniecore.rootTrees.chromosome.maturation.short=突变
+binniecore.rootTrees.chromosome.girth.short=干围
+binniecore.rootTrees.chromosome.fireproof.short=抗燃
 
 binniecore.rootButterflies.chromosome.species=品种
 binniecore.rootButterflies.chromosome.size=大小
@@ -86,6 +115,21 @@ binniecore.rootButterflies.chromosome.flower_provider=采蜜对象
 binniecore.rootButterflies.chromosome.effect=特殊效果
 binniecore.rootButterflies.chromosome.territory=活动范围
 
+binniecore.rootButterflies.chromosome.species.short=品种
+binniecore.rootButterflies.chromosome.size.short=大小
+binniecore.rootButterflies.chromosome.speed.short=速度
+binniecore.rootButterflies.chromosome.lifespan.short=寿命
+binniecore.rootButterflies.chromosome.metabolism.short=代谢
+binniecore.rootButterflies.chromosome.fertility.short=生育力
+binniecore.rootButterflies.chromosome.temperature_tolerance.short=温度耐受性
+binniecore.rootButterflies.chromosome.humidity_tolerance.short=湿度耐受性
+binniecore.rootButterflies.chromosome.nocturnal.short=昼夜型
+binniecore.rootButterflies.chromosome.tolerant_flyer.short=雨天飞行性
+binniecore.rootButterflies.chromosome.fire_resist.short=抗火性
+binniecore.rootButterflies.chromosome.flower_provider.short=采蜜对象
+binniecore.rootButterflies.chromosome.effect.short=特殊效果
+binniecore.rootButterflies.chromosome.territory.short=活动范围
+
 binniecore.rootFlowers.chromosome.species=品种
 binniecore.rootFlowers.chromosome.primary=主要颜色
 binniecore.rootFlowers.chromosome.secondary=次要颜色
@@ -99,7 +143,18 @@ binniecore.rootFlowers.chromosome.ph_tolerance=酸碱耐受性
 binniecore.rootFlowers.chromosome.sappiness=花蜜
 binniecore.rootFlowers.chromosome.stem=茎色
 
-
+binniecore.rootFlowers.chromosome.species.short=品种
+binniecore.rootFlowers.chromosome.primary.short=主要颜色
+binniecore.rootFlowers.chromosome.secondary.short=次要颜色
+binniecore.rootFlowers.chromosome.fertility.short=生育力
+binniecore.rootFlowers.chromosome.territory.short=影响范围
+binniecore.rootFlowers.chromosome.effect.short=特殊效果
+binniecore.rootFlowers.chromosome.lifespan.short=寿命
+binniecore.rootFlowers.chromosome.temperature_tolerance.short=温度耐受性
+binniecore.rootFlowers.chromosome.humidity_tolerance.short=湿度耐受性
+binniecore.rootFlowers.chromosome.ph_tolerance.short=酸碱耐受性
+binniecore.rootFlowers.chromosome.sappiness.short=花蜜
+binniecore.rootFlowers.chromosome.stem.short=茎色
 
 binniecore.allele.fertility.low=低
 binniecore.allele.fertility.normal=普通
@@ -131,8 +186,6 @@ binniecore.beemodifier.production=产物
 binniecore.beemodifier.flowering=授粉速度
 binniecore.beemodifier.geneticdecay=Genetic Decay
 
-
-
 binniecore.gui.breedingmessage.species=已发现品种
 binniecore.gui.breedingmessage.branch=已发现分支
 binniecore.gui.breedingmessage.epithet=已发现称号
@@ -151,19 +204,11 @@ binniecore.machine.storage.compartmentCopper=铜质组合箱
 binniecore.machine.storage.compartmentBronze=青铜组合箱
 binniecore.machine.storage.compartmentGold=金质组合箱
 
+< %1$s is the name of the pattern >
+binniecore.gui.designer.pattern=%1$s Pattern
 
+binniecore.gui.database.nodescription=No Description Provided.
 
-
-
-
-
-
-
-
-
-binniecore.rootBees.fieldkit.species.0=#name# #type#!
-binniecore.rootBees.fieldkit.species.1=Most likely a #name# bee
-binniecore.rootBees.fieldkit.species.2=Markings identify it as a #name# bee
-binniecore.rootBees.fieldkit.species.3=#latin#, also known as the #name# bee
-
-binniecore.rootBees.fieldKit.speed.0=Appears to have a #name# lifespan
+binniecore.gui.database.mode.species=Species
+binniecore.gui.database.mode.branches=Branches
+binniecore.gui.database.mode.breeder=Breeder
