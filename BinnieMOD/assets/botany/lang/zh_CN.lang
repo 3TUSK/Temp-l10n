@@ -149,13 +149,13 @@ for.binnie.circuit.garden.damp.neutral=Garden (潮湿, 中性)
 for.binnie.circuit.garden.damp.alkaline=Garden (潮湿, 碱性)
 
 
-botany.gui.database.tab.species.overview=Overview
-botany.gui.database.tab.species.genome=Genome
-botany.gui.database.tab.species.classification=Classification
+botany.gui.database.tab.species.overview=概述
+botany.gui.database.tab.species.genome=基因組
+botany.gui.database.tab.species.classification=科学分类
 botany.gui.database.tab.species.resultant=Resultant Mutations
 botany.gui.database.tab.species.further=Further Mutations
-botany.gui.database.tab.branches.overview=Overview
-botany.gui.database.tab.branches.species=Species
+botany.gui.database.tab.branches.overview=概述
+botany.gui.database.tab.branches.species=种
 botany.gui.database.tab.breeder=Breeder
 
 botany.gui.database.tab.colour.resultant=Resultant Mixes

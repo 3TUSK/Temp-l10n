@@ -381,7 +381,7 @@ extratrees.gui.database.tab.breeder.breeder=Breeder
 
 
 extratrees.gui.database.tab.fruit.natural=Natural Trees
-extratrees.gui.database.tab.fruit.natura.helpList of trees that naturally produce this fruit
+extratrees.gui.database.tab.fruit.natura.help=List of trees that naturally produce this fruit
 extratrees.gui.database.tab.fruit.potential=Potential Trees
 extratrees.gui.database.tab.fruit.potential.help=List of trees that can produce this fruit if they possess the right allele
 extratrees.gui.database.tab.wood.natural=Natural Trees

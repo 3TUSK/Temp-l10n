@@ -207,8 +207,8 @@ binniecore.machine.storage.compartmentGold=金质组合箱
 < %1$s is the name of the pattern >
 binniecore.gui.designer.pattern=%1$s Pattern
 
-binniecore.gui.database.nodescription=No Description Provided.
+binniecore.gui.database.nodescription=未提供说明.
 
-binniecore.gui.database.mode.species=Species
+binniecore.gui.database.mode.species=种
 binniecore.gui.database.mode.branches=Branches
 binniecore.gui.database.mode.breeder=Breeder
