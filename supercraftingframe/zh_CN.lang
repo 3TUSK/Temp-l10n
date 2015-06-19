@@ -1,9 +1,0 @@
-tile.supercraftingframe.name=超级合成框架
-tile.superitemframe.name=超级物品框架
-tile.supervoidframe.name=超级虚空框架
-scf.missing.ingredient=缺少原料: '%1$s'
-scf.config.inventory_check.comment=合成新物品前检查库存.
-scf.config.super_void_frame_particles.comment=虚空框架显示虚空粒子效果.
-scf.craftingframe.mode.both=玩家&库存
-scf.craftingframe.mode.player=玩家
-scf.craftingframe.mode.inventory=库存
