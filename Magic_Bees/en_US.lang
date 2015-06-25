@@ -172,7 +172,7 @@ liquid.cryotheum=Gelid Cryotheum
 liquid.mana=Primal Mana
 liquid.coal=Liquifacted Coal
 
-#Moondial
+#Moondial & Mutation moon phase conditions
 moon.full=Full Moon
 moon.gibbousWaning=Waning Gibbous
 moon.gibbousWaxing=Waxing Gibbous
@@ -181,6 +181,17 @@ moon.halfWaxing=Waxing Half
 moon.crescentWaning=Waning Crescent
 moon.crescentWaxing=Waxing Crescent
 moon.new=New Moon
+
+# Alternate moon names for languages that require a different kind of localization. Remove # to activate.
+#	If missing, will fall back on the non-alternate versions.
+#moon.alt.full=
+#moon.alt.gibbousWaning=
+#moon.alt.gibbousWaxing=
+#moon.alt.halfWaning=
+#moon.alt.halfWaxing=
+#moon.alt.crescentWaning=
+#moon.alt.crescentWaxing=
+#moon.alt.new=
 
 #Backpack
 backpack.thaumaturge=Thaumaturge's Backpack
@@ -320,6 +331,8 @@ magicbees.speciesCobalt=Cobalt
 magicbees.speciesCobalt.description=The unstable properties of this material seem to not affect the bees in the slightest.|Apinomicon
 magicbees.speciesManyullyn=Manyullyn
 magicbees.speciesManyullyn.description="Doot doo-dee-doot doot!"
+magicbees.speciesOsmium=Osmium
+magicbees.speciesOsmium.description=Occasionally confused for Iridium bees, despite their lack of goopy texture and pink colouration as described in older books.|Apinomicon
 
 magicbees.speciesDiamond=Diamandi
 magicbees.speciesDiamond.description=Crystalline, glittering, and harder than dragon's teeth. These bees are none of those.|Apinomicon
@@ -392,7 +405,7 @@ magicbees.speciesAMPlant=Fruticic
 magicbees.speciesAMPlant.description=They have an affinity for all that is green and grows.|Apinomicon
 magicbees.speciesAMIce=Glacic
 magicbees.speciesAMIce.description="They keep stealing stuff from me, and I never see them. They're far too slippery."|MysteriousAges, incorrigible punster
-magicbees.speciesAMMagma=Magmatic/entry>
+magicbees.speciesAMMagma=Magmatic
 magicbees.speciesAMMagma.description=As they fly by, they sear the surface of the landscape, eventually scouring all plants and fragile minerals away.|Apinomicon
 magicbees.speciesAMArcane=Arcane
 magicbees.speciesAMArcane.description="Curious creatures, though their produce is quite useful."|Mithion, Adept
@@ -598,6 +611,7 @@ magicbees.botania.lexicon.hiveacynth.crafting=> beesbeesbees.com
 
 magicbees.botania.lexicon.hibeescus.0=&5Ignoble&0 bees, while exactly as useful as their &2Pristine&0 kin, have but only one flaw - after 100 generations or so, they begin to become diseased, weak, and may die off on you, right before you get that coveted mutation that'll drive your fellow Apiarists mad with envy. It seems that there is a solution to this after all, though! With enough mana, time, and the help of the very special
 magicbees.botania.lexicon.hibeescus.1=&1Hibeescus&0 at your side, you can expunge the multitude of genetic weeknesses in the &5Ignoble&0 wild bees. Patience is a must, since the &1Hibeescus&0 performs its magic very slowly, up to 2 full days!<br>It is also recommended that you use its power sparingly, as it is incredibly mana-hungry.
+magicbees.botania.lexicon.hibeescus.2=halt the genetic cleansing operation once it has begun.
 magicbees.botania.lexicon.hibeescus.crafting=Only for use by Spiteful people.
 
 magicbees.botania.lexicon.manaBooster.0=The Magic Apiary is a natural way to keep bees working quickly, but its a bit... limited. Thankfully, the properties of living stone and petals have a way of apparently energizing bees, making them produce more. Simply provide the &1Mana Apiary Booster&0 with a constant supply of mana, and it will keep the apiaries working efficiently.

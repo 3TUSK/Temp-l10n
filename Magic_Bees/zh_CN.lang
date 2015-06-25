@@ -151,8 +151,8 @@ liquid.water=水
 liquid.lava=岩浆
 liquid.biomass=生物质
 liquid.bioethanol=空
-liquid.Oil=石油
-liquid.Fuel=燃油
+liquid.oil=石油
+liquid.fuel=燃油
 liquid.seedoil=种子油
 liquid.honey=蜂蜜
 liquid.juice=果汁
@@ -172,7 +172,7 @@ liquid.cryotheum=极寒之凛冰
 liquid.mana=元始魔力
 liquid.coal=液态煤炭
 
-#Moondial
+#Moondial & Mutation moon phase conditions
 moon.full=满月
 moon.gibbousWaning=亏凸月
 moon.gibbousWaxing=盈凸月
@@ -182,17 +182,30 @@ moon.crescentWaning=亏蛾眉月
 moon.crescentWaxing=凸娥眉月
 moon.new=新月
 
+# Alternate moon names for languages that require a different kind of localization. Remove # to activate.
+#	If missing, will fall back on the non-alternate versions.
+#moon.alt.full=
+#moon.alt.gibbousWaning=
+#moon.alt.gibbousWaxing=
+#moon.alt.halfWaning=
+#moon.alt.halfWaxing=
+#moon.alt.crescentWaning=
+#moon.alt.crescentWaxing=
+#moon.alt.new=
+
 #Backpack
 backpack.thaumaturge=神秘使背包
 
 #Itemgroups
-itemGroup.magicbees=魔法蜜蜂
+itemGroup.magicBees=魔法蜜蜂
 
 #Botania flowers; Lexicon entries nearer the end.
 tile.botania:flower.beegonia.name=食蜂花
 tile.botania:flower.beegonia.lore=我们不会再让蜜蜂看见你了...
 tile.botania:flower.hiveacynth.name=Hiveacynth
 tile.botania:flower.hiveacynth.lore=于Morvelaira的花园中
+tile.botania:flower.hibeescus.name=Hibeescus
+tile.botania:flower.hibeescus.lore=The puns may sting a bit
 
 #Research
 research.requiresBlock=需要一个%s作为基础
@@ -210,7 +223,6 @@ research.block.crystals=晶簇
 #Species
 magicbees.speciesMystical=神秘
 magicbees.speciesMystical.description=在很多地方很常见，这种蜜蜂偶尔会对自己产生一些奇怪的念头.|Apinomicon
-
 magicbees.speciesSorcerous=巫术
 magicbees.speciesSorcerous.description=喜欢温暖而干燥的环境,并且它们似乎有在干旱环境里聚汽成水的能力|Apinomicon
 magicbees.speciesUnusual=非凡
@@ -220,21 +232,24 @@ magicbees.speciesAttuned.description=它们飞行时仿佛得到了空中无形�
 
 magicbees.speciesEldritch=怪异
 magicbees.speciesEldritch.description=这种蜜蜂体内被封印的潜能渐渐开始崭露头角.|Apinomicon
+
 magicbees.speciesEsoteric=玄奥
 magicbees.speciesEsoteric.description=罕见的杂交品种，具有魔力特性.|Apinomicon
 magicbees.speciesMysterious=奥秘
 magicbees.speciesMysterious.description=这些蜜蜂曾经去过世界的尽头并凯旋归来,它们的能力得到了长足增强.|Apinomicon
 magicbees.speciesArcane=奥能
 magicbees.speciesArcane.description="它们的产物充满了魔力!"|Azanor, 大神秘使
+
 magicbees.speciesCharmed=魅惑
 magicbees.speciesCharmed.description=你的神秘学养蜂试验终于结出了硕果:一种会嗡嗡叫名为蜜蜂的硕果.|Apinomicon
 magicbees.speciesEnchanted=蕴魔
 magicbees.speciesEnchanted.description=数代魅惑蜂的繁衍让小东西们逐渐接触到未知的存在.|Apinomicon
 magicbees.speciesSupernatural=超能
 magicbees.speciesSupernatural.description=蜜蜂行走在不可视境界线之上.|Apinomicon
+
 magicbees.speciesEthereal=以太
 magicbees.speciesEthereal.description=幽灵般地，被来自天域的力量充能.|Apinomicon
-	
+
 magicbees.speciesWatery=水
 magicbees.speciesWatery.description=喜欢潮湿的地方和流动的水.|Apinomicon
 magicbees.speciesEarthen=土
@@ -250,7 +265,7 @@ magicbees.speciesScholarly=博学
 magicbees.speciesScholarly.description="我难以确信,但我觉得它们比我更聪明 ..."|Yorae,图书馆馆员
 magicbees.speciesSavant=专家
 magicbees.speciesSavant.description=lim(x^(i / pi)/ log(e * 7 - ln(32/x^-pi))).把这个解出来我就给你们蜂蜜.|Yorae的桌子上发现的便签
-	
+
 magicbees.speciesAware=感知
 magicbees.speciesAware.description="它们看得见你的灵魂!"|Florastar,养蜂专家
 magicbees.speciesSpirit=精神
@@ -268,13 +283,14 @@ magicbees.speciesSmouldering=闷烧
 magicbees.speciesSmouldering.description=永恒之焰中潜伏的蜜蜂格外耀眼.|Apinomicon
 magicbees.speciesBigBad=Big Bad
 magicbees.speciesBigBad.description="谁会怕Big Bad克莉斯?"|Pahimar的临终遗言
+
 magicbees.speciesTimely=瞬息
 magicbees.speciesTimely.description="养蜂员从不迟到，他想去的时候就能准点到达!"|Sengir,养蜂狂人
 magicbees.speciesLordly=贵族
 magicbees.speciesLordly.description=它们平和生活, 共建和谐社会|古版Apinomicon残卷
 magicbees.speciesDoctoral=博士
 magicbees.speciesDoctoral.description="你们喜欢胶糖娃娃吗?"|戴着大围巾, 手持蓝色盒子的陌生人
-	
+
 magicbees.speciesInfernal=地狱
 magicbees.speciesInfernal.description=诞生于地狱深处的蜂种，具有特殊的力量|Apinomicon
 magicbees.speciesHateful=憎恶
@@ -315,6 +331,8 @@ magicbees.speciesCobalt=辉钴
 magicbees.speciesCobalt.description=这种金属不稳定的特性似乎丝毫没有影响这些蜜蜂.|Apinomicon
 magicbees.speciesManyullyn=玛玉灵
 magicbees.speciesManyullyn.description="咚!嘟滴嘟~咚!"
+magicbees.speciesOsmium=Osmium
+magicbees.speciesOsmium.description=Occasionally confused for Iridium bees, despite their lack of goopy texture and pink colouration as described in older books.|Apinomicon
 
 magicbees.speciesDiamond=钻石
 magicbees.speciesDiamond.description=闪光的结晶,硬比龙牙. 钻石恒久远,一颗永流传.|Apinomicon
@@ -345,7 +363,6 @@ magicbees.speciesTCOrder=奇术
 magicbees.speciesTCOrder.description=它们有着臻于完美无瑕的蜂巢,其每个部分都是整体图案的镜像.|Apinomicon
 magicbees.speciesTCChaos=朴实
 magicbees.speciesTCChaos.description=它们的社会结构每天都在变化,这给它们带来了极强的灵活性和适应性, 但也使得它们变得难以捉摸.|Apinomicon
-
 magicbees.speciesTCVis=魔力
 magicbees.speciesTCVis.description="它们能感知到魔力的存在，却还不能影响到魔力."|Azanor的研究笔记
 magicbees.speciesTCPure=纯净
@@ -368,7 +385,6 @@ magicbees.speciesTCBeef=壮牛
 magicbees.speciesTCBeef.description="哞哞,哞哞,哞哞.稍等,咋回事?"|困惑的蜜蜂
 magicbees.speciesTCPork=猪啰
 magicbees.speciesTCPork.description="呼噜,呼噜噜.呃.... 嗡嗡?"|困惑的蜜蜂
-
 magicbees.speciesEEMinium=铅丹
 magicbees.speciesEEMinium.description=善变乃其天性.|Apinomicon
 magicbees.speciesAMEssence=源质
@@ -593,9 +609,10 @@ magicbees.botania.lexicon.hiveacynth.0=为了你的库存而到处找蜜蜂是�
 magicbees.botania.lexicon.hiveacynth.1=才可能被重组出来,其属性也大概和野外发现的差不多.<br>偶尔这些鲜花们也会给予她们自己一些新鲜空气,然后产出了一只自吹自擂的公主蜂,而不是平时那些普普通通的雄蜂. 红石信号将会停止&1Hiveacynth&0消耗魔力并生产蜜蜂的进程.
 magicbees.botania.lexicon.hiveacynth.crafting=点此了解详情> beesbeesbees.com
 
-+magicbees.botania.lexicon.hibeescus.0=&5卑贱种&0蜜蜂,尽管和它们的同类&2始祖种&0一样有用,但还是有一个瑕疵-大概在100代以后,它们开始患病,开始虚弱,甚至会在你面前死去,就正好在你得到梦寐以求的新品种时候,就要为你带来同行的愤怒和嫉妒的时候. 尽管,你知道这个问题应该是可以解决的! 只要有足够的魔力,时间,还有和你站在一边的
-+magicbees.botania.lexicon.hibeescus.1=&1Hibeescus&0的帮助,你就可以批量抹去野生&5卑贱种&0蜜蜂天生的基因缺陷了. 一定要有耐心,因为&1Hibeescus&0的施法速度相当慢,最长要整整两天!<br>另外强烈建议节约魔力,因为它对于魔力极度饥渴.
-+magicbees.botania.lexicon.hibeescus.crafting=仅为居心不良者使用.
+magicbees.botania.lexicon.hibeescus.0=&5卑贱种&0蜜蜂,尽管和它们的同类&2始祖种&0一样有用,但还是有一个瑕疵-大概在100代以后,它们开始患病,开始虚弱,甚至会在你面前死去,就正好在你得到梦寐以求的新品种时候,就要为你带来同行的愤怒和嫉妒的时候. 尽管,你知道这个问题应该是可以解决的! 只要有足够的魔力,时间,还有和你站在一边的
+magicbees.botania.lexicon.hibeescus.1=&1Hibeescus&0的帮助,你就可以批量抹去野生&5卑贱种&0蜜蜂天生的基因缺陷了. 一定要有耐心,因为&1Hibeescus&0的施法速度相当慢,最长要整整两天!<br>另外强烈建议节约魔力,因为它对于魔力极度饥渴. Applying a redstone signal to its roots will prevent it from absorbing new Princesses or Queens, but not
+magicbees.botania.lexicon.hibeescus.2=halt the genetic cleansing operation once it has begun.
+magicbees.botania.lexicon.hibeescus.crafting=仅为居心不良者使用.
 
 magicbees.botania.lexicon.manaBooster.0=魔力蜂箱是一种非常自然的让蜜蜂加快工作速度的方式,但它也有一点...局限. 幸运的是,活石和花瓣的特性使得它们可以偶尔为蜜蜂充能,从而使蜜蜂们更高产. 只需向&1魔力蜂箱加速器&0持续提供魔力,它们就可以持续使蜜蜂们保持高效状态.
 magicbees.botania.lexicon.manaBooster.crafting=充满魔力的蜂群中!
