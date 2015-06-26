@@ -13,5 +13,6 @@ This folder is for maintaing Simplified Chinese translation.
 
 [UUUii] (https://github.com/UUUii)
 
+[Joccob] (https://github.com/Joccob)
 #### Immersive Tech Era!
 Current status: WIP 75%

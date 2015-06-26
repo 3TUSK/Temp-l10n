@@ -42,7 +42,7 @@ tile.ImmersiveEngineering.metalMultiblock.bucketWheel.name=Bucket Wheel
 tile.ImmersiveEngineering.metalMultiblock.excavator.name=Excavator
 
 tile.ImmersiveEngineering.metalDecoration.fence.name=钢栅栏
-tile.ImmersiveEngineering.metalDecoration.scaffolding.name=钢质手脚架
+tile.ImmersiveEngineering.metalDecoration.scaffolding.name=钢质脚手架
 tile.ImmersiveEngineering.metalDecoration.lantern.name=灯
 tile.ImmersiveEngineering.metalDecoration.structuralArm.name=Structural Arm
 tile.ImmersiveEngineering.metalDecoration.radiator.name=散热器块
@@ -57,14 +57,14 @@ tile.ImmersiveEngineering.woodenDevice.watermill.name=Water Wheel
 tile.ImmersiveEngineering.woodenDevice.windmill.name=风车
 tile.ImmersiveEngineering.woodenDevice.windmillAdvanced.name=改良风车
 tile.ImmersiveEngineering.woodenDevice.crate.name=木质储存箱
-tile.ImmersiveEngineering.woodenDevice.modificationWorkbench.name=Engineer's Workbench
+tile.ImmersiveEngineering.woodenDevice.modificationWorkbench.name=工程师工作台
 
 tile.ImmersiveEngineering.woodenDecoration.treatedWood.name=防腐木板
 tile.ImmersiveEngineering.woodenDecoration.fence.name=防腐木栅栏
 tile.ImmersiveEngineering.woodenDecoration.slab0.name=防腐木台阶
 tile.ImmersiveEngineering.woodenDecoration.slab1.name=防腐木台阶
 tile.ImmersiveEngineering.woodenDecoration.doubleSlab.name=防腐木台阶
-tile.ImmersiveEngineering.woodenDecoration.scaffolding.name=防腐木手脚架
+tile.ImmersiveEngineering.woodenDecoration.scaffolding.name=防腐木脚手架
 tile.ImmersiveEngineering.woodenDecoration.wallMount.name=Wooden Wall Mount
 
 tile.ImmersiveEngineering.woodenStairs.name=防腐木楼梯
@@ -102,10 +102,10 @@ item.ImmersiveEngineering.metal.dustNickel.name=镍粉
 item.ImmersiveEngineering.metal.dustConstantan.name=康铜粉
 item.ImmersiveEngineering.metal.dustElectrum.name=琥珀金粉
 item.ImmersiveEngineering.metal.dustSteel.name=钢粉
-item.ImmersiveEngineering.metal.dustCoke.name=Coke Dust
-item.ImmersiveEngineering.metal.dustQuartz.name=Quartz Dust
-item.ImmersiveEngineering.metal.dustHOPGraphite.name=HOP Graphite Dust
-item.ImmersiveEngineering.metal.ingotHOPGraphite.name=HOP Graphite Ingot
+item.ImmersiveEngineering.metal.dustCoke.name=焦煤粉
+item.ImmersiveEngineering.metal.dustQuartz.name=下界石英粉
+item.ImmersiveEngineering.metal.dustHOPGraphite.name=HOP石墨粉
+item.ImmersiveEngineering.metal.ingotHOPGraphite.name=HOP石墨锭
 
 
 item.ImmersiveEngineering.material.treatedStick.name=防腐木棍
@@ -166,8 +166,8 @@ item.ImmersiveEngineering.bullet.HE.name=高爆弹
 item.ImmersiveEngineering.bullet.dragonsbreath.name=龙息弹
 
 item.ImmersiveEngineering.drill.diesel.name=Mining Drill
-item.ImmersiveEngineering.drillhead.iron.name=Iron Drill Head
-item.ImmersiveEngineering.drillhead.steel.name=Steel Drill Head
+item.ImmersiveEngineering.drillhead.iron.name=铁质钻头
+item.ImmersiveEngineering.drillhead.steel.name=钢质钻头
 
 item.ImmersiveEngineering.toolupgrade.drillWaterproof.name=Internal Oxidizer Tank
 item.ImmersiveEngineering.toolupgrade.drillSpeed.name=Advanced Lubrication System
@@ -203,13 +203,13 @@ desc.ImmersiveEngineering.info.oreDict.off=OreDictionary: Disabled
 desc.ImmersiveEngineering.info.oreDict.on=OreDictionary: Enabled
 
 desc.ImmersiveEngineering.info.mininglvl.-1=None
-desc.ImmersiveEngineering.info.mininglvl.0=§7Stone
-desc.ImmersiveEngineering.info.mininglvl.1=§4Iron
-desc.ImmersiveEngineering.info.mininglvl.2=§cRedstone
-desc.ImmersiveEngineering.info.mininglvl.3=§dObsidian
-desc.ImmersiveEngineering.info.mininglvl.4=§9Cobalt
-desc.ImmersiveEngineering.info.mininglvl.5=§5Manyullyn
-desc.ImmersiveEngineering.info.mininglvl.6=§5Manyullyn§d+
+desc.ImmersiveEngineering.info.mininglvl.0=§7石头
+desc.ImmersiveEngineering.info.mininglvl.1=§4铁
+desc.ImmersiveEngineering.info.mininglvl.2=§c红石
+desc.ImmersiveEngineering.info.mininglvl.3=§d黑曜石
+desc.ImmersiveEngineering.info.mininglvl.4=§9钴
+desc.ImmersiveEngineering.info.mininglvl.5=§5玛玉灵
+desc.ImmersiveEngineering.info.mininglvl.6=§5玛玉灵§d+
 
 desc.ImmersiveEngineering.info.durability=Durability: %1$s
 
@@ -229,7 +229,7 @@ desc.ImmersiveEngineering.info.mineral.Silver=Silver
 desc.ImmersiveEngineering.info.mineral.Lapis=Lapis
 
 
-desc.ImmersiveEngineering.flavour.crate=Will keep its inventory when broken!
+desc.ImmersiveEngineering.flavour.crate=破坏时仍会保留其内物品!
 desc.ImmersiveEngineering.flavour.coil.construction0=仅装饰用途
 desc.ImmersiveEngineering.flavour.coil.construction1=不传输能量
 desc.ImmersiveEngineering.flavour.revolver=Go ahead, make my day!
@@ -250,13 +250,13 @@ desc.ImmersiveEngineering.flavour.drill.noHead=No Drill head equipped
 desc.ImmersiveEngineering.flavour.drill.headDamage=Drill head status:
 desc.ImmersiveEngineering.flavour.drill.fuel=Fuel:
 
-desc.ImmersiveEngineering.flavour.drillhead.size=Mining Area: %1$sx%1$sx%2$s 
-desc.ImmersiveEngineering.flavour.drillhead.level=Mining Level: %1$s
-desc.ImmersiveEngineering.flavour.drillhead.speed=Mining Speed: %1$s
-desc.ImmersiveEngineering.flavour.drillhead.damage=Attack Damage: %1$s
+desc.ImmersiveEngineering.flavour.drillhead.size=挖掘范围: %1$sx%1$sx%2$s 
+desc.ImmersiveEngineering.flavour.drillhead.level=挖掘等级: %1$s
+desc.ImmersiveEngineering.flavour.drillhead.speed=挖掘速度: %1$s
+desc.ImmersiveEngineering.flavour.drillhead.damage=攻击伤害: %1$s
 
 desc.ImmersiveEngineering.flavour.toolupgrade.drillWaterproof=Allows the Mining Drill to operate under water
-desc.ImmersiveEngineering.flavour.toolupgrade.drillSpeed=Increases the digging speed of the Mining Drill
+desc.ImmersiveEngineering.flavour.toolupgrade.drillSpeed=Increases the digging speed of the
 desc.ImmersiveEngineering.flavour.toolupgrade.drillDamage=Increases the attack damage of the Mining Drill, stacks up to 3
 desc.ImmersiveEngineering.flavour.toolupgrade.drillCapacity=Increases the internal tank size of the Mining Drill
 desc.ImmersiveEngineering.flavour.toolupgrade.revolverBayonet=Adds melee damage to the Revolver
@@ -298,13 +298,13 @@ death.attack.ieCrushed=%1$s 被粉碎
 #ie.manual.entry.=
 
 ie.manual.category.general.name=概念&资源
-ie.manual.category.energy.name=能量, wires,发电机
+ie.manual.category.energy.name=能量,线缆,发电机
 ie.manual.category.machines.name=工具&机械
 
 ie.manual.entry.introduction.name=介绍
 ie.manual.entry.introduction.subtext=开始你的工程！
-ie.manual.entry.introduction0=诸位年轻的工程师,你们好!欢迎使用沉浸工程模组,这本手册将会作为你的向导,介绍相关新型机器的信息以及与其他模组联动的情况.<br>那就让我们从基础的事情开始吧:沉浸工程是建立在基于复古未来主义风格产生与运输的能源之上.这个模组使用的是红石通能(RF),能源上能与现有的大部分模组的能源通用
-ie.manual.entry.introduction1=能源是通过§l线缆§r与§l节点§r间来传输的.线缆的长度是有限制的,因此在这些线缆之间你需要更多的连接器 §l继电器§r .<br>你所能选择的导线有三种,在能源的运输上有各自的区别<config:iA:cableTransferRate:l3> RF/tick.你需要§l变压器§r实现对不同类型线缆间的切换.
+ie.manual.entry.introduction0=诸位年轻的工程师,你们好!欢迎使用沉浸工程模组,这本手册将会作为你的向导,介绍相关新型机器的信息以及与其他模组联动的情况.<br>那就让我们从基础的事情开始吧:沉浸工程是建立在基于复古未来主义风格产生与运输的能源之上.这个模组使用的是红石通量(RF),能源上能与现有的大部分模组的能源通用
+ie.manual.entry.introduction1=能源是通过§l线缆§r与§l接线器§r间来传输的.线缆的长度是有限制的,因此在这些线缆之间你需要更多的接线器 §l继电器§r .<br>你所能选择的导线有三种,在能源的运输上有各自的区别<config:iA:cableTransferRate:l3> RF/tick.你需要§l变压器§r实现对不同类型线缆间的切换.
 ie.manual.entry.introductionHammer=工程师锤是你当前最重要的工具.它像焦炉以及高炉那样被用于加工某些方块<config:b:crushingOreRecipe:, crushing ores into dust : >或者是用来修改方块的设置比如木头柱子
 
 ie.manual.entry.ores.name=矿石
@@ -313,47 +313,47 @@ ie.manual.entry.oresCopper=§l铜矿石§r能在主世界<config:iA:ore_copper:1
 ie.manual.entry.oresBauxite=§l铝土矿石§r能在主世界<config:iA:ore_bauxite:1>到<config:iA:ore_bauxite:2> 层找到,需要用石镐开采.<br><br>这种矿物能冶炼出铝锭,跟钢一同加工能做出高压电线.
 ie.manual.entry.oresLead=§l铅矿石§r能在主世界<config:iA:ore_lead:1>到<config:iA:ore_lead:2> 层找到,需要用铁镐开采.<br><br>这种矿物能冶炼出铅锭,用来制作电容
 ie.manual.entry.oresSilver=§l银矿石§r能在主世界<config:iA:ore_silver:1>到<config:iA:ore_silver:2> 层找到,需要用铁镐开采.<br><br>这种矿物能冶炼出银锭,与黄金一同加工能做出琥珀合金,这是一种更为高效的导体.
-ie.manual.entry.oresNickel=§l镍矿石§r能在主世界<config:iA:ore_nickel:1>到<config:iA:ore_nickel:2> 层找到,需要用铁镐开采.<br><br>这种矿物能冶炼出镍锭,与铜锭一同加工能得到康铜合金,用于制作耐热导线 <link:generator:Thermoelectric Generators:1>.
+ie.manual.entry.oresNickel=§l镍矿石§r能在主世界<config:iA:ore_nickel:1>到<config:iA:ore_nickel:2> 层找到,需要用铁镐开采.<br><br>这种矿物能冶炼出镍锭,与铜锭一同加工能得到康铜合金,用于制作耐热导线 <link:generator:热传导发电机:1>.
 
 ie.manual.entry.oreProcessing.name=矿物处理
 ie.manual.entry.oreProcessing.subtext=
 ie.manual.entry.oreProcessing0=Crafting ores and alloys with a hammer allows you to crush them into dusts. This dust can be resmelted into ingots, but even more importantly, is used to create alloys.<config:b:crushingOreRecipe:<br>Crushing ores with the hammer will yield two dusts, effectively doubling your gain of ingots from ore.: >    (Crushing ores is the easiest way of doubling their output. One ore breaks into two dusts and each dust smelts into one ingot.粉碎矿物是加倍产出的最简单办法.一个矿物粉碎成2份的矿粉,一份矿粉能烧制出一个锭)
-ie.manual.entry.oreProcessing1=Mixing dusts creates an alloy blend that can then be smelted into alloyed ingots.    (你可以通过混合金属粉末制造出各种不同用途的合金.By mixing the respective metal dusts, you can create an alloy used for an entirely different purpose.)    具备温差发电特性的康铜只能由这种办法制作<link:generator:thermoelectric generator:1>同时,琥珀合金被用于制作优质的电导体<link:wiring:medium-voltage architecture>.
+ie.manual.entry.oreProcessing1=Mixing dusts creates an alloy blend that can then be smelted into alloyed ingots.    (你可以通过混合金属粉末制造出各种不同用途的合金.By mixing the respective metal dusts, you can create an alloy used for an entirely different purpose.)    具备温差发电特性的康铜只能由这种办法制作<link:generator:热传导发电机:1>同时,琥珀合金被用于制作优质的电导体<link:wiring:medium-voltage architecture>.
 
 ie.manual.entry.hemp.name=工业大麻
 ie.manual.entry.hemp.subtext=530纺织物
-ie.manual.entry.hemp0=工业大麻是一种备受瞩目的作物,不仅种子可以用于加工<link:biodiesel:Diodiesel>,其纤维同样具备加工的价值 <link:generator:Improved Windmills:4>.种子可以通过清扫杂草获得
+ie.manual.entry.hemp0=工业大麻是一种备受瞩目的作物,不仅种子可以用于加工<link:biodiesel:生物柴油>,其纤维同样具备加工的价值 <link:generator:改良风车:4>.种子可以通过清扫杂草获得
 
 ie.manual.entry.cokeoven.name=焦炉
 ie.manual.entry.cokeoven.subtext=热门话题!
-ie.manual.entry.cokeoven0=焦炉是你开展沉浸工程中所制作的第一台重要设备.它的功能十分简单,它能让煤以及煤块在无氧环境下进行燃烧,产出焦煤,一种能长时间燃烧的燃料.更重要的是,这一加工过程能产生出 §l杂酚油§r, 这是作为一个<link:treatedwood:preservative for wood>. 同样你可以用原木在里面烧制得到木炭,同时得到少量的杂酚油.
+ie.manual.entry.cokeoven0=焦炉是你开展沉浸工程中所制作的第一台重要设备.它的功能十分简单,它能让煤以及煤块在无氧环境下进行燃烧,产出焦煤,一种能长时间燃烧的燃料.更重要的是,这一加工过程能产生出 §l杂酚油§r, 这是作为一个<link:treatedwood:防腐木>. 同样你可以用原木在里面烧制得到木炭,同时得到少量的杂酚油.
 ie.manual.entry.cokeovenBlock=搭建一个高炉,首先需要27个这样的方块,搭建出一个3x3x3的结构,用工程师锤完成密封<br>看下面的图页
 
 ie.manual.entry.treatedwood.name=防腐木
 ie.manual.entry.treatedwood.subtext=非常耐用
 ie.manual.entry.treatedwood0=防腐木实际上就是被杂酚油浸泡过的木板.然而,作为一种最重要的材料,你将会在沉浸工程里使用到,为此你需要大量制作
-ie.manual.entry.treatedwoodPost0=为了让你的线缆连接器有一个依附点这要用到防腐木做成的柱子,它有四格高,所以你不能把将它搭建在没有合适空间的地方.Using the hammer on the sides of the topmost block will attach an arm to the post.<br>
-ie.manual.entry.treatedwoodPost1=You can also place <link:wiring:transformers:3> on the pole, which makes it less obtrusive.    (使用工程师锤子你也可以在柱子的顶端的侧面位置加装另一个连接器<link:wiring:transformers:3>这使得它不怎么显眼 using the hammer on the sides of the topmost part of the post will attach a diagonal arm to place another connector on. You can also place <link:wiring:transformers:3> on the pole, which makes it less obtrusive.)
+ie.manual.entry.treatedwoodPost0=为了让你的线缆接线器有一个依附点这要用到防腐木做成的柱子,它有四格高,所以你不能把将它搭建在没有合适空间的地方.Using the hammer on the sides of the topmost block will attach an arm to the post.<br>
+ie.manual.entry.treatedwoodPost1=You can also place <link:wiring:变压器:3> on the pole, which makes it less obtrusive.    (使用工程师锤子你也可以在柱子的顶端的侧面位置加装另一个接线器<link:wiring:transformers:3>这使得它不怎么显眼 using the hammer on the sides of the topmost part of the post will attach a diagonal arm to place another connector on. You can also place <link:wiring:transformers:3> on the pole, which makes it less obtrusive.)
 
 ie.manual.entry.wiring.name=基础布线
 ie.manual.entry.wiring.subtext=滋滋滋!
-ie.manual.entry.wiring0=沉浸工程的能源网络主要有四个重要设备:§l电容器§r 用于储存能量§l连接器§r 用于网络内能源的输入输出 §l继电器§r 是用来让线缆连接一起 §l变压器§r 用于不同线缆间的切换<br>在低压中压系统里(铜与琥珀金电线),连接器与继电器在同一个方块上,但高压的连接器只接受一种线缆
-ie.manual.entry.wiring1=为了连接这2个方块,只需手持线圈右击,然后使用相同的线圈右击另一个.两点间的总运输速率取决于最弱的线缆
-ie.manual.entry.wiring2=需要注意的是这些方块有一定的限制,连接器跟继电器只能用同种类型的的导线连接,变压器只需要2根不同种类的导线<br>[cont]
+ie.manual.entry.wiring0=沉浸工程的能源网络主要有四个重要设备:§l电容器§r 用于储存能量§l接线器§r 用于网络内能源的输入输出 §l继电器§r 是用来让线缆连接一起 §l变压器§r 用于不同线缆间的切换<br>在低压中压系统里(铜与琥珀金电线),接线器与继电器在同一个方块上,但高压的接线器只接受一种线缆
+ie.manual.entry.wiring1=为了连接这两个方块,只需手持线圈右击,然后使用相同的线圈右击另一个.两点间的总运输速率取决于最弱的线缆
+ie.manual.entry.wiring2=需要注意的是这些方块有一定的限制,接线器跟继电器只能用同种类型的的导线连接,变压器只需要2根不同种类的导线<br>[cont]
 ie.manual.entry.wiring3=线缆只能与之电压相匹配的方块相连
 ie.manual.entry.wiringConnector=§l接线器§r 作为IE能源网络的输入输出端. 你可以把它加装在电容器或者是其他设备上,它们将通过连接的线缆传输能量. 高压继电器可以连接线缆但不能输入或者输出,它仅仅只是作为导线间的连接点
 ie.manual.entry.wiringCapacitor=§l电容器§r 是作为一个能量的储存单元.你可以用锤子调整每一面的配置,蓝色为输入,输出为无色的一面而橙色是防止任何形式的连接.锤子调试配置的方向是相对于你所面向的一面
 ie.manual.entry.wiringTransformer0=§l变压器§r 允许你在2种不同类型的线缆间运输能源.最弱的线缆会限制传输的速率.注意的是高压变压器可以变压为低压或中压,所以你不需要2个变压器
-ie.manual.entry.wiringTransformer1=你可以把<link:wiring:transformers to wooden poles:3>像第四页的第二张图那样大建,然而只有非高压变压器才能这样搭建
+ie.manual.entry.wiringTransformer1=你可以把<link:wiring:transformers to wooden poles:3>像第四页的第二张图那样搭建,然而只有非高压变压器才能这样搭建
 ie.manual.entry.wiringCutters= §l线缆裁剪器§r 用于移除已经被安装好的线缆
-ie.manual.entry.wiringVoltmeter= §l电压表§r 用于检测连接情况.右键右击一个电容器能读取当前的能量储存或者按住shift+右击2个连接器能计算它们之间的平均损耗
+ie.manual.entry.wiringVoltmeter= §l电压表§r 用于检测连接情况.右键右击一个电容器能读取当前的能量储存或者按住shift+右击2个接线器能计算它们之间的平均损耗
 
 ie.manual.entry.generator.name=发电
 ie.manual.entry.generator.subtext=
 ie.manual.entry.generator0=只有当你产出能源时,能源的运输才是有意义的.为了确切能够产出RF,你可以使用风车或者是水轮机的力量,在连接发电机的前提下能源的产出量取决于运作的速度
 ie.manual.entry.generatorWindmill=风车是一种免费而简单的发电方式,虽然并不强大.它的速度很大程度上取决于它所处的高度以及前方运作空间,当下雨或者风暴降临时,它能运作的更快
 ie.manual.entry.generatorWatermill=water wheel是相当简单的发电方式.它的转动速度是基于驱动它的流水,所以为了能达到最佳的效果,你将需要引导流水从半轮的上方流到下方直到底部.提升流水高度直到三台water wheel能同时运作
-ie.manual.entry.generatorWindmillImproved=高级风车是风车的升级版.虽然它有2倍的输出量但造价更昂贵,需要由工业大麻做成的坚硬布料
+ie.manual.entry.generatorWindmillImproved=改良风车是风车的升级版.虽然它有2倍的输出量但造价更昂贵,需要由工业大麻做成的坚硬布料
 
 ie.manual.entry.thermoElectric.name=热传导发电机
 ie.manual.entry.thermoElectric.subtext=冷和热
@@ -372,7 +372,7 @@ ie.manual.entry.steelconstruction1=Structural Connectors work similarly to norma
 
 ie.manual.entry.highvoltage.name=高压
 ie.manual.entry.highvoltage.subtext=你所无法撼动的冲击
-ie.manual.entry.highvoltage0=高压线缆拥有最高的能源运输速率(<config:iA:cableTransferRate:2> RF/t)需要特殊的连接器,值得注意的是,与高电压连接时,§oConnectors and Relays are different blocks§r,继电器将无法从能源网络中输入或输出能源.Furthermore, §oRelays can only be placed on the underside of the block.§r<br>从高压到低压或中压的过渡,你将需要用到高压变压器,要牢记,最低等级的线缆会限制整个能源传输的运输速率.
+ie.manual.entry.highvoltage0=高压线缆拥有最高的能源运输速率(<config:iA:cableTransferRate:2> RF/t)需要特殊的接线器,值得注意的是,与高电压连接时,§oConnectors and Relays are different blocks§r,继电器将无法从能源网络中输入或输出能源.Furthermore, §oRelays can only be placed on the underside of the block.§r<br>从高压到低压或中压的过渡,你将需要用到高压变压器,要牢记,最低等级的线缆会限制整个能源传输的运输速率.
 
 ie.manual.entry.multiblocks.name=多方块结构
 ie.manual.entry.multiblocks.subtext=我的内六角扳手在哪?
@@ -385,19 +385,19 @@ ie.manual.entry.workbench0=Over the course of your Engineering career you may co
 ie.manual.entry.dieselgen.name=柴油发电机
 ie.manual.entry.dieselgen.subtext=Better than volume: More volume.
 ie.manual.entry.dieselgen0=高电压结构是令人着迷的,除非你拥有一个发电机输出能源,才会让它变得有用<br>柴油发电机是其中一种产生这类能量的方式.它由复杂的多结构方式组成并且将要用到生物柴油<link:biodiesel:Biodiesel>或者是其他燃料.由于其产出高,它将会快速消耗燃料来运作,所以请确保你有足够的燃料来运作它
-ie.manual.entry.dieselgen1=这个结构？由引擎，发电机和散热器模块建造而成。将它们安装下方所示形状放置好，然后拿着工程师的锤子敲一下任意中央的发电机或散热器模块即可。
+ie.manual.entry.dieselgen1=ie.manual.entry.dieselgen1=该装置由引擎,发电机及散热器块组建而成.将这些零件如下方所示形状放置好,接着手握工程师的锤子敲一下任意位于中央的发电机或散热器块即可.
 ie.manual.entry.dieselgen2=Fuel is to be input at the bottom corners of the generator, whereas energy will be output to up to three connection on the top. The <config:i:dieselGen_output>RF/t the generator outputs will be split between all connected points.<br>The terminal on the right side will turn off the generator if supplied with a redstone signal.    (Fuel is to be input at the bottom corners of the generator, whereas energy will be output to up to three connection on the top. The <config:i:dieselGen_output>RF/t the generator outputs will be split between all connected points.燃料需要从发电机的底部位置输入,而能量的输出口允许增加至三个. <config:i:dieselGen_output>RF/t 发电机的能源输出在各个输出点都是独立的)
 ie.manual.entry.dieselgen3=The following table lists all valid fuels for the Diesel Generator and for how long in seconds (ticks) they burn.
 
 ie.manual.entry.biodiesel.name=生物柴油
 ie.manual.entry.biodiesel.subtext=绿色的能量!
-ie.manual.entry.biodiesel0=燃料需要一个方便且高效的获取来源,但油是一种不可再生资源,为此生物柴油成为了最终的解决方案!由植物油和乙醇混合而成,你可以搭建一个提供其燃烧的<link:dieselgen:Diesel Generator>.
+ie.manual.entry.biodiesel0=燃料需要一个方便且高效的获取来源,但油是一种不可再生资源,为此生物柴油成为了最终的解决方案!由植物油和乙醇混合而成,你可以搭建一个提供其燃烧的<link:dieselgen:柴油发电机>.
 ie.manual.entry.biodiesel1=作物种子投入工业压榨机加工能得到植物油. 根据图片搭建出相应的结构并使用工程师锤敲打其中一面以完成组装.能源可以从顶部或底部输入,流体则可以从底部任意一面的端口输出.
 ie.manual.entry.biodiesel1T=The following list shows various items that can be squeezed into plant oil, and the amount they produce.
 ie.manual.entry.biodiesel2=乙醇可以从发酵机那获得.发酵机的搭建方式类似工业压榨机,对功率的需求,能源接受以及流体输出的方式也与工业压榨机相同.
 ie.manual.entry.biodiesel2T=The following list shows various items that can be fermented into ethanol, and the amount they produce.
 ie.manual.entry.biodiesel3=为了最终把植物油加工成生物柴油, 你需要把流体灌入炼油厂并提供充足的能源. 根据图片搭建相应的结构并用工程师锤右击其前面的中心位置.
-ie.manual.entry.biodiesel4=炼油厂的正前方位置是作为流体输出的,侧面的小孔为输入端,能源是通过组装在其上部的连接器导入,通过对右侧的控制面板输入红石信号可以停止其炼油过程.
+ie.manual.entry.biodiesel4=炼油厂的正前方位置是作为流体输出的,侧面的小孔为输入端,能源是通过组装在其上部的接线器导入,通过对右侧的控制面板输入红石信号可以停止其炼油过程.
 
 ie.manual.entry.conveyor.name=传送带
 ie.manual.entry.conveyor.subtext=谁还需要铁路?
@@ -417,7 +417,7 @@ ie.manual.entry.sorter1=When an item enters the router, it will be routed to an 
 
 ie.manual.entry.drill.name=Mining Drill
 ie.manual.entry.drill.subtext=My drill will pierce the Bedrock!
-ie.manual.entry.drill0=The handheld, diesel-powered drill is a big advancement in mining. With exchangeable drill heads and upgrades, its properties are almost entirely modifyable. To modify it, place it in an <link:workbench:Engineer's Workbench>.<br>The drill runs off of <link:biodiesel:Bio Diesel> and can be filled directly in the refinery.
+ie.manual.entry.drill0=The handheld, diesel-powered drill is a big advancement in mining. With exchangeable drill heads and upgrades, its properties are almost entirely modifyable. To modify it, place it in an <link:workbench:工程师工作台>.<br>The drill runs off of <link:biodiesel:生物柴油> and can be filled directly in the refinery.
 ie.manual.entry.drill1=The Drill Head determines the base mining level, speed, and size, as well as the attack damage. As you dig blocks, the drill head takes damage, but it can be repaired in an anvil.
 ie.manual.entry.drill2=As the drill is powered by a combustion engine, it will not run underwater unless you equip it with the Internal Oxidizer Tank Upgrade. However, with this upgrade equipped, it will not only run while submerged, but also ignore the slowdown usually experienced when digging in water.
 ie.manual.entry.drill3=The Advanced Lubrication System applies additional lubricant to the drill at a regular basis, allowing it to run and dig faster.
@@ -426,7 +426,7 @@ ie.manual.entry.drill5=The Large Fuel Tank allows the drill to store more fuel i
 
 ie.manual.entry.revolver.name=Revolver
 ie.manual.entry.revolver.subtext=Wanted: Dead or Alive
-ie.manual.entry.revolver0=The Revolver, a more elegant weapon from a more civilized age, is an achievement of small mechanics. Small being relative here, since this weapon is chambered for 12-gauge.<br>Similar to the Mining Drill, the Revolver will allow for modification in the <link:workbench:Engineer's Workbench>.
+ie.manual.entry.revolver0=The Revolver, a more elegant weapon from a more civilized age, is an achievement of small mechanics. Small being relative here, since this weapon is chambered for 12-gauge.<br>Similar to the Mining Drill, the Revolver will allow for modification in the <link:workbench:工程师工作台>.
 ie.manual.entry.revolver1=There are 5 different types of ammunition the Revolver will accept. To load it, sneak+rightclick the weapon, then place cartridges into the slots.<br>A loaded Speedloader in your inventory, will be used to refill the revolver after you've fired your last shot.
 ie.manual.entry.revolver2=Casull: Simple lead projectile, capable of inflicting medium damage.<br><br>Armor-Piercing: Dense metal projectile, penetrates the armor by sheer kinetic force.<br><br>High-Explosive: Creates small explosion on impact.
 ie.manual.entry.revolver3=Buckshot: Collection of small projectiles, spreading in a cone shape. Effective at short range.<br><br>Dragon's Breath: Flammable metal dust, creates a short-ranged inferno.
@@ -439,7 +439,7 @@ ie.manual.entry.crusher.subtext=管好你的手!
 ie.manual.entry.crusher0=粉碎矿物是提高产量的有效途径,每个矿物可以加工得到2份矿粉.这台工业级粉碎机就拥有这样一种便捷方式.机器的持续运作需要<config:i:crusher_consumption>RF/t的能量,其加工的速度取决于能量的供应量
 ie.manual.entry.crusher1=然而粉碎机不仅仅是用于粉碎矿物.生物落入粉碎机将会受到持续的伤害而最终的掉落物会从粉碎机的输出端输出.<br>通过对右边的控制面板输入红石信号可以停止粉碎的过程<br>The structure is formed by right clicking the central block of the front. The front is the wide side of the structure which has a light engineering block at the bottom.
 
-ie.manual.entry.lightningrod.name=Lightning Rod
+ie.manual.entry.lightningrod.name=避雷针
 ie.manual.entry.lightningrod.subtext=Thunderstruck!
 ie.manual.entry.lightningrod0=Lightning is a phenomenon of nature. It contains a huge amount of raw power, and this lightning rod is able to harness that power.<br>By stacking a lot of steel fences on this multiblock, you increase the chance of a lightning bolt striking it during rain or thunderstorms. 
 ie.manual.entry.lightningrod1=When the steel pole is struck, the huge amounts of energy created are stored in the base of the lightning rod and is then slowly distributed to energy connections at the sides.<br><br>The structure is created as shown above, and formed by clicking the central block with an Engineer's Hammer. 
@@ -452,5 +452,5 @@ ie.manual.entry.minerals2=The following pages list every type of vein and the or
 
 ie.manual.entry.excavator.name=Excavator
 ie.manual.entry.excavator.subtext=Better than Dwarves
-ie.manual.entry.excavator0=The Excavator is one of the pinnacles of modern engineering. It is able to dig up <link:minerals:minerals:0> from veins inaccessible by normal mining. In return however, the excavator is a complex structure which requires <config:i:excavator_consumption> RF/t in order to operate.
+ie.manual.entry.excavator0=The Excavator is one of the pinnacles of modern engineering. It is able to dig up <link:minerals:矿物:0> from veins inaccessible by normal mining. In return however, the excavator is a complex structure which requires <config:i:excavator_consumption> RF/t in order to operate.
 ie.manual.entry.excavator1=The structure is comprised of two pieces: The engine shown on the first page and the bucket wheel displayed on the previous, which fits into the 'braces' of the engine. The energy input for the engine is on its side, the back features a redstone control panel and the item output.<br>As the excavator digs up ores, the yield of the vein slowly decreases, but a vein of minerals can last for <config:i:excavator_depletion_days> days of consecutive digging.
