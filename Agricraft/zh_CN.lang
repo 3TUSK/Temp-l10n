@@ -20,6 +20,7 @@ item.agricraft:nuggetAluminum.name=铝颗粒
 item.agricraft:nuggetNickel.name=镍颗粒
 item.agricraft:nuggetPlatinum.name=铂颗粒
 item.agricraft:nuggetOsmium.name=锇颗粒
+item.agricraft:nuggetQuartz.name=Quartz Shard
 
 item.agricraft:seedPotato.name=马铃薯种子
 item.agricraft:seedCarrot.name=胡萝卜种子
@@ -37,6 +38,7 @@ item.agricraft:seedCactus.name=仙人掌种子
 item.agricraft:seedShroomRed.name=红色蘑菇孢子
 item.agricraft:seedShroomBrown.name=棕色蘑菇孢子
 item.agricraft:seedNitorWart.name=闪耀疣孢子
+item.agricraft:seedQuartzanthemum=Quartzanthemum seeds
 
 item.agricraft:seedBotaniaWhite.name=白色神秘花种子
 item.agricraft:seedBotaniaOrange.name=橙色神秘花种子
@@ -54,6 +56,17 @@ item.agricraft:seedBotaniaBrown.name=棕色神秘花种子
 item.agricraft:seedBotaniaGreen.name=绿色神秘花种子
 item.agricraft:seedBotaniaRed.name=红色神秘花种子
 item.agricraft:seedBotaniaBlack.name=黑色神秘花种子
+
+item.agricraft:seedCinderpearl.name=Cinderpearl Seeds
+item.agricraft:seedShimmerleaf.name=Shimmerleaf Seeds
+item.agricraft:seedVishroom.name=Vishroom Spores
+item.agricraft:seedTaintedRoot.name=Taint Root Seeds
+
+item.agricraft:seedAum.name=Aum Seeds
+item.agricraft:seedCerublossom.name=Cerublossom Seeds
+item.agricraft:seedDesertNova.name=Desert Nova Seeds
+item.agricraft:seedTarmaRoot.name=Tarma Root Seeds
+item.agricraft:seedWakebloom.name=Wakebloom seeds
 
 item.agricraft:seedFerranium.name=铁叶草种子
 item.agricraft:seedAurigold.name=金光花种子
@@ -74,9 +87,11 @@ item.agricraft:seedOsmonium.name=锇蓝草种子
 //blocks
 tile.agricraft:crops.name=作物
 tile.agricraft:seedAnalyzer.name=种子分析仪
+tile.agricraft:waterPad.name=Water Pad
 tile.agricraft:waterTank.0.name=木质水箱
 tile.agricraft:waterTank.1.name=铁质水箱
 tile.agricraft:waterChannel.0.name=木质浇灌水道
+tile.agricraft:waterChannelFull.0.name=木质浇灌水道
 tile.agricraft:waterChannel.1.name=铁质浇灌水道
 tile.agricraft:channelValve.0.name=木质水道阀门
 tile.agricraft:channelValve.1.name=铁质水道阀门
@@ -99,6 +114,7 @@ tile.agricraft:cropCactus.name=仙人掌
 tile.agricraft:cropShroomRed.name=红蘑菇
 tile.agricraft:cropShroomBrown.name=棕蘑菇
 tile.agricraft:cropNitorWart.name=闪耀疣
+tile.agricraft:cropQuartzanthemum.name=Quartzanthemum
 
 tile.agricraft:cropBotaniaWhite.name=白色神秘花
 tile.agricraft:cropBotaniaOrange.name=橙色神秘花
@@ -116,6 +132,17 @@ tile.agricraft:cropBotaniaBrown.name=棕色神秘花
 tile.agricraft:cropBotaniaGreen.name=绿色神秘花
 tile.agricraft:cropBotaniaRed.name=红色神秘花
 tile.agricraft:cropBotaniaBlack.name=黑色神秘花
+
+tile.agricraft:cropCinderpearl.name=Cinderpearl
+tile.agricraft:cropShimmerleaf.name=Shimmerleaf
+tile.agricraft:cropVishroom.name=Vishroom
+tile.agricraft:cropTaintedRoot.name=Taint Root
+
+tile.agricraft:cropAum.name=Aum
+tile.agricraft.cropCerublossom.name=Cerublossom
+tile.agricraft.cropDesertNova.name=Desert Nova
+tile.agricraft.cropTarmaRoot.name=Tarma Root
+tile.agricraft.cropWakebloom.name=Wakebloom
 
 tile.agricraft:cropFerranium.name=铁叶草
 tile.agricraft:cropAurigold.name=金光花
@@ -156,9 +183,12 @@ agricraft_tooltip.closed=关闭
 agricraft_tooltip.open=开启
 agricraft_tooltip.state=阶段
 agricraft_tooltip.empty=这里没有种植作物
+agricraft_tooltip.waterPadDry=Dig with a shovel in farmland to create a little pit
+agricraft_tooltip.waterPadWet=then use a bucket of water to fill it up
 
 // nei GUI
 agricraft_nei.mutation.title=作物杂交
+agricraft_nei.cropProduct.title=Crop Produce
 agricraft_nei.soil=土壤
 agricraft_nei.needs=需要
 agricraft_nei.below=底部
@@ -191,6 +221,7 @@ agricraft_journal.cactus=种植仙人掌可以获取常用作绿色染料的绿�
 agricraft_journal.shroomRed=这种红色蘑菇的味道确实很好,它绝对是蘑菇煲的上好材料.
 agricraft_journal.shroomBrown=这种棕色蘑菇的味道确实很好,它绝对是蘑菇煲的上好材料.
 agricraft_journal.nitorWart=据信这种来自下界的作物是确实存在的,那些长者们说它会从周围的环境中吸取荧石颗粒并产出光亮的粉末.
+agricraft_journal.quartzanthemum=A nether crop that feeds from fractions of quartz in the soil.
 agricraft_journal.diamahlia=仍有很多人相信这种花只存在于神话和传说中.然而,有些农学家声称他们已经成功得到了这种传奇的植物.
 agricraft_journal.aurigold=金光花是一种罕见的,只存在于寓言里的花,以土壤中含量甚微的金为养料,只有十分耐心并且技术高超的农学家才可以培养出这罕见的珍宝.
 agricraft_journal.ferranium=这奇怪的植物的根并不在意水源.它们只是深深地扎根于土壤中,吸收铁的粒子以强化自身.
@@ -224,10 +255,24 @@ agricraft_journal.botaniaGreen=这神秘的鲜花里有着大量绿色花瓣,又
 agricraft_journal.botaniaRed=这神秘的鲜花里有着大量红色花瓣,又有谁知道它们可能被用作什么呢.
 agricraft_journal.botaniaBlack=这神秘的鲜花里有着大量黑色花瓣,又有谁知道它们可能被用作什么呢.
 
+//thaumcraft seeds
+agricraft_journal.shimmerleaf=The strange, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver
+agricraft_journal.cinderpearl=Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
+agricraft_journal.vishroom=Vishrooms grow naturally in Magical Forests, when thouched by the naked hand their poison is known to inflict nausea.
+agricraft_journal.taintedRoot=Tainted Roots can be grown and harvested in Tainted Lands, but who would need the tendrils it produces?
+
+//ars magica seeds
+agricraft_journal.aum=A flower with healing properties, Aum is a component in many spells. It can only be found at the base of witchwood trees.
+agricraft_journal.cerublossom=Cerublossom flowers thrive in lush, green environments. They were one of the first magical plants discovered, being used in potions and salves.
+agricraft_journal.desertNova=Desert Novas grow in dry conditions. They get their name from the small bursts of magic that they periodically emit.
+agricraft_journal.tarmaRoot=Lighter than it looks, Tarma Root grows in caves and other dark places. It is an ingredient in spells and air essences.
+agricraft_journal.wakebloom=Growing on the surface of water in warm climates, wakebloom is used frequently in water-based spells.
+
 //minecraft seeds
 agricraft_journal.seeds=小麦是一种非常普遍,营养价值又高的作物.
 agricraft_journal.pumpkin=大多数人认为南瓜是一种装饰性的蔬菜,然而也有人喜欢南瓜派的味道.
 agricraft_journal.melon=人们都喜欢西瓜,因为西瓜的甜和含水量高.
+agricraft_journal.nether_wart=Nether wart seems to have been cultivated in abandoned fortresses in the nether.
 
 //natura seeds
 agricraft_journal.barleyNatura=相比于普通面包,一些人更喜欢大麦面包的味道,然而也有一些人声称它们的味道是一样的.
@@ -294,14 +339,69 @@ agricraft_journal.hc_Zucchini=西葫芦通常是炒着吃的,当然也可用很�
 //plant mega pack seeds
 agricraft_journal.pmp_Beet=地底深处的紫色甜菜根可以生吃,烧烤,水煮,或者烘烤.
 agricraft_journal.pmp_Broccoli=西兰花是卷心菜科中的一种可食用绿色蔬菜,其开花的巨大头部被用作蔬菜.
+agricraft_journal.pmp_Cassava=Cassava is a tropical plant commonly known as tapioca or manioc.
 agricraft_journal.pmp_Celery=芹菜是一种非常普遍的蔬菜,可食用部分是它的茎.
 agricraft_journal.pmp_Corn=因为它浅层的根,玉米很容易受干旱影响,对土壤养分不足非常敏感,狂风之后甚至会被连根拔起.
 agricraft_journal.pmp_Cucumber=黄瓜是一种匍匐藤的圆柱形果实,在厨房里被用作蔬菜.
+agricraft_journal.pmp_GreenBean=Green beans can either be grown as a bush plant or a pole plant, the latter requiring supports.
 agricraft_journal.pmp_Leek=不像洋葱那样紧密的球茎,韭葱有着被紧密的叶鞘包围的圆柱球茎,因将泥土拉到身边,终日不见阳光而日渐变白.
 agricraft_journal.pmp_Lettuce=通常作为不耐寒的一年生作物,生菜是很容易培养的,尽管它仍需要较低温度以避免过早开花.
 agricraft_journal.pmp_Onion=洋葱植物有一个中空,偏蓝的绿叶组成的扇形,其基础的球茎会在时长足够时膨胀饱满.
 agricraft_journal.pmp_Spinach=卡通动漫角色"大力水手"被描绘为一个对菠菜有强烈喜爱的人,在吃过菠菜后会变得力大无穷.
 agricraft_journal.pmp_Tomato=西红柿有多种食用方式,包括生吃,还有各种菜的原料,酱料,沙拉,或者饮料.
+agricraft_journal.pmp_BellPepperYellow=There are many bellpeppers out there: red, yellow and green, but this one is yellow.
+agricraft_journal.pmp_BellPepperOrange=There are many bellpeppers out there: red, yellow and green, but this one is orange.
+agricraft_journal.pmp_BellPepperRed=There are many bellpeppers out there: red, yellow and green, but this one is red.
+agricraft_journal.pmp_Sorrel=Sorrel is a slender herbaceous perennial plant with roots that run deep into the ground.
+
+//witchery seeds
+agricraft_journal.wi_Belladonna=Everything about this plant is highly toxic: its leaves, buds and flowers.
+agricraft_journal.wi_Garlic=According to folklore garlic can be used to repel vampires, but who believes in vampires anyway, right?
+agricraft_journal.wi_Mandrake=A mythical plant that when uprooted and woken up will make painful screeching noises.
+agricraft_journal.wi_Snowbell=Snowbells are pretty flowers that seem to freeze all the water they soak up.
+agricraft_journal.wi_Artichoke=The water artichoke is an odd variaty of artichoke, only few know what on earth it is useful for.
+agricraft_journal.wi_Wolfsbane=Tales tell of this flower revealing the true nature of people suffering from lycanthropy.
+agricraft_journal.wi_Wormwood=Wormwood is a rare plant, herbologists praise its fever suppressing capabilities.
 
 //chococraft seeds
 agricraft_journal.cc_Gysahl=基沙尔野菜是虚构的生物"陆行鸟"的最爱的食物.有时一棵基沙尔野菜可以长出可爱的基沙尔野菜,还有人说细心培育的基沙尔野菜可以长出金基沙尔野菜.
+
+//psychedelicraft seeds
+agricraft_journal.pc_cannabis=Commonly known as marihuana, it is very popular as a softdrug.
+agricraft_journal.pc_coca=The leaves of this plant form the base material to produce cocaine.
+agricraft_journal.pc_hop=Hops are used to brew all sorts of ales and lagers.
+agricraft_journal.pc_tobacco=Tobacco is smoked all around the world despite its nefarious effects on ones health.
+
+//blue power flax
+agricraft_journal.bp_flax_seeds=Flax is String ~Sjin.
+
+//pneumaticCraft plants
+agricraft.journal_PC.plant0=These plants grow squids inside their bulbs which sometimes carry a seed.
+agricraft.journal_PC.plant1=Mature plants spout fire and somethimes a seed.
+agricraft.journal_PC.plant2=When mature these plants explode themselves leaving behind some seeds.
+agricraft.journal_PC.plant3=These plants grow slimes inside of their bulbs which sometimes carry a seed.
+agricraft.journal_PC.plant4=When mature, these plants can make seeds rain from the sky during a storm.
+agricraft.journal_PC.plant5=Mature plants teleport a seed to a nearby, random location.
+agricraft.journal_PC.plant6=During a storm these plants attract lightning strikes.
+agricraft.journal_PC.plant8=When mature these plants burst out a seed.
+agricraft.journal_PC.plant9=These plants puff out clouds of smoke, who knows what effect these fumes have.
+agricraft.journal_PC.plant10=The seeds of these plants are highly repulsive and will bounce away on the ground.
+agricraft.journal_PC.plant11=Because the seeds of this plant are lighter than air, they fly up into the stratosphere.
+agricraft.journal_PC.plant12=When matured these plants spit out 4 seeds which then fly into different directions.
+agricraft.journal_PC.plant14=These plants propel seeds at high velocity over the ground, they only stop when hitting a wall.
+agricraft.journal_PC.plant15=The seeds of these plants ride along the wind to find fertile soil.
+
+//applemilktea
+agricraft.journal_AMT.item.defeatedcrow.seedMint:0=The leafes of this plant can be used to set a good cup of mint tea or to give some extra taste to a dish.
+
+//rotarycraft
+agricraft.journal_RoC.canola=The husks of the canola seed can be centrifuged into a liquid with excellent lubricating properties.
+
+//immersive engineering
+agricraft_journal.ie_hemp=Hemp fibers are a key resource in quite a few industrial applications.
+
+//extra biomes xl
+agricraft_journal.EBXL_strawberry=Strawberries are popular and rewarding plants to grow in the domestic environment, be it for consumption or exhibition purposes.
+
+//biomes o plenty
+agricraft_journal.BoP_turnip=The turnip is a root vegetable commonly grown in temperate climates worldwide for its white, bulbous taproot.

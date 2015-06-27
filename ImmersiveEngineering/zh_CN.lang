@@ -151,7 +151,7 @@ item.ImmersiveEngineering.revolver.oblivion.name=Oblivion
 item.ImmersiveEngineering.revolver.oathkeeper.name=Oathkeeper
 item.ImmersiveEngineering.revolver.bee.name=Beevolver
 item.ImmersiveEngineering.revolver.fenrir.name=芬里厄
-item.ImmersiveEngineering.revolver.earthshaker.name=§bEarthshaker§r
+item.ImmersiveEngineering.revolver.earthshaker.name=§b撼地者§r
 item.ImmersiveEngineering.revolver.warlord.name=The Repulsor
 item.ImmersiveEngineering.revolver.patreonBlu.name=§6Last Word§r
 item.ImmersiveEngineering.revolver.patreonHazard.name=§4Twisted Phantom§r
@@ -173,7 +173,7 @@ item.ImmersiveEngineering.toolupgrade.drillWaterproof.name=Internal Oxidizer Tan
 item.ImmersiveEngineering.toolupgrade.drillSpeed.name=Advanced Lubrication System
 item.ImmersiveEngineering.toolupgrade.drillDamage.name=Additional Augers
 item.ImmersiveEngineering.toolupgrade.drillCapacity.name=Large Fuel Tank
-item.ImmersiveEngineering.toolupgrade.revolverBayonet.name=Bayonet
+item.ImmersiveEngineering.toolupgrade.revolverBayonet.name=刺刀
 item.ImmersiveEngineering.toolupgrade.revolverMagazine.name=Extended Magazine
 item.ImmersiveEngineering.toolupgrade.revolverElectro.name=Amplifier Electron Tubes
 
@@ -189,8 +189,8 @@ desc.ImmersiveEngineering.info.blastFuelTime=Blast Fuel: %1$s Ticks
 desc.ImmersiveEngineering.info.capacitorSide.facing=Facing Side:
 desc.ImmersiveEngineering.info.capacitorSide.opposite=Opposite Side:
 desc.ImmersiveEngineering.info.capacitorSide.-1=No Connection
-desc.ImmersiveEngineering.info.capacitorSide.0=Energy Input
-desc.ImmersiveEngineering.info.capacitorSide.1=Energy Output
+desc.ImmersiveEngineering.info.capacitorSide.0=能量输入
+desc.ImmersiveEngineering.info.capacitorSide.1=能量输出
 
 desc.ImmersiveEngineering.info.blockSide.UP=Top Side
 desc.ImmersiveEngineering.info.blockSide.DOWN=Bottom Side
@@ -199,10 +199,10 @@ desc.ImmersiveEngineering.info.blockSide.SOUTH=South Side
 desc.ImmersiveEngineering.info.blockSide.EAST=East Side
 desc.ImmersiveEngineering.info.blockSide.WEST=West Side
 
-desc.ImmersiveEngineering.info.oreDict.off=OreDictionary: Disabled
-desc.ImmersiveEngineering.info.oreDict.on=OreDictionary: Enabled
+desc.ImmersiveEngineering.info.oreDict.off=矿物词典: 禁用
+desc.ImmersiveEngineering.info.oreDict.on=矿物词典: 启用
 
-desc.ImmersiveEngineering.info.mininglvl.-1=None
+desc.ImmersiveEngineering.info.mininglvl.-1=无
 desc.ImmersiveEngineering.info.mininglvl.0=§7石头
 desc.ImmersiveEngineering.info.mininglvl.1=§4铁
 desc.ImmersiveEngineering.info.mininglvl.2=§c红石
@@ -211,7 +211,7 @@ desc.ImmersiveEngineering.info.mininglvl.4=§9钴
 desc.ImmersiveEngineering.info.mininglvl.5=§5玛玉灵
 desc.ImmersiveEngineering.info.mininglvl.6=§5玛玉灵§d+
 
-desc.ImmersiveEngineering.info.durability=Durability: %1$s
+desc.ImmersiveEngineering.info.durability=耐久: %1$s
 
 desc.ImmersiveEngineering.info.mineral.Iron=Iron
 desc.ImmersiveEngineering.info.mineral.Magnetite=Magnetite
@@ -244,9 +244,9 @@ desc.ImmersiveEngineering.flavour.revolver.earthshaker=Lingering Will
 desc.ImmersiveEngineering.flavour.revolver.warlord=Don't take my toys away!
 desc.ImmersiveEngineering.flavour.revolver.rommie=Targeting AI 'Rommie' included!
 desc.ImmersiveEngineering.flavour.revolver.patreonBlu=Hunter's Choice
-desc.ImmersiveEngineering.flavour.revolver.patreonHazard=Exclusive DLC Content
+desc.ImmersiveEngineering.flavour.revolver.patreonHazard=独家DLC内容
 
-desc.ImmersiveEngineering.flavour.drill.noHead=No Drill head equipped
+desc.ImmersiveEngineering.flavour.drill.noHead=未安装钻头
 desc.ImmersiveEngineering.flavour.drill.headDamage=Drill head status:
 desc.ImmersiveEngineering.flavour.drill.fuel=Fuel:
 
@@ -378,7 +378,7 @@ ie.manual.entry.multiblocks.name=多方块结构
 ie.manual.entry.multiblocks.subtext=我的内六角扳手在哪?
 ie.manual.entry.multiblocks0=除非你有魔法或者缩小光线,否则在1x1x1大小的空间内搭建多方块结构是以及极其艰难的任务,为了能搭建出拥有更为复杂的操作系统的机器,你需要用到组装块.最为常见的,将在这一页揭晓
 
-ie.manual.entry.workbench.name=Engineer's Workbench
+ie.manual.entry.workbench.name=工程师工作台
 ie.manual.entry.workbench.subtext=Overclocking
 ie.manual.entry.workbench0=Over the course of your Engineering career you may come to deal with some tools that can be optimized and modified. To apply these modifications, you should use a properly equipped Engineer's Workbench.<br>Rightclick the Workbench, insert the item into the slot and insert applicable upgrades into the new slots that appear.
 
@@ -424,7 +424,7 @@ ie.manual.entry.drill3=The Advanced Lubrication System applies additional lubric
 ie.manual.entry.drill4=By adding Additional Augers to the drill, it's destructive potential against living creatures is increased. The upgrade stacks up to three and each will add an additional point of attack damage.
 ie.manual.entry.drill5=The Large Fuel Tank allows the drill to store more fuel internally, extending the time you can use it before refilling.
 
-ie.manual.entry.revolver.name=Revolver
+ie.manual.entry.revolver.name=左轮
 ie.manual.entry.revolver.subtext=Wanted: Dead or Alive
 ie.manual.entry.revolver0=The Revolver, a more elegant weapon from a more civilized age, is an achievement of small mechanics. Small being relative here, since this weapon is chambered for 12-gauge.<br>Similar to the Mining Drill, the Revolver will allow for modification in the <link:workbench:工程师工作台>.
 ie.manual.entry.revolver1=There are 5 different types of ammunition the Revolver will accept. To load it, sneak+rightclick the weapon, then place cartridges into the slots.<br>A loaded Speedloader in your inventory, will be used to refill the revolver after you've fired your last shot.
