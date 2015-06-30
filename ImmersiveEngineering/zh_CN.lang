@@ -144,7 +144,7 @@ item.ImmersiveEngineering.tool.manual.name=工程师手册
 
 item.ImmersiveEngineering.revolver.normal.name=左轮手枪
 item.ImmersiveEngineering.revolver.speedloader.name=左轮快速装弹器
-item.ImmersiveEngineering.revolver.dev.name=♛Royal Vaquisher♚
+item.ImmersiveEngineering.revolver.dev.name=♛Royal Vanquisher♚
 item.ImmersiveEngineering.revolver.sns.name=Steamroller
 item.ImmersiveEngineering.revolver.nerf.name=Nerf'd Revolver
 item.ImmersiveEngineering.revolver.oblivion.name=Oblivion
@@ -230,7 +230,7 @@ desc.ImmersiveEngineering.info.mineral.Silver=银矿
 desc.ImmersiveEngineering.info.mineral.Lapis=青金石矿
 
 
-desc.ImmersiveEngineering.flavour.crate=破坏时保存内部物品!
+desc.ImmersiveEngineering.flavour.crate=破坏时仍会保留其内物品!
 desc.ImmersiveEngineering.flavour.coil.construction0=仅装饰用途
 desc.ImmersiveEngineering.flavour.coil.construction1=不传输能量
 desc.ImmersiveEngineering.flavour.revolver=Go ahead, make my day!
@@ -271,7 +271,7 @@ gui.ImmersiveEngineering.empty=空
 #CHAT
 chat.ImmersiveEngineering.warning.wrongCable=你无法在此处连接线缆
 chat.ImmersiveEngineering.warning.wrongDimension=你处在一个错误的世界中
-chat.ImmersiveEngineering.warning.sameConnection=你无法将线缆连至同一位置
+chat.ImmersiveEngineering.warning.sameConnection=你不能将线缆接在同一个点上
 chat.ImmersiveEngineering.warning.tooFar=你离上一个连接点太远了
 chat.ImmersiveEngineering.warning.cantSee=连接被阻断
 chat.ImmersiveEngineering.warning.connectionExists=连接已存在
@@ -307,7 +307,7 @@ ie.manual.category.machines.name=机械
 ie.manual.entry.introduction.name=介绍
 ie.manual.entry.introduction.subtext=开始你的工程！
 ie.manual.entry.introduction0=诸位年轻的工程师,你们好!欢迎使用Immersive Engineering模组,这本手册将会作为你的向导,介绍本模组应提供的新型机器的建造流程和使用方法.<br>那就让我们从基础的事情开始吧:Immersive Engineering是围绕复古未来主义风格产生与能源运输两个要素而构建起来的.本模组使用红石通量(RF)作为能源,它能与现有的大部分模组的能源通用.
-ie.manual.entry.introduction1=能源是通过§l线缆§r在§l节点§r间来传输的.线缆的长度是有限制的,因此在这些线缆之间你需要更多的接线器§l继电器§r.<br>你能在三种不同导线之间进行选择,在能源的运输上有各自的区别,<config:iA:cableTransferRate> RF/tick.你需要§l变压器§r实现对不同类型线缆间的切换.
+ie.manual.entry.introduction1=能源是通过§l线缆§r在§l接线器§r间来传输的.线缆的长度是有限制的,因此在这些线缆之间你需要更多的接线器§l继电器§r.<br>你能在三种不同导线之间进行选择,在能源的运输上有各自的区别,<config:iA:cableTransferRate> RF/tick.你需要§l变压器§r实现对不同类型线缆间的切换.
 ie.manual.entry.introductionHammer=工程师锤是你当前最重要的工具.它可以用于搭建多方块结构,例如焦炉和高炉<config:b:crushingOreRecipe:,将矿石打碎成粉末: >或者是用来修改方块的设置,比如木头柱子.
 
 ie.manual.entry.ores.name=矿石
