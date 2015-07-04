@@ -333,6 +333,12 @@ magicbees.speciesManyullyn=玛玉灵
 magicbees.speciesManyullyn.description="咚!嘟滴嘟~咚!"
 magicbees.speciesOsmium=Osmium
 magicbees.speciesOsmium.description=Occasionally confused for Iridium bees, despite their lack of goopy texture and pink colouration as described in older books.|Apinomicon
+magicbees.speciesSilicon=Silicon
+magicbees.speciesSilicon.description="Not to be confused with Silicone bees, AKA the Boo Bees!"|Myrathi, Wearer of Headpants
+magicbees.speciesCertus=Certus
+magicbees.speciesCertus.description=The OTHER kind of Quartz, slightly bluer, but no less valuable.|Apinomicon
+magicbees.speciesFluix=Fluix
+magicbees.speciesFluix.description=Fusing properties of Redstone, Nether Quartz and Certus Quartz, the Fluix crystal itself is unusual, unstable, and volatile if struck with TNT.|Apinomicon
 
 magicbees.speciesDiamond=钻石
 magicbees.speciesDiamond.description=闪光的结晶,硬比龙牙. 钻石恒久远,一颗永流传.|Apinomicon
@@ -463,6 +469,8 @@ magicbees.speciesBotDreaming=梦境
 magicbees.speciesBotDreaming.description=这些毫不活跃的蜜蜂毫无节制地把时间花在睡眠上;于是我们也无从知晓她们梦到了什么.|Apinomicon
 magicbees.speciesBotAlfheim=精灵
 magicbees.speciesBotAlfheim.description=想起了艾尔夫海姆的时间,渴望着一个浸透着魔力的世界,她们开始试图使其变为现实.|Apinomicon
+magicbees.speciesAESkystone=Skystone
+magicbees.speciesAESkystone.description=Born of the union of the Earth and the Sky, falling to the ground, wreathed in flame.|Apinomicon
 magicbees.species=
 magicbees.species.description=
 
@@ -594,9 +602,13 @@ tc.research_page.MB_VisAuraProvider.1=向罕见花粉中注以Vis,并与黄金�
 #Botania Lexicon entries
 magicbees.botania.lexicon.subtitle=[魔法蜜蜂]
 
+magicbees.botania.lexicon.manasteelTools.title=Manasteel Naturalist's Tools
+magicbees.botania.lexicon.manasteelTools.0=Manasteel's unusual properties lends itself well to Naturalist's tools. The &1Manasteel Scoop&0 can be used to effectively harvest hives, and the &1Manasteel Grafter&0 is a durable subsitute for the generic bronze grafters. Of course, both tools have the ability to regenerate with mana. For best results, combine the tool with Living Wood.
 magicbees.botania.lexicon.manasteelScoop=&1魔钢捕蜂网&0
 magicbees.botania.lexicon.manasteelGrafter=&1魔钢剪枝器&0
 
+
+magicbees.botania.lexicon.beeAlfheim.title=Alfheim Apimancy
 magicbees.botania.lexicon.beeAlfheim.trade=换取&b精灵雄蜂&0
 magicbees.botania.lexicon.beeAlfheim.0=&1精灵族养蜂人&0正急于探寻你的蜜蜂的快乐,而且特别对你可以提供的&1梦境 雄蜂&0感兴趣.作为回报,精灵们会以&b精灵 雄蜂&0为交换,这是艾尔夫海姆仅有的一种蜜蜂.
 
@@ -610,7 +622,7 @@ magicbees.botania.lexicon.hiveacynth.1=才可能被重组出来,其属性也大�
 magicbees.botania.lexicon.hiveacynth.crafting=点此了解详情> beesbeesbees.com
 
 magicbees.botania.lexicon.hibeescus.0=&5卑贱种&0蜜蜂,尽管和它们的同类&2始祖种&0一样有用,但还是有一个瑕疵-大概在100代以后,它们开始患病,开始虚弱,甚至会在你面前死去,就正好在你得到梦寐以求的新品种时候,就要为你带来同行的愤怒和嫉妒的时候. 尽管,你知道这个问题应该是可以解决的! 只要有足够的魔力,时间,还有和你站在一边的
-magicbees.botania.lexicon.hibeescus.1=&1Hibeescus&0的帮助,你就可以批量抹去野生&5卑贱种&0蜜蜂天生的基因缺陷了. 一定要有耐心,因为&1Hibeescus&0的施法速度相当慢,最长要整整两天!<br>另外强烈建议节约魔力,因为它对于魔力极度饥渴. Applying a redstone signal to its roots will prevent it from absorbing new Princesses or Queens, but not
+magicbees.botania.lexicon.hibeescus.1=&1Hibeescus&0的帮助,你就可以批量抹去野生&5卑贱种&0蜜蜂天生的基因缺陷了. 一定要有耐心,因为&1Hibeescus&0的施法速度相当慢,最长要整整两天!<br>另外强烈建议节约魔力,因为它对于魔力极度饥渴. Applying a redstone signal to its roots will prevent it from absorbing new Princesses or Queens, but not Applying a redstone signal to its roots will prevent it from absorbing new Princesses or Queens, but not
 magicbees.botania.lexicon.hibeescus.2=halt the genetic cleansing operation once it has begun.
 magicbees.botania.lexicon.hibeescus.crafting=仅为居心不良者使用.
 
