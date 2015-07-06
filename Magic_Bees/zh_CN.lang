@@ -447,7 +447,7 @@ magicbees.speciesTEWinsome=迷人
 magicbees.speciesTEWinsome.description="我喜欢这一群,它们可爱极了!"|Jadedcat,整合包制作者
 magicbees.speciesTEEndearing=可爱
 magicbees.speciesTEEndearing.description="催眠的力量,辅以邪恶的性情,这些蜜蜂怎么可能有这么可爱!"|Jadedcat,整合包制作者
-magicbees.speciesRSAFluxed=焊剂
+magicbees.speciesRSAFluxed=通量
 magicbees.speciesRSAFluxed.description="什么?蜜蜂可是管理员哦."|Marquis Muskrat
 magicbees.speciesBMBloody=血腥
 magicbees.speciesBMBloody.description=灌输以血之力,它们现在正追寻更强大的力量.|Apinomicon
@@ -602,8 +602,8 @@ tc.research_page.MB_VisAuraProvider.1=向罕见花粉中注以Vis,并与黄金�
 #Botania Lexicon entries
 magicbees.botania.lexicon.subtitle=[魔法蜜蜂]
 
-magicbees.botania.lexicon.manasteelTools.title=Manasteel Naturalist's Tools
-magicbees.botania.lexicon.manasteelTools.0=Manasteel's unusual properties lends itself well to Naturalist's tools. The &1Manasteel Scoop&0 can be used to effectively harvest hives, and the &1Manasteel Grafter&0 is a durable subsitute for the generic bronze grafters. Of course, both tools have the ability to regenerate with mana. For best results, combine the tool with Living Wood.
+magicbees.botania.lexicon.manasteelTools.title=魔钢林业用品
+magicbees.botania.lexicon.manasteelTools.0=魔钢的非凡性质对林业用品一样有用. &1魔钢捕蜂网&0可以有效收获蜂巢,而&1魔钢剪枝器&0是普通青铜剪枝器的经久耐用的替代品. 当然, 两种工具都可以利用魔力再生. 要达到最优效果, 需要使用活木合成.
 magicbees.botania.lexicon.manasteelScoop=&1魔钢捕蜂网&0
 magicbees.botania.lexicon.manasteelGrafter=&1魔钢剪枝器&0
 
@@ -617,7 +617,7 @@ magicbees.botania.lexicon.beegonia.1=在工作时持续产出一定量的魔力,
 magicbees.botania.lexicon.beegonia.crafting=Syncrostrike的完美解决方案
 magicbees.botania.lexicon.beegonia.2=嗯.要么就是它,要么就是&2飞行蜜蜂陷阱&0,但是那个也有它自己的问题.
 
-magicbees.botania.lexicon.hiveacynth.0=为了你的库存而到处找蜜蜂是个痛苦的工作. 幸运的是,我们可以以高达74%的准确率从花的记忆里重组出蜜蜂! 或许吧(笑).<br> &1Hiveacynth&0将会从附近的魔力池中吸取魔力,一旦吸取了足够多的魔力,它就会开始将其转化为生命精华,并最终组成一个蜜蜂! 看起来重组出的蜜蜂基因是随机的, 然而只有'平凡的'蜜蜂
+magicbees.botania.lexicon.hiveacynth.0=为了你的库存而到处找蜜蜂是个痛苦的工作. 幸运的是,我们可以以高达74%的准确率从花的记忆里重组出蜜蜂! 或许吧(笑).<br> &1蜂窝花&0将会从附近的魔力池中吸取魔力,一旦吸取了足够多的魔力,它就会开始将其转化为生命精华,并最终组成一个蜜蜂! 看起来重组出的蜜蜂基因是随机的, 然而只有'平凡的'蜜蜂
 magicbees.botania.lexicon.hiveacynth.1=才可能被重组出来,其属性也大概和野外发现的差不多.<br>偶尔这些鲜花们也会给予她们自己一些新鲜空气,然后产出了一只自吹自擂的公主蜂,而不是平时那些普普通通的雄蜂. 红石信号将会停止&1蜂窝花&0消耗魔力并生产蜜蜂的进程.
 magicbees.botania.lexicon.hiveacynth.crafting=点此了解详情> beesbeesbees.com
 
