@@ -27,6 +27,8 @@ genetics.machine.labMachine.incubator.info=The Incubator combines liquids and it
 
 genetics.machine.labMachine.acclimatiser=Acclimatiser
 
+genetics.machine.advMachine.splicer=Splicer
+genetics.machine.advMachine.splicer.info=The Splicer is an incredibly powerful machine to insert genes into individuals. It is fast, but needs insane amounts of power.
 
 
 

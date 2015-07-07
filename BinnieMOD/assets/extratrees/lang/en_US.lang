@@ -304,32 +304,25 @@ extratrees.item.food.almond=Almond
 extratrees.item.food.apricot=Apricot
 extratrees.item.food.grapefruit=Grapefruit
 extratrees.item.food.peach=Peach
-
 extratrees.item.food.satsuma=Satsuma
 extratrees.item.food.buddhahand=Buddhas Hand
 extratrees.item.food.citron=Citron
 extratrees.item.food.fingerlime=Finger Lime
 extratrees.item.food.keylime=Key Lime
-
 extratrees.item.food.manderin=Manderin
 extratrees.item.food.nectarine=Nectarine
-
 extratrees.item.food.pomelo=Pomelo
 extratrees.item.food.tangerine=Tangerine
 extratrees.item.food.pear=Pear
 extratrees.item.food.sandpear=Sand Pear
-
 extratrees.item.food.hazelnut=Hazelnut
 extratrees.item.food.butternut=Butternut
 extratrees.item.food.beechnut=Beechnut
 extratrees.item.food.pecan=Pecan Nut
-
 extratrees.item.food.banana=Banana
 extratrees.item.food.redbanana=Red Banana
 extratrees.item.food.plantain=Plantain
-
 extratrees.item.food.brazilnut=Brazil Nut
-
 extratrees.item.food.fig=Fig
 extratrees.item.food.acorn=Acorn
 extratrees.item.food.elderberry=Elderberry
@@ -338,9 +331,7 @@ extratrees.item.food.gingkonut=Gingko Nut
 extratrees.item.food.coffee=Coffee
 extratrees.item.food.osangeorange=Osange Orange
 extratrees.item.food.clove=Clove
-
 extratrees.item.food.papayimar=Papayimar
-
 extratrees.item.food.blackcurrant=Blackcurrant
 extratrees.item.food.redcurrant=Redcurrant
 extratrees.item.food.blackberry=Blackberry
@@ -350,7 +341,6 @@ extratrees.item.food.cranberry=Cranberry
 extratrees.item.food.juniper=Juniper
 extratrees.item.food.gooseberry=Gooseberry
 extratrees.item.food.goldenraspberry=Golden Raspberry
-
 extratrees.item.food.coconut=Coconut
 extratrees.item.food.cashew=Cashew
 extratrees.item.food.avacado=Avacado
@@ -361,6 +351,69 @@ extratrees.item.food.staranise=Star Anise
 extratrees.item.food.mango=Mango
 extratrees.item.food.starfruit=Starfruit
 extratrees.item.food.candlenut=Candlenut
+
+extratrees.item.glassware.beermug=Beer Mug
+extratrees.item.glassware.pint=Pint Glass
+extratrees.item.glassware.snifter=Snifter Glass
+extratrees.item.glassware.cocktail=Cocktail Glass
+extratrees.item.glassware.cordial=Cordial Glass
+extratrees.item.glassware.collins=Collins Glass
+extratrees.item.glassware.highball=Highball Glass
+extratrees.item.glassware.hurricane=Hurricane Glass
+extratrees.item.glassware.margarita=Margarita Glass
+extratrees.item.glassware.oldfashioned=Old Fashioned Glass
+extratrees.item.glassware.wine=Wine Glass
+extratrees.item.glassware.shot=Shot Glass
+extratrees.item.glassware.sherry=Sherry Glass
+extratrees.item.glassware.coupe=Coupe Glass
+
+< %1$s is name of fluid >
+extratrees.item.glassware.beermug.usage=Mug of %1$s
+extratrees.item.glassware.pint.usage=Glass of %1$s
+extratrees.item.glassware.snifter.usage=Glass of %1$s
+extratrees.item.glassware.cocktail.usage=Glass of %1$s
+extratrees.item.glassware.cordial.usage=Glass of %1$s
+extratrees.item.glassware.collins.usage=Glass of %1$s
+extratrees.item.glassware.highball.usage=Glass of %1$s
+extratrees.item.glassware.hurricane.usage=Glass of %1$s
+extratrees.item.glassware.margarita.usage=Glass of %1$s
+extratrees.item.glassware.oldfashioned.usage=Glass of %1$s
+extratrees.item.glassware.wine.usage=Glass of %1$s
+extratrees.item.glassware.shot.usage=%1$s Shot
+extratrees.item.glassware.sherry.usage=Glass of %1$s
+extratrees.item.glassware.coupe.usage=Glass of %1$s
+
+extratrees.fluid.alcohol.apple=Cider
+extratrees.fluid.alcohol.apricot=Apricot Wine
+extratrees.fluid.alcohol.banana=Banana Wine
+extratrees.fluid.alcohol.cherry=Cherry Wine
+extratrees.fluid.alcohol.elderberry=Elderberry Wine
+extratrees.fluid.alcohol.peach=Peach Cider
+extratrees.fluid.alcohol.pear=Pear Cider
+extratrees.fluid.alcohol.plum=Plum Wine
+extratrees.fluid.alcohol.carrot=Carrot Wine
+extratrees.fluid.alcohol.whitewine=White Wine
+extratrees.fluid.alcohol.redwine=Red Wine
+extratrees.fluid.alcohol.sparklingwine=Sparkling Wine
+extratrees.fluid.alcohol.agave=Agave Wine
+extratrees.fluid.alcohol.potato=Fermented Potatoes
+extratrees.fluid.alcohol.citrus=Citrus Wine
+extratrees.fluid.alcohol.cranberry=Cranberry Wine
+extratrees.fluid.alcohol.pineapple=Pineapple Wine
+extratrees.fluid.alcohol.tomato=Tomato Wine
+extratrees.fluid.alcohol.fruit=Fruit Wine
+extratrees.fluid.alcohol.ale=Ale
+extratrees.fluid.alcohol.lager=Lager
+extratrees.fluid.alcohol.wheatbeer=Wheat Beer
+extratrees.fluid.alcohol.ryebeer=Rye Beer
+extratrees.fluid.alcohol.cornbeer=Corn Beer
+extratrees.fluid.alcohol.stout=Stout
+extratrees.fluid.alcohol.barley=Fermented Grain Mash
+extratrees.fluid.alcohol.wheat=Fermented Wheat Mash
+extratrees.fluid.alcohol.rye=Fermented Rye Mash
+extratrees.fluid.alcohol.corn=Fermented Corn Mash
+
+
 
 extratrees.gui.database.planks.use=Can make:
 
@@ -381,7 +434,7 @@ extratrees.gui.database.tab.breeder.breeder=Breeder
 
 
 extratrees.gui.database.tab.fruit.natural=Natural Trees
-extratrees.gui.database.tab.fruit.natura.help=List of trees that naturally produce this fruit
+extratrees.gui.database.tab.fruit.natura.helpList of trees that naturally produce this fruit
 extratrees.gui.database.tab.fruit.potential=Potential Trees
 extratrees.gui.database.tab.fruit.potential.help=List of trees that can produce this fruit if they possess the right allele
 extratrees.gui.database.tab.wood.natural=Natural Trees
@@ -401,3 +454,5 @@ extratrees.gui.database.tab.butterfly.branches.overview=Overview
 extratrees.gui.database.tab.butterfly.branches.species=Species
 extratrees.gui.database.tab.butterfly.breeder=Breeder
 
+extratrees.gui.database.log=Log
+extratrees.gui.database.leaves=Leaves
