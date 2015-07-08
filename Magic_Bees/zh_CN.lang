@@ -33,8 +33,8 @@ item.moonDial.name=翡翠色月相盘
 #Tiles
 tile.effectJar.name=蜜蜂收集者的罐子
 tile.magicApiary.name=魔法蜂箱
-tile.visAuraProvider.name=Vis蜂箱加速器
-tile.manaAuraProvider.name=Mana蜂箱加速器
+tile.visAuraProvider.name=源质蜂箱加速器
+tile.manaAuraProvider.name=魔力蜂箱加速器
 tile.hive.curious.name=好奇蜂巢
 tile.hive.unusual.name=非凡蜂巢
 tile.hive.deep.name=深度蜂巢
@@ -202,10 +202,10 @@ itemGroup.magicBees=魔法蜜蜂
 #Botania flowers; Lexicon entries nearer the end.
 tile.botania:flower.beegonia.name=食蜂花
 tile.botania:flower.beegonia.lore=我们不会再让蜜蜂看见你了...
-tile.botania:flower.hiveacynth.name=Hiveacynth
+tile.botania:flower.hiveacynth.name=蜂窝花
 tile.botania:flower.hiveacynth.lore=于Morvelaira的花园中
-tile.botania:flower.hibeescus.name=Hibeescus
-tile.botania:flower.hibeescus.lore=The puns may sting a bit
+tile.botania:flower.hibeescus.name=变蜂草
+tile.botania:flower.hibeescus.lore=这些尖（双）刺（关）会蜇人
 
 #Research
 research.requiresBlock=需要一个%s作为基础
@@ -271,7 +271,7 @@ magicbees.speciesAware.description="它们看得见你的灵魂!"|Florastar,养�
 magicbees.speciesSpirit=精神
 magicbees.speciesSpirit.description=据说这种蜜蜂能和死者沟通.|Apinomicon
 magicbees.speciesSoul=魂魄
-magicbees.speciesSoul.description="Dread Pirate Roberts来收割你的灵魂啦!"|Dread Pirate Roberts代表路西法如是说
+magicbees.speciesSoul.description="老海盗Roberts来收割你的灵魂啦!"|老海盗Roberts代表路西法如是说
 
 magicbees.speciesSkulking=诡隐
 magicbees.speciesSkulking.description=这些蜜蜂变得暴躁排外, 务必小心!|Apinomicon
@@ -281,8 +281,8 @@ magicbees.speciesSpidery=蜘蛛
 magicbees.speciesSpidery.description=蜘蛛蜂; 嗯.做蜘蛛蜂该做的事情.|佚名
 magicbees.speciesSmouldering=闷烧
 magicbees.speciesSmouldering.description=永恒之焰中潜伏的蜜蜂格外耀眼.|Apinomicon
-magicbees.speciesBigBad=Big Bad
-magicbees.speciesBigBad.description="谁会怕Big Bad克莉斯?"|Pahimar的临终遗言
+magicbees.speciesBigBad=至恶
+magicbees.speciesBigBad.description="谁会怕至恶克莉斯?"|Pahimar的临终遗言
 
 magicbees.speciesTimely=瞬息
 magicbees.speciesTimely.description="养蜂员从不迟到，他想去的时候就能准点到达!"|Sengir,养蜂狂人
@@ -331,21 +331,21 @@ magicbees.speciesCobalt=辉钴
 magicbees.speciesCobalt.description=这种金属不稳定的特性似乎丝毫没有影响这些蜜蜂.|Apinomicon
 magicbees.speciesManyullyn=玛玉灵
 magicbees.speciesManyullyn.description="咚!嘟滴嘟~咚!"
-magicbees.speciesOsmium=Osmium
-magicbees.speciesOsmium.description=Occasionally confused for Iridium bees, despite their lack of goopy texture and pink colouration as described in older books.|Apinomicon
-magicbees.speciesSilicon=Silicon
-magicbees.speciesSilicon.description="Not to be confused with Silicone bees, AKA the Boo Bees!"|Myrathi, Wearer of Headpants
-magicbees.speciesCertus=Certus
-magicbees.speciesCertus.description=The OTHER kind of Quartz, slightly bluer, but no less valuable.|Apinomicon
-magicbees.speciesFluix=Fluix
-magicbees.speciesFluix.description=Fusing properties of Redstone, Nether Quartz and Certus Quartz, the Fluix crystal itself is unusual, unstable, and volatile if struck with TNT.|Apinomicon
+magicbees.speciesOsmium=锇蓝
+magicbees.speciesOsmium.description=据古书记载有时会与传说中的铱金蜂混淆, 除了不那么粘稠的材质和粉红的色泽.|Apinomicon
+magicbees.speciesSilicon=硅晶
+magicbees.speciesSilicon.description="别跟硅石蜂弄混了,就是嘘嘘蜂!"|Myrathi,头上套短裤的人
+magicbees.speciesCertus=赛特斯
+magicbees.speciesCertus.description=另一种石英, 有点发蓝,但一样珍贵.|Apinomicon
+magicbees.speciesFluix=福鲁斯
+magicbees.speciesFluix.description=注入了红石,下界石英和赛特斯石英的特性, 福鲁伊克斯水晶拥有特别,不稳定,且遇TNT易爆炸的性质.|Apinomicon
 
 magicbees.speciesDiamond=钻石
 magicbees.speciesDiamond.description=闪光的结晶,硬比龙牙. 钻石恒久远,一颗永流传.|Apinomicon
 magicbees.speciesEmerald=宝石
 magicbees.speciesEmerald.description=据说它们曾造访伟大巫师统治之地，并将巫师之城的要素劫掠一空.|Apinomicon
 magicbees.speciesApatite=磷化
-magicbees.speciesApatite.description=这些东西真心是日夜牢骚不断.我关紧窗户躲进地下室，但蜜蜂尖锐的嗡嗡声却无处不在地透墙而过，乱我心绪.|Beekeeing 101
+magicbees.speciesApatite.description=这些东西真心是日夜牢骚不断.我关紧窗户躲进地下室，但蜜蜂尖锐的嗡嗡声却无处不在地透墙而过，乱我心绪.|101条养蜂人必知
 
 magicbees.speciesMutable=善变
 magicbees.speciesMutable.description=多变的性质,善变的个性.|Apinomicon
@@ -447,7 +447,7 @@ magicbees.speciesTEWinsome=迷人
 magicbees.speciesTEWinsome.description="我喜欢这一群,它们可爱极了!"|Jadedcat,整合包制作者
 magicbees.speciesTEEndearing=可爱
 magicbees.speciesTEEndearing.description="催眠的力量,辅以邪恶的性情,这些蜜蜂怎么可能有这么可爱!"|Jadedcat,整合包制作者
-magicbees.speciesRSAFluxed=焊剂
+magicbees.speciesRSAFluxed=通量
 magicbees.speciesRSAFluxed.description="什么?蜜蜂可是管理员哦."|Marquis Muskrat
 magicbees.speciesBMBloody=血腥
 magicbees.speciesBMBloody.description=灌输以血之力,它们现在正追寻更强大的力量.|Apinomicon
@@ -469,8 +469,8 @@ magicbees.speciesBotDreaming=梦境
 magicbees.speciesBotDreaming.description=这些毫不活跃的蜜蜂毫无节制地把时间花在睡眠上;于是我们也无从知晓她们梦到了什么.|Apinomicon
 magicbees.speciesBotAlfheim=精灵
 magicbees.speciesBotAlfheim.description=想起了艾尔夫海姆的时间,渴望着一个浸透着魔力的世界,她们开始试图使其变为现实.|Apinomicon
-magicbees.speciesAESkystone=Skystone
-magicbees.speciesAESkystone.description=Born of the union of the Earth and the Sky, falling to the ground, wreathed in flame.|Apinomicon
+magicbees.speciesAESkystone=天石
+magicbees.speciesAESkystone.description=与天地间的纽带同生,坠入人间,覆着火焰.|Apinomicon
 magicbees.species=
 magicbees.species.description=
 
@@ -602,13 +602,13 @@ tc.research_page.MB_VisAuraProvider.1=向罕见花粉中注以Vis,并与黄金�
 #Botania Lexicon entries
 magicbees.botania.lexicon.subtitle=[魔法蜜蜂]
 
-magicbees.botania.lexicon.manasteelTools.title=Manasteel Naturalist's Tools
-magicbees.botania.lexicon.manasteelTools.0=Manasteel's unusual properties lends itself well to Naturalist's tools. The &1Manasteel Scoop&0 can be used to effectively harvest hives, and the &1Manasteel Grafter&0 is a durable subsitute for the generic bronze grafters. Of course, both tools have the ability to regenerate with mana. For best results, combine the tool with Living Wood.
+magicbees.botania.lexicon.manasteelTools.title=魔钢林业用品
+magicbees.botania.lexicon.manasteelTools.0=魔钢的非凡性质对林业用品一样有用. &1魔钢捕蜂网&0可以有效收获蜂巢,而&1魔钢剪枝器&0是普通青铜剪枝器的经久耐用的替代品. 当然, 两种工具都可以利用魔力再生. 要达到最优效果, 需要使用活木合成.
 magicbees.botania.lexicon.manasteelScoop=&1魔钢捕蜂网&0
 magicbees.botania.lexicon.manasteelGrafter=&1魔钢剪枝器&0
 
 
-magicbees.botania.lexicon.beeAlfheim.title=Alfheim Apimancy
+magicbees.botania.lexicon.beeAlfheim.title=艾尔夫海姆养蜂学
 magicbees.botania.lexicon.beeAlfheim.trade=换取&b精灵雄蜂&0
 magicbees.botania.lexicon.beeAlfheim.0=&1精灵族养蜂人&0正急于探寻你的蜜蜂的快乐,而且特别对你可以提供的&1梦境 雄蜂&0感兴趣.作为回报,精灵们会以&b精灵 雄蜂&0为交换,这是艾尔夫海姆仅有的一种蜜蜂.
 
@@ -617,13 +617,13 @@ magicbees.botania.lexicon.beegonia.1=在工作时持续产出一定量的魔力,
 magicbees.botania.lexicon.beegonia.crafting=Syncrostrike的完美解决方案
 magicbees.botania.lexicon.beegonia.2=嗯.要么就是它,要么就是&2飞行蜜蜂陷阱&0,但是那个也有它自己的问题.
 
-magicbees.botania.lexicon.hiveacynth.0=为了你的库存而到处找蜜蜂是个痛苦的工作. 幸运的是,我们可以以高达74%的准确率从花的记忆里重组出蜜蜂! 或许吧(笑).<br> &1Hiveacynth&0将会从附近的魔力池中吸取魔力,一旦吸取了足够多的魔力,它就会开始将其转化为生命精华,并最终组成一个蜜蜂! 看起来重组出的蜜蜂基因是随机的, 然而只有'平凡的'蜜蜂
-magicbees.botania.lexicon.hiveacynth.1=才可能被重组出来,其属性也大概和野外发现的差不多.<br>偶尔这些鲜花们也会给予她们自己一些新鲜空气,然后产出了一只自吹自擂的公主蜂,而不是平时那些普普通通的雄蜂. 红石信号将会停止&1Hiveacynth&0消耗魔力并生产蜜蜂的进程.
+magicbees.botania.lexicon.hiveacynth.0=为了你的库存而到处找蜜蜂是个痛苦的工作. 幸运的是,我们可以以高达74%的准确率从花的记忆里重组出蜜蜂! 或许吧(笑).<br> &1蜂窝花&0将会从附近的魔力池中吸取魔力,一旦吸取了足够多的魔力,它就会开始将其转化为生命精华,并最终组成一个蜜蜂! 看起来重组出的蜜蜂基因是随机的, 然而只有'平凡的'蜜蜂
+magicbees.botania.lexicon.hiveacynth.1=才可能被重组出来,其属性也大概和野外发现的差不多.<br>偶尔这些鲜花们也会给予她们自己一些新鲜空气,然后产出了一只自吹自擂的公主蜂,而不是平时那些普普通通的雄蜂. 红石信号将会停止&1蜂窝花&0消耗魔力并生产蜜蜂的进程.
 magicbees.botania.lexicon.hiveacynth.crafting=点此了解详情> beesbeesbees.com
 
 magicbees.botania.lexicon.hibeescus.0=&5卑贱种&0蜜蜂,尽管和它们的同类&2始祖种&0一样有用,但还是有一个瑕疵-大概在100代以后,它们开始患病,开始虚弱,甚至会在你面前死去,就正好在你得到梦寐以求的新品种时候,就要为你带来同行的愤怒和嫉妒的时候. 尽管,你知道这个问题应该是可以解决的! 只要有足够的魔力,时间,还有和你站在一边的
-magicbees.botania.lexicon.hibeescus.1=&1Hibeescus&0的帮助,你就可以批量抹去野生&5卑贱种&0蜜蜂天生的基因缺陷了. 一定要有耐心,因为&1Hibeescus&0的施法速度相当慢,最长要整整两天!<br>另外强烈建议节约魔力,因为它对于魔力极度饥渴. Applying a redstone signal to its roots will prevent it from absorbing new Princesses or Queens, but not Applying a redstone signal to its roots will prevent it from absorbing new Princesses or Queens, but not
-magicbees.botania.lexicon.hibeescus.2=halt the genetic cleansing operation once it has begun.
+magicbees.botania.lexicon.hibeescus.1=&1变蜂草&0的帮助,你就可以批量抹去野生&5卑贱种&0蜜蜂天生的基因缺陷了. 一定要有耐心,因为&1变蜂草&0的施法速度相当慢,最长要整整两天!<br>另外强烈建议节约魔力,因为它对于魔力极度饥渴.向其根系通入红石信号可以阻止其吸收新的公主蜂或蜂后, 但不通红石信号也会阻止其吸收公主蜂或蜂后, 但不会
+magicbees.botania.lexicon.hibeescus.2=阻止已经开始的净化进程.
 magicbees.botania.lexicon.hibeescus.crafting=仅为居心不良者使用.
 
 magicbees.botania.lexicon.manaBooster.0=魔力蜂箱是一种非常自然的让蜜蜂加快工作速度的方式,但它也有一点...局限. 幸运的是,活石和花瓣的特性使得它们可以偶尔为蜜蜂充能,从而使蜜蜂们更高产. 只需向&1魔力蜂箱加速器&0持续提供魔力,它们就可以持续使蜜蜂们保持高效状态.
