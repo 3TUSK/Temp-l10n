@@ -1,0 +1,87 @@
+# This file MUST be saved as UTF-8
+
+key.categories.litemods=§e模组按键
+
+gui.about.modsloaded=已加载%d个模组
+gui.about.versiontext=版本号%s
+gui.about.poweredbyversion=v%s§r 由LiteLoader提供技术支持 v%s
+
+gui.about.checkupdates=§n检查更新
+
+gui.settings.showtab.label=显示LiteLoader边栏标签
+gui.settings.showtab.help1=如果你禁用了此选项，请使用CTRL+SHIFT+TAB
+gui.settings.showtab.help2=来显示LiteLoader边栏
+gui.settings.notabhide.label=一直显示LiteLoader边栏
+gui.settings.notabhide.help1=只有在上面的选项被勾选的时候才会生效
+gui.settings.forceupdate.label=定时检查更新
+gui.settings.forceupdate.help1=这个选项是§c实验性的§r，可能不会正常工作
+gui.settings.forceupdate.help2=当然,它也允许LiteLoader“强制更新”. 
+
+gui.about.taboptions=§nLiteLoader边栏选项
+
+gui.about.authors=作者
+
+gui.disablemod=禁用模组
+gui.enablemod=启用模组
+gui.modsettings=设置...
+
+gui.unknown=未知
+
+gui.status.loaded=已加载
+gui.status.active=已启用
+gui.status.disabled=已禁用
+gui.status.pending.enabled=在下次启动游戏时启用
+gui.status.pending.disabled=在下次启动游戏时禁用
+gui.status.missingdeps=缺少需要的库
+gui.status.missingapis=缺少需要的API
+gui.status.startuperror=检测到启动错误
+gui.description.missingdeps=缺少库: %s
+gui.description.missingapis=缺少API: %s
+
+gui.mod.providestweak=Tweak
+gui.mod.providestransformer=Transformer
+gui.mod.providesevents=Injector
+gui.mod.usingapi=使用额外的API
+gui.mod.startuperror=%d个启动错误
+
+gui.mod.help.tweak=A tweaker is a special type of mod. Tweakers have almost unlimited control of the game and are usually mods which alter the game engine fundamentally, for example APIs or performance-enhancement mods like Optifine. Because they have the greatest amount of control, they are also the most likely to cause instability when not compatible with each other, if you are experiencing crashes or serious problems, you should always try disabling tweak mods first.
+gui.mod.help.transformer=A transformer mod uses bytecode injection to hook extra functionality within the game which LiteLoader does not normally provide. Because transformers access functionality outside of LiteLoader's core, it is possible for them to have unforseen side-effects when combined with other mods. If you are experiencing crashes or other unexpected behaviour, you should disable transformer mods before regular mods to determine whether they are the source of the issue. Forge refers to this type of mod as a §lCoreMod  
+gui.mod.help.events=An injector mod uses a restricted form of bytecode injection which makes it somewhat safer than a full transformer mod, but can still cause instability under some circumstances. If you are experiencing crashes or other issues, then you should disable injector mods before regular mods to determine whether they are the source of the issue.
+
+gui.settings.title=%s设置
+gui.saveandclose=保存并关闭
+
+gui.updates.title=为%s检查更新
+gui.updates.status.idle=§7没有正在进行的更新
+gui.updates.status.checking=连接更新网站... %s
+gui.updates.status.success=§a成功!
+gui.updates.status.failed=§c失败!
+
+gui.updates.available.title=§n可用的更新信息
+gui.updates.available.nonewversion=§7已是最新版本
+gui.updates.available.newversion=§a有可用的新版本
+gui.updates.available.version=版本号: §a%s
+gui.updates.available.date=放出日期: §a%s
+
+gui.updates.forced=强制更新,重启游戏以完成更新
+
+gui.checknow=现在检查更新
+gui.installupdate=现在安装
+gui.downloadupdate=现在下载
+gui.forceupdate=强制更新
+gui.exitgame=退出游戏
+
+gui.log.button=LiteLoader日志
+gui.log.title=LiteLoader日志查看器
+gui.log.scalecheckbox=使用默认分辨率
+gui.log.postlog=上传日志
+gui.log.uploading=正在上传日志,请等待...
+gui.log.uploadfailed=上传失败
+gui.log.uploadsuccess=上传成功,日志已上传到
+gui.log.closedialog=关闭
+
+gui.error.title=%s的启动错误
+
+gui.error.tooltip=检测到%d个模组启动错误(%d个严重错误)
+
+gui.notifications.updateavailable=有可用的LiteLoader更新!
