@@ -1,46 +1,46 @@
 binniecore.mod.name=Binnie核心
 
-binniecore.rootBees.descriptor=养蜂人Apiarist
-binniecore.rootTrees.descriptor=林业员Arborist
-binniecore.rootButterflies.descriptor=鳞翅目昆虫学家Lepidopterist
-binniecore.rootFlowers.descriptor=花匠Botanist
+binniecore.rootBees.descriptor=养蜂人
+binniecore.rootTrees.descriptor=林业员
+binniecore.rootButterflies.descriptor=鳞翅目昆虫学家
+binniecore.rootFlowers.descriptor=园丁
 
 binniecore.rootBees.shortName=蜜蜂
 binniecore.rootTrees.shortName=树木
 binniecore.rootButterflies.shortName=蝴蝶&飞蛾
 binniecore.rootFlowers.shortName=花卉
 
-binniecore.rootBees.epitome.0=蜜蜂驱逐者Bee Swatter
-binniecore.rootBees.epitome.1=蜜蜂爱好者Amateur Beekeeper
-binniecore.rootBees.epitome.2=见习养蜂人Apiarist-In-Training
-binniecore.rootBees.epitome.3=职业养蜂人Professional Beekeeper
-binniecore.rootBees.epitome.4=大师级养蜂人Master Apiarist
-binniecore.rootBees.epitome.5=神明之上的养蜂人God amoungst Apiarists
-binniecore.rootBees.epitome.6=Sengir选中之人Sengir's Chosen
+binniecore.rootBees.epitome.0=拍击蜜蜂者
+binniecore.rootBees.epitome.1=业余养蜂员
+binniecore.rootBees.epitome.2=见习养蜂员
+binniecore.rootBees.epitome.3=专业养蜂员
+binniecore.rootBees.epitome.4=养蜂大师
+binniecore.rootBees.epitome.5=神佑养蜂员
+binniecore.rootBees.epitome.6=天选养蜂员
 
-binniecore.rootTrees.epitome.0=有梦想的树农Wannabe Tree Farmer
-binniecore.rootTrees.epitome.1=伐木工人Lumberjack
-binniecore.rootTrees.epitome.2=绿色的大拇指Green Thumbed
-binniecore.rootTrees.epitome.3=远近闻名的农民Renowned Farmer
-binniecore.rootTrees.epitome.4=农业大师Agricultural Master
-binniecore.rootTrees.epitome.5=树木之王Lord of the Trees
-binniecore.rootTrees.epitome.6=自然之母Mother Nature
+binniecore.rootTrees.epitome.0="未来"树艺家
+binniecore.rootTrees.epitome.1=伐木工
+binniecore.rootTrees.epitome.2=绿拇指
+binniecore.rootTrees.epitome.3=盛名农夫
+binniecore.rootTrees.epitome.4=林场大师
+binniecore.rootTrees.epitome.5=森林之王
+binniecore.rootTrees.epitome.6=自然之母
 
-binniecore.rootButterflies.epitome.0=普通的抓虫人Bug Catcher
-binniecore.rootButterflies.epitome.1=毛虫猎人Moth Chaser
-binniecore.rootButterflies.epitome.2=捕蝶的巫师Scoop Wizard
-binniecore.rootButterflies.epitome.3=Caterpiller Lord
-binniecore.rootButterflies.epitome.4=飞翔的捕蝶者Winged Assassin
-binniecore.rootButterflies.epitome.5=Moth King
-binniecore.rootButterflies.epitome.6=蝴蝶们的统治者Monarch of the Butterflies
+binniecore.rootButterflies.epitome.0=抓虫小子
+binniecore.rootButterflies.epitome.1=飞蛾捕手
+binniecore.rootButterflies.epitome.2=捕虫巫师
+binniecore.rootButterflies.epitome.3=毛虫之王
+binniecore.rootButterflies.epitome.4=插翼刺客
+binniecore.rootButterflies.epitome.5=飞蛾之主
+binniecore.rootButterflies.epitome.6=蝴蝶大帝
 
-binniecore.rootFlowers.epitome.0=街边三色堇Pansy
-binniecore.rootFlowers.epitome.1=拨弄鲜花的人Daisy Pusher
-binniecore.rootFlowers.epitome.2=Flower Power
-binniecore.rootFlowers.epitome.3=珍宝的触及者Midas Touch
-binniecore.rootFlowers.epitome.4=绿色Green Thumb
-binniecore.rootFlowers.epitome.5=大师级园丁Master Garderner
-binniecore.rootFlowers.epitome.6=Peerless Botanist
+binniecore.rootFlowers.epitome.0=花样小子
+binniecore.rootFlowers.epitome.1=雏菊拨弄者
+binniecore.rootFlowers.epitome.2=娇花之力
+binniecore.rootFlowers.epitome.3=点石成金
+binniecore.rootFlowers.epitome.4=绿色拇指
+binniecore.rootFlowers.epitome.5=园艺大师
+binniecore.rootFlowers.epitome.6=绝世花匠
 
 binniecore.rootBees.chromosome.species=品种
 binniecore.rootBees.chromosome.speed=效率
@@ -175,16 +175,16 @@ binniecore.allele.metabolism.slowest=最慢
 
 binniecore.allele.none=无
 
-binniecore.allele.growth.tropical=Tropical
-binniecore.allele.growth.lightlevel=Light Level
+binniecore.allele.growth.tropical=热带
+binniecore.allele.growth.lightlevel=亮度
 
 
 binniecore.beemodifier.territory=影响范围
-binniecore.beemodifier.mutation=Mutation
+binniecore.beemodifier.mutation=变异
 binniecore.beemodifier.lifespan=寿命
 binniecore.beemodifier.production=产物
 binniecore.beemodifier.flowering=授粉速度
-binniecore.beemodifier.geneticdecay=Genetic Decay
+binniecore.beemodifier.geneticdecay=基因衰变Genetic Decay
 
 binniecore.gui.breedingmessage.species=已发现品种
 binniecore.gui.breedingmessage.branch=已发现分支
@@ -210,5 +210,5 @@ binniecore.gui.designer.pattern=%1$s Pattern
 binniecore.gui.database.nodescription=未提供说明.
 
 binniecore.gui.database.mode.species=种
-binniecore.gui.database.mode.branches=Branches
-binniecore.gui.database.mode.breeder=Breeder
+binniecore.gui.database.mode.branches=族
+binniecore.gui.database.mode.breeder=变异Breeder
