@@ -1,31 +1,20 @@
 # Temp_LocalizationFile
 
 #### Introduction
-This is just a repository where can put some localization files, especially for the language files 
+This is main repository of "Temporary Localization", a Minecraft resourcepack with purpose to provide the translation for Minecraft mods which haven't officially support localization yet.
 
-1. that no more appropriate place for them.
+Currently this repo is majorly collecting Simplified Chinese (zh_CN) translation. 
 
-2. that needs edited frequently
-
-Technically this repository is only for Minecraft mods. 
-
-Usage may change, depending on future.
-
-#### Usage
+#### Contribution
 
 Check CONRTIBUTING.md for more details.
 
-#### About permission
-I keep the right to remove file to response original author's request.
+#### Permission 
+The resourcepack itself is released under CC-BY-NC-SA 3.0.
 
-If there's no more problem, all language files should inherit licence from which the file(s) originally belongs to.
+If you have a license issue, please open a issue here.
 
-If there is no information about license, all languages file without license should be under CC-BY-NC-SA 3.0.
-
-Keep in mind: 
-
-1. since I choose CC-BY-NC-SA 3.0, if someone want to show who have offered assistance in the localization file, all contributors' name should be clearly stated in the form of notes (i.e. states like this: ````###Appreciate A, B, C for their generous contribution````) at the head of lang file for ONLY once.
-
-2. Try cleaning files regularly. On the one hand we want the latest lang files, on the other hand some files may be able to find a proper repository to stay and it's better to send them to their home.
-
+#### Miscellanea
 If you still have question please do not be hesitate to open a new issue or email the repo owner directly.
+
+By the way, the wiki of this repository is collecting something else. Check it if you're interested in.
