@@ -30,6 +30,9 @@ tile.draconicevolution:dislocatorReceptacle.name=Dislocator Receptacle
 tile.draconicevolution:portal.name=Portal
 tile.draconicevolution:flowGateFlux.name=Flux Gate
 tile.draconicevolution:flowGateFluid.name=Fluid Gate
+tile.draconicevolution:reactorCore.name=Draconic Reactor Core
+tile.draconicevolution:reactorStabilizer.name=Reactor Stabilizer
+tile.draconicevolution:reactorEnergyInjector.name=Reactor Energy Injector
 
 tile.draconicevolution:energyCrystal0.name=Energy Relay
 tile.draconicevolution:energyCrystal1.name=Advanced Energy Relay
@@ -163,6 +166,15 @@ msg.de.linked.txt=Devices Linked
 msg.de.unLinked.txt=Devices Un-Linked
 msg.de.wrongSide.txt=Can not connect to that side of the target device
 
+//Reactor
+msg.de.reactorRSMode.0.txt=Comparator Mode: Temperature
+msg.de.reactorRSMode.1.txt=Comparator Mode: Temperature [Inverted]
+msg.de.reactorRSMode.2.txt=Comparator Mode: Containment Field
+msg.de.reactorRSMode.3.txt=Comparator Mode: Containment Field [Inverted]
+msg.de.reactorRSMode.4.txt=Comparator Mode: Energy Saturation
+msg.de.reactorRSMode.5.txt=Comparator Mode: Energy Saturation [Inverted]
+msg.de.reactorRSMode.6.txt=Comparator Mode: Fuel Conversion
+msg.de.reactorRSMode.7.txt=Comparator Mode: Fuel Conversion [Inverted]
 
 //Tool Tips/other localizations ----------------------------------------------------------------------------------------------------------------------------------------
 info.teleporterInfUnset1.txt=Unbound
@@ -374,6 +386,7 @@ key.toolConfig=Tool & Armor Config GUI
 
 //Damage ----------------------------------------------------------------------------------------------------------------------------------------
 death.attack.chaos=%1$s was torn apart by a Chaos Guardian
+death.attack.damage.de.fusionExplode=%1$s was vaporized by a high energy fusion explosion
 
 //Buttons ----------------------------------------------------------------------------------------------------------------------------------------
 button.de.chestAutoFeed0.txt=OFF.Auto Feed Disabled
@@ -414,6 +427,9 @@ button.de.BaseSafeAOE.name=AOE Safe Mode
 button.de.VerticalAcceleration.name=Vertical Acceleration
 button.de.EffectiveOnSprint.name=Effective while sprinting
 button.de.GogglesOfRevealing.name=Magical Sense
+button.de.reactorCharge.txt=Charge Reactor
+button.de.reactorStart.txt=Activate
+button.de.reactorStop.txt=Initiate Shutdown
 
 //Gui ----------------------------------------------------------------------------------------------------------------------------------------
 gui.de.flowGate.name=Flow Control
@@ -425,6 +441,24 @@ gui.de.increment.name=Increment value by
 gui.de.decrement.name=Decrement value by
 gui.de.ctrlAndShift.name=You can use Ctrl and Shift to change the increment amount.
 gui.de.pressOrScroll.name=Press Or Scroll
+
+gui.de.insert.txt=Insert
+gui.de.extract.txt=Extract
+gui.de.fuel.txt=Fuel
+gui.de.coreMass.txt=Core Mass
+gui.de.reactionTemp.txt=Core Temperature
+gui.de.fieldStrength.txt=Containment Field Strength
+gui.de.energySaturation.txt=Energy Saturation
+gui.de.fuelConversion.txt=Fuel Conversion Level
+gui.de.status.txt=Status
+gui.de.status0.txt=OFFLINE
+gui.de.status1.txt=CHARGING
+gui.de.status1_5.txt=CHARGED
+gui.de.status2.txt=ONLINE
+gui.de.status3.txt=STOPPING
+gui.de.status4.txt=INVALID SETUP
+gui.de.internalStorage.txt=Internal Storage
+gui.de.itemStorage.txt=Item Storage
 
 manual.de.pigmenBloodRage.description=Don't let the pigmen see you eating pork you wont like what happens..
 

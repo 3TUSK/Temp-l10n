@@ -115,21 +115,21 @@ msg.teleporterAlreadySet.txt=§c错误:该符咒最多只能绑定到一个位�
 msg.teleporterOutOfFuel.txt=§c燃 料 耗 尽 了!!!
 msg.teleporterOutOfPearls.txt=§c末 影 珍 珠 耗 尽 了!!!
 msg.teleporterPlayerT1.txt=你需要一个更高级的移位器方可
-msg.teleporterPlayerConsent.txt=The player must give their consent by sneaking
+msg.teleporterPlayerConsent.txt=玩家必须处于潜行状态
 msg.spawnerInfo1.txt=生物类型
 msg.spawnerInfo2.txt=是否需要玩家
 msg.spawnerInfo3.txt=是否忽略生成条件
 msg.spawnerInfo4.txt=生成器等级
 msg.spawnerInfo5.txt=§3按下Shift查看等级信息
-msg.spawnerInfo6.txt=Requires players: §3Nether Star
-msg.spawnerInfo7.txt=Ignore Spawn Requirements: §3Notch Apple
+msg.spawnerInfo6.txt=请求玩家: §3Nether Star
+msg.spawnerInfo7.txt=忽略生成条件: §3Notch Apple
 msg.spawnerInfo8.txt=二阶:§3毒龙之核
 msg.spawnerInfo9.txt=三阶:§3觉醒之核
 msg.dislocatorUnsafe.txt=目的地不安全,请重试
 msg.dislocatorNoGround.txt=错误:找不到该世界
 msg.range.txt=范围:
 msg.energyStorageCoreUTA.txt=无法激活(无效配置)
-msg.SpawnDragonToFarFrom00.txt=[错误]距离原点(0,0)太远
+msg.SpawnDragonToFarFrom00.txt=错误:距离原点(0,0)太远
 msg.wrongKey.txt=这把钥匙和锁不对应
 msg.cKeyStoneType0.txt=永久激活(消耗要石)
 msg.cKeyStoneType1.txt=按钮激活
@@ -151,7 +151,7 @@ msg.de.baseSafeAOW.txt=§9(§aAOE§a安全§a模式§a已§a开启§9)§c因§c�
 msg.de.wrenchMode.bind.txt=功能:绑定
 msg.de.wrenchMode.unBind.txt=功能:解绑
 msg.de.wrenchMode.unBindAll.txt=功能:全部解绑
-msg.de.wrenchMode.modeSwitch.txt=功能: Mode Change
+msg.de.wrenchMode.modeSwitch.txt=功能:切换目标功能
 msg.de.rightClickUnbind.txt=对着空中右击以解绑
 msg.de.boundTo.txt=绑定至
 msg.de.posSaved.txt=位置已经保存
@@ -162,6 +162,15 @@ msg.de.linked.txt=设备已连接
 msg.de.unLinked.txt=设备已断开
 msg.de.wrongSide.txt=无法连接到目标设备的这一面
 
++//Reactor
++msg.de.reactorRSMode.0.txt=Comparator Mode: Temperature
++msg.de.reactorRSMode.1.txt=Comparator Mode: Temperature [Inverted]
++msg.de.reactorRSMode.2.txt=Comparator Mode: Containment Field
++msg.de.reactorRSMode.3.txt=Comparator Mode: Containment Field [Inverted]
++msg.de.reactorRSMode.4.txt=Comparator Mode: Energy Saturation
++msg.de.reactorRSMode.5.txt=Comparator Mode: Energy Saturation [Inverted]
++msg.de.reactorRSMode.6.txt=Comparator Mode: Fuel Conversion
++msg.de.reactorRSMode.7.txt=Comparator Mode: Fuel Conversion [Inverted]
 
 //Tool Tips/other localizations ----------------------------------------------------------------------------------------------------------------------------------------
 info.teleporterInfUnset1.txt=解绑
@@ -214,7 +223,7 @@ info.draconiumChestInfo2.txt=以打开颜色控制选项
 
 info.de.capacitorMode.txt=模式
 info.de.capacitorMode0.txt=关闭
-info.de.capacitorMode1.txt=Charge Hotbar
+info.de.capacitorMode1.txt=为
 info.de.capacitorMode2.txt=Charge Armor & Held Item
 info.de.capacitorMode3.txt=Charge Armor & Hotbar
 info.de.changwMode.txt=潜行并右击以改变模式
@@ -312,7 +321,7 @@ achievement.draconicevolution.dpick=绝对矿工之王!
 achievement.draconicevolution.dpick.desc=合成一把龙之镐
 achievement.draconicevolution.dshovel=开山碎石
 achievement.draconicevolution.dshovel.desc=升级毒龙之镐
-achievement.draconicevolution.daxe=One giant Chop for tree Kind!
+achievement.draconicevolution.daxe=一把巨斧走遍天下!
 achievement.draconicevolution.daxe.desc=合成一把龙之斧
 achievement.draconicevolution.dsword=Sting Like a Bee!
 achievement.draconicevolution.dsword.desc=升级到龙之剑
@@ -348,7 +357,7 @@ item.draconicevolution:wyvernBow.lore=2Infusing Draconium in a mundane bow\nallo
 item.draconicevolution:wyvernHelm.lore=2比钻石更坚硬\nyou can now withstand even greater blows
 item.draconicevolution:wyvernChest.lore=2Infusing the armor with Dracomiun\nyou vastly improve its resistance
 item.draconicevolution:wyvernLeggs.lore=2You feel even stronger and faster now\nthat you have infused diamond legs with Draconium
-item.draconicevolution:wyvernBoots.lore=2You learn to improve the boots\nDraconium seems to have given you greater\nagility
+item.draconicevolution:wyvernBoots.lore=2你知道了增强你的靴子的方式\n龙之金属似乎给你带来了\nagility
 
 item.draconicevolution:draconicPickaxe.lore=2夜以继日的研究,挥洒汗水\n你现在能挖掘更大的范围
 item.draconicevolution:draconicAxe.lore=2无数次失败与挫折后\n你终于可以一次性砍倒一棵树了
@@ -357,7 +366,7 @@ item.draconicevolution:draconicHoe.lore=2龙之金属甚至对农业有帮助\n�
 item.draconicevolution:draconicSword.lore=2毒龙确实强大,然则龙之金属\n更加强大,以其铸剑定将横扫千军
 item.draconicevolution:draconicBow.lore=2The peak of ranged perfection\n更快射速,箭头爆炸,你还需要别的效果吗?
 
-item.draconicevolution:draconicHelm.lore=2No longer do you fear the night\nyou now can see all the time regardless\nof what is out there
+item.draconicevolution:draconicHelm.lore=2不再惧怕黑暗\n不论身在何处\n你都可以看清一切
 item.draconicevolution:draconicChest.lore=2融入龙之心\n不仅变得更强,还受赠与飞行秘法
 item.draconicevolution:draconicLeggs.lore=2更强装甲\n龙之魂的庇护之下 我们快步前行
 item.draconicevolution:draconicBoots.lore=2更快,更强,比以往更好\n龙之心的祝福\n跳得更高
@@ -379,7 +388,7 @@ button.de.chestAutoFeed0.txt=关闭.自动填充功能已禁用.
 button.de.chestAutoFeed1.txt=填充.将保持当前堆叠数量为最大值.
 button.de.chestAutoFeed2.txt=锁定.只从物品栏中送入当前烧炼的物品.
 button.de.chestAutoFeed3.txt=全部.将任何物品栏中可烧炼物品送入熔炉.
-button.de.chestLockOutput.txt=锁定输出.Blocks items将被输入最后的5个格子中
+button.de.chestLockOutput.txt=锁定输出.方块或物品将被输入最后的5个格子中
 button.de.previous.txt=<==
 button.de.next.txt===>
 button.de.backToIndex.txt=返回首页
@@ -409,20 +418,20 @@ button.de.ToolDigDepth.name=Dig Depth
 button.de.WeaponAttackAOE.name=群体攻击（AOE）
 button.de.ToolVoidJunk.name=Void Junk
 button.de.AxeTreeMode.name=伐木模式
-button.de.BaseSafeAOE.name=群体（AOE）安全模式
+button.de.BaseSafeAOE.name=群体攻击（AOE）安全模式
 button.de.VerticalAcceleration.name=垂加速
 button.de.EffectiveOnSprint.name=疾跑时效率高
 button.de.GogglesOfRevealing.name=魔力感应
 
 //Gui ----------------------------------------------------------------------------------------------------------------------------------------
-gui.de.flowGate.name=Flow Control
+gui.de.flowGate.name=流量控制
 gui.de.flowGatePartialSignal.name=实际流量将取决于两个方块之间给定的红石信号的强度.
 gui.de.flowGateCurrentFlow.name=流量
 gui.de.flowGateRSLow.name=红石信号-低
 gui.de.flowGateRSHigh.name=红石信号-高
 gui.de.increment.name=Increment value by
 gui.de.decrement.name=Decrement value by
-gui.de.ctrlAndShift.name=你可以使用Ctrl和Shift来改变increment值.
+gui.de.ctrlAndShift.name=你可以使用Ctrl和Shift来改变增加量.
 gui.de.pressOrScroll.name=按下或滚动
 
 manual.de.pigmenBloodRage.description=不要让猪人看见你在吃猪排,否则后果自负..
