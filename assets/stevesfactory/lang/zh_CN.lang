@@ -1,7 +1,5 @@
 # ======================================
 #				BLOCKS
-# Chinese_Localization by 3TUSK
-# Credit @GTout @chmin
 # ======================================
 
 tile.sfm.BlockMachineManager.name=工厂管理器
@@ -13,7 +11,7 @@ tile.sfm.BlockCableInput.name=红石信号接收器
 tile.sfm.BlockCableCreative.name=创造物品供应器
 tile.sfm.BlockCableIntake.name=物品阀门
 tile.sfm.BlockInstantCableIntake.name=快速物品阀门
-tile.sfm.BlockCableBUD.name=方块更新检测器（BUD方块）
+tile.sfm.BlockCableBUD.name=方块更新检测器（BUD）
 tile.sfm.BlockCableBreaker.name=方块交互器
 tile.sfm.BlockCableCluster.name=集线器
 tile.sfm.BlockAdvancedCableCluster.name=高级集线器
@@ -24,30 +22,29 @@ tile.sfm.BlockCableSign.name=告示牌更新器
 
 # ======================================
 #			COMPONENT TYPES
-# Chinese_Localization by 3TUSK
 # ======================================
 gui.sfm.TriggerShort=触发器
 gui.sfm.TriggerLong=触发器
 gui.sfm.InputShort=输入
-gui.sfm.InputLong=物品输入端
+gui.sfm.InputLong=物品输入
 gui.sfm.OutputShort=输出
 gui.sfm.OutputLong=物品输出端
 gui.sfm.ConditionShort=条件判断
 gui.sfm.ConditionLong=物品条件判断器
 gui.sfm.FlowControlShort=流向控制
 gui.sfm.FlowControlLong=流向控制器
-gui.sfm.LiquidInputShort=输入 (液体)
+gui.sfm.LiquidInputShort=输入（液体）
 gui.sfm.LiquidInputLong=液体输入端
-gui.sfm.LiquidOutputShort=输出 (液体)
+gui.sfm.LiquidOutputShort=输出（液体）
 gui.sfm.LiquidOutputLong=液体输出端
 gui.sfm.LiquidConditionShort=条件判断 (液体)
 gui.sfm.LiquidConditionLong=液体条件判断器
 gui.sfm.RedstoneEmitterShort=发射端
 gui.sfm.RedstoneEmitterLong=红石信号发射端
-gui.sfm.RedstoneConditionShort=条件判断 (红石)
+gui.sfm.RedstoneConditionShort=条件判断（红石）
 gui.sfm.RedstoneConditionLong=红石条件判断器
-gui.sfm.ContainerVariableShort=方块管理组
-gui.sfm.ContainerVariableLong=方块管理组
+gui.sfm.ContainerVariableShort=变量
+gui.sfm.ContainerVariableLong=变量管理组
 gui.sfm.ForEachLoopShort=循环检测器
 gui.sfm.ForEachLoopLong=循环检测器
 gui.sfm.AutoCrafterShort=合成
@@ -63,7 +60,6 @@ gui.sfm.SignLong=告示牌更新器
 
 # ======================================
 #			CONNECTION OPTIONS
-# Chinese_Localization by 3TUSK
 # ======================================
 
 gui.sfm.ConnectionInput=输入
@@ -85,7 +81,6 @@ gui.sfm.ConnectionWhileLowBlock=当被弱充能时
 
 # ======================================
 #			CONNECTION SETS
-# Chinese_Localization by 3TUSK
 # ======================================
 
 gui.sfm.ConnectionSetStandard=标准
@@ -117,7 +112,7 @@ gui.sfm.Selected=[已选中]
 gui.sfm.OverflowMenu=可用物品栏
 gui.sfm.NoDetectorError=没有选择检测器！
 gui.sfm.NoOverflowError=没有选择一个可用的物品栏！
-gui.sfm.OverflowInfo=若某些合成的物品不符合条件，这个物品栏将会启用。这个也可用于那些作为容器的物品，例如装水的桶.
+gui.sfm.OverflowInfo=若某些合成的物品不符合条件，这个物品栏将会启用。也可用于那些作为容器的物品，如装水的桶.
 gui.sfm.ContainerTypeMenu=包括的方块种类
 gui.sfm.CraftingMenu=合成
 gui.sfm.EmitterMenu=红石信号输出
@@ -173,7 +168,7 @@ gui.sfm.InvalidRedstoneRangeError=红石信号强度数值非法！
 gui.sfm.RedundantRedstoneRangeError=Redundant strength range
 gui.sfm.RedstoneStrengthMenuCondition=红石信号强度
 gui.sfm.ConnectionsMenu=连接设定
-gui.sfm.FairSplit=Use fair split
+gui.sfm.FairSplit=平均分配
 gui.sfm.EmptyPins=Include empty pins
 gui.sfm.SplitMenu=分离设定
 gui.sfm.SpecifyAmount=特定数量
@@ -194,40 +189,40 @@ gui.sfm.IdRange=精确输入/输出
 gui.sfm.AllSlotsLong=点击这，使得所有物品都从这里经过
 gui.sfm.IdRangeLong=点击这，使得只有特定位置的物品能从这里经过
 gui.sfm.InvalidRange=范围不可用
-gui.sfm.AdvancedMode=Advanced mode
-gui.sfm.SimpleMode=Simple mode
-gui.sfm.AdvancedModeLong=Click to use advanced mode for this side instead
-gui.sfm.SimpleModeLong=Click to use simple mode for this side instead
+gui.sfm.AdvancedMode=高级模式
+gui.sfm.SimpleMode=简单模式
+gui.sfm.AdvancedModeLong=点击为此面开启高级模式
+gui.sfm.SimpleModeLong=点击为此面开启简单模式
 gui.sfm.UseId=使用特定ID
 gui.sfm.Invert=反转
 gui.sfm.UpdateBlockMenu=更新的方块
 gui.sfm.Meta=数据值
 gui.sfm.GlobalValueSet=全局数值设定模式
-gui.sfm.VariableMenu=方块管理组
-gui.sfm.NotDeclaredError=这个方块管理组还没有被定义！
-gui.sfm.AlreadyDeclaredError=这个方块管理组已经被定义了！
+gui.sfm.VariableMenu=变量组
+gui.sfm.NotDeclaredError=这个变量组还没有被定义！
+gui.sfm.AlreadyDeclaredError=这个变量组已经被定义了！
 gui.sfm.VariableContainersMenu=包含项目
 gui.sfm.VariableList=列表
 gui.sfm.VariableElement=元素
-gui.sfm.LoopVariableMenu=方块管理组
-gui.sfm.ListNotDeclared=方块管理组-列表还没有被定义！
-gui.sfm.ElementNotDeclared=方块管理组-元素还没有被定义！
-gui.sfm.VariableWhite=白色方块管理组
-gui.sfm.VariableOrange=橙色方块管理组
-gui.sfm.VariableMagenta=品红色方块管理组
-gui.sfm.VariableLightBlue=亮灰色方块管理组
-gui.sfm.VariableYellow=黄色方块管理组
-gui.sfm.VariableLime=黄绿色方块管理组
-gui.sfm.VariablePink=粉色方块管理组
-gui.sfm.VariableGray=灰色方块管理组
-gui.sfm.VariableLightGray=亮灰色方块管理组
-gui.sfm.VariableCyan=青色方块管理组
-gui.sfm.VariablePurple=紫色方块管理组
-gui.sfm.VariableBlue=蓝色方块管理组
-gui.sfm.VariableBrown=棕色方块管理组
-gui.sfm.VariableGreen=绿色方块管理组
-gui.sfm.VariableRed=红色方块管理组
-gui.sfm.VariableBlack=黑色方块管理组
+gui.sfm.LoopVariableMenu=变量组
+gui.sfm.ListNotDeclared=变量组-列表还没有被定义！
+gui.sfm.ElementNotDeclared=变量组-元素还没有被定义！
+gui.sfm.VariableWhite=白色变量组
+gui.sfm.VariableOrange=橙色变量组
+gui.sfm.VariableMagenta=品红色变量组
+gui.sfm.VariableLightBlue=亮灰色变量组
+gui.sfm.VariableYellow=黄色变量组
+gui.sfm.VariableLime=黄绿色变量组
+gui.sfm.VariablePink=粉色变量组
+gui.sfm.VariableGray=灰色变量组
+gui.sfm.VariableLightGray=亮灰色变量组
+gui.sfm.VariableCyan=青色变量组
+gui.sfm.VariablePurple=紫色变量组
+gui.sfm.VariableBlue=蓝色变量组
+gui.sfm.VariableBrown=棕色变量组
+gui.sfm.VariableGreen=绿色变量组
+gui.sfm.VariableRed=红色变量组
+gui.sfm.VariableBlack=黑色变量组
 gui.sfm.NoLiquidSelected=[未选中液体]
 gui.sfm.ChangeLiquid=左击改变液体
 gui.sfm.EditSetting=右击编辑液体信息
@@ -240,7 +235,7 @@ gui.sfm.DetectionFuzzy=模糊识别
 gui.sfm.DetectionOreDictionary=矿物字典支持
 gui.sfm.ItemsFound=找到项目数：
 gui.sfm.RedstoneEmitterSidesMenu=输出方向
-gui.sfm.RedstoneEmitterSidesInfo=设定红石信号从哪个面输出
+gui.sfm.RedstoneEmitterSidesInfo=设定红石信号输出面
 gui.sfm.TypeInventory=物品栏
 gui.sfm.TypeTank=流体容器
 gui.sfm.TypeEmitter=红石信号发射器
@@ -251,9 +246,9 @@ gui.sfm.OrderStandard=标准顺序
 gui.sfm.OrderCable=线缆顺序
 gui.sfm.OrderRandom=随机顺序
 gui.sfm.ExtendOld=Extend old
-gui.sfm.KeepAll=Keep all
-gui.sfm.KeepOld=Keep old
-gui.sfm.KeepNew=Keep new
+gui.sfm.KeepAll=全部保持
+gui.sfm.KeepOld=保持旧有
+gui.sfm.KeepNew=保持新增
 gui.sfm.Fixed=固定
 gui.sfm.Toggle=循环开关
 gui.sfm.Max=最大值
@@ -274,11 +269,11 @@ gui.sfm.South=南
 gui.sfm.West=西
 gui.sfm.East=东
 gui.sfm.GroupMenu=命令组
-gui.sfm.GroupInfo=把命令拖到我身上，这样就可以把命令加入这个命令组。或者你可以点我查看命令组。
+gui.sfm.GroupInfo=把命令拖到此处以加入此命令组，或者你可以点此查看命令组。
 gui.sfm.FilterPositionLabel=使用范围限制
 gui.sfm.FilterDistanceLabel=使用距离限制
 gui.sfm.FilterSelectionLabel=根据是否选中过滤
-gui.sfm.FilterVariableLabel=使用方块管理组过滤
+gui.sfm.FilterVariableLabel=使用变量组过滤
 gui.sfm.X=X
 gui.sfm.Y=Y
 gui.sfm.Z=Z
@@ -286,10 +281,10 @@ gui.sfm.CableDistance=线缆长度
 gui.sfm.Distance=实际距离
 gui.sfm.OnlySelected=只显示选中项目
 gui.sfm.HideSelected=隐藏选中项目
-gui.sfm.ReloadOnChange=Reload on change
+gui.sfm.ReloadOnChange=改变时重新载入
 gui.sfm.UseUnused=使用未使用者
 gui.sfm.UseFilter=使用过滤器
-gui.sfm.AbsoluteRanges=The absolute ranges are
+gui.sfm.AbsoluteRanges=绝对范围为
 gui.sfm.FilterShort=F
 gui.sfm.FilterLong=选择过滤器
 gui.sfm.MultiShort=M
@@ -324,21 +319,21 @@ gui.sfm.SetCamouflage=产生伪装
 gui.sfm.CamouflageInfo=在这里设定是伪装成别的方块还是去掉伪装。如果你想伪装成别的方块，请设定你要伪装成哪一个方块。
 gui.sfm.NoCamouflageSetting=没有选择伪装器要执行的动作！
 gui.sfm.SelectVariableShort=V
-gui.sfm.SelectVariableLong=显示全部variables
+gui.sfm.SelectVariableLong=显示全部变量
 gui.sfm.CamouflageOnlyOutside=仅外侧
 gui.sfm.CamouflageOnlyInside=仅内侧
 gui.sfm.CamouflageOppositeInside=反转内侧
 gui.sfm.CamouflageSameInside=两侧
 gui.sfm.CamouflageNoUpdate=不要更新
-gui.sfm.CamouflageBoundsUse=更新界限
-gui.sfm.CamouflageCollisionUse=Collision
-gui.sfm.CamouflageCollisionFull=Full collision
+gui.sfm.CamouflageBoundsUse=更新边界
+gui.sfm.CamouflageCollisionUse=碰撞
+gui.sfm.CamouflageCollisionFull=完全碰撞
 gui.sfm.To=到
-gui.sfm.BoundsMenu=Bound
+gui.sfm.BoundsMenu=边界
 gui.sfm.InsideMenu=变换细节
-gui.sfm.BoundsWarning=Collision和Bound设定只能在伪装方块-变换上起作用
+gui.sfm.BoundsWarning=碰撞和边界设定只能在伪装方块-变换上起作用
 gui.sfm.InsideWarning=内部伪装仅能用于伪装方块-双面以及其更新上。
-gui.sfm.ModGrouping=Mod detection
+gui.sfm.ModGrouping=MOD检测
 gui.sfm.AllItems=全部，忽略附加数据
 gui.sfm.TargetMenu=方向
 gui.sfm.TypeSign=告示牌更新器
@@ -355,7 +350,6 @@ gui.sfm.PriorityCraftFirst=在移动前合成
 
 # ======================================
 #		  OTHER MANAGER INTERFACE
-# Chinese_Localization by 3TUSK
 # ======================================
 
 gui.sfm.DeleteCommand=删除 [把要删的东西拖到这里！]
@@ -379,7 +373,6 @@ gui.sfm.AutoMoveFirst=为新的自动合成命令使用默认设置以实现优�
 
 # ======================================
 #		 ADVANCED RELAY INTERFACE
-# Chinese_Localization by 3TUSK
 # ======================================
 gui.sfm.GivePermission=授权
 gui.sfm.RevokePermission=取消授权
@@ -410,7 +403,6 @@ gui.sfm.PermissionDenied=通道不可用
 
 # ======================================
 #				OTHER
-# Chinese_Localization by 3TUSK
 # ======================================
 
 itemGroup.sfm=史蒂夫工厂管理
