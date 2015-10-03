@@ -1,10 +1,5 @@
 # Temp_LocalizationFile
 
-#### Before Intro
-To users of Thaumic Horizons: TH **has not** consdiered about including localization yet, and due to the [unclear "All Rights reserved" usage permission](http://minecraft.curseforge.com/mc-mods/227914-thaumic-horizons), **please do not redistrubute any TH binary file (i.e. the jar file) that has language file rather than English!**
-
-致神秘视界用户：神秘视界（的作者）目前还没有考虑添加本地化文件，由于其[使用许可](http://minecraft.curseforge.com/mc-mods/227914-thaumic-horizons)中并未详细说明二次发布的相关内容，**请不要扩散任何带有不是英语（美国）的语言文件的神秘视界的MOD本体！**
-
 #### Introduction
 This is main repository of "Temporary Localization", a Minecraft resourcepack with purpose to provide the translation for Minecraft mods which haven't officially support localization yet.
 
