@@ -83,7 +83,7 @@ item.draconicevolution:draconiumEnergyCore1.name=龙能量核心
 item.draconicevolution:draconiumFluxCapacitor0.name=毒龙通量容器
 item.draconicevolution:draconiumFluxCapacitor1.name=龙之通量容器
 item.draconicevolution:draconicIngot.name=觉醒龙之金属锭
-item.draconicevolution:creativeStructureSpawnerComet.name=生成Comet
+item.draconicevolution:creativeStructureSpawnerComet.name=生成彗星
 item.draconicevolution:creativeStructureSpawnerEnderIsland.name=生成末地岛
 item.draconicevolution:infoTablet.name=龙之平板
 item.draconicevolution:wrench.name=水晶绑定仪
@@ -355,8 +355,8 @@ item.draconicevolution:wyvernSword.lore=2Draconium begins to unlock the sword’
 item.draconicevolution:wyvernBow.lore=2Infusing Draconium in a mundane bow\nallows you to shoot faster and with more power.
 
 item.draconicevolution:wyvernHelm.lore=2比钻石更坚硬\nyou can now withstand even greater blows
-item.draconicevolution:wyvernChest.lore=2Infusing the armor with Dracomiun\nyou vastly improve its resistance
-item.draconicevolution:wyvernLeggs.lore=2You feel even stronger and faster now\nthat you have infused diamond legs with Draconium
+item.draconicevolution:wyvernChest.lore=2Infusing the armor with Dracomiun\n极大地提高了抗性
+item.draconicevolution:wyvernLeggs.lore=2你感觉你现在更强、更快了\nthat you have infused diamond legs with Draconium
 item.draconicevolution:wyvernBoots.lore=2你知道了增强你的靴子的方式\n龙之金属似乎给你带来了\nagility
 
 item.draconicevolution:draconicPickaxe.lore=2夜以继日的研究,挥洒汗水\n你现在能挖掘更大的范围
@@ -375,6 +375,7 @@ item.draconicevolution:draconicDistructionStaff.lore=2A long and ardous road, tr
 
 //Entity ----------------------------------------------------------------------------------------------------------------------------------------
 entity.DraconicEvolution.EnderDragon.name=末影龙
+entity.DraconicEvolution.ChaosGuardian.name=混沌守卫
 
 //KeyBinding ----------------------------------------------------------------------------------------------------------------------------------------
 key.placeItem=在世界中放置物品
@@ -382,6 +383,9 @@ key.toolConfig=工具&护甲的配置界面
 
 //Damage ----------------------------------------------------------------------------------------------------------------------------------------
 death.attack.chaos=%1$s被混沌守卫撕了个粉碎
+death.attack.damage.de.fusionExplode=%1$s was vaporized by a high energy fusion explosion
+death.attack.chaosBurst=%1$s was destroyed by dark energy
+death.attack.chaosImplosion=%1$s was pulled into an energy vortex and crushed into oblivion
 
 //Buttons ----------------------------------------------------------------------------------------------------------------------------------------
 button.de.chestAutoFeed0.txt=关闭.自动填充功能已禁用.
@@ -433,8 +437,31 @@ gui.de.increment.name=Increment value by
 gui.de.decrement.name=Decrement value by
 gui.de.ctrlAndShift.name=你可以使用Ctrl和Shift来改变增加量.
 gui.de.pressOrScroll.name=按下或滚动
+gui.de.tempLoad.name=Temperature Load Factor
+gui.de.mass.name=Core Mass
+gui.de.genRate.name=Generation Rate
+gui.de.fieldDrainRate.name=Field Drain Rate
+gui.de.fuelConversion.name=Fuel Conversion Rate
 
-manual.de.pigmenBloodRage.description=不要让猪人看见你在吃猪排,否则后果自负..
+gui.de.insert.txt=Insert
+gui.de.extract.txt=Extract
+gui.de.fuel.txt=Fuel
+gui.de.coreMass.txt=Core Mass
+gui.de.reactionTemp.txt=Core Temperature
+gui.de.fieldStrength.txt=Containment Field Strength
+gui.de.energySaturation.txt=Energy Saturation
+gui.de.fuelConversion.txt=Fuel Conversion Level
+gui.de.status.txt=Status
+gui.de.status0.txt=OFFLINE
+gui.de.status1.txt=CHARGING
+gui.de.status1_5.txt=CHARGED
+gui.de.status2.txt=ONLINE
+gui.de.status3.txt=STOPPING
+gui.de.status4.txt=INVALID SETUP
+gui.de.internalStorage.txt=Internal Storage
+gui.de.itemStorage.txt=Item Storage
+
+
 
 //Potions ----------------------------------------------------------------------------------------------------------------------------------------
 potion.de.effect.txt=效果

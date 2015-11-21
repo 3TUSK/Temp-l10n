@@ -1,7 +1,7 @@
 #zh_CN
 
 death.attack.basalz=%1$s的世界石化了!
-death.attack.blitz=%1$s不幸被enlightened!
+death.attack.blitz=%1$s未来的道路将由电击来指引!
 death.attack.blizz=%1$s邂逅了冰冷的命运!
 death.attack.cryotheum=%1$s冻死了!
 death.attack.cryotheum.player=%1$s为了逃脱%2$s而被冻死了!
@@ -23,7 +23,7 @@ fluid.glowstone=充能液态荧石
 fluid.ender=谐振熔融末影珍珠
 fluid.pyrotheum=烈焰之炽焱
 fluid.cryotheum=极寒之凛冰
-fluid.aerotheum=Zephyrean Aerotheum
+fluid.aerotheum=电掣之疾风
 fluid.petrotheum=Tectonic Petrotheum
 fluid.mana=元始魔力
 fluid.steam=蒸汽
@@ -37,8 +37,8 @@ item.thermalfoundation.bucket.bucketGlowstone.name=充能熔融荧石桶
 item.thermalfoundation.bucket.bucketEnder.name=谐振熔融末影珍珠桶
 item.thermalfoundation.bucket.bucketPyrotheum.name=烈焰之炽焱桶
 item.thermalfoundation.bucket.bucketCryotheum.name=极寒之凛冰桶
-item.thermalfoundation.bucket.bucketAerotheum.name=ZephyreanAerotheum桶
-item.thermalfoundation.bucket.bucketPetrotheum.name=TectonicPetrotheum桶
+item.thermalfoundation.bucket.bucketAerotheum.name=电掣之疾风桶
+item.thermalfoundation.bucket.bucketPetrotheum.name=Tectonic Petrotheum桶
 item.thermalfoundation.bucket.bucketMana.name=元始魔力桶
 item.thermalfoundation.bucket.bucketCoal.name=液态煤炭桶
 
@@ -116,7 +116,7 @@ item.thermalfoundation.material.nuggetEnderium.name=末影粒
 
 item.thermalfoundation.material.dustPyrotheum.name=炽焱粉
 item.thermalfoundation.material.dustCryotheum.name=凛冰粉
-item.thermalfoundation.material.dustAerotheum.name=Aerotheum粉
+item.thermalfoundation.material.dustAerotheum.name=疾风粉
 item.thermalfoundation.material.dustPetrotheum.name=Petrotheum粉
 item.thermalfoundation.material.dustMana.name=魔力粉
 
@@ -136,8 +136,8 @@ item.thermalfoundation.material.gearEnderium.name=末影齿轮
 
 item.thermalfoundation.material.rodBlizz.name=暴雪棒
 item.thermalfoundation.material.dustBlizz.name=暴雪粉
-item.thermalfoundation.material.rodBlitz.name=Blitz棒
-item.thermalfoundation.material.dustBlitz.name=Blitz粉
+item.thermalfoundation.material.rodBlitz.name=闪电棒
+item.thermalfoundation.material.dustBlitz.name=闪电粉
 item.thermalfoundation.material.rodBasalz.name=Basalz棒
 item.thermalfoundation.material.dustBasalz.name=Basalz粉
 
@@ -276,9 +276,9 @@ item.thermalfoundation.tool.platinumFishingRod.name=铂钓鱼竿
 item.thermalfoundation.tool.platinumSickle.name=铂镰刀
 item.thermalfoundation.tool.platinumBow.name=铂强化弓
 
-itemGroup.thermalfoundation.creativeTab=热力基本
-itemGroup.thermalfoundation.creativeTabTools=热力基本：工具
-itemGroup.thermalfoundation.creativeTabArmor=热力基本：护甲
+itemGroup.thermalfoundation.creativeTab=热力基础
+itemGroup.thermalfoundation.creativeTabTools=热力基础：工具
+itemGroup.thermalfoundation.creativeTabArmor=热力基础：护甲
 
 tab.thermalfoundation.lexicon.study.0=学习关于这个世界的知识, 然后改变你自己的命运.
 tab.thermalfoundation.lexicon.study.1=授意辞典压迫世界,令后者屈服于汝之意志.
@@ -290,7 +290,7 @@ tile.thermalfoundation.fluid.glowstone.name=充能液态荧石
 tile.thermalfoundation.fluid.ender.name=谐振熔融末影珍珠
 tile.thermalfoundation.fluid.pyrotheum.name=烈焰之炽焱
 tile.thermalfoundation.fluid.cryotheum.name=极寒之凛冰
-tile.thermalfoundation.fluid.aerotheum.name=Zephyrean Aerotheum
+tile.thermalfoundation.fluid.aerotheum.name=电掣之疾风
 tile.thermalfoundation.fluid.petrootheum.name=Tectonic Petrotheum
 tile.thermalfoundation.fluid.mana.name=元始魔力
 tile.thermalfoundation.fluid.steam.name=蒸汽
