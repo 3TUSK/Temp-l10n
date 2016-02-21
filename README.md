@@ -1,11 +1,9 @@
 # Temp_LocalizationFile
 
 #### Introduction
-This is main repository of "Temporary Localization", a Minecraft resourcepack with purpose to provide the translation for Minecraft mods which haven't officially support localization yet.
+This is main repository of "Temporary Localization", a Minecraft resourcepack with purpose to provide the Simplified Chinese (zh-CN, 简体中文) translation for Minecraft mods which *haven't* officially support localization yet.
 
 Credits to [this](https://github.com/Adaptivity/LocalizationsForMCFMods) for the idea of assembling a resourcepack.
-
-Currently this repo is majorly collecting Simplified Chinese (zh_CN) translation. 
 
 #### Contribution
 
