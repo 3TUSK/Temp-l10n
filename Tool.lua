@@ -6,30 +6,62 @@
 local mode = arg[1]
 local file = arg[2]
 
--- Note: the empty strings is on purpose and they will be changed later
-rawFile = io.open("")
-outputFinal = io.open("", "w")
+enUSFile = io.open("en_US.lang")
+zhCNFile = io.open("zh_CN.lang")
+outputFinal = io.open("zh_CN-merged.lang", "w")
 
-print(rawFile)
-print(outputFinal)
+mapping = {}
+zhCN = {}
+mergedEntries = {}
 
-print("Clean up has started, please stand by...")
+print("Language file update started, please stand by...")
 
-local str = ''
+str = ''
+count = 1
 
-for s in rawFile:lines("L") do
+for s in enUSFile:lines("L") do
 	if (string.gmatch(s, "([%w%s%.]*)=.*\n")) then
-		str = string.gsub(s, "([%w%s%.]*)=.*", "%1=\n")
-		outputFinal:write(str)
-		elseif (string.gmatch(s, "%#.*")) then
-			str = s
-			outputFinal:write(s)
-			outputFinal:write("\n")
+		str = string.gsub(s, "([%w%s%.]*)=.*", "%1")
+--		outputFinal:write(str)
+		mapping[count] = str
 		else
-			outputFinal:write("\n")
+			mapping[count] = s
 	end
+	
+	count = count + 1
 end
+
+count = 1
+
+pair = {}
+
+for s in zhCN:lines("L") do
+	if (string.gmatch(s, "([%w%s%.]*)=.*\n")) then
+		pair = {string.gsub(s, "([%w%s%.]*)=.*", "%1"), string.gsub(s, "[%w%s%.]*=([.]*)", "%1")}
+		zhCN[count] = pair
+	end
+	count = count + 1
+end
+
+finalPair = {}
+
+for i, v in ipairs(mapping) do
+	if (string.gmatch(v, "([%w%s%.]*)")) then
+		for j, w in ipairs(zhCN) do
+			if (v == w[1]) then
+				finalPair = {v, "=", w[2]}
+				outputFinal:write(table.concat(finalPair))
+				break
+			end
+		end
+	else
+		outputFinal:write(v)
+	end
+end 
+
+print(string.format("Language file successfully updated with %n new lines", #enUSFile - #zhCNFile))
 
 outputFinal:flush()
 outputFinal:close()
-rawFile:close()
+enUSFile:close()
+zhCNFile:close()
