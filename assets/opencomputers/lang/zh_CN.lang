@@ -1,9 +1,9 @@
 # OpenComputer
-# This is the simplified Chinese file for localizations. 
+# This is the Simplified Chinese file for localizations. 
 # Use [nl] to for a line break. 使用[nl]作为换行标志
 
 # Blocks
-tile.oc.accessPoint.name=桥接器
+tile.oc.accessPoint.name=§c桥接器§7
 tile.oc.adapter.name=适配器
 tile.oc.assembler.name=机器人装配器
 tile.oc.cable.name=线缆
@@ -17,26 +17,28 @@ tile.oc.charger.name=充电器
 tile.oc.disassembler.name=分解器
 tile.oc.diskDrive.name=磁盘驱动器
 tile.oc.endstone.name=末地石
-tile.oc.geolyzer.name=地质透析器
+tile.oc.geolyzer.name=地质分析仪
 tile.oc.hologram1.name=基础全息地图投影仪
 tile.oc.hologram2.name=高级全息地图投影仪
 tile.oc.keyboard.name=键盘
 tile.oc.microcontroller.name=微控制器
 tile.oc.motionSensor.name=运动传感器
+tile.oc.netSplitter.name=Net Splitter
 tile.oc.powerConverter.name=能量转换器
 tile.oc.powerDistributor.name=能量分配器
 tile.oc.print.name=3D打印
 tile.oc.printer.name=3D打印机
 tile.oc.raid.name=Raid磁盘阵列
 tile.oc.redstone.name=红石I/O端口
+tile.oc.relay.name=Relay
 tile.oc.robot.name=机器人
 tile.oc.robotAfterimage.name=机器人余像
 tile.oc.screen1.name=基础显示屏
 tile.oc.screen2.name=高级显示屏
 tile.oc.screen3.name=超级显示屏
-tile.oc.serverRack.name=服务器机架
+tile.oc.rack.name=机架
+tile.oc.switch.name=§c开关§7
 tile.oc.switch.name=交换机
-tile.oc.netSplitter.name=Net Splitter
 tile.oc.waypoint.name=Waypoint
 
 # Items
@@ -49,13 +51,13 @@ item.oc.APU1.name=高级加速运算单元(APU)
 item.oc.APU2.name=创造加速运算单元(APU)
 item.oc.ArrowKeys.name=方向键
 item.oc.ButtonGroup.name=按钮组
-item.oc.CardBase.name=主板
+item.oc.CardBase.name=Card Case
 item.oc.Chamelium.name=变色材料
 item.oc.CircuitBoard.name=电路板
-item.oc.ControlUnit.name=控制单元(CU)
 item.oc.ComponentBus0.name=基础组件总线
 item.oc.ComponentBus1.name=高级组件总线
 item.oc.ComponentBus2.name=超级组件总线
+item.oc.ControlUnit.name=控制单元(CU)
 item.oc.CPU0.name=基础中央处理器(CPU)
 item.oc.CPU1.name=高级中央处理器(CPU)
 item.oc.CPU2.name=超级中央处理器(CPU)
@@ -65,8 +67,9 @@ item.oc.DataCard1.name=高级数据卡
 item.oc.DataCard2.name=超级数据卡
 item.oc.DebugCard.name=调试卡
 item.oc.Debugger.name=网络调试器
-item.oc.Disk.name=磁盘
-item.oc.Drone.name=机器人
+item.oc.Disk.name=Disk Platter
+item.oc.DiskDriveMountable.name=磁盘
+item.oc.Drone.name=无人机
 item.oc.DroneCase0.name=基础机器人外壳
 item.oc.DroneCase1.name=高级机器人外壳
 item.oc.DroneCase3.name=创造机器人外壳
@@ -98,6 +101,7 @@ item.oc.Microchip2.name=超级微芯片
 item.oc.MicrocontrollerCase0.name=基础微芯片控制器外壳
 item.oc.MicrocontrollerCase1.name=高级微芯片控制器外壳
 item.oc.MicrocontrollerCase3.name=创造微芯片控制器外壳
+item.oc.Nanomachines.name=纳米机器
 item.oc.NetworkCard.name=网卡
 item.oc.NumPad.name=数字键盘
 item.oc.Present.name=A little something...
@@ -114,6 +118,7 @@ item.oc.TabletCase0.name=平板电脑保护套T1
 item.oc.TabletCase1.name=平板电脑保护套T2
 item.oc.TabletCase3.name=平板电脑保护套T3
 item.oc.Terminal.name=远程终端
+item.oc.TerminalServer.name=终端服务器
 item.oc.TexturePicker.name=材质选择器
 item.oc.Transistor.name=晶体管
 item.oc.UpgradeAngel.name=天使方块升级
@@ -145,9 +150,10 @@ item.oc.UpgradeSolarGenerator.name=太阳能发电机升级
 item.oc.UpgradeTank.name=水箱升级
 item.oc.UpgradeTankController.name=高级水箱升级
 item.oc.UpgradeTractorBeam.name=牵引光束升级
+item.oc.UpgradeTrading.name=交易升级
 item.oc.WirelessNetworkCard.name=无线网卡
 item.oc.WorldSensorCard.name=世界感应卡
-item.oc.wrench.name=螺丝刀级扳手
+item.oc.wrench.name=螺丝刀扳手
 
 # Entities
 entity.oc.Drone.name=无人机
@@ -216,10 +222,9 @@ oc:gui.ServerRack.Bottom=底部
 oc:gui.ServerRack.Left=左
 oc:gui.ServerRack.None=无
 oc:gui.ServerRack.Right=右
-oc:gui.ServerRack.SwitchExternal=外部
-oc:gui.ServerRack.SwitchInternal=内部
+oc:gui.Rack.Enabled=启用
+oc:gui.Rack.Disabled=禁用
 oc:gui.ServerRack.Top=上部
-oc:gui.ServerRack.WirelessRange=范围
 oc:gui.Switch.PacketsPerCycle=数据包 / 周期
 oc:gui.Switch.QueueSize=队列长度
 oc:gui.Switch.TransferRate=周期率
@@ -235,8 +240,9 @@ oc:container.Disassembler=分解器
 oc:container.DiskDrive=磁盘驱动器
 oc:container.Printer=打印机
 oc:container.Raid=Raid磁盘阵列
+oc:container.Relay=Relay
 oc:container.Server=服务器
-oc:container.ServerRack=服务器机架
+oc:container.Rack=机架
 oc:container.Switch=交换机
 oc:container.TabletWrapper=平板电脑
 
@@ -274,7 +280,8 @@ oc:tooltip.Debugger=用于在OpenComputer的内部网络格栅中输出调试信
 oc:tooltip.Disassembler=将物品分解成基础组件. §l警告§7: 分解得到的物品会有%s%%的几率在分解过程中损坏!
 oc:tooltip.Disk=用于制造持久存储设备的原始媒介材料.
 oc:tooltip.DiskDrive.CC=已经§a支持§7使用ComputerCraft的软盘了.
-oc:tooltip.DiskDrive=用来读写软盘. 可以给机器人安装使其可以插入磁盘.
+oc:tooltip.DiskDrive=用来读写软盘.可以给机器人安装使其可以插入磁盘.
+oc:tooltip.DiskDriveMountable=和普通磁盘用途一样,但必须装载在机架里.
 oc:tooltip.DiskUsage=磁盘使用: %s/%s 字节
 oc:tooltip.DiskModeManaged=模式: 管理
 oc:tooltip.DiskModeUnmanaged=模式: 不受管理
@@ -303,6 +310,7 @@ oc:tooltip.Microchip=通常也管这种芯片叫集成电路. 我也不知道为
 oc:tooltip.Microcontroller=微控制器是被压缩到不能再压缩的电脑. 它们更多是用于执行特殊任务, 并只运行一个内建于EEPROM中的简单程序.[nl] §c不能和外置组件相连接.§7
 oc:tooltip.MicrocontrollerCase=微控制器基础组件. 在组装机中为其添加各种组件并组装微控制器.
 oc:tooltip.MotionSensor=可以检测附近生物的动向. 检测需要无遮挡物的环境.
+oc:tooltip.Nanomachines=Control unit and a bunch of nanomachines for ingestion, if you dare.
 oc:tooltip.NetworkCard=允许通过其他方块(比如线缆)相连的远程计算机能够向彼此发送信息进行交互.
 oc:tooltip.PowerAcceptor=能量转换速度: §f%s/t§7
 oc:tooltip.PowerConverter.BuildCraft=§fMJ§7: §a%s:%s§7
@@ -328,6 +336,7 @@ oc:tooltip.RedstoneCard.RedNet=§fRedNet§7红石系统已§a兼容§7.
 oc:tooltip.RedstoneCard.WirelessCBE=§f无线红石(ChickenBones)§7红石系统已§a兼容§7.
 oc:tooltip.RedstoneCard.WirelessSV=§f无线红石(SlimeVoid)§7红石系统已§a兼容§7.
 oc:tooltip.RedstoneCard=允许在计算机和机器人四周接收或发送红石信号.
+oc:tooltip.Relay=Allows connecting different networks to each other. Only network messages will be passed along, components will not be visible through this. Use this to separate networks while still allowing communication using Network Cards, for example.
 oc:tooltip.Robot=和计算机不同, 机器人能够移动并且像玩家那样与世界中的东西交互. 然而, 它们§o不能§r§7直接与外设进行交互!
 # The underscore makes sure this isn't hidden with the rest of the tooltip.
 oc:tooltip.Robot_Level=§f等级§7: §a%s§7.
@@ -335,16 +344,18 @@ oc:tooltip.Robot_StoredEnergy=§f存储能量§7: §a%s§7.
 oc:tooltip.Screen=显示文本, 运作需要机箱中的显卡.[nl] 最高分辨率: §f%sx%s§7[nl] 最高色深: §f%s§7
 oc:tooltip.Server=这就是服务器, 它与许多其它的服务器拥有相似功能, 但这台服务器可以使用组件进行升级, 就像升级机箱一样. 它也可以放入服务器机架中运行.[nl] 支持终端的数量: §f%s§7
 oc:tooltip.Server.Components=已安装的组件:
-oc:tooltip.ServerRack=它能装下四台服务器. 使用远程终端访问机架中的服务器.
+oc:tooltip.Rack=它能装下四台服务器或者别的设备.
 oc:tooltip.Switch=允许设备相互连接不同的网络. 仅能传递网络信息, 并且组件不可见. 例如你可以通过这种方式来建立独立网络但仍允许其使用网卡通讯.
 oc:tooltip.Tablet=一台平板电脑,为Lua新人准备. 潜行时右击可强制关机. 
 oc:tooltip.TabletCase=平板电脑的基础外壳. 在组装机中添加组件以制造平板电脑.
 oc:tooltip.Terminal=可以远程控制服务器, 不过前提是你处于信号范围内. 使用方法相同于显示屏与键盘. Shift+右键一个机架中的服务器可以绑定对应的终端.
+oc:tooltip.TerminalServer=Backend to which Remote Terminals can be connected to provide remote control. Houses a virtual screen and keyboard.
 oc:tooltip.TexturePicker=This tool allows showing a string describing a block's surface, for use in 3D printer shape definitions. Totally not texture names, nope. No sir.
 oc:tooltip.Tier=§8等级 %s
 oc:tooltip.NetSplitter=作为动态连接器的存在. Connectivity of each side can be toggled by hitting it with a wrench. Connectivity of all sides can be inverted by applying a redstone signal.
 oc:tooltip.TooLong=按住 [§f%s§7] 显示详细物品信息.
 oc:tooltip.Transistor=大多数电脑组件中最基础的元素. 看上去有些扭曲, 但它是有用的.
+oc:tooltip.Transposer=Allows automated transferral of items and fluids between adjacent inventories and fluid containers.
 oc:tooltip.UpgradeAngel=允许机器人凭空放置方块, 甚至是在没有任何依附的情况下.
 oc:tooltip.UpgradeBattery=增加机器人存储能量的上限, 让其能够运作很长一段时间也不必充电. [nl] 电容: §f%s§7
 oc:tooltip.UpgradeChunkloader=如果机器人走进了一片森林, 周围没有任何生物载入区块, 那么它还能继续移动吗? 这个升级组件可以让你确定这点. 它能让机器人所处的区块保持载入, 但这会让能量不断地消耗.
@@ -443,6 +454,15 @@ achievement.oc.transistor=Tell Red I said "Hi."
 achievement.oc.transistor.desc=Create a Transistor to get started. Then listen to the soundtrack. No need to thank me.
 achievement.oc.wirelessNetworkCard=Signals
 achievement.oc.wirelessNetworkCard.desc=Time to go where no packet has gone before.
+
+# Death messages. Note that the number of entries here must match the number
+# set in the actual damage source in code.
+death.attack.oc.nanomachinesOverload.1=%s got too greedy.
+death.attack.oc.nanomachinesOverload.2=%s had a nervous breakdown.
+death.attack.oc.nanomachinesOverload.3=The nanomachines of %s went out of control.
+death.attack.oc.nanomachinesHungry.1=%s was eaten by nanomachines.
+death.attack.oc.nanomachinesHungry.2=%s didn't keep their nanomachines fed.
+death.attack.oc.nanomachinesHungry.3=%s has been digested.
 
 # NEI Integration
 nei.options.inventory.oredict=显示矿物字典名
