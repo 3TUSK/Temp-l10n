@@ -39,7 +39,7 @@ tile.oc.screen3.name=超级显示屏
 tile.oc.rack.name=机架
 tile.oc.switch.name=§c开关§7
 tile.oc.switch.name=交换机
-tile.oc.waypoint.name=Waypoint
+tile.oc.waypoint.name=路径点
 
 # Items
 item.oc.AbstractBusCard.name=抽象类总线卡
@@ -142,7 +142,7 @@ item.oc.UpgradeHover0.name=基础悬浮升级
 item.oc.UpgradeHover1.name=高级悬浮升级
 item.oc.UpgradeInventory.name=物品栏升级
 item.oc.UpgradeInventoryController.name=物品栏控制器升级
-item.oc.UpgradeLeash.name=Leash Upgrade
+item.oc.UpgradeLeash.name=缰绳升级
 item.oc.UpgradeNavigation.name=导航升级
 item.oc.UpgradePiston.name=活塞升级
 item.oc.UpgradeSign.name=告示牌读写升级
@@ -193,7 +193,7 @@ oc:gui.Chat.WarningClassTransformer=执行类转换器时发生§c错误§f. 请
 oc:gui.Chat.WarningFingerprint=§c警告§f - 指纹校验不匹配! 预期对应 '§a%s§f' 但识别到 '§e%s§f'. 如果你不是模组的作者, 或运行的不是反混淆版本, 我§l强烈§f 建议你重新下载开放式电脑模组, 因为当前使用的JAR文件已被篡改.
 oc:gui.Chat.WarningLink=无法打开链接: %s
 oc:gui.Chat.WarningLuaFallback=无法使用原有的Lua库, 电脑不会持续现在的状态. 它们会在区块载入时重启.
-oc:gui.Chat.WarningPower=没有检测到可提供能源的模组. 电脑,显示屏和所有其它组件将§l不需要§f能量来运作. 安装下列任意一个组来启用能量需求:建筑(Buildcraft),电子时代(Electrical Age),工业时代2(IndustrialCraft 2),通用机械(Mekanism)或热力膨胀(Thermal Expansion). 在配置文件中禁用能量设定可以让这条信息不再显示.
+oc:gui.Chat.WarningPower=没有检测到可提供能源的模组. 电脑,显示屏和所有其它组件将§l不需要§f能量来运作. 安装下列任意一个组来启用能量需求:建筑(Buildcraft),电子时代(Electrical Age),工业2(IndustrialCraft 2),通用机械(Mekanism)或热力膨胀(Thermal Expansion). 在配置文件中禁用能量设定可以让这条信息不再显示.
 oc:gui.Chat.WarningProjectRed=你目前使用的Project:Red版本不兼容OpenComputers. 请升级您的Project:Red后再试.
 oc:gui.Chat.WarningRecipes=加载合成表时遇到一个或多个错误. 部分物品或因此无法合成. 查阅日志文件以获取详细信息.
 oc:gui.Chat.WarningSimpleComponent=一个(您的?)扩展模组使用§aSimpleComponent§f接口但§e做错了一些事情§f. Component logic无法注入. 查阅日志文件以获取详细信息.
@@ -264,7 +264,7 @@ oc:tooltip.Capacitor=储能以备他用. 能够非常快速地充电或放电.
 oc:tooltip.CardBase=正如其名, 它是用来安装其它扩展卡的基本卡板.
 oc:tooltip.Case=计算机机箱是构建计算机的基本方块, 也是各种 §f扩展卡§7 , §f存储器§7 以及 §f硬盘§7 的外壳.[nl] 格子: §f%s§7
 oc:tooltip.Chamelium=3D打印的基本原材料. 不要swallow:或造成失明和暂时失去意识.
-oc:tooltip.ChameliumBlock=整洁干净的玩意. Handy for tinted shapes in 3D打印, 或者只是拿它的整洁干净的色彩来装饰你的华丽的基地.
+oc:tooltip.ChameliumBlock=整洁干净的玩意. 对于彩色3D打印相当实用, 或者只是拿它的整洁干净的色彩来装饰你的华丽的基地.
 oc:tooltip.Charger=将电容器的能量传输给相邻机器人. 传输效率取决于输入的§f红石信号§7强度, 无信号意味着不给机器人充电, 而最强信号则意味着全速给机器人充电.
 oc:tooltip.CircuitBoard=现在我们已经取得一些进展. 可以通过蚀刻来得到印制电路板.
 oc:tooltip.ControlUnit=用来控制...控制东西...的单元. 你需要这玩意儿来做CPU. 所以反正啦, 这个非常重要.
@@ -326,7 +326,7 @@ oc:tooltip.Print.BeaconBase=§8可用作信标底座.
 oc:tooltip.Print.LightValue=§8光强: %s.
 oc:tooltip.Print.RedstoneLevel=§8红石信号强度: %s.
 oc:tooltip.PrintedCircuitBoard=扩展卡, 内存等组件的基础板.
-oc:tooltip.Printer=Allows printing blocks of user-defined shapes using Chamelium and Ink Cartridges. 需要用电脑进行配置. Keep away from small children. Because reasons.
+oc:tooltip.Printer=利用chamelium和墨盒打印出用户自定义的形状. 需要用电脑进行配置. 不要让幼童接触. 就是这样.
 oc:tooltip.Raid=允许将三块硬盘组成一个大文件系统供所有与其连接的电脑使用.
 oc:tooltip.RawCircuitBoard=能在熔炉或其它炉子中加工强化.
 oc:tooltip.Redstone=能够在方块周围接收或发送红石信号. 可以被与之相连的计算机控制. 基本上就像一个外置红石卡.
@@ -336,7 +336,7 @@ oc:tooltip.RedstoneCard.RedNet=§fRedNet§7红石系统已§a兼容§7.
 oc:tooltip.RedstoneCard.WirelessCBE=§f无线红石(ChickenBones)§7红石系统已§a兼容§7.
 oc:tooltip.RedstoneCard.WirelessSV=§f无线红石(SlimeVoid)§7红石系统已§a兼容§7.
 oc:tooltip.RedstoneCard=允许在计算机和机器人四周接收或发送红石信号.
-oc:tooltip.Relay=Allows connecting different networks to each other. Only network messages will be passed along, components will not be visible through this. Use this to separate networks while still allowing communication using Network Cards, for example.
+oc:tooltip.Relay=可将不同网络连接在一起. 仅信息可通过此设备传递, 其它元件仍不可见. 用法举例: 可用于保持多个独立网络的通信.
 oc:tooltip.Robot=和计算机不同, 机器人能够移动并且像玩家那样与世界中的东西交互. 然而, 它们§o不能§r§7直接与外设进行交互!
 # The underscore makes sure this isn't hidden with the rest of the tooltip.
 oc:tooltip.Robot_Level=§f等级§7: §a%s§7.
@@ -352,7 +352,7 @@ oc:tooltip.Terminal=可以远程控制服务器, 不过前提是你处于信号�
 oc:tooltip.TerminalServer=Backend to which Remote Terminals can be connected to provide remote control. Houses a virtual screen and keyboard.
 oc:tooltip.TexturePicker=This tool allows showing a string describing a block's surface, for use in 3D printer shape definitions. Totally not texture names, nope. No sir.
 oc:tooltip.Tier=§8等级 %s
-oc:tooltip.NetSplitter=作为动态连接器的存在. Connectivity of each side can be toggled by hitting it with a wrench. Connectivity of all sides can be inverted by applying a redstone signal.
+oc:tooltip.NetSplitter=作为动态连接器的存在. 每个面的连接设定可通过扳手切换. 红石信号可反相所有面的连接设定.
 oc:tooltip.TooLong=按住 [§f%s§7] 显示详细物品信息.
 oc:tooltip.Transistor=大多数电脑组件中最基础的元素. 看上去有些扭曲, 但它是有用的.
 oc:tooltip.Transposer=Allows automated transferral of items and fluids between adjacent inventories and fluid containers.
@@ -457,11 +457,11 @@ achievement.oc.wirelessNetworkCard.desc=Time to go where no packet has gone befo
 
 # Death messages. Note that the number of entries here must match the number
 # set in the actual damage source in code.
-death.attack.oc.nanomachinesOverload.1=%s got too greedy.
-death.attack.oc.nanomachinesOverload.2=%s had a nervous breakdown.
-death.attack.oc.nanomachinesOverload.3=The nanomachines of %s went out of control.
-death.attack.oc.nanomachinesHungry.1=%s was eaten by nanomachines.
-death.attack.oc.nanomachinesHungry.2=%s didn't keep their nanomachines fed.
+death.attack.oc.nanomachinesOverload.1=%s过于贪婪。
+death.attack.oc.nanomachinesOverload.2=%s神经断裂。
+death.attack.oc.nanomachinesOverload.3=%s的纳米机器失控暴走了。
+death.attack.oc.nanomachinesHungry.1=%s被纳米机器吃掉了。
+death.attack.oc.nanomachinesHungry.2=%s忘记喂饱纳米机器了。
 death.attack.oc.nanomachinesHungry.3=%s has been digested.
 
 # NEI Integration
