@@ -12,6 +12,25 @@
 -- local mode = arg[1]
 -- local file = arg[2]
 
+-- key as string, existMapping as weak table of string
+function findExistedEntry(key, existMapping)
+	if key == nil then
+		return key
+	end
+
+	if key == "" then
+		return key
+	end
+
+	for k, v in iparis(existMapping) do
+		if k == key then
+			return table.concat({key, "=", v})
+		end
+	end
+
+	return table.concat({key, "="})
+end
+
 enUSFile = io.open("en_US.lang")
 zhCNFile = io.open("zh_CN.lang")
 outputFinal = io.open("zh_CN-merged.lang", "w+")
@@ -55,45 +74,17 @@ for s in zhCNFile:lines() do
 	end
 end
 
-print(count)
+debug = {"Readed ", count, " lines in zh_CN.lang"}
+print(table.concat(debug))
 
 finalPair = {}
 
 for i, v in ipairs(mapping) do
-	print(v)
-
-	if (string.match(v, "(#.*)")) then
-		tmpStr = string.gsub(v, "(^\n)", "%1")
-		finalPair = {tmpStr, "\n"}
-		outputFinal:write(table.concat(finalPair))
-	end
-
---	if (v == "") then
---		outputFinal:write("\n")
---	end
-
-	if (string.match(v, "([%w%s%.]*)")) then
-		found = false
-		for j, w in ipairs(zhCN) do
-			if (v == w[1]) then
-				finalPair = {v, "=", w[2], "\n"}
-				outputFinal:write(table.concat(finalPair))
-				found = true
-				break
-			end
-		end
-		if (found == false) then
-			if not (string.sub(v, 1, 1) == "\n") then
-				if not (string.sub(v, 1, 1) == "#") then
-					finalPair = {v, "\n"}
-					outputFinal:write(table.concat(finalPair))
-				end
-			end
-		end
-	end
+	finalPair = {findExistedEntry(v, zhCN), "\n"}
+	outputFinal:writeLine(table.concat(finalPair));
 end 
 
-print("Language file successfully updated")
+print("Language file successfully updated.")
 
 outputFinal:flush()
 outputFinal:close()
