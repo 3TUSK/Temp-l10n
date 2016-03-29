@@ -1,10 +1,14 @@
-# Copyright (c) 2015  RS485
-#
-# "LogisticsPipes" is distributed under the terms of the Minecraft Mod Public 
-# License 1.0, or MMPL. Please check the contents of the license located in
-# https://github.com/RS485/LogisticsPipes/blob/stable/LICENSE.md
+# Master language file
+
+# Insert %c and the name found in logisticspipes.utils.string.ChatColor to add colors
+# Example '%cYELLOW ' (The space behind will be removed)
 
 # Pipes
+item.PipeItemsBasicTransport=Unrouted Transport Pipe
+item.PipeItemsBasicTransport.tip1=Type: Simple Transport Pipe
+item.PipeItemsBasicTransport.tip2= - Serves for the Transport of Items
+item.PipeItemsBasicTransport.tip3= - Doesn´t route Stuff
+item.PipeItemsBasicTransport.tip4= - Can´t access Inventories
 
 item.PipeItemsBasicLogistics=基础物流管道
 item.PipeItemsBasicLogistics.tip1=类型\: 被动收纳
@@ -113,20 +117,26 @@ item.PipeItemsInvSysConnector.tip1=类型\: 并网
 item.PipeItemsInvSysConnector.tip2=- 通过外部运输方式
 item.PipeItemsInvSysConnector.tip3=(比如末影箱, 矿车或其他管道)
 item.PipeItemsInvSysConnector.tip4=将两个物流网络连接到一起
+item.PipeItemsInvSysConnector.tip5=   can get clever with trains too...
 
 item.PipeItemsSystemEntranceLogistics=物流系统入口管道
 item.PipeItemsSystemEntranceLogistics.tip1=类型\: 路线规划
 item.PipeItemsSystemEntranceLogistics.tip2=- 将流经此管的物品发往与此管配对的目的管道
 item.PipeItemsSystemEntranceLogistics.tip3=- 入口和目的管道必须拥有配对的频率卡
+#NOT USED - item.PipeItemsSystemEntranceLogistics.tip4=
+#NOT USED - item.PipeItemsSystemEntranceLogistics.tip5=
 
-item.PipeItemsSystemDestinationLogistics=物流系统目的管道
+item.PipeItemsSystemDestinationLogistics=物流系统目标管道
 item.PipeItemsSystemDestinationLogistics.tip1=类型\: 特殊目标
 item.PipeItemsSystemDestinationLogistics.tip2=- 接收由物流系统入口管道发送的物品
 item.PipeItemsSystemDestinationLogistics.tip3=- 入口和目的管道必须拥有配对的频率卡
+#NOT USED - item.PipeItemsSystemDestinationLogistics.tip4=
+#NOT USED - item.PipeItemsSystemDestinationLogistics.tip5=
 
 item.PipeItemsFirewall=物流防火墙管道
 item.PipeItemsFirewall.tip1=类型\: 过滤器
 item.PipeItemsFirewall.tip2=- 只允许特定物品通过
+item.PipeItemsFirewall.tip3=   while allowing only certain items to pass
 
 item.PipeItemsFluidSupplier=物流流体容器补给管道
 item.PipeItemsFluidSupplier.tip1=用桶或其他流体容器里的流体来填充与管道连接的储液器
@@ -144,6 +154,7 @@ item.PipeBlockRequestTable=物流请求桌
 # Modules
 
 #TODO: Add shift tooltip information
+
 item.ModuleBlank=空白模块
 item.ModuleItemSink=物品收纳模块
 item.ModulePassiveSupplier=被动补给模块
@@ -175,9 +186,18 @@ item.ModuleCrafter=合成模块
 item.ModuleCrafterMK2=合成模块Mk2
 item.ModuleCrafterMK3=合成模块Mk3
 item.ModuleActiveSupplier=主动补给模块
+item.ModuleCreativeTabBasedItemSink=Creative Tab Based ItemSink module
 
 # Items
 
+item.structframe=Structural Pipe Frame
+item.microservo=Micro Servo
+item.routeprocess=Routing Logic Processor
+item.micropackager=Micro Packager
+item.microcapsulator=Micro Capsulator
+item.logicexpander=Logic Expansion Circuit
+item.lense=Focus Lense
+item.acceptor=Laser Acceptor Interface
 item.pipeController=物流管道控制器
 item.brokenItem=损毁了的物品
 item.logisticsFluidContainer=物流流体载体
@@ -216,7 +236,7 @@ item.AdvancedSatelliteUpgrade=高级卫星升级
 item.FluidCraftingUpgrade=流体合成升级
 item.CraftingByproductUpgrade=副产物提取升级
 item.PatternUpgrade=放置规则升级
-item.FuzzyCraftingUpgrade=模糊合成升级
+item.FuzzyUpgrade=模糊升级
 item.PowerTransportationUpgrade=能量运输升级
 item.BCPowerSupplierUpgrade=BC能量补给升级
 item.RFPowerSupplierUpgrade=TE能量补给升级
@@ -228,9 +248,22 @@ item.CCRemoteControlUpgrade=CC遥控升级
 item.CraftingMonitoringUpgrade=合成监视升级
 item.OpaqueUpgrade=不透明升级
 item.CraftingCleanupUpgrade=合成残余物清理升级
+item.LogicControllerUpgrade=Logic Controller Upgrade
+item.UpgradeModuleUpgrade=Upgrade Module Upgrade
 
 #Upgrade info
 
+item.upgrade.info.both1=Can be applied to %cYELLOW {0} %cRESET %cGRAY pipes
+item.upgrade.info.both2=and %cYELLOW {0} %cRESET %cGRAY modules
+item.upgrade.info.pipe=Can be applied to %cYELLOW {0} %cRESET %cGRAY pipes
+item.upgrade.info.module=Can be applied to %cYELLOW {0} %cRESET %cGRAY modules
+item.upgrade.info.all=All
+item.upgrade.info.crafting=Crafting
+item.upgrade.info.itemsink=Item Sink
+item.upgrade.info.supplier=Supplier
+item.upgrade.info.requestblock=Request Block
+item.upgrade.info.chassi=Chassi
+item.upgrade.info.basic=Basic
 
 # Blocks
 tile.solderingstation=物流焊接台
@@ -238,9 +271,10 @@ tile.logisticspowerjunction=物流能量中枢
 tile.logisticssecuritystation=物流安全站
 tile.logisticscraftingtable=物流合成桌
 tile.logisticsfuzzycraftingtable=物流模糊合成桌
-tile.logisticsbcpowerprovider=物流BC能量供应器
-tile.logisticsic2powerprovider=物流IC2能量供应器
-tile.logisticstepowerprovider=物流TE能量供应器
+tile.logisticsbcpowerprovider=物流MJ能量供应器
+tile.logisticsic2powerprovider=物流EU能量供应器
+tile.logisticstepowerprovider=物流RF能量供应器
+tile.logisticsstatisticstable=Logistics Statistics Table
 
 # Misc
 itemGroup.Logistics_Pipes=物流管道
@@ -251,11 +285,37 @@ misc.extractionmode.LeaveLast=留下最后一组物品
 misc.extractionmode.LeaveFirstAndLast=留下第一组和最后一组物品
 misc.extractionmode.Leave1PerStack=每组物品留一个
 misc.extractionmode.Leave1PerType=每种物品留一个
+misc.selectType=Select Type
+misc.selectOreDict=Select OreDict Type
 
 #Misc Chat messages
 
+lp.chat.slotnotfound=Couldn't find that slot internaly. Sorry. Please try again.
+lp.chat.permissiondenied=Permission denied
+lp.chat.connectedtopipe=Connected to pipe
+lp.misc.noenergy=No Energy
+lp.hud.config.chassie.enabled=Enabled Chassis.
+lp.hud.config.chassie.disabled=Disabled Chassis.
+lp.hud.config.crafting.enabled=Enabled Crafting.
+lp.hud.config.crafting.disabled=Disabled Crafting.
+lp.hud.config.invsyscon.enabled=Enabled InvSysCon.
+lp.hud.config.invsyscon.disabled=Disabled InvSysCon.
+lp.hud.config.powerjunction.enabled=Enabled Power Junction.
+lp.hud.config.powerjunction.disabled=Disabled Power Junction.
+lp.hud.config.provider.enabled=Enabled Provider.
+lp.hud.config.provider.disabled=Disabled Provider.
+lp.hud.config.satellite.enabled=Enabled Satellite.
+lp.hud.config.satellite.disabled=Disabled Satellite.
 
 # GUI
+
+gui.itemsink.Yes=Yes
+gui.itemsink.No=No
+gui.itemsink.Inventory=Inventory
+gui.itemsink.Defaultroute=Default route
+gui.itemsink.IgnoreData=Ignore Data
+gui.itemsink.IgnoreNBT=Ignore NBT
+gui.itemsink.import=Import
 
 gui.crafting.Inputs=原料
 gui.crafting.Inventory=物品栏
@@ -287,9 +347,15 @@ gui.fluidbasic.Empty=空
 
 gui.fluidsuppliermk2.Inventory=物品栏
 gui.fluidsuppliermk2.Fluid=流体
+gui.fluidsuppliermk2.Partial=Partial
+gui.fluidsuppliermk2.minMode=Min. Mode
 gui.fluidsuppliermk2.Yes=是
 gui.fluidsuppliermk2.No=否
 gui.fluidsuppliermk2.TargetInv=要补给的流体
+gui.fluidsuppliermk2.NONE=None
+gui.fluidsuppliermk2.ONEBUCKET=1 Bucket
+gui.fluidsuppliermk2.TWOBUCKET=2 Buckets
+gui.fluidsuppliermk2.FIVEBUCKET=5 Buckets
 
 gui.fluidsupplier.TargetInv=要补给的流体
 gui.fluidsupplier.Inventory=物品栏
@@ -370,5 +436,18 @@ gui.pipecontroller.Recieved=已收到
 gui.pipecontroller.Relayed=已转发
 gui.pipecontroller.RoutingTableSize=路由表大小
 
+gui.networkstatistics.amount=Track amount
+gui.networkstatistics.crafting=View active crafting tasks
+gui.networkstatistics.gettasks=Acquire tasks
+gui.networkstatistics.add.alreadytracked=This item type is already tracked
 
+gui.settings.pipenewrenderer=Use New Renderer
+gui.settings.pipefallbackrenderer=Use Fallback Renderer
+gui.settings.piperenderdistance=Max. Distance for new Renderer
+gui.settings.pipecontentrenderdistance=Max. Distance for Pipe Content
 
+# Copyright (c) 2015  RS485
+#
+# "LogisticsPipes" is distributed under the terms of the Minecraft Mod Public 
+# License 1.0, or MMPL. Please check the contents of the license located in
+# https://github.com/RS485/LogisticsPipes/blob/stable/LICENSE.md
