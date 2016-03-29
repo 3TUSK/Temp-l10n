@@ -4,11 +4,11 @@
 # Example '%cYELLOW ' (The space behind will be removed)
 
 # Pipes
-item.PipeItemsBasicTransport=Unrouted Transport Pipe
-item.PipeItemsBasicTransport.tip1=Type: Simple Transport Pipe
-item.PipeItemsBasicTransport.tip2= - Serves for the Transport of Items
-item.PipeItemsBasicTransport.tip3= - Doesn´t route Stuff
-item.PipeItemsBasicTransport.tip4= - Can´t access Inventories
+item.PipeItemsBasicTransport=无路由运输管道
+item.PipeItemsBasicTransport.tip1=类型\: 简易运输管道
+item.PipeItemsBasicTransport.tip2=- 用于传输物品
+item.PipeItemsBasicTransport.tip3=- 并不对物品进行路由
+item.PipeItemsBasicTransport.tip4=- 不能在物品栏间互动
 
 item.PipeItemsBasicLogistics=基础物流管道
 item.PipeItemsBasicLogistics.tip1=类型\: 被动收纳
@@ -20,14 +20,14 @@ item.PipeItemsRequestLogistics=请求物流管道
 item.PipeItemsRequestLogistics.tip1=类型\: 主动请求
 item.PipeItemsRequestLogistics.tip2=- 用于玩家从网络中请求物品
 item.PipeItemsRequestLogistics.tip3=- 请求的物品由类型为物品源的管道提供
-item.PipeItemsRequestLogistics.tip4=- 如果管道连接了箱子, 请求到的物品将被存入箱中
+item.PipeItemsRequestLogistics.tip4=- 如果管道连接了箱子，请求到的物品将被存入箱中
 
 item.PipeItemsRequestLogisticsMk2=请求物流管道Mk2
 item.PipeItemsRequestLogisticsMk2.tip1=类型\: 主动请求
 item.PipeItemsRequestLogisticsMk2.tip2=- 比Mk1快
 item.PipeItemsRequestLogisticsMk2.tip3=- 用于玩家从网络中请求物品
 item.PipeItemsRequestLogisticsMk2.tip4=- 请求的物品由类型为物品源的管道提供
-item.PipeItemsRequestLogisticsMk2.tip5=- 如果管道连接了容器, 请求到的物品将被存入其中
+item.PipeItemsRequestLogisticsMk2.tip5=- 如果管道连接了容器，请求到的物品将被存入其中
 
 item.PipeItemsProviderLogistics=供应物流管道
 item.PipeItemsProviderLogistics.tip1=类型\: 物品源
@@ -115,7 +115,7 @@ item.PipeItemsApiaristSink.tip3=- 可基于遗传特性和基因组进行过滤
 item.PipeItemsInvSysConnector=物流网络连接器
 item.PipeItemsInvSysConnector.tip1=类型\: 并网
 item.PipeItemsInvSysConnector.tip2=- 通过外部运输方式
-item.PipeItemsInvSysConnector.tip3=(比如末影箱, 矿车或其他管道)
+item.PipeItemsInvSysConnector.tip3=(比如末影箱、矿车或其他管道)
 item.PipeItemsInvSysConnector.tip4=将两个物流网络连接到一起
 item.PipeItemsInvSysConnector.tip5=   can get clever with trains too...
 
@@ -186,20 +186,20 @@ item.ModuleCrafter=合成模块
 item.ModuleCrafterMK2=合成模块Mk2
 item.ModuleCrafterMK3=合成模块Mk3
 item.ModuleActiveSupplier=主动补给模块
-item.ModuleCreativeTabBasedItemSink=Creative Tab Based ItemSink module
+item.ModuleCreativeTabBasedItemSink=基于创造模式标签的物品收纳模块
 
 # Items
 
-item.structframe=Structural Pipe Frame
-item.microservo=Micro Servo
-item.routeprocess=Routing Logic Processor
-item.micropackager=Micro Packager
+item.structframe=结构管道框架
+item.microservo=微型伺服机
+item.routeprocess=路由逻辑处理器
+item.micropackager=微型打包机
 item.microcapsulator=Micro Capsulator
-item.logicexpander=Logic Expansion Circuit
-item.lense=Focus Lense
+item.logicexpander=逻辑扩展电路
+item.lense=聚焦透镜
 item.acceptor=Laser Acceptor Interface
 item.pipeController=物流管道控制器
-item.brokenItem=损毁了的物品
+item.brokenItem=已损坏物品
 item.logisticsFluidContainer=物流流体载体
 # %cRED (DEPRECATED) %cRESET
 item.upgradeManagerItem=物流升级管理器
@@ -248,8 +248,8 @@ item.CCRemoteControlUpgrade=CC遥控升级
 item.CraftingMonitoringUpgrade=合成监视升级
 item.OpaqueUpgrade=不透明升级
 item.CraftingCleanupUpgrade=合成残余物清理升级
-item.LogicControllerUpgrade=Logic Controller Upgrade
-item.UpgradeModuleUpgrade=Upgrade Module Upgrade
+item.LogicControllerUpgrade=控制器升级
+item.UpgradeModuleUpgrade=升级模块升级
 
 #Upgrade info
 
@@ -257,13 +257,13 @@ item.upgrade.info.both1=Can be applied to %cYELLOW {0} %cRESET %cGRAY pipes
 item.upgrade.info.both2=and %cYELLOW {0} %cRESET %cGRAY modules
 item.upgrade.info.pipe=Can be applied to %cYELLOW {0} %cRESET %cGRAY pipes
 item.upgrade.info.module=Can be applied to %cYELLOW {0} %cRESET %cGRAY modules
-item.upgrade.info.all=All
-item.upgrade.info.crafting=Crafting
-item.upgrade.info.itemsink=Item Sink
+item.upgrade.info.all=全部
+item.upgrade.info.crafting=合成
+item.upgrade.info.itemsink=物品手机器
 item.upgrade.info.supplier=Supplier
-item.upgrade.info.requestblock=Request Block
+item.upgrade.info.requestblock=请求方块
 item.upgrade.info.chassi=Chassi
-item.upgrade.info.basic=Basic
+item.upgrade.info.basic=基础
 
 # Blocks
 tile.solderingstation=物流焊接台
@@ -274,7 +274,7 @@ tile.logisticsfuzzycraftingtable=物流模糊合成桌
 tile.logisticsbcpowerprovider=物流MJ能量供应器
 tile.logisticsic2powerprovider=物流EU能量供应器
 tile.logisticstepowerprovider=物流RF能量供应器
-tile.logisticsstatisticstable=Logistics Statistics Table
+tile.logisticsstatisticstable=物流统计桌
 
 # Misc
 itemGroup.Logistics_Pipes=物流管道
@@ -291,31 +291,31 @@ misc.selectOreDict=Select OreDict Type
 #Misc Chat messages
 
 lp.chat.slotnotfound=Couldn't find that slot internaly. Sorry. Please try again.
-lp.chat.permissiondenied=Permission denied
-lp.chat.connectedtopipe=Connected to pipe
-lp.misc.noenergy=No Energy
-lp.hud.config.chassie.enabled=Enabled Chassis.
-lp.hud.config.chassie.disabled=Disabled Chassis.
-lp.hud.config.crafting.enabled=Enabled Crafting.
-lp.hud.config.crafting.disabled=Disabled Crafting.
-lp.hud.config.invsyscon.enabled=Enabled InvSysCon.
-lp.hud.config.invsyscon.disabled=Disabled InvSysCon.
-lp.hud.config.powerjunction.enabled=Enabled Power Junction.
-lp.hud.config.powerjunction.disabled=Disabled Power Junction.
-lp.hud.config.provider.enabled=Enabled Provider.
-lp.hud.config.provider.disabled=Disabled Provider.
-lp.hud.config.satellite.enabled=Enabled Satellite.
-lp.hud.config.satellite.disabled=Disabled Satellite.
+lp.chat.permissiondenied=请求被拒绝
+lp.chat.connectedtopipe=连接到管道
+lp.misc.noenergy=没有能量
+lp.hud.config.chassie.enabled=启用Chassis.
+lp.hud.config.chassie.disabled=禁用Chassis.
+lp.hud.config.crafting.enabled=启用Crafting.
+lp.hud.config.crafting.disabled=禁用Crafting.
+lp.hud.config.invsyscon.enabled=启用InvSysCon.
+lp.hud.config.invsyscon.disabled=禁用InvSysCon.
+lp.hud.config.powerjunction.enabled=启用Power Junction.
+lp.hud.config.powerjunction.disabled=禁用Power Junction.
+lp.hud.config.provider.enabled=启用Provider.
+lp.hud.config.provider.disabled=禁用Provider.
+lp.hud.config.satellite.enabled=启用Satellite.
+lp.hud.config.satellite.disabled=禁用Satellite.
 
 # GUI
 
-gui.itemsink.Yes=Yes
-gui.itemsink.No=No
-gui.itemsink.Inventory=Inventory
+gui.itemsink.Yes=是
+gui.itemsink.No=否
+gui.itemsink.Inventory=物品栏
 gui.itemsink.Defaultroute=Default route
-gui.itemsink.IgnoreData=Ignore Data
-gui.itemsink.IgnoreNBT=Ignore NBT
-gui.itemsink.import=Import
+gui.itemsink.IgnoreData=忽略附加值
+gui.itemsink.IgnoreNBT=忽略NBT
+gui.itemsink.import=导入
 
 gui.crafting.Inputs=原料
 gui.crafting.Inventory=物品栏
@@ -347,15 +347,15 @@ gui.fluidbasic.Empty=空
 
 gui.fluidsuppliermk2.Inventory=物品栏
 gui.fluidsuppliermk2.Fluid=流体
-gui.fluidsuppliermk2.Partial=Partial
-gui.fluidsuppliermk2.minMode=Min. Mode
+gui.fluidsuppliermk2.Partial=部分
+gui.fluidsuppliermk2.minMode=最小模式
 gui.fluidsuppliermk2.Yes=是
 gui.fluidsuppliermk2.No=否
 gui.fluidsuppliermk2.TargetInv=要补给的流体
 gui.fluidsuppliermk2.NONE=None
-gui.fluidsuppliermk2.ONEBUCKET=1 Bucket
-gui.fluidsuppliermk2.TWOBUCKET=2 Buckets
-gui.fluidsuppliermk2.FIVEBUCKET=5 Buckets
+gui.fluidsuppliermk2.ONEBUCKET=1桶
+gui.fluidsuppliermk2.TWOBUCKET=2桶
+gui.fluidsuppliermk2.FIVEBUCKET=5桶
 
 gui.fluidsupplier.TargetInv=要补给的流体
 gui.fluidsupplier.Inventory=物品栏
@@ -373,9 +373,9 @@ gui.invsyscon.Resistance=开销值
 gui.powerjunction.LogisticsPowerJunction=物流能量中枢
 gui.powerjunction.StoredEnergy=存储的能量
 
-gui.powerprovider.LogisticsMJPowerProvider=物流BC能量供应器
-gui.powerprovider.LogisticsEUPowerProvider=物流IC2能量供应器
-gui.powerprovider.LogisticsRFPowerProvider=物流TE能量供应器
+gui.powerprovider.LogisticsMJPowerProvider=物流MJ能量供应器
+gui.powerprovider.LogisticsEUPowerProvider=物流EU能量供应器
+gui.powerprovider.LogisticsRFPowerProvider=物流RF能量供应器
 gui.powerprovider.StoredEnergy=存储的能量
 
 gui.providerpipe.TargetInv=要供应的物品(留空供应所有物品)
@@ -436,15 +436,15 @@ gui.pipecontroller.Recieved=已收到
 gui.pipecontroller.Relayed=已转发
 gui.pipecontroller.RoutingTableSize=路由表大小
 
-gui.networkstatistics.amount=Track amount
-gui.networkstatistics.crafting=View active crafting tasks
-gui.networkstatistics.gettasks=Acquire tasks
-gui.networkstatistics.add.alreadytracked=This item type is already tracked
+gui.networkstatistics.amount=追踪数量
+gui.networkstatistics.crafting=查看当前活跃的合成任务
+gui.networkstatistics.gettasks=已获得任务
+gui.networkstatistics.add.alreadytracked=该物品已经开始追踪
 
-gui.settings.pipenewrenderer=Use New Renderer
-gui.settings.pipefallbackrenderer=Use Fallback Renderer
-gui.settings.piperenderdistance=Max. Distance for new Renderer
-gui.settings.pipecontentrenderdistance=Max. Distance for Pipe Content
+gui.settings.pipenewrenderer=使用新渲染
+gui.settings.pipefallbackrenderer=使用备用渲染
+gui.settings.piperenderdistance=新渲染最大渲染距离
+gui.settings.pipecontentrenderdistance=管道内容物最大渲染距离
 
 # Copyright (c) 2015  RS485
 #
