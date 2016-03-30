@@ -117,7 +117,7 @@ item.PipeItemsInvSysConnector.tip1=类型\: 并网
 item.PipeItemsInvSysConnector.tip2=- 通过外部运输方式
 item.PipeItemsInvSysConnector.tip3=(比如末影箱、矿车或其他管道)
 item.PipeItemsInvSysConnector.tip4=将两个物流网络连接到一起
-item.PipeItemsInvSysConnector.tip5=   can get clever with trains too...
+#NOT USED - item.PipeItemsInvSysConnector.tip5=
 
 item.PipeItemsSystemEntranceLogistics=物流系统入口管道
 item.PipeItemsSystemEntranceLogistics.tip1=类型\: 路线规划
@@ -136,7 +136,7 @@ item.PipeItemsSystemDestinationLogistics.tip3=- 入口和目的管道必须拥�
 item.PipeItemsFirewall=物流防火墙管道
 item.PipeItemsFirewall.tip1=类型\: 过滤器
 item.PipeItemsFirewall.tip2=- 只允许特定物品通过
-item.PipeItemsFirewall.tip3=   while allowing only certain items to pass
+#NOT USED - item.PipeItemsFirewall.tip3=
 
 item.PipeItemsFluidSupplier=物流流体容器补给管道
 item.PipeItemsFluidSupplier.tip1=用桶或其他流体容器里的流体来填充与管道连接的储液器
@@ -194,10 +194,10 @@ item.structframe=结构管道框架
 item.microservo=微型伺服机
 item.routeprocess=路由逻辑处理器
 item.micropackager=微型打包机
-item.microcapsulator=Micro Capsulator
+item.microcapsulator=微型封包器
 item.logicexpander=逻辑扩展电路
 item.lense=聚焦透镜
-item.acceptor=Laser Acceptor Interface
+item.acceptor=激光接收器介面
 item.pipeController=物流管道控制器
 item.brokenItem=已损坏物品
 item.logisticsFluidContainer=物流流体载体
@@ -238,12 +238,12 @@ item.CraftingByproductUpgrade=副产物提取升级
 item.PatternUpgrade=放置规则升级
 item.FuzzyUpgrade=模糊升级
 item.PowerTransportationUpgrade=能量运输升级
-item.BCPowerSupplierUpgrade=BC能量补给升级
-item.RFPowerSupplierUpgrade=TE能量补给升级
-item.IC2LVPowerSupplierUpgrade=IC2低压能量补给升级
-item.IC2MVPowerSupplierUpgrade=IC2中压能量补给升级
-item.IC2HVPowerSupplierUpgrade=IC2高压能量补给升级
-item.IC2EVPowerSupplierUpgrade=IC2超高压能量补给升级
+item.BCPowerSupplierUpgrade=MJ能量补给升级
+item.RFPowerSupplierUpgrade=RF能量补给升级
+item.IC2LVPowerSupplierUpgrade=EU低压能量补给升级
+item.IC2MVPowerSupplierUpgrade=EU中压能量补给升级
+item.IC2HVPowerSupplierUpgrade=EU高压能量补给升级
+item.IC2EVPowerSupplierUpgrade=EU超高压能量补给升级
 item.CCRemoteControlUpgrade=CC遥控升级
 item.CraftingMonitoringUpgrade=合成监视升级
 item.OpaqueUpgrade=不透明升级
@@ -253,16 +253,16 @@ item.UpgradeModuleUpgrade=升级模块升级
 
 #Upgrade info
 
-item.upgrade.info.both1=Can be applied to %cYELLOW {0} %cRESET %cGRAY pipes
-item.upgrade.info.both2=and %cYELLOW {0} %cRESET %cGRAY modules
-item.upgrade.info.pipe=Can be applied to %cYELLOW {0} %cRESET %cGRAY pipes
-item.upgrade.info.module=Can be applied to %cYELLOW {0} %cRESET %cGRAY modules
+item.upgrade.info.both1=可安装于 %cYELLOW {0} %cRESET %cGRAY 种管道上
+item.upgrade.info.both2=以及 %cYELLOW {0} %cRESET %cGRAY 种模块上
+item.upgrade.info.pipe=可安装于 %cYELLOW {0} %cRESET %cGRAY 种管道上
+item.upgrade.info.module=可安装于 %cYELLOW {0} %cRESET %cGRAY 种模块上
 item.upgrade.info.all=全部
 item.upgrade.info.crafting=合成
-item.upgrade.info.itemsink=物品手机器
-item.upgrade.info.supplier=Supplier
+item.upgrade.info.itemsink=物品收纳器
+item.upgrade.info.supplier=补给器
 item.upgrade.info.requestblock=请求方块
-item.upgrade.info.chassi=Chassi
+item.upgrade.info.chassi=底盘
 item.upgrade.info.basic=基础
 
 # Blocks
@@ -285,34 +285,34 @@ misc.extractionmode.LeaveLast=留下最后一组物品
 misc.extractionmode.LeaveFirstAndLast=留下第一组和最后一组物品
 misc.extractionmode.Leave1PerStack=每组物品留一个
 misc.extractionmode.Leave1PerType=每种物品留一个
-misc.selectType=Select Type
-misc.selectOreDict=Select OreDict Type
+misc.selectType=选择类型
+misc.selectOreDict=选择矿辞类型
 
 #Misc Chat messages
 
-lp.chat.slotnotfound=Couldn't find that slot internaly. Sorry. Please try again.
+lp.chat.slotnotfound=抱歉，无法找到目标格子。请重试。
 lp.chat.permissiondenied=请求被拒绝
 lp.chat.connectedtopipe=连接到管道
 lp.misc.noenergy=没有能量
-lp.hud.config.chassie.enabled=启用Chassis.
-lp.hud.config.chassie.disabled=禁用Chassis.
-lp.hud.config.crafting.enabled=启用Crafting.
-lp.hud.config.crafting.disabled=禁用Crafting.
-lp.hud.config.invsyscon.enabled=启用InvSysCon.
-lp.hud.config.invsyscon.disabled=禁用InvSysCon.
-lp.hud.config.powerjunction.enabled=启用Power Junction.
-lp.hud.config.powerjunction.disabled=禁用Power Junction.
-lp.hud.config.provider.enabled=启用Provider.
-lp.hud.config.provider.disabled=禁用Provider.
-lp.hud.config.satellite.enabled=启用Satellite.
-lp.hud.config.satellite.disabled=禁用Satellite.
+lp.hud.config.chassie.enabled=启用底盘。
+lp.hud.config.chassie.disabled=禁用底盘。
+lp.hud.config.crafting.enabled=启用合成。
+lp.hud.config.crafting.disabled=禁用合成。
+lp.hud.config.invsyscon.enabled=启用物流网络连接器。
+lp.hud.config.invsyscon.disabled=禁用物流网络连接器。
+lp.hud.config.powerjunction.enabled=启用能量中枢。
+lp.hud.config.powerjunction.disabled=禁用能量中枢。
+lp.hud.config.provider.enabled=启用供应器。
+lp.hud.config.provider.disabled=禁用供应器。
+lp.hud.config.satellite.enabled=启用卫星。
+lp.hud.config.satellite.disabled=禁用卫星。
 
 # GUI
 
 gui.itemsink.Yes=是
 gui.itemsink.No=否
 gui.itemsink.Inventory=物品栏
-gui.itemsink.Defaultroute=Default route
+gui.itemsink.Defaultroute=默认路径
 gui.itemsink.IgnoreData=忽略附加值
 gui.itemsink.IgnoreNBT=忽略NBT
 gui.itemsink.import=导入
@@ -446,7 +446,7 @@ gui.settings.pipefallbackrenderer=使用备用渲染
 gui.settings.piperenderdistance=新渲染最大渲染距离
 gui.settings.pipecontentrenderdistance=管道内容物最大渲染距离
 
-# Copyright (c) 2015  RS485
+# Copyright (c) 2015-  RS485
 #
 # "LogisticsPipes" is distributed under the terms of the Minecraft Mod Public 
 # License 1.0, or MMPL. Please check the contents of the license located in
