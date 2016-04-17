@@ -40,11 +40,15 @@ print("Pre-loading files, please stand by...")
 
 rawLang = io.open(arg[1])
 
-zhCN1 = io.open(arg[2])
-zhCN2 = io.open(arg[3])
-zhCN3 = io.open(arg[4])
-zhCN4 = io.open(arg[5])
-zhCN5 = io.open(arg[6])
+local zhCN = {}
+parameters, tmpPoint = #arg, 1
+while tmpPoint < parameters do
+	if tmpPoint >= parameters then
+		break
+	end
+	zhCN[tmpPoint] = io.open(arg[tmpPoint + 1])
+	tmpPoint = tmpPoint + 1
+end
 
 print("Pre-loading finished.")
 
@@ -55,7 +59,7 @@ enUSMapping = {}
 for s in rawLang:lines() do
 	identify = string.sub(s, 1, 1)
 	if (identify == "#") then
-		tmpTable = {s, ",>>>", ",>>>", ",>>>", ",>>>", ",>>>", "\n"}
+		local tmpTable = {s, ",>>>", ",>>>", ",>>>", ",>>>", ",>>>", "\n"}
 		enUSMapping[enUS_Count] = tmpTable
 		enUS_Count = enUS_Count + 1
 		elseif (#s == 0) then
@@ -70,9 +74,12 @@ for s in rawLang:lines() do
 		end
 end
 
-zhCNMapping1, zhCNMapping2, zhCNMapping3, zhCNMapping4, zhCNMapping5 = loadZH(zhCN1), loadZH(zhCN2), loadZH(zhCN3), loadZH(zhCN4), loadZH(zhCN5) 
-
 print("Loading finished.")
+
+local zhCNMapping = {}
+for point, zhCNFile in ipairs(zhCN) do
+	zhCNMapping[point] = loadZH(zhCNFile)
+end
 
 print("Post-loading files, please stand by...")
 
@@ -85,24 +92,29 @@ for k, v in ipairs(enUSMapping) do
 	if v[2] == ",>>>" then
 		finalMapping[k] = v
 	elseif v[1] == "" then
-		finalMapping[k] = {"", "", "", "", "", "", "\n"}
+		finalMapping[k] = {"", "\n"}
 	else
 		entry = {}
 		entry[1] = v[1]
 		entry[2] = "="
-		entry[3], entry[5], entry[7], entry[9], entry[11] =  ",", ",", ",", ",", ","
-		entry[4] = searchValue(v[1], zhCNMapping1)
-		entry[6] = searchValue(v[1], zhCNMapping2)
-		entry[8] = searchValue(v[1], zhCNMapping3)
-		entry[10] = searchValue(v[1], zhCNMapping4)
-		entry[12] = searchValue(v[1], zhCNMapping5)
-
+		
+		for point, zhCNMap in zhCNMapping do 
+			entry[(point + 1) * 2 - 1] = ","
+			entry[(point + 1) * 2] = searchValue(v[1], zhCNMap)
+		end
+		
 		finalMapping[k] = entry
 	end
 end
 
-firstLine = {arg[1], ",", arg[2], ",", arg[3], ",", arg[4], ",", arg[5], ",", arg[6], ",", "\n"}
-finalOutput:write()
+firstLine = {}
+for k, v in ipairs(arg) do
+	firstLine[k * 2 - 1] = v
+	firstLine[k * 2] = ","
+end
+firstLine[#arg * 2 + 1] = "\n"
+
+finalOutput:write(table.concat(firstLine))
 
 for k, v in ipairs(finalMapping) do
 	finalOutput:write(table.concat(v))
@@ -113,8 +125,6 @@ print("Mapping finished.")
 finalOutput:flush()
 finalOutput:close()
 rawLang:close()
-zhCN1:close()
-zhCN2:close()
-zhCN3:close()
-zhCN4:close()
-zhCN5:close()
+for num, file in ipairs(zhCN) do
+	file[2]:close
+end
