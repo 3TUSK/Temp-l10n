@@ -22,9 +22,9 @@ function findExistedEntry(key, existMapping)
 		return key
 	end
 
-	for k, v in iparis(existMapping) do
-		if k == key then
-			return table.concat({key, "=", v})
+	for k, v in ipairs(existMapping) do
+		if v[1] == key then
+			return table.concat({key, "=", v[2]})
 		end
 	end
 
@@ -45,8 +45,8 @@ str = ''
 count = 1
 
 for s in enUSFile:lines() do
-	if (string.match(s, "([%w%s%.]*)=.*")) then
-		str = string.match(s, "([%w%s%.]*)=.*")
+	if (string.match(s, "([%w%s%.:_]*)=.*")) then
+		str = string.match(s, "([%w%s%.:_]*)=.*")
 		mapping[count] = str
 		elseif (string.match(s, "#.*")) then
 			str = string.gsub(s, "(^\n)", "%1")
@@ -67,8 +67,8 @@ count = 1
 pair = {}
 
 for s in zhCNFile:lines() do
-	if (string.match(s, "([%w%s%.]*)=.*")) then
-		pair = {string.gsub(s, "([%w%s%.]*)=.*", "%1"), string.gsub(s, "[%w%s%.]*=([.]*)", "%1")}
+	if (string.match(s, "([%w%s%.:_]*)=.*")) then
+		pair = {string.gsub(s, "([%w%s%.:_]*)=.*", "%1"), string.gsub(s, "[%w%s%.:_]*=([.]*)", "%1")}
 		zhCN[count] = pair
 		count = count + 1
 	end
@@ -81,7 +81,7 @@ finalPair = {}
 
 for i, v in ipairs(mapping) do
 	finalPair = {findExistedEntry(v, zhCN), "\n"}
-	outputFinal:writeLine(table.concat(finalPair));
+	outputFinal:write(table.concat(finalPair));
 end 
 
 print("Language file successfully updated.")
