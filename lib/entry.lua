@@ -31,6 +31,10 @@ function Entry:getText()
  return self.text
 end
 
+function Entry:getTranslation()
+ return self.translation
+end
+
 function Entry:translate(translation)
  self.translation = translation
 end
