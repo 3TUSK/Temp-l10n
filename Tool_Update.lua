@@ -12,23 +12,22 @@
 -- local mode = arg[1]
 -- local file = arg[2]
 
+local Entry = require("lib/entry")
+local Comment = require("lib/comment")
+
 -- key as string, existMapping as weak table of string
 function findExistedEntry(key, existMapping)
-	if key == nil then
-		return key
-	end
+ if key == nil then
+  return ""
+ end
 
-	if key == "" then
-		return key
-	end
+ for k, v in ipairs(existMapping) do
+  if v:getKey() == key:getKey() then
+   return key:translate(v:getText())
+  end
+ end
 
-	for k, v in ipairs(existMapping) do
-		if v[1] == key then
-			return table.concat({key, "=", v[2]})
-		end
-	end
-
-	return table.concat({key, "="})
+ return key
 end
 
 enUSFile = io.open("en_US.lang")
@@ -45,18 +44,15 @@ str = ''
 count = 1
 
 for s in enUSFile:lines() do
-	if (string.match(s, "([%w%s%.:_]*)=.*")) then
-		str = string.match(s, "([%w%s%.:_]*)=.*")
-		mapping[count] = str
-		elseif (string.match(s, "#.*")) then
-			str = string.gsub(s, "(^\n)", "%1")
-			mapping[count] = str
-		else
-			str = ""
-			mapping[count] = str
-	end
-	
-	count = count + 1
+ if (string.match(s, ".*=.*")) then
+  mapping[count] = Entry:parse(s)
+ elseif (string.match(s, "#.*")) then
+  mapping[count] = Comment:parse(s)
+ else
+  mapping[count] = ""
+ end
+
+ count = count + 1
 end
 
 debug = {"Readed ", count, " lines in en_US.lang"}
@@ -64,24 +60,27 @@ print(table.concat(debug))
 
 count = 1
 
-pair = {}
-
 for s in zhCNFile:lines() do
-	if (string.match(s, "([%w%s%.:_]*)=.*")) then
-		pair = {string.gsub(s, "([%w%s%.:_]*)=.*", "%1"), string.gsub(s, "[%w%s%.:_]*=([.]*)", "%1")}
-		zhCN[count] = pair
-		count = count + 1
-	end
+ if (string.match(s, ".*=.*")) then
+  zhCN[count] = Entry:parse(s)
+  count = count + 1
+ end
 end
 
-debug = {"Readed ", count, " lines in zh_CN.lang"}
+debug = {"Readed ", count, " entries in zh_CN.lang"}
 print(table.concat(debug))
 
 finalPair = {}
 
 for i, v in ipairs(mapping) do
-	finalPair = {findExistedEntry(v, zhCN), "\n"}
-	outputFinal:write(table.concat(finalPair));
+ if (v = "") then
+  outputFinal:write("")
+  outputFinal:write("\n")
+ else 
+  translated = findExistedEntry(v, zhCN)
+  finalPair = {translated:toString(), "\n"}
+  outputFinal:write(table.concat(finalPair))
+ end
 end 
 
 print("Language file successfully updated.")
