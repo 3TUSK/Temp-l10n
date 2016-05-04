@@ -35,19 +35,19 @@ tile.ImmersiveEngineering.stoneDecoration.concrete.name=混凝土
 tile.ImmersiveEngineering.stoneDecoration.concrete_tile.name=混凝土砖
 tile.ImmersiveEngineering.stoneDecoration.concrete_leaded.name=Leaded Concrete
 tile.ImmersiveEngineering.stoneDecoration.insulating_glass.name=绝缘玻璃
-tile.ImmersiveEngineering.stoneDecorationSlab.cokebrick.name=Coke Brick Slab
-tile.ImmersiveEngineering.stoneDecorationSlab.blastbrick.name=Blast Brick Slab
-tile.ImmersiveEngineering.stoneDecorationSlab.blastbrick_reinforced.name=Reinforced Blast Brick Slab
-tile.ImmersiveEngineering.stoneDecorationSlab.coke.name=Coal Coke Slab
+tile.ImmersiveEngineering.stoneDecorationSlab.cokebrick.name=焦炉砖台阶
+tile.ImmersiveEngineering.stoneDecorationSlab.blastbrick.name=高炉砖台阶
+tile.ImmersiveEngineering.stoneDecorationSlab.blastbrick_reinforced.name=强化高炉砖台阶
+tile.ImmersiveEngineering.stoneDecorationSlab.coke.name=焦煤台阶
 tile.ImmersiveEngineering.stoneDecorationSlab.hempcrete.name=麻凝土台阶
 tile.ImmersiveEngineering.stoneDecorationSlab.concrete.name=混凝土台阶
 tile.ImmersiveEngineering.stoneDecorationSlab.concrete_tile.name=混凝土砖台阶
-tile.ImmersiveEngineering.stoneDecorationSlab.concrete_leaded.name=Leaded Concrete Slab
-tile.ImmersiveEngineering.stoneDecorationSlab.insulating_glass.name=Insulating Glass Slab
-tile.ImmersiveEngineering.stoneDecorationStairs_hempcrete.name=Hempcrete Stairs
+tile.ImmersiveEngineering.stoneDecorationSlab.concrete_leaded.name=Leaded Concrete台阶
+tile.ImmersiveEngineering.stoneDecorationSlab.insulating_glass.name=绝缘玻璃台阶
+tile.ImmersiveEngineering.stoneDecorationStairs_hempcrete.name=麻凝土楼梯
 tile.ImmersiveEngineering.stoneDecorationStairs_concrete.name=混凝土楼梯
 tile.ImmersiveEngineering.stoneDecorationStairs_concrete_tile.name=混凝土砖楼梯
-tile.ImmersiveEngineering.stoneDecorationStairs_concrete_leaded.name=Leaded Concrete Stairs
+tile.ImmersiveEngineering.stoneDecorationStairs_concrete_leaded.name=Leaded Concrete楼梯
 
 tile.ImmersiveEngineering.stoneDevice.coke_oven.name=焦炉
 tile.ImmersiveEngineering.stoneDevice.blast_furnace.name=高炉
@@ -70,40 +70,40 @@ tile.ImmersiveEngineering.woodenDevice0.barrel.name=木桶
 tile.ImmersiveEngineering.woodenDevice0.crate.name=木质储存箱
 tile.ImmersiveEngineering.woodenDevice0.workbench.name=工程师装配台
 tile.ImmersiveEngineering.woodenDevice0.sorter.name=物品路由器
-tile.ImmersiveEngineering.woodenDevice0.gunpowder_barrel.name=Gunpowder Barrel
+tile.ImmersiveEngineering.woodenDevice0.gunpowder_barrel.name=火药桶
 tile.ImmersiveEngineering.woodenDevice1.watermill.name=水车
 tile.ImmersiveEngineering.woodenDevice1.windmill.name=风车
 tile.ImmersiveEngineering.woodenDevice1.windmill_advanced.name=改良风车
 tile.ImmersiveEngineering.woodenDevice1.post.name=木杆
 tile.ImmersiveEngineering.woodenDevice1.wallmount.name=木质壁挂支架
 
-tile.ImmersiveEngineering.sheetmetal.copper.name=Copper Sheetmetal
+tile.ImmersiveEngineering.sheetmetal.copper.name=铜板金属块
 tile.ImmersiveEngineering.sheetmetal.aluminum.name=铝板金属块
 tile.ImmersiveEngineering.sheetmetal.lead.name=铅板金属块
-tile.ImmersiveEngineering.sheetmetal.silver.name=Silver Sheetmetal
-tile.ImmersiveEngineering.sheetmetal.nickel.name=Nickel Sheetmetal
-tile.ImmersiveEngineering.sheetmetal.uranium.name=Uranium Sheetmetal
-tile.ImmersiveEngineering.sheetmetal.constantan.name=Constantan Sheetmetal
-tile.ImmersiveEngineering.sheetmetal.electrum.name=Electrum Sheetmetal
+tile.ImmersiveEngineering.sheetmetal.silver.name=银板金属块
+tile.ImmersiveEngineering.sheetmetal.nickel.name=镍板金属块
+tile.ImmersiveEngineering.sheetmetal.uranium.name=铀板金属块
+tile.ImmersiveEngineering.sheetmetal.constantan.name=康铜板金属块
+tile.ImmersiveEngineering.sheetmetal.electrum.name=琥珀金板金属块
 tile.ImmersiveEngineering.sheetmetal.steel.name=钢板金属块
-tile.ImmersiveEngineering.sheetmetal.iron.name=Iron Sheetmetal
-tile.ImmersiveEngineering.sheetmetal.gold.name=Gold Sheetmetal
-tile.ImmersiveEngineering.sheetmetalSlab.copper.name=Copper Sheetmetal Slab
-tile.ImmersiveEngineering.sheetmetalSlab.aluminum.name=Aluminium Sheetmetal Slab
-tile.ImmersiveEngineering.sheetmetalSlab.lead.name=Lead Sheetmetal Slab
-tile.ImmersiveEngineering.sheetmetalSlab.silver.name=Silver Sheetmetal Slab
-tile.ImmersiveEngineering.sheetmetalSlab.nickel.name=Nickel Sheetmetal Slab
-tile.ImmersiveEngineering.sheetmetalSlab.uranium.name=Uranium Sheetmetal Slab
-tile.ImmersiveEngineering.sheetmetalSlab.constantan.name=Constantan Sheetmetal Slab
-tile.ImmersiveEngineering.sheetmetalSlab.electrum.name=Electrum Sheetmetal Slab
-tile.ImmersiveEngineering.sheetmetalSlab.steel.name=Steel Sheetmetal Slab
-tile.ImmersiveEngineering.sheetmetalSlab.iron.name=Iron Sheetmetal Slab
-tile.ImmersiveEngineering.sheetmetalSlab.gold.name=Gold Sheetmetal Slab
+tile.ImmersiveEngineering.sheetmetal.iron.name=铁板金属块
+tile.ImmersiveEngineering.sheetmetal.gold.name=金板金属块
+tile.ImmersiveEngineering.sheetmetalSlab.copper.name=铜板金属块台阶
+tile.ImmersiveEngineering.sheetmetalSlab.aluminum.name=铝板金属块台阶
+tile.ImmersiveEngineering.sheetmetalSlab.lead.name=铅板金属块台阶
+tile.ImmersiveEngineering.sheetmetalSlab.silver.name=银板金属块台阶
+tile.ImmersiveEngineering.sheetmetalSlab.nickel.name=镍板金属块台阶
+tile.ImmersiveEngineering.sheetmetalSlab.uranium.name=铀板金属块台阶
+tile.ImmersiveEngineering.sheetmetalSlab.constantan.name=康铜板金属块台阶
+tile.ImmersiveEngineering.sheetmetalSlab.electrum.name=琥珀金板金属块台阶
+tile.ImmersiveEngineering.sheetmetalSlab.steel.name=钢板金属块台阶
+tile.ImmersiveEngineering.sheetmetalSlab.iron.name=铁板金属块台阶
+tile.ImmersiveEngineering.sheetmetalSlab.gold.name=金板金属块台阶
 
 tile.ImmersiveEngineering.metalDecoration0.coil_lv.name=铜线圈
 tile.ImmersiveEngineering.metalDecoration0.coil_mv.name=琥珀金线圈
 tile.ImmersiveEngineering.metalDecoration0.coil_hv.name=高压线圈
-tile.ImmersiveEngineering.metalDecoration0.rs_engineering.name=
+tile.ImmersiveEngineering.metalDecoration0.rs_engineering.name=红石工程块
 tile.ImmersiveEngineering.metalDecoration0.light_engineering.name=轻型工程块
 tile.ImmersiveEngineering.metalDecoration0.heavy_engineering.name=重型工程块
 tile.ImmersiveEngineering.metalDecoration0.generator.name=发电机模块
@@ -132,7 +132,7 @@ tile.ImmersiveEngineering.connector.connector_structural.name=结构性接线器
 tile.ImmersiveEngineering.connector.transformer.name=变压器
 tile.ImmersiveEngineering.connector.transformer_hv.name=高压变压器
 tile.ImmersiveEngineering.connector.breakerswitch.name=断路刀闸
-tile.ImmersiveEngineering.connector.redstone_breaker.name=红石断路刀闸
+tile.ImmersiveEngineering.connector.redstone_breaker.name=红石控制断路刀闸
 tile.ImmersiveEngineering.connector.energy_meter.name=电流互感器
 
 tile.ImmersiveEngineering.metalDevice0.capacitor_lv.name=低压电容器
@@ -339,9 +339,9 @@ item.ImmersiveEngineering.chemthrower.name=化学喷射器
 item.ImmersiveEngineering.railgun.name=磁轨炮
 item.ImmersiveEngineering.maneuverGear.name=3D Maneuver Gear
 item.ImmersiveEngineering.earmuffs.name=Ear Defenders
-item.ImmersiveEngineering.coresample.name=Core Sample
+item.ImmersiveEngineering.coresample.name=岩芯样本
 
-#CREATIVE
+#CREATIVE - PLEASE DO NOT TRANSLATE THIS ENTRY THANKS-
 itemGroup.ImmersiveEngineering=Immersive Engineering
 
 #ENTITIES
@@ -477,7 +477,7 @@ desc.ImmersiveEngineering.flavour.revolver.fenrir=没什么我不珍惜!
 desc.ImmersiveEngineering.flavour.revolver.earthshaker=挥之不去的意志
 desc.ImmersiveEngineering.flavour.revolver.warlord=不要带走我的玩具!
 desc.ImmersiveEngineering.flavour.revolver.superchief=CHOO CHOO!
-desc.ImmersiveEngineering.flavour.revolver.rommie=包括针对AI“Rommie”！
+desc.ImmersiveEngineering.flavour.revolver.rommie=Targeting AI 'Rommie' included!
 desc.ImmersiveEngineering.flavour.revolver.noName=窥视到黑暗
 desc.ImmersiveEngineering.flavour.revolver.patreonBlu=猎人的选择
 desc.ImmersiveEngineering.flavour.revolver.patreonHazard=独家DLC
@@ -840,14 +840,14 @@ ie.manual.entry.metalPress2=若想正常工作,需要在活塞上加装一个模
 
 ie.manual.entry.tank.name=储罐
 ie.manual.entry.tank.subtext=正好堆满！
-ie.manual.entry.tank0=The Tank is a multiblock that provides space for large amounts of fluid. It will store up to 512 buckets of any fluid, which can be piped in through the top or bottom block. Fluids can only be extracted throguh the bottom center block. Applying a redstone signal to that block will make the tank output automatically.
-ie.manual.entry.tank1=A comparator attached to the bottom center block will it emit a redstone signal proportional to how full the tank is. Attaching the comparator to one of the top 4 layers results in a signal proportional to the height of the comparator. For example, a comparator attached to the second layer of a tank would not emit any signal until the tank is 1/4 full and have a signal strength of 15 if the tank is half full or more.
+ie.manual.entry.tank0=储罐是一种可储存大量液体的多方块结构。储罐可以存储512桶液体,你可以从储罐顶或底部将液体泵入.若在底部向筒仓提供红石信号,它将会自动输出.
+ie.manual.entry.tank1=在输出方块旁放置一个比较器，可让比较器输出强度与液体储量成正比的红石信号。若将比较器放置在储罐最上面的四层旁，会让其发出一个强度与该层储量成正比的红石信号。例如，一个被放置在了储罐的第二层的比较器只有在储量到达1/4后才会发出红石信号；而储量到达1/2时它则会输出强度15的红石信号。
 
 ie.manual.entry.silo.name=筒仓
 ie.manual.entry.silo.subtext=正好堆满！
-ie.manual.entry.silo0=Silos offer space for a lot of items of the same type, making them excellent for mass storage of seeds, slag or cobblestone. They have space for 41472 items, equaling the capacity of 24 chests.
-ie.manual.entry.silo1=Items must be input through the top and extracted from the bottom. Applying a redstone signal to the bottom block will make it output automatically.
-ie.manual.entry.silo2=A comparator attached to the bottom center block will it emit a redstone signal proportional to how full the silo is. Attaching the comparator to one of the top 6 layers results in a signal proportional to the height of the comparator. For example, a comparator attached to the third layer of a silo would not emit any signal until the tank is 2/6 full and have a signal strength of 15 if the silo is half full or more.
+ie.manual.entry.silo0=筒仓可以储存大量同种物品,极其适合用于储存种子,炉渣和圆石.一个筒仓可储存41472个物品,相当于24个箱子的容积.
+ie.manual.entry.silo1=你必须从筒仓顶部输入物品,并从底部提取物品.若在底部向筒仓提供红石信号,它将会自动输出.
+ie.manual.entry.silo2=在输出方块旁放置一个比较器，可让比较器输出强度与物品储量成正比的红石信号。若将比较器放置在筒仓最上面的六层的任意一层旁，会让其发出一个强度与该层储量成正比的红石信号。例如，一个被放置在了筒仓的第三层的比较器在储量到达2/6后才会发出红石信号；而储量到达1/2时则会输出强度15的红石信号。
 
 ie.manual.entry.metalbarrel.name=金属桶
 ie.manual.entry.metalbarrel.subtext=拒绝滚动
@@ -888,18 +888,18 @@ ie.manual.entry.blueprints1=要借助蓝图制作物品,首先你需要将材料
 
 ie.manual.entry.squeezer.name=挤压机
 ie.manual.entry.squeezer.subtext=Pressing matters
-ie.manual.entry.squeezer0=The Squeezer is a multiblock structure that presses juice or oil out of organic materials by use of a big piston. The structure is built as shown above and formed by using the Engineer's Hammer on the central wooden barrel, from the side that has the Engineering Blocks.
-ie.manual.entry.squeezer1=Items can be input into the Squeezer via the two hatches at the back that are marked with blue dots. The hatch with the orange dot serves as an item output and the block below it to output fluids.
+ie.manual.entry.squeezer0=挤压机是一台利用巨型活塞将有机物质压榨为汁液或油的多方块设备。其结构如上图所示，并需要工程师锤子敲击带工程块一面中间的木桶以完成组装。
+ie.manual.entry.squeezer1=物品可从带有蓝色点的两个舱室输入。带有橙色点的舱室可用于输出物品，而其下方的方块则可用于流体输出。
 
 ie.manual.entry.fermenter.name=发酵机
 ie.manual.entry.fermenter.subtext=Skál!
-ie.manual.entry.fermenter0=The Fermenter is a multiblock structure that extracts ethanol from certain fruits, grans and vegetables through a fermenting process. The structure is built as shown above and formed by using the Engineer's Hammer on the central cauldron, from the side that has the Engineering Blocks.
-ie.manual.entry.fermenter1=Items can be input into the Fermenter via the two hatches at the back that are marked with blue dots. The hatch with the orange dot serves as an item output and the block below it to output fluids.
+ie.manual.entry.fermenter0=发酵机是一台能将特定水果、谷物以及蔬菜发酵为乙醇的多方块设备。其结构如上图所示，并需要工程师锤子敲击带工程块一面中间的大锅以完成组装。
+ie.manual.entry.fermenter1=物品可从带有蓝色点的两个舱室输入。带有橙色点的舱室可用于输出物品，而其下方的方块则可用于流体输出。
 
 ie.manual.entry.refinery.name=炼油厂
 ie.manual.entry.refinery.subtext=Fluid mixing!
-ie.manual.entry.refinery0=The Refinery is a complex multiblock that can refine one or two fluids into another. The most common application of this is the refinement of <link;squeezer;Plant Oil> and <link;fermenter;Ethanol> into Biodiesel.
-ie.manual.entry.refinery1=To form the structure, rightclick the Heavy Engineering Block on the middle layer.<br>Fluids are input through the two ports on either side of the block and output through the orange marked port at the front.
+ie.manual.entry.refinery0=炼油厂是一台可对一或两种液体进行精炼的复杂多方块设备。它广泛用于将<link;squeezer;植物油>和<link;fermenter;乙醇>一起精炼为生物柴油。
+ie.manual.entry.refinery1=用工程师锤右击其前面的中心位置以完成机器组装。<br>炼油厂侧面的两个小孔为液体输入端，而正前方的橙色端口则是流体输出端。
 
 ie.manual.entry.biodiesel0=燃料需要一个方便且高效的来源,但石油是一种不可再生资源,为此生物柴油成为了最终的解决方案!由植物油和乙醇混合而成,你制造出了一种液体燃料供<link;dieselgen;§o§n柴油发电机§r>使用.
 ie.manual.entry.biodiesel1=作物种子投入工业挤压机加工能得到植物油.根据图片搭建出相应的结构并使用工程师锤敲打其中一面以完成组装.能源可以从顶部或底部输入,流体则可以从底部任意一面的端口输出.
@@ -971,14 +971,14 @@ ie.manual.entry.revolver4=加强电子管能够在弹药上附加电流.电击�
 ie.manual.entry.bullets.name=左轮弹药
 ie.manual.entry.bullets.subtext=
 ie.manual.entry.bullets0=左轮手枪弹药需要工程师装配台以及特定的<link;blueprints;§o§n工程师§o§n蓝图§r>才能制作.你自己就可以绘制一般军火的制造蓝图,但一些高级军火的蓝图需要你从他人手中购买才能得到.
-ie.manual.entry.bullets1=<br>§l卡苏尔弹§r可以通过使用"普通子弹"蓝图制作.它们是简易的铅弹,能够造成中等的伤害.
-ie.manual.entry.bullets2=<br>§l穿甲弹§r可以通过使用同种蓝图制作.它们能够造成同等伤害但却能通过高动能穿透装甲.
-ie.manual.entry.bullets3=<br>§l鹿弹§r可以通过使用同种蓝图制作.内含大量小型弹丸,弹道呈圆锥状.短距离效果拔群.
-ie.manual.entry.bullets4=<br>§l高爆弹§r可以通过使用"普通子弹"蓝图制作.它们在击中后会造成小型爆炸,对生物和地形造成伤害.
-ie.manual.entry.bullets5=<br>§l银弹§r是由铅芯被银所包裹而制成,会对...狼人十分有效?!
-ie.manual.entry.bullets6=<br>§l龙息弹§r可以通过使用"特种子弹"蓝图制作.类似鹿弹,短距离十分有效,不过内部充满的是易燃金属粉末,产生一束短距离火舌.
-ie.manual.entry.bullets7=<br>§l药剂弹头§r同样通过使用"特种子弹"蓝图制作.它们能够通过和对应药剂一起合成来装填任何药剂并且在弹药击中时生效.普通药剂需要精准命中,而溅射药剂会有范围效果<config;b;etfuturumBullets; and Lingering Potions will create a temporary, lingering potion cloud.;.>
-ie.manual.entry.bullets8=
+ie.manual.entry.bullets1=
+ie.manual.entry.bullets2=<br>§l卡苏尔弹§r可以通过使用"普通子弹"蓝图制作.它们是简易的铅弹,能够造成中等的伤害.
+ie.manual.entry.bullets3=<br>§l穿甲弹§r可以通过使用同种蓝图制作.它们能够造成同等伤害但却能通过高动能穿透装甲.
+ie.manual.entry.bullets4=<br>§l鹿弹§r可以通过使用同种蓝图制作.内含大量小型弹丸,弹道呈圆锥状.短距离效果拔群.
+ie.manual.entry.bullets5=<br>§l高爆弹§r可以通过使用"普通子弹"蓝图制作.它们在击中后会造成小型爆炸,对生物和地形造成伤害.
+ie.manual.entry.bullets6=<br>§l银弹§r是由铅芯被银所包裹而制成,会对...狼人十分有效?!
+ie.manual.entry.bullets7=<br>§l龙息弹§r可以通过使用"特种子弹"蓝图制作.类似鹿弹,短距离十分有效,不过内部充满的是易燃金属粉末,产生一束短距离火舌.
+ie.manual.entry.bullets8=<br>§l药剂弹头§r同样通过使用"特种子弹"蓝图制作.它们能够通过和对应药剂一起合成来装填任何药剂并且在弹药击中时生效.普通药剂需要精准命中,而溅射药剂会有范围效果<config;b;etfuturumBullets; and Lingering Potions will create a temporary, lingering potion cloud.;.>
 ie.manual.entry.bulletsBotania0=<br>§l叶绿弹§r通过使用"特种子弹"蓝图和魔力金属"泰拉钢"制作,这让它们能够自动寻找并跟踪目标.
 ie.manual.entry.bulletsBotania1=<br>§l狼群弹§r集束子弹,发射时不会制导,击中目标时会分裂出六枚自动制导的弹头.
 
@@ -1016,8 +1016,8 @@ ie.manual.entry.maneuverGear2=§l§nPropulsion:§r<br>Pressing the jump key whil
 ie.manual.entry.crusher.name=粉碎机
 ie.manual.entry.crusher.subtext=管好你的手!
 ie.manual.entry.crusher0=粉碎矿物是提高产量的有效途径,因为每个矿物都可以加工得到两份可以烧制的矿粉.这台工业级粉碎机让这个过程变得更加方便.机器的持续运作最大需要<config;i;crusher_consumption>RF/t的能量,其加工速度取决于能源供应量.
-ie.manual.entry.crusher1=然而粉碎机不仅仅是用于粉碎矿物.生物落入粉碎机将会受到持续的伤害而最终的掉落物会从粉碎机的输出端输出.同样的,所有无法被处理的物品将会被销毁.<br>通过给前端的控制面板输入红石信号将暂停粉碎机的处理过程.<br>右击正前面中心方块以完成建造过程.它的前面是底部有一个轻型工程块的宽面.
-
+ie.manual.entry.crusher1=通过给前端的控制面板输入红石信号将暂停粉碎机的处理过程.<br>右击正前面中心方块以完成建造过程.它的前面是底部有一个轻型工程块的宽面.
+//然而粉碎机不仅仅是用于粉碎矿物.生物落入粉碎机将会受到持续的伤害而最终的掉落物会从粉碎机的输出端输出.同样的,所有无法被处理的物品将会被销毁.<br>
 
 ie.manual.entry.lightningrod.name=避雷针
 ie.manual.entry.lightningrod.subtext=雷击!
