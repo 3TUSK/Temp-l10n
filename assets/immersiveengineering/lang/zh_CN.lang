@@ -354,9 +354,9 @@ key.immersiveengineering.3dgear=
 
 desc.ImmersiveEngineering.info.attachedTo=连接从%1$s, %2$s, %3$s
 desc.ImmersiveEngineering.info.attachedToDim=连接从%4$s世界的%1$s, %2$s, %3$s
-desc.ImmersiveEngineering.info.energyStored=存储能量：%1$s RF
+desc.ImmersiveEngineering.info.energyStored=存储能量：%1$s Flux
 desc.ImmersiveEngineering.info.energyStoredEU=存储能量：%1$s EU
-desc.ImmersiveEngineering.info.blastFuelTime=高炉燃料热值：%1$s Ticks
+desc.ImmersiveEngineering.info.blastFuelTime=高炉燃料热值：%1$s刻
 desc.ImmersiveEngineering.info.gasStored=存储气体：%1$s
 desc.ImmersiveEngineering.info.colour=颜色：%1$s
 desc.ImmersiveEngineering.info.day=%1$s天
@@ -528,7 +528,7 @@ chat.ImmersiveEngineering.warning.cantSee=连接被阻断
 chat.ImmersiveEngineering.warning.connectionExists=连接已存在
 chat.ImmersiveEngineering.warning.invalidPoint=存在无效连接点
 chat.ImmersiveEngineering.info.averageLoss=两点间平均能量损耗：%1$s%%
-chat.ImmersiveEngineering.info.energyStorage=存储能量：%1$s/%2$s RF
+chat.ImmersiveEngineering.info.energyStorage=存储能量：%1$s/%2$s Flux
 chat.ImmersiveEngineering.info.tooHot=此容器无法承受该液体的温度！
 chat.ImmersiveEngineering.info.noGasAllowed=此容器无法盛装气体！
 chat.ImmersiveEngineering.info.rsSignal.invertedOn=反相红石信号：开
@@ -545,7 +545,7 @@ chat.ImmersiveEngineering.info.coreDrill.infinite=无限
 chat.ImmersiveEngineering.info.pump.placeCobble.true=这个泵可以将液体替换为圆石。
 chat.ImmersiveEngineering.info.pump.placeCobble.false=这个泵可以将不再把液体替换为圆石。§6警告：§f在处理大量液体时可能会产生延迟不建议使用！
 
-chat.ImmersiveEngineering.info.energyTransfered=%1$sticks内平均能量流动：%2$s RF/t
+chat.ImmersiveEngineering.info.energyTransfered=%1$sticks内平均能量流动：%2$s Flux/t
 
 chat.ImmersiveEngineering.command.available=§6可用命令：§r %1$s
 chat.ImmersiveEngineering.command.help.help=§6用法：/ie help <命令> [子命令...]§r<br> 获取指定命令的详细信息，也可指定子命令以获得对应信息
@@ -693,8 +693,8 @@ ie.manual.category.heavymachines.name=重型机械
 
 ie.manual.entry.introduction.name=介绍
 ie.manual.entry.introduction.subtext=开始你的工程！
-ie.manual.entry.introduction0=诸位年轻的工程师，你们好！欢迎使用ImmersiveEngineering模组，这本手册将会作为你的向导，介绍本模组应提供的新型机器的建造流程和使用方法。<br>那就让我们从基础的事情开始吧：ImmersiveEngineering是围绕复古未来主义风格产生与能源运输两个要素而构建起来的。本模组使用红石通量(RF)作为能源，它能与现有的大部分模组的能源通用。
-ie.manual.entry.introduction1=能源是通过§l线缆§r在§l接线器§r间来传输的。线缆的长度是有限制的，因此在这些线缆之间你需要更多的接线器来作为§l中继§r。<br>你能在三种不同导线之间进行选择，它们的差异在于不同的传输速率，分别为：<config;iA;wireTransferRate;l3> RF/tick。你需要§l变压器§r 来在不同类型线缆间切换。
+ie.manual.entry.introduction0=诸位年轻的工程师，你们好！欢迎使用ImmersiveEngineering模组，这本手册将会作为你的向导，介绍本模组应提供的新型机器的建造流程和使用方法。<br>那就让我们从基础的事情开始吧：ImmersiveEngineering是围绕复古未来主义风格产生与能源运输两个要素而构建起来的。本模组使用通量(Flux)作为能源，它能与现有的大部分模组的能源通用。
+ie.manual.entry.introduction1=能源是通过§l线缆§r在§l接线器§r间来传输的。线缆的长度是有限制的，因此在这些线缆之间你需要更多的接线器来作为§l中继§r。<br>你能在三种不同导线之间进行选择，它们的差异在于不同的传输速率，分别为：<config;iA;wireTransferRate;l3> Flux/tick。你需要§l变压器§r 来在不同类型线缆间切换。
 ie.manual.entry.introductionHammer=工程师锤是你当前最重要的工具。它可以用于搭建诸如焦炉和高炉这样的多方块结构、<config;b;crushingOreRecipe;将矿石打碎成粉末、>或者是用来修改方块的设置，比如木杆。
 
 ie.manual.entry.ores.name=矿石
@@ -720,7 +720,7 @@ ie.manual.entry.plates0=金属板是一种用于制作一些机器或方块的�
 ie.manual.entry.hemp.name=工业大麻
 ie.manual.entry.hemp.subtext=530纺织物
 ie.manual.entry.hemp0=工业大麻是一种备受瞩目的作物！不仅其种子可以用于加工<link;biodiesel;§o§n生物§o§n柴油§r>，工业大麻纤维对于制作坚韧布料也至关重要。种子可以通过清理草丛获得。
-ie.manual.entry.hemp1=坚韧布料是一种使用大麻纤维制作的极富弹性的材料。它被广泛用于<link;generator;§o§n改良风车§r;3>以及<link;balloon;§o§n气球§r>的制作。
+ie.manual.entry.hemp1=坚韧布料是一种使用大麻纤维制作的极富弹性的材料。它被广泛用于<link;generator;§o§n改良风车§r;3>、<link;balloon;§o§n气球§r>以及§o§n气垫§r的制作。关于气垫的详细介绍可以在本条目的下一页找到。
 ie.manual.entry.hemp2=气垫是一种用坚韧布料制成，并填充以空气的简易方块。当有人掉落在上面时，它可以吸收冲击力，籍此阻止摔伤事故发生，但它并不会像史莱姆方块一样把人再弹起来。
 
 ie.manual.entry.cokeoven.name=焦炉
@@ -736,7 +736,7 @@ ie.manual.entry.treatedwoodPost1=不过使用工程师锤子你也可以在木�
 
 ie.manual.entry.concrete.name=混凝土
 ie.manual.entry.concrete.subtext=要塞建材
-ie.manual.entry.concrete0=混凝土是一种极为坚硬，防御力极强的复合型材料。它的合成十分廉价，是<link;arcfurnace;§n§o电弧炉§r>所产生的矿渣的一种极佳用途。
+ie.manual.entry.concrete0=混凝土是一种极为坚硬，防御力极强的复合型材料。它的合成十分廉价，是<link;blastfurnace;§n§o高炉§r>所产生的矿渣的一种极佳用途。
 
 ie.manual.entry.balloon.name=气球
 ie.manual.entry.balloon.subtext=...制作99个就对了
@@ -768,7 +768,7 @@ ie.manual.entry.toolbox0=工具箱是一种简单便捷的存储容器，用于�
 ie.manual.entry.graphite.name=石墨
 ie.manual.entry.graphite.subtext=煤炭工业产品
 ie.manual.entry.graphite0=高定向热解石墨(HOP)是一类结构复杂，且高度压缩的碳材料，常用于特种工程结构。<br>HOP石墨粉可由八份焦煤粉在<link;biodiesel;§o§n工 §o§n业挤压机§r;1>中加工制得。这种粉末进一步烧制可得到HOP石墨锭。
-ie.manual.entry.graphite1=HOP石墨广泛用于制作<link;arcfurnace;§o§n电弧炉§r>中的电极。制造这些电极需要<link;blueprints;§o§n工程师§o§n蓝图§r>，这种蓝图可以通过<config;b;arcfurnace_electrodeCrafting;合成获得，也可>在某些战利品箱子里找到，还可以通过和村民交易获得。
+ie.manual.entry.graphite1=HOP石墨广泛用于制作<link;arcfurnace;§o§n电弧炉§r>中的电极。制造这些电极需要用到<link;blueprints;§o§n工程师§o§n蓝图§r>，这种蓝图可在战利品箱子中找到<config;b;arcfurnace_electrodeCrafting;，也可合成获得>，亦可与村民交易得到。你还可以用金属冲压机制作石墨电极，这需要用到棍模具，单根电极消耗四块HOP石墨，但此法制作的电极耐久较低。
 
 ie.manual.entry.wiring.name=基础布线
 ie.manual.entry.wiring.subtext=滋滋滋!
@@ -777,7 +777,7 @@ ie.manual.entry.wiring1=要连接两个方块，只需手持线圈右击一个�
 ie.manual.entry.wiring2=注意到这些方块还有一定的限制：接线器跟继电器只能与已经与其连接的同种导线相连接，而变压器只能连接两根不同种类的导线。
 ie.manual.entry.wiring3=并且线缆只能与之电压相匹配的方块相连。
 ie.manual.entry.wiring4=布线中有两个重要的数值需要注意：<br>每个接线器会有输入值(§o<config;iA;wireConnectorInput>§r) 而每种线缆会有最大传输速率(§o<config;iA;cableTransferRate;l3>§r)。<br>接线器会限制输入输出能量的大小，但多个接线器可以§o合并§r至同一根线缆，让你能够在远距离传输后合并能量。然而要注意的是一定不要超过线缆的§o最大传输速率§r，否则线缆会§o烧毁§r。
-ie.manual.entry.wiringConnector=§l接线器§r是IE能源网络的输入输出端。你可以把它加装在电容器或者是其他支持RF的设备上，它们将通过连接的线缆传输能量。高压继电器可以连接线缆但不支持输入输出，它仅仅只是作为导线间的连接点。
+ie.manual.entry.wiringConnector=§l接线器§r是IE能源网络的输入输出端。你可以把它加装在电容器或者是其他支持ImmersiveFlux的设备上，它们将通过连接的线缆传输能量。$l继电器§r可以连接线缆但不支持输入输出，它仅仅只是作为导线间的连接点。
 ie.manual.entry.wiringCapacitor=§l电容器§r作为能量储存单元而存在。你可以用锤子调整每一面的配置，蓝色为输入，橙色为输出，若为无色则任何线缆都不会与其相连接。潜行时使用锤子将会调整相对于你所面向的一面的配置。
 ie.manual.entry.wiringTransformer0=§l变压器§r允许你在两种不同类型的线缆间运输能源。最弱的线缆会限制传输的速率。另外高压变压器可以直接变压为低压或中压，所以你并不需要接两个变压器。
 ie.manual.entry.wiringTransformer1=你可以将<link;wiring;§o§n变压器与木杆§r;3>像第四页的第二张图那样搭建，然而只有非高压变压器才能这样搭建。
@@ -786,7 +786,7 @@ ie.manual.entry.wiringVoltmeter=§l电压表§r用于测量连接情况。右键
 
 ie.manual.entry.generator.name=发电
 ie.manual.entry.generator.subtext=
-ie.manual.entry.generator0=只有当你产出能源时，能源的运输才是有意义的。为了能够真正产出RF，你可以使用风车或者是水轮机所产生的动能。将其与发电机相连接便可产生能源，产出速度则取决于风车或水轮机的转速。
+ie.manual.entry.generator0=只有当你产出能源时，能源的运输才是有意义的。为了能够真正产出Flux，你可以使用风车或者是水轮机所产生的动能。将其与发电机相连接便可产生能源，产出速度则取决于风车或水轮机的转速。
 ie.manual.entry.generatorWindmill=风车是一种免费而简单的发电方式，虽然功率并不高。它的速度很大程度上取决于它所处的高度以及前方运作空间，当下雨或者风暴降临时，它能运作的更快。
 ie.manual.entry.generatorWatermill=水车是相当简单的发电方式。它的转动速度是基于驱动它的流水，所以为了能达到最佳的效果，你将需要引导流水从半轮的上方流到下方直到流经底部。你最多可以将三个水车叠加在同一侧。
 ie.manual.entry.generatorWindmillImproved=改良风车是风车的升级版。虽然它有2倍的输出量，但造价更昂贵，需要由工业大麻做成的坚硬布料。大麻种子可以通过打草获得。
@@ -799,7 +799,7 @@ ie.manual.entry.breaker2=红石断路器功能同断路刀闸类似，但是无�
 
 ie.manual.entry.eMeter.name=电流互感器
 ie.manual.entry.eMeter.subtext=每小时88通量！
-ie.manual.entry.eMeter0=电流互感器是测量能量流动的一种仪器。它可接入电网的中的任何地方并检测通过的能量，右键它会反馈当前的平均能量，以RF/t为单位。
+ie.manual.entry.eMeter0=电流互感器是测量能量流动的一种仪器。它可接入电网的中的任何地方并检测通过的能量，右键它会反馈当前的平均能量，以Flux/t为单位。
 
 ie.manual.entry.thermoElectric.name=热传导发电机
 ie.manual.entry.thermoElectric.subtext=冷和热
@@ -817,7 +817,7 @@ ie.manual.entry.improvedBlastfurnace.subtext=工业精炼
 ie.manual.entry.improvedBlastfurnace0=精制高炉是一种更专业的<link;blastfurnace;§o§n冶炼 §o§n钢铁§r;>的方法。它不仅能够自动化输入输出，它同样可以通过配备鼓风机来添加灼热空气从而加快精炼的过程。<br>这种高炉是由强化高炉砖搭建，因此建议你将第一批钢材用于升级高炉。
 ie.manual.entry.improvedBlastfurnace1=<br>精制高炉的结构同它的粗制版本相似，但是砖块被替换为了强化高炉砖并且上方需要一个漏斗作为输入端。
 ie.manual.entry.improvedBlastfurnace2=钢材会从高炉前面输出，矿渣会从后面输出，并且高炉会向连接的容器或传送带自动输出产物。铁和焦煤需要从上方输入。
-ie.manual.entry.improvedBlastfurnace3=高炉鼓风机被用于加热空气并将其鼓入高炉以加快铁的精炼过程。每个高炉可以最多在两侧各加装一个鼓风机，每个鼓风机需要<config;i;preheater_consumption>RF/t来运作。
+ie.manual.entry.improvedBlastfurnace3=高炉鼓风机被用于加热空气并将其鼓入高炉以加快铁的精炼过程。每个高炉可以最多在两侧各加装一个鼓风机，每个鼓风机需要<config;i;preheater_consumption>Flux/t来运作。
 
 ie.manual.entry.metalconstruction.name=金属结构
 ie.manual.entry.metalconstruction.subtext=铆接
@@ -834,8 +834,8 @@ ie.manual.entry.lighting3=泛光灯是一种强光源。尽管它们对电能的
 
 ie.manual.entry.metalPress.name=金属冲压机
 ie.manual.entry.metalPress.subtext=压力山大!
-ie.manual.entry.metalPress0=金属冲压机可用于一些金属的自动化成型。它通过使用一个高压活塞将模具压到金属锭上，将其成型为金属板材，金属杆或其他金属元件。<br>结构如上图所示，用工程师锤敲击活塞来完成搭建。
-ie.manual.entry.metalPress1=能量从上方输入，物品通过传送带，沿着其显示方向输入输出。
+ie.manual.entry.metalPress0=金属冲压机可用于自动将金属挤压成型。它的原理是用高压活塞将模具压到金属锭上，将金属挤压为板材，杆或其他金属零件。<br>冲压机结构如上图所示，用工程师锤敲击活塞来完成搭建。
+ie.manual.entry.metalPress1=能量从上方输入，物品通过传送带，沿着其显示方向输入输出。底层中间的方块便是红石控制接口，手持工程师锤右击可对其进行反相。
 ie.manual.entry.metalPress2=若想正常工作，需要在活塞上加装一个模具。模具的制作如上图所示，手持模具右键金属冲压机可将其放入。
 
 ie.manual.entry.tank.name=储罐
@@ -871,7 +871,7 @@ ie.manual.entry.chargingStation1=在前面的电子管得到物品的电流充�
 
 ie.manual.entry.highvoltage.name=高压
 ie.manual.entry.highvoltage.subtext=你无法撼动的冲击
-ie.manual.entry.highvoltage0=高压线缆拥有最高的能源运输速率(<config;iA;cableTransferRate;2>RF/t)并需要特殊的接线器连接。值得注意的是，与高电压连接时，接线器与继电器是不同的类型时，继电器将无法从能源网络中输入或输出能源。而且，继电器只能安装于方块的下面。<br>要从高压到低压或中压的过渡，你将需要用到高压变压器，要牢记，最低等级的线缆会限制整个能源传输的运输速率。
+ie.manual.entry.highvoltage0=高压线缆拥有最高的能源运输速率(<config;iA;cableTransferRate;2>Flux/t)并需要特殊的接线器连接。值得注意的是，与高电压连接时，接线器与继电器是不同的类型时，继电器将无法从能源网络中输入或输出能源。而且，继电器只能安装于方块的下面。<br>要从高压到低压或中压的过渡，你将需要用到高压变压器，要牢记，最低等级的线缆会限制整个能源传输的运输速率。
 
 ie.manual.entry.multiblocks.name=多方块结构
 ie.manual.entry.multiblocks.subtext=我的内六角扳手在哪?
@@ -913,7 +913,7 @@ ie.manual.entry.dieselgen.name=柴油发电机
 ie.manual.entry.dieselgen.subtext=比产量更重要的是：更高的产量。
 ie.manual.entry.dieselgen0=高电压结构是令人着迷的，但要让它变得有用，你得有一个发电机来输出能源。<br>柴油发电机是其中一种产生这类能量的方式。它由复杂的多方块方式组成并且将要用到<link;biodiesel;§o§n生物§o§n柴油§r>或者是其他燃料。由于其产出高，它将会快速消耗燃料来运作，所以请确保你有足够的燃料来支撑它的运转。
 ie.manual.entry.dieselgen1=该机械由引擎、发电机、散热器块组成，同时还用到了流体管道以及脚手架。将这些零件如上方所示形状放置好，接着用工程师锤子敲一下位于中央的任意发电机模块或散热器模块即可。
-ie.manual.entry.dieselgen2=燃料需要从发电机的底部位置输入，而能量的输出口允许增加至三个。它所拥有的<config;i;dieselGen_output>RF/t的输出量将会平均分散在各个连接点上。<br>用红石信号激活右侧的控制面板可以关闭发电机。<br>你可以通过手持工程师锤敲击顶部中央的发电机模块来镜像翻转发电机。
+ie.manual.entry.dieselgen2=燃料需要从发电机的底部位置输入，而能量的输出口允许增加至三个。它所拥有的<config;i;dieselGen_output>Flux/t的输出量将会平均分散在各个连接点上。<br>用红石信号激活右侧的控制面板可以关闭发电机。<br>你可以通过手持工程师锤敲击顶部中央的发电机模块来镜像翻转发电机。
 ie.manual.entry.dieselgen3=下表列出了柴油发电机的所有有效燃料以及它们的燃烧时间，以刻计算。
 
 ie.manual.entry.biodiesel.name=生物柴油
@@ -934,9 +934,9 @@ ie.manual.entry.conveyor2=卸货传送带仅仅是普通传送带中间多了一
 
 ie.manual.entry.furnaceHeater.name=外置加热器
 ie.manual.entry.furnaceHeater.subtext=你现在可以用能量烹饪食物啦!
-ie.manual.entry.furnaceHeater0=外置加热器正如它名字所暗示的，能从RF中产生热量，当旁边有一个普通的熔炉时，它能为熔炉的烧制提供热量，而无需添加任何燃料。
-ie.manual.entry.furnaceHeater1=使用锤子单击一个面可以将其调整为能量的输入面<br>加热器的能量消耗§o<config;i;heater_consumption>RF/t§r会随着每单位的热量增加而增加。最初为熔炉升温时，加热器会产生高达每tick§o4§r热量，但熔炉一旦达到最高温时，它就会以§o1§r的热量来让温度保持下去。
-ie.manual.entry.furnaceHeater2=还有更好的，当熔炉达到最高温时，加热器将会消耗额外的§o<config;i;heater_speedupConsumption>RF/t§r来提高熔炉的加工速度.<br>加热器只会影响熔炉的一个有效输入和输出空间，以达到节约能源的目的。然而，你可以提供一个红石信号来禁止这一功能并让炉子保持熔炉的温度。
+ie.manual.entry.furnaceHeater0=外置加热器正如它名字所暗示的，能从Flux中产生热量，当旁边有一个普通的熔炉时，它能为熔炉的烧制提供热量，而无需添加任何燃料。
+ie.manual.entry.furnaceHeater1=使用锤子单击一个面可以将其调整为能量的输入面<br>加热器的能量消耗§o<config;i;heater_consumption>Flux/t§r会随着每单位的热量增加而增加。最初为熔炉升温时，加热器会产生高达每tick§o4§r热量，但熔炉一旦达到最高温时，它就会以§o1§r的热量来让温度保持下去。
+ie.manual.entry.furnaceHeater2=还有更好的，当熔炉达到最高温时，加热器将会消耗额外的§o<config;i;heater_speedupConsumption>Flux/t§r来提高熔炉的加工速度.<br>加热器只会影响熔炉的一个有效输入和输出空间，以达到节约能源的目的。然而，你可以提供一个红石信号来禁止这一功能并让炉子保持熔炉的温度。
 
 ie.manual.entry.fluidPipes.name=液体传输
 ie.manual.entry.fluidPipes.subtext=专业水管工
@@ -1015,7 +1015,7 @@ ie.manual.entry.maneuverGear2=§l§n推进：§r<br>同时按下跳跃键和<key
 
 ie.manual.entry.crusher.name=粉碎机
 ie.manual.entry.crusher.subtext=管好你的手!
-ie.manual.entry.crusher0=粉碎矿物是提高产量的有效途径，因为每个矿物都可以加工得到两份可以烧制的矿粉。这台工业级粉碎机让这个过程变得更加方便。机器的持续运作最大需要<config;i;crusher_consumption>RF/t的能量，其加工速度取决于能源供应量。
+ie.manual.entry.crusher0=粉碎矿物是提高产量的有效途径，因为每个矿物都可以加工得到两份可以烧制的矿粉。这台工业级粉碎机让这个过程变得更加方便。其加工速度取决于能源供应。
 ie.manual.entry.crusher1=通过给前端的控制面板输入红石信号将暂停粉碎机的处理过程。<br>右击正前面中心方块以完成建造过程。它的前面是底部有一个轻型工程块的宽面。
 //然而粉碎机不仅仅是用于粉碎矿物。生物落入粉碎机将会受到持续的伤害而最终的掉落物会从粉碎机的输出端输出。同样的，所有无法被处理的物品将会被销毁。<br>
 
@@ -1028,8 +1028,8 @@ ie.manual.entry.lightningrod2=你可以通过在最顶端的钢栅栏搭建一�
 ie.manual.entry.minerals.name=矿床
 ie.manual.entry.minerals.subtext=矿石相关
 ie.manual.entry.minerals0=在你的世界中发现的矿床分布对你来说并不新鲜。而如今我们一直忽略的是矿脉，其中混合着多种矿石的存在。由于它们细长的分布，普通的矿工难以发现它们，但一种<link;excavator;§o§n特殊机器§r>或许能够提供一些帮助。
-ie.manual.entry.minerals1=为了寻找并确定分布在世界中的矿产，你会想合成一个岩芯钻井.这台机器在通电时能够钻入区块并确定分布矿物的种类。钻井会消耗<config;i;coredrill_consumption>RF/t并需要<config;i;coredrill_time>ticks来完整的获取与检测样本。
-ie.manual.entry.minerals1=为了寻找并确定分布在世界中的矿产，你会想合成一个岩芯钻井.这台机器在通电时能够钻入区块并确定分布矿物的种类。钻井会消耗<config;i;coredrill_consumption>RF/t并需要<config;i;coredrill_time>ticks来完整的获取与检测样本。
+#ie.manual.entry.minerals1=为了寻找并确定分布在世界中的矿产，你会想合成一个岩芯钻井。这台机器在通电时能够钻入区块并确定分布矿物的种类。钻井会消耗<config;i;coredrill_consumption>Flux/t并需要<config;i;coredrill_time>ticks来完整的获取与检测样本。
+ie.manual.entry.minerals1=为了寻找并确定分布在世界中的矿产，你会想合成一个岩芯钻井。你需要为它提供能源，并右击启动钻井，亦可用红石信号控制。它将会钻入区块，提取出能确定分布矿物的种类的岩芯样本。钻井的能耗有<config;i;coredrill_consumption>Flux/t，而且一次钻井需要<config;i;coredrill_time>ticks来完整的获取与检测样本。
 ie.manual.entry.minerals2=下面将会列出所有矿脉的种类以及在其中能够找到的矿石种类。
 ie.manual.entry.minerals3=%1$s<br>它包含： %2$s
 ie.manual.entry.mineralsDimValid=§l%1$s§r<br>是一种会在 %2$s 生成的矿脉。
@@ -1047,5 +1047,5 @@ ie.manual.entry.arcfurnace5=底部的七个格子有六个用于输出成品，�
 
 ie.manual.entry.excavator.name=斗轮式挖掘机
 ie.manual.entry.excavator.subtext=比矮人更为高效
-ie.manual.entry.excavator0=斗轮式挖掘机可谓是现代机械的巅峰之作。它能够将正常挖矿采集不到的<link;minerals;§o§n矿物§r;0>从矿脉中挖掘出来。作为代价，斗轮式挖掘机拥有极为复杂的结构，并且需要消耗<config;i;excavator_consumption>RF/t来维持运作。
+ie.manual.entry.excavator0=斗轮式挖掘机可谓是现代机械的巅峰之作。它能够将正常挖矿采集不到的<link;minerals;§o§n矿物§r;0>从矿脉中挖掘出来。作为代价，斗轮式挖掘机拥有极为复杂的结构，并且需要消耗<config;i;excavator_consumption>Flux/t来维持运作。
 ie.manual.entry.excavator1=结构由两部分组成：第一页中的机器和前一页展示的斗轮，它正好能够嵌入机器的“吊带”位置。能量输入端在机器的侧面，后面添加了红石控制面板以及物品输出口。<br>当挖掘机开采矿物时，矿脉的范围会缓慢减小，不过一个矿脉能够支撑<config;i;excavator_depletion_days>天的连续开采。
