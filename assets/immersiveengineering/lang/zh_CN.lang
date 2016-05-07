@@ -306,6 +306,7 @@ item.ImmersiveEngineering.bullet.silver.name=银弹
 item.ImmersiveEngineering.bullet.potion.name=药剂弹头
 item.ImmersiveEngineering.bullet.potion.splash.name=飞溅药剂弹头
 item.ImmersiveEngineering.bullet.potion.linger.name=持久药剂弹头
+item.ImmersiveEngineering.bullet.flare.name=信号弹
 
 item.ImmersiveEngineering.drill.diesel.name=采矿机械钻
 item.ImmersiveEngineering.drillhead.iron.name=铁制钻头
