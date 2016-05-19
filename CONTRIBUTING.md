@@ -41,5 +41,6 @@ That is the main guideline for maintaing this repo. A simple version is below:
     
     3.Beautiful, if possible
 
-Oh, and don't touch ````pack.mcmeta```` unless you know *what you are doing*.
+And be aware of ugly translation. We are aiming to keep high quality.  
+Also, don't touch ````pack.mcmeta```` unless you know *what you are doing*.
 
