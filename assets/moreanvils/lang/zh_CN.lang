@@ -1,0 +1,13 @@
+tile.diamond_anvil.name=钻石砧
+tile.diamond_anvil.intact.name=钻石砧
+tile.diamond_anvil.slightlyDamaged.name=轻微受损的钻石砧
+tile.diamond_anvil.veryDamaged.name=严重受损的钻石砧
+tile.gold_anvil.name=金砧
+tile.gold_anvil.intact.name=金砧
+tile.gold_anvil.slightlyDamaged.name=轻微受损的金砧
+tile.gold_anvil.veryDamaged.name=严重受损的金砧
+tile.anvil.name=铁砧
+tile.anvil.intact.name=铁砧
+tile.anvil.slightlyDamaged.name=轻微受损的铁砧
+tile.anvil.veryDamaged.name=严重受损的铁砧
+itemGroup.more_anvils=更多砧
