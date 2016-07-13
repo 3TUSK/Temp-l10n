@@ -1,5 +1,8 @@
 #Contributing Guideline
 
+### Before any contribution
+We are going to apply [this guideline](https://github.com/Meow-J/Mod-Translation-Styleguide) on any of our translations. Please read it carefully and thoroughly before any contribution.  
+
 ### Reporting an error
 As a volunteer work, all contributers won't work here all the time, so other people's suggestions will be helpful, even vital.
 
