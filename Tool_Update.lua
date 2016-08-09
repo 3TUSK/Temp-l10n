@@ -23,7 +23,8 @@ function findExistedEntry(key, existMapping)
 
  for k, v in ipairs(existMapping) do
   if v:getKey() == key:getKey() then
-   return key:translate(v:getText())
+   key:translate(v:getText())
+   return key:toString(true)
   end
  end
 
@@ -46,10 +47,8 @@ count = 1
 for s in enUSFile:lines() do
  if (string.match(s, ".*=.*")) then
   mapping[count] = Entry:parse(s)
- elseif (string.match(s, "#.*")) then
-  mapping[count] = Comment:parse(s)
- else
-  mapping[count] = ""
+ else then
+  mapping[count] = "s"
  end
 
  count = count + 1
@@ -73,13 +72,20 @@ print(table.concat(debug))
 finalPair = {}
 
 for i, v in ipairs(mapping) do
- if (v = "") then
-  outputFinal:write("")
-  outputFinal:write("\n")
- else 
+ if (pcall(function (anEntry)
   translated = findExistedEntry(v, zhCN)
   finalPair = {translated:toString(), "\n"}
   outputFinal:write(table.concat(finalPair))
+  end
+ , v)) then
+-- do nothing
+ elseif (pcall(function (anComment)
+  outputFinal:write(anComment:toString())
+  end
+ , v)) then
+-- do nothing
+ else
+  outputFinal:write("\n")
  end
 end 
 
