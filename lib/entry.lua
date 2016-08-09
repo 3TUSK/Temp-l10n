@@ -24,8 +24,7 @@ function Entry:parse(keyValuePair)
 end
 
 function Entry:toString()
- str = {self.key, "=", self.value}
- return table.concat(str)
+ return self.key.."="..self.value
 end
 
 function Entry:getKey()
