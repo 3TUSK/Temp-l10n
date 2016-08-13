@@ -70,9 +70,9 @@ print("Readed "..count.." lines in zh_CN.lang")
 finalPair = {}
 
 for i, v in ipairs(mapping) do
-  if (v.toString()) then
-    translated = findExistedEntry(v, zhCN)
-    outputFinal:write(v.toString().."\n")
+  if (v.toString) then
+    local translated = findExistedEntry(v, zhCN)
+    outputFinal:write(translated.toString().."\n")
   else
     outputFinal:write(v)
   end 
