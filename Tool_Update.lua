@@ -15,7 +15,6 @@
 local Entry = require("lib/entry")
 local Comment = require("lib/comment")
 
--- key as string, existMapping as weak table of string
 function findExistedEntry(key, existMapping)
  if key == nil then
   return key, false
@@ -23,7 +22,7 @@ function findExistedEntry(key, existMapping)
 
  for k, v in ipairs(existMapping) do
   if v:getKey() == key:getKey() then
-   key:translate(v:getText())
+   key:setValue(v:getValue())
    return key, true
   end
  end
@@ -45,7 +44,7 @@ count = 1
 for s in enUSFile:lines() do
  if (string.match(s, ".*=.*")) then
   mapping[count] = Entry:parse(s)
- else then
+ else
   mapping[count] = s
  end
 
@@ -68,9 +67,11 @@ print("Readed "..count.." lines in zh_CN.lang")
 for i, v in ipairs(mapping) do
   if (v.toString) then
     local translated = findExistedEntry(v, zhCN)
-    outputFinal:write(translated.toString().."\n")
-  else then
-    outputFinal:write(v)
+    outputFinal:write(translated:toString().."\n")
+  elseif (v == "") then
+    outputFinal:write("\n")
+  else 
+    outputFinal:write(v .. "\n")
   end 
 end 
 
