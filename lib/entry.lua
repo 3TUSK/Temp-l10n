@@ -5,6 +5,14 @@
 local Entry = {}
 Entry.__index = Entry
 
+Entry.__eq = function(obj)
+  return (self.key == obj.key) and (self.value == obj.value)
+end
+
+Entry.__tostring = function(v)
+ return v:getKey() .. "=" .. v:getValue()
+end
+
 function Entry:create(K, V)
  return setmetatable({key = K, value = V}, Entry)
 end
@@ -12,11 +20,6 @@ end
 function Entry:parse(keyValuePair)
  local K, V = string.match(keyValuePair, "(.+)=.+"), string.match(keyValuePair, ".+=(.*)")
  return setmetatable({key = K, value = V}, Entry)
-end
-
--- TODO: override the metamethod so that we can simply use ==
-function Entry:toString()
- return self.key .. "=" .. self.value
 end
 
 function Entry:getKey()
@@ -29,11 +32,6 @@ end
 
 function Entry:setValue(translation)
  self.value = translation
-end
-
--- TODO: override the metamethod so that we can simply use ==
-function Entry:equals(anEntry)
- return anEntry:getKey() == self.key
 end
 
 return Entry

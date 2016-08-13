@@ -9,11 +9,8 @@
 -- 3.Put this script where there are language files mentioned in 1.
 -- 4.Run this file and you're good to go
 -- -----------------------------------------------------------------------
--- local mode = arg[1]
--- local file = arg[2]
 
 local Entry = require("lib/entry")
-local Comment = require("lib/comment")
 
 function findExistedEntry(key, existMapping)
  if key == nil then
@@ -47,19 +44,17 @@ for s in enUSFile:lines() do
  else
   mapping[count] = s
  end
-
  count = count + 1
 end
 
 print("Readed "..count.." lines in en_US.lang")
 
 count = 1
-
 for s in zhCNFile:lines() do
  if (string.match(s, ".*=.*")) then
   zhCN[count] = Entry:parse(s)
-  count = count + 1
  end
+ count = count + 1
 end
 
 print("Readed "..count.." lines in zh_CN.lang")
@@ -67,7 +62,7 @@ print("Readed "..count.." lines in zh_CN.lang")
 for i, v in ipairs(mapping) do
   if (v.toString) then
     local translated = findExistedEntry(v, zhCN)
-    outputFinal:write(translated:toString().."\n")
+    outputFinal:write(tostring(translated).."\n")
   elseif (v == "") then
     outputFinal:write("\n")
   else 
