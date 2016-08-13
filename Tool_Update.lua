@@ -18,17 +18,17 @@ local Comment = require("lib/comment")
 -- key as string, existMapping as weak table of string
 function findExistedEntry(key, existMapping)
  if key == nil then
-  return ""
+  return key, false
  end
 
  for k, v in ipairs(existMapping) do
   if v:getKey() == key:getKey() then
    key:translate(v:getText())
-   return key:toString(true)
+   return key, true
   end
  end
 
- return key
+ return key, false
 end
 
 enUSFile = io.open("en_US.lang")
