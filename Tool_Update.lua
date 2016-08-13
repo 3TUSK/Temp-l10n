@@ -54,8 +54,7 @@ for s in enUSFile:lines() do
  count = count + 1
 end
 
-debug = {"Readed ", count, " lines in en_US.lang"}
-print(table.concat(debug))
+print("Readed "..count.." lines in en_US.lang")
 
 count = 1
 
@@ -66,27 +65,17 @@ for s in zhCNFile:lines() do
  end
 end
 
-debug = {"Readed ", count, " entries in zh_CN.lang"}
-print(table.concat(debug))
+print("Readed "..count.." lines in zh_CN.lang")
 
 finalPair = {}
 
 for i, v in ipairs(mapping) do
- if (pcall(function (anEntry)
-  translated = findExistedEntry(v, zhCN)
-  finalPair = {translated:toString(), "\n"}
-  outputFinal:write(table.concat(finalPair))
-  end
- , v)) then
--- do nothing
- elseif (pcall(function (anComment)
-  outputFinal:write(anComment:toString())
-  end
- , v)) then
--- do nothing
- else
-  outputFinal:write("\n")
- end
+  if (v.toString()) then
+    translated = findExistedEntry(v, zhCN)
+    outputFinal:write(v.toString().."\n")
+  else
+    outputFinal:write(v)
+  end 
 end 
 
 print("Language file successfully updated.")
