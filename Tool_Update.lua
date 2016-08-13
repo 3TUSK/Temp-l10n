@@ -31,24 +31,22 @@ function findExistedEntry(key, existMapping)
  return key, false
 end
 
-enUSFile = io.open("en_US.lang")
-zhCNFile = io.open("zh_CN.lang")
-outputFinal = io.open("zh_CN-merged.lang", "w+")
+local enUSFile = io.open("en_US.lang")
+local zhCNFile = io.open("zh_CN.lang")
+local outputFinal = io.open("zh_CN-merged.lang", "w+")
 
-mapping = {}
-zhCN = {}
-mergedEntries = {}
+local mapping = {}
+local zhCN = {}
 
 print("Language file update started, please stand by...")
 
-str = ''
 count = 1
 
 for s in enUSFile:lines() do
  if (string.match(s, ".*=.*")) then
   mapping[count] = Entry:parse(s)
  else then
-  mapping[count] = "s"
+  mapping[count] = s
  end
 
  count = count + 1
@@ -67,13 +65,11 @@ end
 
 print("Readed "..count.." lines in zh_CN.lang")
 
-finalPair = {}
-
 for i, v in ipairs(mapping) do
   if (v.toString) then
     local translated = findExistedEntry(v, zhCN)
     outputFinal:write(translated.toString().."\n")
-  else
+  else then
     outputFinal:write(v)
   end 
 end 
