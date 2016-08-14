@@ -7,24 +7,25 @@
 -- 1.Put corresponding en_US.lang and zh_CN.lang into same folder
 -- 2.Install lua 5.3.2
 -- 3.Put this script where there are language files mentioned in 1.
--- 4.Run this file and you're good to go
+-- 4.Execute "lua Tool_Update.lua"
+-- 5.The result is "zh_CN-merged.lang"
 -- -----------------------------------------------------------------------
 
 local Entry = require("lib/entry")
 
 function findExistedEntry(key, existMapping)
- if key == nil then
-  return key, false
- end
-
- for k, v in ipairs(existMapping) do
-  if v:getKey() == key:getKey() then
-   key:setValue(v:getValue())
-   return key, true
+  if key == nil then
+    return key, false
   end
- end
 
- return key, false
+  for k, v in ipairs(existMapping) do
+    if v:getKey() == key:getKey() then
+      key:setValue(v:getValue())
+    return key, true
+    end
+  end
+
+  return key, false
 end
 
 local enUSFile = io.open("en_US.lang")
@@ -39,34 +40,34 @@ print("Language file update started, please stand by...")
 count = 1
 
 for s in enUSFile:lines() do
- if (string.match(s, ".*=.*")) then
-  mapping[count] = Entry:parse(s)
- else
-  mapping[count] = s
- end
- count = count + 1
+  if (string.match(s, ".*=.*")) then
+    mapping[count] = Entry:parse(s)
+  else
+    mapping[count] = s
+  end
+  count = count + 1
 end
 
 print("Readed "..count.." lines in en_US.lang")
 
 count = 1
 for s in zhCNFile:lines() do
- if (string.match(s, ".*=.*")) then
-  zhCN[count] = Entry:parse(s)
- end
- count = count + 1
+  if (string.match(s, ".*=.*")) then
+    zhCN[count] = Entry:parse(s)
+  end
+  count = count + 1
 end
 
 print("Readed "..count.." lines in zh_CN.lang")
 
 for i, v in ipairs(mapping) do
-  if (v.toString) then
+  if (v and v.toString) then
     local translated = findExistedEntry(v, zhCN)
     outputFinal:write(tostring(translated).."\n")
   elseif (v == "") then
     outputFinal:write("\n")
   else 
-    outputFinal:write(v .. "\n")
+    outputFinal:write(tostring(v) .. "\n")
   end 
 end 
 
