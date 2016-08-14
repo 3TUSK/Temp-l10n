@@ -6,34 +6,39 @@
 -- User instruction:
 -- 1.Put language files and this script into one folder
 -- 2.Install lua 5.3.2
--- 3.Type lua Tool_Auto-merge.lua [1] [2] [3] [4] [5] [6]
---   where 1 is the file name of English language file
---   and 2-6 are all names of different Chinese language files
+-- 3.Execute: lua Tool_Auto-merge.lua <en_US.lang> <zh_CN> ...
+--   where <en_US.lang> is the file name of English language file
+--   and <zh_CN> ... are all names of different Chinese language files
 -- 4.Find the result file named zh_CN-finalOutput.lang.csv. 
 --   don't forget to report bugs!
 -- -----------------------------------------------------------------------
 
+local Entry = require("lib/entry")
+
 function loadZH(file)
-	local array = {}
-	local tempCount = 1
-	for l in file:lines() do
-		if (string.match(l, "([%w%s%.]+)=.*")) then
-			local key, value = string.gsub(l, "([%w%s%.]*)=.*", "%1"), string.gsub(l, "[%w%s%.]*=([.]*)", "%1")
-			array[tempCount] = {key, value}
-			tempCount = tempCount + 1
-		end
-	end
-	return array
+  local array = {}
+  local count = 1
+  for s in file:lines() do
+  if (s:match(".*=.*")) then
+    array[count] = Entry:parse(s)
+  end
+  count = count + 1
+  return array
 end
 
-function searchValue(key, mapping)
-	for k, v in ipairs(mapping) do
-		if v[1] == key then
-			return v[2]
-		end
-	end
+function searchValue(key, existMapping)
+  if key == nil then
+    return key, false
+  end
 
-	return "null"
+  for k, v in ipairs(existMapping) do
+    if v:getKey() == key:getKey() then
+      key:setValue(v:getValue())
+    return key, true
+    end
+  end
+
+  return key, false
 end
 
 print("Pre-loading files, please stand by...")
@@ -43,43 +48,31 @@ rawLang = io.open(arg[1])
 local zhCN = {}
 parameters, tmpPoint = #arg, 1
 while tmpPoint < parameters do
-	if tmpPoint >= parameters then
-		break
-	end
-	zhCN[tmpPoint] = io.open(arg[tmpPoint + 1])
-	tmpPoint = tmpPoint + 1
+  tmpPoint = tmpPoint + 1
+  zhCN[tmpPoint] = io.open(arg[tmpPoint + 1])
 end
 
-print("Pre-loading finished.")
+print("Pre-loading files finished.")
 
-print("Loading files, please stand by...")
+print("Loading translation mappings, please stand by...")
 
 enUS_Count = 1
 enUSMapping = {}
 for s in rawLang:lines() do
-	identify = string.sub(s, 1, 1)
-	if (identify == "#") then
-		local tmpTable = {s, ",>>>", ",>>>", ",>>>", ",>>>", ",>>>", "\n"}
-		enUSMapping[enUS_Count] = tmpTable
-		enUS_Count = enUS_Count + 1
-		elseif (#s == 0) then
-			enUSMapping[enUS_Count] = {"newline", ",>>>", ",>>>", ",>>>", ",>>>", ",>>>", "\n"}
-			enUS_Count = enUS_Count + 1
-		else
-			tmpKey = string.gsub(s, "([%w%s%.]+)=.*", "%1")
-			tmpTable = {tmpKey, "=", "\n"}
-
-			enUSMapping[enUS_Count] = tmpTable
-			enUS_Count = enUS_Count + 1
-		end
+  if (s:match(".*=.*")) then
+    enUSMapping[enUS_Count] = Entry:parse(s)
+  else
+    enUSMapping[enUS_Count] = s
+  end
+  enUS_Count = enUS_Count + 1
 end
-
-print("Loading finished.")
 
 local zhCNMapping = {}
 for point, zhCNFile in ipairs(zhCN) do
 	zhCNMapping[point] = loadZH(zhCNFile)
 end
+
+print("Loading translation mappings finished.")
 
 print("Post-loading files, please stand by...")
 
@@ -126,5 +119,5 @@ finalOutput:flush()
 finalOutput:close()
 rawLang:close()
 for num, file in ipairs(zhCN) do
-	file[2]:close
+ file[num]:close
 end
