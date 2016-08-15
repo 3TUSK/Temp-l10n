@@ -14,14 +14,14 @@
 local Entry = require("lib/entry")
 
 function findExistedEntry(key, existMapping)
-  if key == nil then
-    return key, false
-  end
-
-  for k, v in ipairs(existMapping) do
-    if v:getKey() == key:getKey() then
+  for k, v in pairs(existMapping) do
+    if key == nil then
+      return key, false
+    end
+    if (Entry.getKey(v) == Entry.getKey(key)) then
       key:setValue(v:getValue())
-    return key, true
+      return key, true
+    else
     end
   end
 
@@ -61,13 +61,11 @@ end
 print("Readed "..count.." lines in zh_CN.lang")
 
 for i, v in ipairs(mapping) do
-  if (v and v.toString) then
-    local translated = findExistedEntry(v, zhCN)
-    outputFinal:write(tostring(translated).."\n")
-  elseif (v == "") then
+  if (v == "") then
     outputFinal:write("\n")
   else 
-    outputFinal:write(tostring(v) .. "\n")
+    local translated = findExistedEntry(v, zhCN)
+    outputFinal:write(tostring(translated).."\n")
   end 
 end 
 
