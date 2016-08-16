@@ -18,7 +18,7 @@ function findExistedEntry(key, existMapping)
     if key == nil then
       return key, false
     end
-    if (Entry.getKey(v) == Entry.getKey(key)) then
+    if (v:getKey() == key:getKey()) then
       key:setValue(v:getValue())
       return key, true
     else
@@ -61,10 +61,11 @@ end
 print("Readed "..count.." lines in zh_CN.lang")
 
 for i, v in ipairs(mapping) do
-  if (v == "") then
-    outputFinal:write("\n")
+  if (type(v) == "string") then
+    outputFinal:write(v.."\n")
   else 
     local translated = findExistedEntry(v, zhCN)
+    print(translated:getKey())
     outputFinal:write(tostring(translated).."\n")
   end 
 end 
