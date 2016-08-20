@@ -19,7 +19,10 @@ end
 
 function Entry:parse(keyValuePair)
  local K, V = string.match(keyValuePair, "(.+)=.*"), string.match(keyValuePair, ".+=(.*)")
- return setmetatable({key = K, value = V}, Entry)
+ if (K ~= nil and V ~= nil) then
+  return setmetatable({key = K, value = V}, Entry)
+ else
+  return nil
 end
 
 function Entry:getKey()

@@ -1,5 +1,5 @@
 -- Author @3TUSK
--- This language file updater is licensed under CC-BY-SA 4.0 International
+-- This file is licensed under CC-BY-SA 4.0 International
 -- See here for more details about license: 
 -- https://creativecommons.org/licenses/by-sa/4.0/
 -- ------------------------------------------------------------------------
@@ -65,7 +65,6 @@ for i, v in ipairs(mapping) do
     outputFinal:write(v.."\n")
   else 
     local translated = findExistedEntry(v, zhCN)
-    print(translated:getKey())
     outputFinal:write(tostring(translated).."\n")
   end 
 end 
