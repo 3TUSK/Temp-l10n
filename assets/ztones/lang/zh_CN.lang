@@ -4,20 +4,20 @@ item.ofanix.name=欧凡尼克变换器
 item.hunger.name=味精片
 item.minicoal.name=迷你煤炭
 item.minicharcoal.name=迷你木炭
-item.diamondZane.name=Diamond Zane
+item.diamondZane.name=三合一钻石工具
 item.terrainEater.name=噬地者
 item.totemTool.name=图腾
 item.splatAxe.name=啪嗒啪嗒斧
 
 // BLOCKS
-tile.ztones:stoneTile.name=Ztone Tile
+tile.ztones:stoneTile.name=Ztone块
 tile.ztones:cleanDirt.name=花土
 tile.ztones:booster.name=加速板
 tile.ztones:lamp.name=灯
 tile.ztones:lampf.name=灯(平整)
 tile.ztones:lampt.name=灯(平整)
 tile.ztones:lampb.name=灯(平整)
-tile.ztones:aurora.name=Aurora
+tile.ztones:aurora.name=极光块
 
 
 ⓪①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮
