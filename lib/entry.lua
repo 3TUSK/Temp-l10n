@@ -23,6 +23,7 @@ function Entry:parse(keyValuePair)
   return setmetatable({key = K, value = V}, Entry)
  else
   return nil
+ end
 end
 
 function Entry:getKey()
