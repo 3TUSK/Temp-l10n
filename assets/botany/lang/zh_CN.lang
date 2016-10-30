@@ -1,9 +1,11 @@
 botany.tab.botany=Binnie 花卉
 
+botany.ph=pH
 botany.ph.acid=酸性
 botany.ph.neutral=中性
 botany.ph.alkaline=碱性
 
+botany.moisture=湿度
 botany.moisture.dry=干燥
 botany.moisture.normal=普通
 botany.moisture.damp=潮湿
@@ -11,6 +13,27 @@ botany.moisture.damp=潮湿
 botany.soil.soil=普通花土
 botany.soil.loam=肥沃花土
 botany.soil.flowerbed=花床
+botany.soil.type=类型
+botany.soil.weedkiller=除草剂
+
+botany.plant.weeds=杂草
+botany.plant.weeds_long=Weed Long
+botany.plant.weeds_very_long=Weed Very Long
+botany.plant.dead_flower=Dead Flower
+botany.plant.decaying_flower=Decaying Flower
+
+item.botany.germling.name=Germling
+item.botany.pollen.name=Pollen
+item.botany.flower.corrupted.name=Corrupted Flower
+
+item.botany.encylopedia=园丁百科全书
+item.botany.encylopedia_reinforced=园丁百科全书 增强版
+
+item.pigment.name=染料
+
+botany.flower.destroy=这物品bug了，请即刻销毁！
+botany.grammar.flower=%PRIMARY, %STEM Stem
+botany.grammar.flower.secondary=%PRIMARY and %SECONDARY, %STEM Stem
 
 item.trowelWood.name=木质泥铲
 item.trowelStone.name=石质泥铲
@@ -161,3 +184,54 @@ botany.gui.database.tab.breeder=杂交路线
 botany.gui.database.tab.colour.resultant=导向混色
 botany.gui.database.tab.colour.further=次代混色
 
+botany.flowers.species.not.discover=你还没发现这种花。再试着杂交几朵花吧。
+botany.flowers.species.hybrid=Hybrid
+botany.flowers.species.germling=Germling
+botany.flowers.species.wilting=Shame it is Wilting!
+botany.flowers.species.Dandelion=Dandelion蒲公英
+botany.flowers.species.Poppy=Poppy罂粟
+botany.flowers.species.Orchid=Orchid兰花
+botany.flowers.species.Allium=Allium
+botany.flowers.species.Bluet=Bluet
+botany.flowers.species.Tulip=Tulip郁金香
+botany.flowers.species.Daisy=Daisy
+botany.flowers.species.Cornflower=Cornflower
+botany.flowers.species.Pansy=Pansy
+botany.flowers.species.Iris=Iris德国鸢尾
+botany.flowers.species.Lavender=Lavender
+botany.flowers.species.Viola=Viola
+botany.flowers.species.Daffodil=Daffodil
+botany.flowers.species.Dahlia=Dahlia
+botany.flowers.species.Peony=Peony
+botany.flowers.species.Rose=Rose
+botany.flowers.species.Lilac=Lilac
+botany.flowers.species.Hydrangea=Hydrangea绣球花
+botany.flowers.species.Foxglove=Foxglove
+botany.flowers.species.Zinnia=Zinnia
+botany.flowers.species.Chrysanthemum=Chrysanthemum菊花
+botany.flowers.species.Marigold=Marigold金盏花
+botany.flowers.species.Geranium=Geranium
+botany.flowers.species.Azalea=Azalea
+botany.flowers.species.Primrose=Primrose
+botany.flowers.species.Aster=Aster雅美紫菀
+botany.flowers.species.Carnation=Carnation
+botany.flowers.species.Lily=Lily山百合
+botany.flowers.species.Yarrow=Yarrow
+botany.flowers.species.Petunia=Petunia
+botany.flowers.species.Agapanthus=Agapanthus
+botany.flowers.species.Fuchsia=Fuchsia
+botany.flowers.species.Dianthus=Dianthus
+botany.flowers.species.Forget-me-nots=Forget野勿忘草
+botany.flowers.species.Anemone=Anemone
+botany.flowers.species.Aquilegia=Aquilegia
+botany.flowers.species.Edelweiss=Edelweiss
+botany.flowers.species.Scabious=Scabious
+botany.flowers.species.Coneflower=Coneflower
+botany.flowers.species.Gaillardia=Gaillardia
+botany.flowers.species.Auricula=Auricula
+botany.flowers.species.Camellia=Camellia
+botany.flowers.species.Goldenrod=Goldenrod
+botany.flowers.species.Althea=Althea
+botany.flowers.species.Penstemon=Penstemon
+botany.flowers.species.Delphinium=Delphinium
+botany.flowers.species.Hollyhock=Hollyhock蜀葵

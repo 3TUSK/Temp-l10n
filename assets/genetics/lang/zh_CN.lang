@@ -1,36 +1,110 @@
 ##################################################
 ## Machines
 
+genetics.machine.errors.no.owner.desc=No Owner
+genetics.machine.errors.no.owner.info=Replace this block to claim this machine
+genetics.machine.errors.no.serum.desc=No Serum
+genetics.machine.errors.no.enzyme.desc=No enzyme
+genetics.machine.errors.no.recipe.desc=No Recipe
+genetics.machine.errors.no.recipe.info=There is no valid recipe
+genetics.machine.errors.no.individual.desc=No Individual
+genetics.machine.errors.empty.serum.desc=Empty Serum
+genetics.machine.errors.empty.serum.info=Serum is empty
+genetics.machine.errors.invalid.serum.desc=Invalid Serum
+genetics.machine.errors.invalid.serum.mismatch.info=Mismatch of Serum Type and Target
+genetics.machine.errors.invalid.serum.no.genes.info=Serum does not hold any genes
+genetics.machine.errors.defunct.serum.desc=Defunct Serum
+genetics.machine.errors.defunct.serum.info=Individual already possesses this allele
+genetics.machine.errors.tanks.no.room.desc=Not enough room in Tank
+
 genetics.machine.machine.isolator=基因分离器
 genetics.machine.machine.isolator.info=基因分离器将会从蜜蜂,树苗或者其它的独立个体中随机提取基因片段,并复制到一个空的序列瓶中.这需要乙醇作为溶剂,还需要酶来切断DNA.未序列化的血清可以在序列分析器中序列化,并在基因同化器中重新装填.
+genetics.machine.machine.isolator.errors.no.individual.desc=No individual to isolate
+genetics.machine.machine.isolator.errors.no.room.desc=No room for DNA sequences
+genetics.machine.machine.isolator.errors.no.empty.sequencer.desc=No empty sequencer vials
+genetics.machine.machine.isolator.errors.insufficient.ethanol.desc=Insufficient ethanol
 
 genetics.machine.machine.sequencer=序列分析器
 genetics.machine.machine.sequencer.info=序列分析器可以判定未序列化的血清的基因片段. 这需要很长的时间用于计算,还需要用到荧光染料.
+genetics.machine.machine.sequencer.errors.insufficient.dye=Insufficient Dye
+genetics.machine.machine.sequencer.errors.no.space=No space for empty sequences
+genetics.machine.machine.sequencer.errors.no.dna=No DNA sequence
+genetics.machine.machine.sequencer.texts.userless=Userless. Will not save sequences
+genetics.machine.machine.sequencer.texts.sequenced.by=Genes will be sequenced by %s
+genetics.machine.machine.sequencer.tooltips.slots.unsequenced.dna=Unsequenced DNA
 
 genetics.machine.machine.polymeriser=基因同化器
 genetics.machine.machine.polymeriser.info=基因同化器将会用DNA液体和细菌来重新填充血清.该过程可用金粒加速. 
+genetics.machine.machine.polymeriser.errors.item.no=No item to replicate
+genetics.machine.machine.polymeriser.errors.item.filled=Item filled
+genetics.machine.machine.polymeriser.errors.insufficient.bacteria=Insufficient Bacteria
+genetics.machine.machine.polymeriser.errors.insufficient.dna=Insufficient DNA
+genetics.machine.machine.polymeriser.tooltips.logic.gene=Replicating 1 genes
+genetics.machine.machine.polymeriser.tooltips.logic.genes=Replicating %s geness
+genetics.machine.machine.polymeriser.tooltips.slots.unfilled=Unfilled Serum
 
 genetics.machine.machine.inoculator=基因注射器
 genetics.machine.machine.inoculator.info=基因注射器使用特定血清向可杂交个体中注入特定的基因.这个过程相当耗时,并且需要细菌作为催化剂,但是这是100%成功的.  
+genetics.machine.machine.inoculator.errors.no.individual.desc=No Individual to Inoculate
+genetics.machine.machine.inoculator.tooltips.logic.gene=Inoculating with 1 gene
+genetics.machine.machine.inoculator.tooltips.logic.genes=Inoculating with %s genes
 
 genetics.machine.labMachine.genepool=基因池
 genetics.machine.labMachine.genepool.info=基因液体池使用酶和乙醇来破坏活体组织并将其转化为DNA液体.所有遗传信息都会丢失,DNA来源也会被破坏.
-
+genetics.machine.labMachine.genepool.errors.not.enough.ethanol.desc=Not enough Ethanol
+genetics.machine.labMachine.genepool.errors.insufficient.enzyme.desc=Insufficient Enzyme
 
 genetics.machine.labMachine.labMachine=实验台
 
 genetics.machine.labMachine.analyser=分析仪
 genetics.machine.labMachine.analyser.info=分析仪将会解析可增殖的DNA序列,并确定当前的基因类型. 这需要DNA标记染料, 由紫色染料和荧石粉合成而来
+genetics.machine.labMachine.analyser.errors.insufficient.dye.desc=Insufficient Dye
+genetics.machine.labMachine.analyser.errors.insufficient.dye.info=Not enough DNA dye to analyse
+genetics.machine.labMachine.analyser.errors.already.analysed.desc=Already Analysed
+genetics.machine.labMachine.analyser.errors.already.analysed.info=Item has already been analysed
+genetics.machine.labMachine.analyser.errors.no.item.desc=No item to analyse
+genetics.machine.labMachine.analyser.tooltips.slots.unanalysed=Unanalysed Item
 
 genetics.machine.labMachine.incubator=恒温箱
 genetics.machine.labMachine.incubator.info=恒温箱的作用是使用特定液体和物品来进行恒温,确保细菌能够在理想的环境下快速增殖.
+genetics.machine.labMachine.incubator.errors.no.liquid.desc=Not enough incubation liquid
+genetics.machine.labMachine.incubator.errors.no.room.desc=No room for output
 
 genetics.machine.labMachine.acclimatiser=气候改造器
+genetics.machine.labMachine.acclimatiser.errors.no.individual.desc=No Individual to Acclimatise
+genetics.machine.labMachine.acclimatiser.errors.no.item.desc=No Acclimatising Items
+genetics.machine.labMachine.acclimatiser.errors.can.not.acclimatise.desc=Cannot Acclimatise this individual with these items
+genetics.machine.labMachine.acclimatiser.tooltips.slots.acclimatising=Acclimatising Items
 
 genetics.machine.advMachine.splicer=Splicer
 genetics.machine.advMachine.splicer.info=Splicer是一台异常强大的机器,可将基因直接植入个体之中.虽然工作迅速,但它却是个电老虎.
+genetics.machine.advMachine.splicer.tooltips.slots.serum=Serum Vials & Arrays
+genetics.machine.advMachine.splicer.tooltips.slots.individual=Splicable Individual
+genetics.machine.advMachine.splicer.errors.no.individual.desc=No Individual to Splice
 
+genetics.gui.analyst.soil.title=Soil
+genetics.gui.analyst.soil.tolerance.moisture=Moisture Tolerance
+genetics.gui.analyst.soil.tolerance.ph=pH Tolerance
+genetics.gui.analyst.soil.recommended=Recommended Soil
+genetics.gui.analyst.soil.other=Other Soils
 
+genetics.gui.analyst.specimen.title=Specimen
+
+genetics.gui.analyst.produces.tile=Produce
+genetics.gui.analyst.produces.rate=Rate
+genetics.gui.analyst.products.natural=Natural Products
+genetics.gui.analyst.products.specialty=Specialty Products
+genetics.gui.analyst.products.refined=Refined Products
+genetics.gui.analyst.products.centrifuges=Centrifuges to give
+genetics.gui.analyst.products.squeezes=Squeezes to give
+genetics.gui.analyst.products.every=Every
+
+genetic.item.gene.empty=Empty
+genetic.item.gene.charge=Charge
+genetic.item.gene.charges=Charges
+genetic.item.gene.serum=Serum
+genetic.item.gene.serum.corrupted=Corrupted Serum
+genetic.item.gene.more.genes=more genes. Hold shift to display.
 
 
 genetics.item.sequence=DNA序列

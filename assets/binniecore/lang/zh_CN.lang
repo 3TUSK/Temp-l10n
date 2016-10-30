@@ -204,6 +204,13 @@ binniecore.machine.storage.compartmentCopper=铜质组合箱
 binniecore.machine.storage.compartmentBronze=青铜组合箱
 binniecore.machine.storage.compartmentGold=金质组合箱
 
+binniecore.machine.tooltips.processing=Processing
+
+binniecore.machine.errors.task.cancelled.desc=Task Cancelled
+binniecore.machine.errors.task.cancelled.info=Cancelled by Buildcraft Gate
+binniecore.machine.errors.task.process.paused.desc=Process Paused
+binniecore.machine.errors.task.process.paused.info=Paused by Buildcraft Gate
+
 < %1$s is the name of the pattern >
 binniecore.gui.designer.pattern=%1$s样板
 
@@ -212,6 +219,18 @@ binniecore.gui.database.nodescription=未提供说明.
 binniecore.gui.database.mode.species=种
 binniecore.gui.database.mode.branches=族
 binniecore.gui.database.mode.breeder=变异
+binniecore.gui.database.species=Species
+binniecore.gui.database.no.description=No Description Provided.
+binniecore.gui.database.discovered=Discovered by
+binniecore.gui.database.overview.complexity=Complexity
+binniecore.gui.database.breeder.profile=Profile
+binniecore.gui.database.breeder.species.secret=Secret Species
+binniecore.gui.database.breeder.branches=Branches
+binniecore.gui.database.breeder.stats=Stats
+binniecore.gui.database.mutations.further=Further Mutations
+binniecore.gui.database.mutations.resultant=Resultant Mutations
+binniecore.gui.database.branch.branch=Branch
+binniecore.gui.database.branch.apidae=Apidae
 
 binniecore.gui.temperature.short=温
 binniecore.gui.humidity.short=湿
