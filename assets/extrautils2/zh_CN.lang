@@ -92,8 +92,8 @@ enchantment.xu.burnerang=Burnerang - 回旋火焰
 enchantment.xu.kaboomerang=Kaboomerang - 回旋爆焰
 enchantment.xu.zoomerang=Zoomerang - 大回旋
 
-entity.Villager.alchemist=炼金术
-entity.Villager.red_mechanic=红色牧师
+entity.Villager.alchemist=炼金术师
+entity.Villager.red_mechanic=红衣牧师
 entity.Villager.shady_merchant=奸商
 
 extrautils2.text.access.denied.use.command.s.to.try=拒绝访问。使用 /%s 联系拥有者。
@@ -121,9 +121,9 @@ extrautils2.text.gives.power.during.night.hours=在晚上提供GP
 extrautils2.text.gives.s.gp.when.adjacent.to.lava=当它与岩浆相邻时提供%s GP
 extrautils2.text.gives.s.gp.when.placed.over.fire=当它在火上时提供%s GP.
 extrautils2.text.grid.power=总电量: 
-extrautils2.text.health.ss=生命: %s/%
+extrautils2.text.health.ss=生命: %s/%s
 extrautils2.text.hope.you.got.a.receipt=希望你得到一张发票
-extrautils2.text.ignoremetadata=忽略Meta值？
+extrautils2.text.ignoremetadata=忽略Meta吗？
 extrautils2.text.ignoremetadata.off=忽略
 extrautils2.text.ignoremetadata.on=不忽略
 extrautils2.text.ignorenbt=忽略NBT？
