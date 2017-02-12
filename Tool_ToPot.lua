@@ -19,7 +19,8 @@ local epix = function (s)
 end
 
 local isEntry = function(line)
-  return entry:parse(line) ~= nil
+  local value = entry:parse(line)
+  return value ~= null, value
 end
 
 local baseLangFile = io.open("en_US.lang")

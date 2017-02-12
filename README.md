@@ -1,21 +1,21 @@
 # Temp_LocalizationFile
 
 #### Introduction
-This is the main repository of "Temporary Localization", a Minecraft resourcepack with purpose to provide the Simplified Chinese (zh-CN, 简体中文) translation for Minecraft mods which *haven't* officially support localization yet.  
+Here is the main repository of "Temporary Localization", a Minecraft resourcepack with purpose to provide the Simplified Chinese (zh-CN, 简体中文) translation for Minecraft mods which *haven't* officially support localization yet.  
 Credits to [this](https://github.com/Adaptivity/LocalizationsForMCFMods) for the idea of assembling a resourcepack.
 
 #### Contribution
 
 Check out [the guideline](./CONTRIBUTING.md) for more details.
 
-#### Permission 
+#### Permission
 ![Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)  
-The TemporaryLocalization Resourcepack is licensed under a [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
+The TemporaryLocalization Resourcepack is licensed under [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.  
 A copy of full license legalcode can be found [here](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).  
 By using this work you are agree to obey the terms associated in the license.
 If you have a license issue, please open a issue here.
 
-pack.png is actually from [Minecraft wiki](http://minecraft.gamepedia.com/File:End_Portal_Frame.png). 
+pack.png is actually from [Minecraft wiki](http://minecraft.gamepedia.com/File:End_Portal_Frame.png).
 Credits to Minecracft Wiki for the orginal image.
 
 #### Miscellanea
