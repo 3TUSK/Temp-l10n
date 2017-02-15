@@ -150,11 +150,12 @@ extrautils2.text.grid.is.overloaded=GP能源网过载。
 extrautils2.text.grid.power=总电量:
 extrautils2.text.hack.n.slash.hack.n.slash.hack.n=砍！砍！砍！杀！杀！杀！
 extrautils2.text.health.ss=生命: %s/%s
-extrautils2.text.heater=Heater
+extrautils2.text.heater=加热器
 extrautils2.text.hey.you.lets.go.kill.everything=对就是你，来杀尽一切吧！
-extrautils2.text.hope.you.got.a.receipt=希望你能得到一个配方。
-extrautils2.text.hope.you.got.x.receipt=希望你能得到x配方。
-extrautils2.text.humidifier=增湿器
+extrautils2.text.hold.s.when.placing.to.reverse.flow=Hold %s when placing to reverse flow.
+extrautils2.text.hope.you.got.a.receipt=希望你能得到一张发票。
+extrautils2.text.hope.you.got.x.receipt=希望你能得到x发票。
+extrautils2.text.humidifier=加湿器
 extrautils2.text.i.feel.sharp=我感觉到……sharp.
 extrautils2.text.if.present.the.quarry.will.autodestroy=若存在，将销毁任何不符合过滤器过滤选项的物品。
 extrautils2.text.ignoremetadata=忽略Meta？
@@ -273,6 +274,7 @@ extrautils2.text.set.to.current.block=设置为当前方块
 extrautils2.text.sharing=[分享中]
 extrautils2.text.sign=签名
 extrautils2.text.signifies.the.current.value.of.the=[] 显著提高了这（些）东西的价值
+extrautils2.text.small.enough.to.fit.between.blocks=小到可以塞进方块之间的缝里
 extrautils2.text.sneakrightclick.to.release.soul=潜行状态下右击以释放灵魂。
 extrautils2.text.sourcefull.water.blocks.do.not.count=水源方块不进入计算。
 extrautils2.text.speed.upgrades=速度升级
@@ -283,6 +285,7 @@ extrautils2.text.tank.s.s=储罐：%s / %s
 extrautils2.text.terraformer.controller=地形改造控制器
 extrautils2.text.the.generator.spectrum.is.complete=发电机光谱已完成！
 extrautils2.text.the.higher.the.level.the.more.gp=等级越高，产生GP越多。
+extrautils2.text.thinner.than.the.thinnest.of.pancakes=比什么东西都薄
 extrautils2.text.this.world.is.filled.with.such.life=这个世界充满了如此多的什么和美好的事物。让我们把它全部摧毁吧。
 extrautils2.text.time.for.death.and.destruction=死亡与破坏的时刻？
 extrautils2.text.transfer.node=传输节点
@@ -308,6 +311,119 @@ extrautils2.text.you.feel.your.luck.changing=你感觉到你的运气正在改�
 
 fluid.xu_demonic_metal=熔融恶魔金属
 
+#
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
 item.extrautils2:angelring.name=天使指环
 item.extrautils2:bagofholding.name=手袋
 item.extrautils2:biomemarker.name=生物群系标记
@@ -325,7 +441,10 @@ item.extrautils2:filter_item.name=物品过滤器
 item.extrautils2:filterfluids.name=液体过滤
 item.extrautils2:filteritems.name=过滤器
 item.extrautils2:fireextenguisher.name=灭火器
-item.extrautils2:glasscutter.name=玻璃破坏者
+item.extrautils2:flattransfernode.fluid.name=平面传输节点（液体）
+item.extrautils2:flattransfernode.item.name=平面传输节点（物品）
+item.extrautils2:flattransfernode.name=平面传输节点
+item.extrautils2:glasscutter.name=玻璃切割刀
 item.extrautils2:goldenlasso.0.name=黄金套索
 item.extrautils2:goldenlasso.1.name=诅咒套索
 item.extrautils2:grocket.0.name=传输节点（物品）
@@ -340,7 +459,7 @@ item.extrautils2:ingredients.dye_powder_lunar.name=月球之尘
 item.extrautils2:ingredients.enchanted_ingot.name=魔法锭
 item.extrautils2:ingredients.evil_drop.name=邪恶点滴
 item.extrautils2:ingredients.eye_redstone.name=红石之眼
-item.extrautils2:ingredients.moon_stone.name=月球石头
+item.extrautils2:ingredients.moon_stone.name=月之石
 item.extrautils2:ingredients.red_coal.name=红煤
 item.extrautils2:ingredients.redstone_coil.name=无线RF加热线圈
 item.extrautils2:ingredients.redstone_crystal.name=谐振红石水晶
@@ -357,7 +476,7 @@ item.extrautils2:itemcreativebuilderswand.name=创造建筑之杖
 item.extrautils2:itemcreativedestructionwand.name=创造破坏之杖
 item.extrautils2:itemdestructionwand.name=破坏之杖
 item.extrautils2:klein.name=克莱因瓶
-item.extrautils2:lawsword.name=法律之剑
+item.extrautils2:lawsword.name=鬼哭
 item.extrautils2:magicapple.name=魔法苹果
 item.extrautils2:powermanager.name=能量管理
 item.extrautils2:sickle_diamond.name=钻石镰刀
@@ -371,6 +490,7 @@ item.extrautils2:trowel.name=瓦刀
 item.extrautils2:wateringcan.name=洒水壶
 item.extrautils2:wrench.name=扳手
 
+#itemGroup.ExtraUtils2=更多实用设备2
 itemGroup.extrautils2=更多实用设备2
 
 lingering_potion.effect.oily=油腻的滞留型药水
@@ -420,6 +540,271 @@ splash_potion.effect.xu2.greek.fire=喷溅型永恒之火药水
 splash_potion.effect.xu2.love=喷溅型爱情药水
 splash_potion.effect.xu2.relapse=喷溅型复发药水
 splash_potion.effect.xu2.second.chance=喷溅型复活药水
+
+#
+#
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 tile.extrautils2:angelblock.name=天使方块
@@ -487,11 +872,21 @@ tile.extrautils2:ineffableglass.dark.name=深色奇妙玻璃
 tile.extrautils2:ineffableglass.ineffable.name=奇妙玻璃
 tile.extrautils2:ineffableglass.normal.name=空灵玻璃
 tile.extrautils2:ineffableglass.reverse.name=反转空灵玻璃
+tile.extrautils2:klein.name=
 tile.extrautils2:machine.name=机械
 tile.extrautils2:miner.name=挖掘器
 tile.extrautils2:minichest.name=迷你箱子
 tile.extrautils2:minisun.name=迷你太阳
-tile.extrautils2:moonstone.name=月球石块
+tile.extrautils2:moonstone.name=月之石
+tile.extrautils2:opinium.0.name=Opinium Core (Pathetic)
+tile.extrautils2:opinium.1.name=Opinium Core (Mediocre)
+tile.extrautils2:opinium.2.name=Opinium Core (Passable)
+tile.extrautils2:opinium.3.name=Opinium Core (Decent)
+tile.extrautils2:opinium.4.name=Opinium Core (Good)
+tile.extrautils2:opinium.5.name=Opinium Core (Damn Good)
+tile.extrautils2:opinium.6.name=Opinium Core (Amazing)
+tile.extrautils2:opinium.7.name=Opinium Core (Inspiring)
+tile.extrautils2:opinium.8.name=Opinium Core (Perfected)
 tile.extrautils2:passivegenerator.creative.name=创造模式发电机
 tile.extrautils2:passivegenerator.dragon_egg.name=龙蛋发电机
 tile.extrautils2:passivegenerator.fire.name=火力发电机
@@ -571,6 +966,7 @@ tile.extrautils2:terraformer.magic_infuser.name=魔法灌注装置
 tile.extrautils2:trashcan.name=垃圾桶
 tile.extrautils2:trashcanenergy.name=垃圾桶 - 能量
 tile.extrautils2:trashcanfluid.name=垃圾桶 - 流体
+tile.extrautils2:trashchest.name=垃圾回收箱
 tile.extrautils2:user.name=使用者
 tile.extrautils2:wardchunkloader.name=区块加载之杖
 
