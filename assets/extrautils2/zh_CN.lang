@@ -108,7 +108,7 @@ entity.Villager.shady_merchant=奸商
 
 extrautils2.text.access.denied.use.command.s.to.try=拒绝访问。使用 /%s 联系拥有者。
 extrautils2.text.aggressively.spawns.mobs.when.in=当在黑暗时快速刷怪
-extrautils2.text.all.players.can.currently.access=所有的玩家当前都可以访问你的物品栏A
+extrautils2.text.all.players.can.currently.access=所有的玩家当前都可以访问你的物品栏
 extrautils2.text.allows.mining.of.cobblestone.and=允许挖掘圆石和抽水
 extrautils2.text.always.on=一直开启
 extrautils2.text.autocrafter=自动合成器
