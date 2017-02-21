@@ -188,7 +188,7 @@ extrautils2.text.max.transfer.s.rft=最大传输：%s RF/T
 extrautils2.text.max.upgrades.s=最多升级数量：%s
 extrautils2.text.mine.blocks.from.a.hypothetical.dimension=从一个可能存在的虚拟维度挖掘方块。
 extrautils2.text.mine.blocks.from.x.hypothetical.dimension=从x个可能存在的虚拟维度挖掘方块。
-extrautils2.text.miner=采矿者
+extrautils2.text.miner=挖掘器
 extrautils2.text.missing.antenna=缺失天线
 extrautils2.text.missing.climographs=缺失气象设备：
 extrautils2.text.missing.types=缺失类型：
@@ -305,7 +305,7 @@ extrautils2.text.uses.s.gp=使用 %s GP
 extrautils2.text.uses.s.rf.to.create.s.seconds.of=消耗%sRF能量，给予%s秒燃烧时间。
 extrautils2.text.uses.s.rf.to.create.s.ticks.of.burn=消耗%sRF能量，给予%sticks燃烧时间。
 extrautils2.text.west=西
-extrautils2.text.when.all.other.generators.are.creating=当其他发电机都在工作时，来看看这个彩虹发电机的无线能量吧
+extrautils2.text.when.all.other.generators.are.creating=当其他发电机都在工作时，来看看这个彩虹发电机的无限能量吧
 extrautils2.text.x.s.y.s.z.s=x = %s, y = %s, z = %s
 extrautils2.text.you.feel.your.luck.changing=你感觉到你的运气正在改变
 
