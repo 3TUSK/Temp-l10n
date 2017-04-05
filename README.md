@@ -15,9 +15,6 @@ A copy of full license legalcode can be found [here](https://creativecommons.org
 By using this work you are agree to obey the terms associated in the license.
 If you have a license issue, please open a issue here.
 
-pack.png is actually from [Minecraft wiki](http://minecraft.gamepedia.com/File:End_Portal_Frame.png).
-Credits to Minecracft Wiki for the orginal image.
-
 #### Miscellanea
 If you still have question please do not be hesitate to open a new issue or email the repo owner directly.
 
