@@ -1,49 +1,38 @@
-#Contributing Guideline
+# Contributing Guideline
 
-### Before any contribution
-We are going to apply [this guideline](https://github.com/Meow-J/Mod-Translation-Styleguide) on any of our translations. Please read it carefully and thoroughly before any contribution.  
+(I should have written a Chinese version.)
 
-### Reporting an error
-As a volunteer work, all contributers won't work here all the time, so other people's suggestions will be helpful, even vital.
+## If you are going to reporting an error
+As a volunteer work, all contributers won't work here all the time, so other people's suggestions will be helpful, even vital.  
+If you need report an translation error here, just remember:
 
-If you need report an translation error here, just remember two thing and you will be fine:
+ 1. Start your issue ticket title with `[Mod name]`
+ 2. It is recommended to use English; while Chinese is still suppoted de facto.
+ 3. Directly point the questioning line(s).
 
-	1.Use ````[Insert the mod official name]```` in title 
+## If you are going to open a pull request
 
-	2.It is better to use both your native language and English.
+### Before
+Please read [this guideline](https://github.com/Meow-J/Mod-Translation-Styleguide) on any of our translations. All files submitted here must follow this guideline.
 
-
-### Setting new localization file
+### Seting up
 If you want to put a language file here:
 
-1. Check out the assets folder, and make sure that you know the *internal* name of mod(s) you're translating. The name(s) will *vary* on mod(s).
+1. Check out the assets folder, and set up a new folder with appropriate name. E.g.: `assets\alchemicalwizardy\lang\` for Blood Magic.
 
-2. It is recommended to set up a new branch, name it with mod name, and use this new branch as work space.
-Id est, if you want to work on translation of SFM, you may want to do these, or anything equivalent:
-````
-$ git clone https://github.com/3TUSK/TemporaryLocalization.git
-$ git checkout -b stevefactorymanager
-$ cd assets
-````
+2. If possible, upload the English language file `en_US.lang` and rename it as `en_US.reference`. This is not mandatory, but we still recommended to do so where possible.
 
-3. Set up a new folder with the internal name of mod, then set up a folder named "lang" E.g.: ````assets\alchemicalwizardy\lang\```` for main part of Blood Magic. File name should obey ISO-639-1.
+Or, if you just want to make some correction(s): nothing need to say, go ahead to edit the file. Don't mess up anything else.
 
-4. If possible, upload the English language file `en_US.lang` and rename it as `en_US.reference`. Due to the fact that en_US.lang is a part of mod itself, please check out the license before do so.
+### Translation
+*There are three difficulties in translation: faithfulness, expressiveness, and elegance.* - [Yan Fu](https://en.wikipedia.org/wiki/Yan_Fu)
 
-5. Once a language file gets its appropriate place and get merged, file shall be removed from this repo, unless it's backup.
+As such, be aware of ugly translation. We are aiming to keep high quality.  
 
-### Editing, Correcting and Reviewing
-*There are three difficulties in translation: faithfulness, expressiveness, and elegance.*
----Said [Yan Fu](https://en.wikipedia.org/wiki/Yan_Fu) during translating *Evolution and Ethics* by Huxley
+Other things need to pay attention:
+ * Full-width punctuations are mandatory.
+ * Diction must reflect the original meaning; that being said, you may choose rewrite the sentence when it's *appropriate* and *necessary*.
+ * We are named as "Temporary Localization". As such, we need try our best to do *localization* where possible. E.g. translating "When in Rome, do as the Romans do" to “入乡随俗”.
+ * Romanized Japanese need to be translated, or at least keep the kana/kanji form. 
 
-That is the main guideline for maintaing this repo. A simple version is below:
-
-    1.Accurate, it is NECESSARY
-    
-    2.Readable, or in another word, "understandable"
-    
-    3.Beautiful, if possible
-
-And be aware of ugly translation. We are aiming to keep high quality.  
-Also, don't touch ````pack.mcmeta```` unless you know *what you are doing*.
-
+Also, don't touch `pack.mcmeta` unless you know *what you are doing*.
