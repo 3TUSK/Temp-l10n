@@ -33,6 +33,6 @@ Other things need to pay attention:
  * Full-width punctuations are mandatory.
  * Diction must reflect the original meaning; that being said, you may choose rewrite the sentence when it's *appropriate* and *necessary*.
  * We are named as "Temporary Localization". As such, we need try our best to do *localization* where possible. E.g. translating "When in Rome, do as the Romans do" to “入乡随俗”.
- * Romanized Japanese need to be translated, or at least keep the kana/kanji form. 
+ * Romanized Japanese has to be translated, or at least keep the kana/kanji form.
 
 Also, don't touch `pack.mcmeta` unless you know *what you are doing*.
