@@ -37,6 +37,7 @@ item.misc.quill.name=羽毛笔
 item.misc.arcane_scroll_unwritten.name=卷轴
 item.misc.arcane_hilt.name=神秘手柄
 item.misc.arcane_blade.name=神秘刀片
+# 蝙蝠必须死，蝙蝠是和谐词
 item.misc.bat_wing.name=蝙蝠翅膀
 
 item.arcane_sword.name=神秘剑
