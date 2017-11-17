@@ -6,7 +6,7 @@ function Entry:create(key, text)
 end
 
 function Entry:parse(keyValuePair)
- local key, text = string.match(keyValuePair, "(.+)=.+"), string.match(keyValuePair, ".+=(.*)")
+ local key, text = string.match(keyValuePair, "(.-)=.+"), string.match(keyValuePair, ".-=(.*)")
  return setmetatable({key = key, text = text, translation = text}, Entry)
 end
 

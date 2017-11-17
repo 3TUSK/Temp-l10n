@@ -44,7 +44,7 @@ str = ''
 count = 1
 
 for s in enUSFile:lines() do
- if (string.match(s, ".*=.*")) then
+ if (string.match(s, ".-=.*")) then
   mapping[count] = Entry:parse(s)
  elseif (string.match(s, "#.*")) then
   mapping[count] = Comment:parse(s)
@@ -61,7 +61,7 @@ print(table.concat(debug))
 count = 1
 
 for s in zhCNFile:lines() do
- if (string.match(s, ".*=.*")) then
+ if (string.match(s, ".-=.*")) then
   zhCN[count] = Entry:parse(s)
   count = count + 1
  end
